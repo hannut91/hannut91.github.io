@@ -49,6 +49,13 @@ plugins:
   - jekyll-paginate-v2
   - jekyll-sitemap
 
+autopages:
+  # enabled: true
+  collections:
+    enabled: true
+    layouts:
+      - post.html
+
 timezone: "Asia/Seoul"
 future: true
 
