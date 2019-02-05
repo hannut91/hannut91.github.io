@@ -3,8 +3,8 @@ title: yarn install
 subTitle: yarn 설치하기
 category: 
 tags: 
-createdat: 2019-02-05 19:32:12
-updatedat: 2019-02-05 19:32:12
+createdat: 2019-02-05 22:52:50
+updatedat: 2019-02-05 22:52:50
 ---
 
 Homebrew를 이용해 쉽게 설치할 수 있습니다.
