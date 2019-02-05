@@ -1,0 +1,367 @@
+<!doctype html>
+
+<html class="no-js" lang="en">
+
+<head>
+
+
+	<!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+	Yunseok's Dev Blog
+
+	Simples Theme by https://jekyllthemes.io
+	Premium + free Jekyll themes for your blog or website.
+
+	- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
+
+
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+	<!-- Page Info -->
+	<link rel="shortcut icon" href="/images/favicon.png">
+	<title>phpbrew install – Yunseok's Dev Blog</title>
+	<meta name="description" content="phpbrew 설치하기">
+
+	<!-- Twitter Card -->
+	<meta name="twitter:card" content="summary_large_image">
+	<meta name="twitter:title" content="phpbrew install – Yunseok's Dev Blog">
+	<meta name="twitter:description" content="phpbrew 설치하기">
+	<meta name="twitter:image:src" content="http://localhost:4000">
+
+	<!-- Facebook OpenGraph -->
+	<meta property="og:title" content="phpbrew install – Yunseok's Dev Blog" />
+	<meta property="og:description" content="phpbrew 설치하기" />
+	<meta property="og:image" content="http://localhost:4000" />
+
+	
+	<!-- Font Embed Code -->
+	<link href="https://fonts.googleapis.com/css?family=Nunito:300,400,400i,600" rel="stylesheet">
+	
+
+	<!-- Styles -->
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="/css/style.css">
+	
+	<!-- Icons -->
+	<script defer src="https://use.fontawesome.com/releases/v5.1.1/js/solid.js" integrity="sha384-GXi56ipjsBwAe6v5X4xSrVNXGOmpdJYZEEh/0/GqJ3JTHsfDsF8v0YQvZCJYAiGu" crossorigin="anonymous"></script>
+	<script defer src="https://use.fontawesome.com/releases/v5.1.1/js/brands.js" integrity="sha384-0inRy4HkP0hJ038ZyfQ4vLl+F4POKbqnaUB6ewmU4dWP0ki8Q27A0VFiVRIpscvL" crossorigin="anonymous"></script>
+	<script defer src="https://use.fontawesome.com/releases/v5.1.1/js/fontawesome.js" integrity="sha384-NY6PHjYLP2f+gL3uaVfqUZImmw71ArL9+Roi9o+I4+RBqArA2CfW1sJ1wkABFfPe" crossorigin="anonymous"></script>
+
+	
+	<!-- Custom Styles -->
+	<style></style>
+	
+
+	
+	<!-- Analytics Code -->
+	
+	
+
+	
+	<!-- Extra Header JS Code -->
+	
+	
+	
+</head>
+
+
+<body class="loading ajax-loading" data-site-url="http://localhost:4000" data-page-url="/blogs/php/phpbrew/install">
+
+
+	<header class="header">
+
+	<div class="wrap">
+
+		
+		<a href="/" class="header__avatar">
+			<img src="/images/profile.jpg" class="header__avatar__img">
+		</a>
+		
+
+		
+		<a href="/" class="header__title">
+			Yunseok's Dev Blog
+		</a>
+		
+
+		<p class="header__tagline">배운 것을 적는 블로그입니다.</p>
+
+		<div class="menu">
+			<ul class="menu__list">
+				
+				<li class="menu__list__item">
+					<a href="/" class="menu__list__item__link">Latest</a>
+				</li>
+				
+				<li class="menu__list__item">
+					<a href="/about" class="menu__list__item__link">About</a>
+				</li>
+				
+			</ul>
+		</div>
+
+	</div>
+
+</header>
+
+
+	<div class="loader"><svg width="120" height="30" viewBox="0 0 120 30" xmlns="http://www.w3.org/2000/svg"><circle cx="15" cy="15" r="15"><animate attributeName="r" from="15" to="15" begin="0s" dur="0.8s" values="15;9;15" calcMode="linear" repeatCount="indefinite" /><animate attributeName="fill-opacity" from="1" to="1" begin="0s" dur="0.8s" values="1;.5;1" calcMode="linear" repeatCount="indefinite" /></circle><circle cx="60" cy="15" r="9" fill-opacity="0.3"><animate attributeName="r" from="9" to="9" begin="0s" dur="0.8s" values="9;15;9" calcMode="linear" repeatCount="indefinite" /><animate attributeName="fill-opacity" from="0.5" to="0.5" begin="0s" dur="0.8s" values=".5;1;.5" calcMode="linear" repeatCount="indefinite" /></circle><circle cx="105" cy="15" r="15"><animate attributeName="r" from="15" to="15" begin="0s" dur="0.8s" values="15;9;15" calcMode="linear" repeatCount="indefinite" /><animate attributeName="fill-opacity" from="1" to="1" begin="0s" dur="0.8s" values="1;.5;1" calcMode="linear" repeatCount="indefinite" /></circle></svg></div>
+
+	<div class="page-loader"></div>
+
+	
+	<div class="page">
+
+		<div class="page__content" data-page-title="phpbrew install – Yunseok's Dev Blog" data-image="">
+
+			<section class="single">
+
+	<div class="wrap">
+
+		<h1>phpbrew install</h1>
+		<p class="subtitle"></p>
+
+		<h2 id="requirement">Requirement</h2>
+
+<ul>
+  <li><a href="https://brew.sh/"><code class="highlighter-rouge">Homebrew</code></a>를 이용 중이라면 먼저 다음과 같이 기본적으로 필요한
+라이브러리들을 설치해야 합니다.</li>
+</ul>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>xcode-select <span class="nt">--install</span>
+brew <span class="nb">install </span>automake autoconf curl pcre bison re2c mhash libtool icu4c gettext jpeg openssl libxml2 mcrypt gmp libevent
+brew <span class="nb">link </span>icu4c
+brew <span class="nb">link</span> <span class="nt">--force</span> openssl
+brew <span class="nb">link</span> <span class="nt">--force</span> libxml2
+</code></pre></div></div>
+
+<h2 id="install">Install</h2>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>curl <span class="nt">-L</span> <span class="nt">-O</span> https://github.com/phpbrew/phpbrew/raw/master/phpbrew
+<span class="nb">chmod</span> +x phpbrew
+
+<span class="c"># phpbrew를 $PATH로 옮깁니다. </span>
+<span class="nb">sudo mv </span>phpbrew /usr/local/bin/phpbrew
+</code></pre></div></div>
+
+<ul>
+  <li>위와 같이 입력하여 설치합니다.</li>
+</ul>
+
+<h2 id="setting">Setting</h2>
+
+<ul>
+  <li>초기화를 해줍니다.</li>
+</ul>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>phpbrew init
+</code></pre></div></div>
+
+<ul>
+  <li>bash를 사용할 경우 다음과 같이 입력합니다.</li>
+</ul>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nb">echo</span> <span class="s2">"[[ -e ~/.phpbrew/bashrc ]] &amp;&amp; source ~/.phpbrew/bashrc"</span> <span class="o">&gt;&gt;</span> ~/.bashrc
+</code></pre></div></div>
+
+<ul>
+  <li>변경된 설정을 불러옵니다.</li>
+</ul>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nb">source</span> ~/.phpbrew/bashrc
+</code></pre></div></div>
+
+<ul>
+  <li>php 정보를 불러옵니다.</li>
+</ul>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>phpbrew update
+</code></pre></div></div>
+
+<ul>
+  <li>사용가능한 PHP버전 정보를 가져옵니다.</li>
+</ul>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>phpbrew known
+</code></pre></div></div>
+
+<ul>
+  <li>사용가능한 variants를 불러옵니다.</li>
+</ul>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>phpbrew variants
+</code></pre></div></div>
+
+<ul>
+  <li>PHP를 설치합니다.</li>
+</ul>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>phpbrew <span class="nb">install </span>7.3 +default
+</code></pre></div></div>
+
+<ul>
+  <li>설치된 PHP 목록을 확인합니다.</li>
+</ul>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>phpbrew list
+</code></pre></div></div>
+
+<ul>
+  <li>기본으로 사용할 버전을 선택합니다.</li>
+</ul>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>phpbrew switch php-7.3.0
+</code></pre></div></div>
+
+<h2 id="errors">Errors</h2>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Error: Configure failed:
+The last 5 lines <span class="k">in </span>the log file:
+checking <span class="k">if </span>the location of ZLIB <span class="nb">install </span>directory is defined... no
+
+checking whether to <span class="nb">enable </span>bc style precision math functions... <span class="nb">yes
+
+</span>checking <span class="k">for </span>BZip2 support... <span class="nb">yes
+
+</span>checking <span class="k">for </span>BZip2 <span class="k">in </span>default path... not found
+
+configure: error: Please reinstall the BZip2 distribution
+</code></pre></div></div>
+
+<ul>
+  <li>만약 설치 중 위와 같은 에러가 발생한다면 설치시 BZip2의 경로를 같이 적어야
+합니다.</li>
+  <li>BZip2가 설치되어 있지 않다면 <code class="highlighter-rouge">brew install BZip2</code>로 설치해주세요.</li>
+</ul>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>phpbrew <span class="nb">install </span>7.3 +default +bz2<span class="o">=</span>/usr/local/Cellar/bzip2/1.0.6_1/ 
+</code></pre></div></div>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Error: Configure failed:
+The last 5 lines <span class="k">in </span>the log file:
+checking whether to <span class="nb">enable </span>zend-test extension... no
+
+checking <span class="k">for </span>zip archive <span class="nb">read</span>/writesupport... <span class="nb">yes
+
+</span>checking pcre <span class="nb">install </span>prefix... /usr/local
+
+checking libzip... <span class="nb">yes
+
+</span>checking <span class="k">for </span>the location of zlib... configure: error: zip support requires ZLIB. Use <span class="nt">--with-zlib-dir</span><span class="o">=</span>&lt;DIR&gt; to specify prefix where ZLIB include and library are located
+</code></pre></div></div>
+
+<ul>
+  <li>만약 설치 중 위와 같은 에러가 발생한다면 설치시 <code class="highlighter-rouge">zlib</code>의 경로를 같이 적어야
+합니다.</li>
+  <li>zlib가 설치되어 있지 않다면 <code class="highlighter-rouge">brew install zlib</code>로 설치해주세요.</li>
+</ul>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>phpbrew <span class="nb">install </span>7.3 +default +bz2<span class="o">=</span>/usr/local/Cellar/bzip2/1.0.6_1/ +zlib<span class="o">=</span>/usr/local/Cellar/zlib/1.2.11/
+</code></pre></div></div>
+
+<h2 id="sources">Sources</h2>
+
+<ul>
+  <li>https://github.com/phpbrew/phpbrew/wiki/Quick-Start</li>
+  <li>https://github.com/phpbrew/phpbrew</li>
+  <li>https://github.com/phpbrew/phpbrew/issues/966#issuecomment-427515474</li>
+</ul>
+
+
+
+	</div>
+
+</section>
+
+
+		</div>
+
+	</div>
+
+
+	<footer class="footer">
+
+	<ul class="socials">
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<li class="socials__item">
+		<a href="https://www.github.com/hannut91" target="_blank" class="socials__item__link" title="Github">
+			<i class="fab fa-github" aria-hidden="true"></i>
+		</a>
+	</li>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+</ul>
+
+	<div class="footer__copyright">
+		<span>© 2019 Yunseok's Dev Blog</span>
+		<a href="https://jekyllthemes.io" target="_blank">Jekyll Themes</a>
+	</div>
+
+</footer>
+
+
+	<!-- Javascript Assets -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script src="/js/simples-min.js"></script>
+
+	
+	<!-- Extra Footer JS Code -->
+	
+	
+
+
+</body>
+
+</html>

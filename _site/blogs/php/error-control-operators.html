@@ -1,0 +1,268 @@
+<!doctype html>
+
+<html class="no-js" lang="en">
+
+<head>
+
+
+	<!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+	Yunseok's Dev Blog
+
+	Simples Theme by https://jekyllthemes.io
+	Premium + free Jekyll themes for your blog or website.
+
+	- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
+
+
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+	<!-- Page Info -->
+	<link rel="shortcut icon" href="/images/favicon.png">
+	<title>Error Control Operators – Yunseok's Dev Blog</title>
+	<meta name="description" content="PHP의 error control operator">
+
+	<!-- Twitter Card -->
+	<meta name="twitter:card" content="summary_large_image">
+	<meta name="twitter:title" content="Error Control Operators – Yunseok's Dev Blog">
+	<meta name="twitter:description" content="PHP의 error control operator">
+	<meta name="twitter:image:src" content="http://localhost:4000">
+
+	<!-- Facebook OpenGraph -->
+	<meta property="og:title" content="Error Control Operators – Yunseok's Dev Blog" />
+	<meta property="og:description" content="PHP의 error control operator" />
+	<meta property="og:image" content="http://localhost:4000" />
+
+	
+	<!-- Font Embed Code -->
+	<link href="https://fonts.googleapis.com/css?family=Nunito:300,400,400i,600" rel="stylesheet">
+	
+
+	<!-- Styles -->
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="/css/style.css">
+	
+	<!-- Icons -->
+	<script defer src="https://use.fontawesome.com/releases/v5.1.1/js/solid.js" integrity="sha384-GXi56ipjsBwAe6v5X4xSrVNXGOmpdJYZEEh/0/GqJ3JTHsfDsF8v0YQvZCJYAiGu" crossorigin="anonymous"></script>
+	<script defer src="https://use.fontawesome.com/releases/v5.1.1/js/brands.js" integrity="sha384-0inRy4HkP0hJ038ZyfQ4vLl+F4POKbqnaUB6ewmU4dWP0ki8Q27A0VFiVRIpscvL" crossorigin="anonymous"></script>
+	<script defer src="https://use.fontawesome.com/releases/v5.1.1/js/fontawesome.js" integrity="sha384-NY6PHjYLP2f+gL3uaVfqUZImmw71ArL9+Roi9o+I4+RBqArA2CfW1sJ1wkABFfPe" crossorigin="anonymous"></script>
+
+	
+	<!-- Custom Styles -->
+	<style></style>
+	
+
+	
+	<!-- Analytics Code -->
+	
+	
+
+	
+	<!-- Extra Header JS Code -->
+	
+	
+	
+</head>
+
+
+<body class="loading ajax-loading" data-site-url="http://localhost:4000" data-page-url="/blogs/php/error-control-operators">
+
+
+	<header class="header">
+
+	<div class="wrap">
+
+		
+		<a href="/" class="header__avatar">
+			<img src="/images/profile.jpg" class="header__avatar__img">
+		</a>
+		
+
+		
+		<a href="/" class="header__title">
+			Yunseok's Dev Blog
+		</a>
+		
+
+		<p class="header__tagline">배운 것을 적는 블로그입니다.</p>
+
+		<div class="menu">
+			<ul class="menu__list">
+				
+				<li class="menu__list__item">
+					<a href="/" class="menu__list__item__link">Latest</a>
+				</li>
+				
+				<li class="menu__list__item">
+					<a href="/about" class="menu__list__item__link">About</a>
+				</li>
+				
+			</ul>
+		</div>
+
+	</div>
+
+</header>
+
+
+	<div class="loader"><svg width="120" height="30" viewBox="0 0 120 30" xmlns="http://www.w3.org/2000/svg"><circle cx="15" cy="15" r="15"><animate attributeName="r" from="15" to="15" begin="0s" dur="0.8s" values="15;9;15" calcMode="linear" repeatCount="indefinite" /><animate attributeName="fill-opacity" from="1" to="1" begin="0s" dur="0.8s" values="1;.5;1" calcMode="linear" repeatCount="indefinite" /></circle><circle cx="60" cy="15" r="9" fill-opacity="0.3"><animate attributeName="r" from="9" to="9" begin="0s" dur="0.8s" values="9;15;9" calcMode="linear" repeatCount="indefinite" /><animate attributeName="fill-opacity" from="0.5" to="0.5" begin="0s" dur="0.8s" values=".5;1;.5" calcMode="linear" repeatCount="indefinite" /></circle><circle cx="105" cy="15" r="15"><animate attributeName="r" from="15" to="15" begin="0s" dur="0.8s" values="15;9;15" calcMode="linear" repeatCount="indefinite" /><animate attributeName="fill-opacity" from="1" to="1" begin="0s" dur="0.8s" values="1;.5;1" calcMode="linear" repeatCount="indefinite" /></circle></svg></div>
+
+	<div class="page-loader"></div>
+
+	
+	<div class="page">
+
+		<div class="page__content" data-page-title="Error Control Operators – Yunseok's Dev Blog" data-image="">
+
+			<section class="single">
+
+	<div class="wrap">
+
+		<h1>Error Control Operators</h1>
+		<p class="subtitle"></p>
+
+		<p>PHP는 error control operator를 제공하는데 <code class="highlighter-rouge">@</code>연산자로 사용할 수 있습니다.
+PHP에서 표현식앞에 <code class="highlighter-rouge">@</code>문자가 있으면 표현식에서 발생하는 어떤 에러메세지든
+무시가 됩니다.<br />
+만약 <code class="highlighter-rouge">set_error_handler()</code>로 커스텀 에러처리 함수를 세팅했다면 여전히 이 함수는
+불러질 것이고<code class="highlighter-rouge">@</code>에 의해 처리된 에러가 발생했을 때는 <code class="highlighter-rouge">0</code>을 리턴하는
+<code class="highlighter-rouge">error_reporting()</code>을 호출할 수 있습니다.<br />
+만약 <a href="https://secure.php.net/manual/en/errorfunc.configuration.php#ini.track-errors">track_errors</a>
+기능이 활성화 되어 있다면 표현식에 의해 어느 에러메세지가 발생하면
+<code class="highlighter-rouge">$php_errormsg</code>에 저장될 것입니다. 이 변수는 각 에러에 의해 overwrite될 수 있기
+때문에 이것을 사용할려면 체크하고 사용하여야 합니다.</p>
+
+<div class="language-php highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="cp">&lt;?php</span>
+<span class="cm">/* Intentional file error */</span>
+<span class="nv">$my_file</span> <span class="o">=</span> <span class="o">@</span><span class="nb">file</span> <span class="p">(</span><span class="s1">'non_existent_file'</span><span class="p">)</span> <span class="k">or</span>
+    <span class="k">die</span> <span class="p">(</span><span class="s2">"Failed opening file: error was '</span><span class="nv">$php_errormsg</span><span class="s2">'"</span><span class="p">);</span>
+
+<span class="c1">// this works for any expression, not just functions:</span>
+<span class="nv">$value</span> <span class="o">=</span> <span class="o">@</span><span class="nv">$cache</span><span class="p">[</span><span class="nv">$key</span><span class="p">];</span>
+<span class="c1">// will not issue a notice if the index $key doesn't exist.</span>
+
+<span class="cp">?&gt;</span>
+</code></pre></div></div>
+
+<h2 id="note">Note</h2>
+
+<ul>
+  <li><code class="highlighter-rouge">@</code>연산자는 오직 표현식에서만 작동합니다.</li>
+  <li>무언가에 값을 사용하고 있다면 그것에 <code class="highlighter-rouge">@</code>를 사용할 수 있습니다.</li>
+  <li>변수, 함수, <code class="highlighter-rouge">include</code>호출, 상수들에 사용할 수 있습니다.</li>
+  <li>하지만 함수나 클래스 선언에는 사용할 수 없고 <code class="highlighter-rouge">if</code>나 <code class="highlighter-rouge">foreach</code>같은 조건문에는
+사용할 수 없습니다.</li>
+</ul>
+
+<h2 id="warning">Warning</h2>
+
+<ul>
+  <li>현재 <code class="highlighter-rouge">@</code>는 스크립트를 종료시키는 치명적인 에러들에 대한 에러 리포팅을
+비활성화 합니다.</li>
+  <li>특정한 에러를 출력하지 않도록 <code class="highlighter-rouge">@</code>를 사용하게 되면 오타가 났거나 혹은 에러가
+발생했을 때 이유에 대한 알림없이 스크립트가 그 즉시 종료될 것입니다.</li>
+</ul>
+
+<h2 id="source">Source</h2>
+
+<ul>
+  <li>https://secure.php.net/language.operators.errorcontrol</li>
+</ul>
+
+
+	</div>
+
+</section>
+
+
+		</div>
+
+	</div>
+
+
+	<footer class="footer">
+
+	<ul class="socials">
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<li class="socials__item">
+		<a href="https://www.github.com/hannut91" target="_blank" class="socials__item__link" title="Github">
+			<i class="fab fa-github" aria-hidden="true"></i>
+		</a>
+	</li>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+</ul>
+
+	<div class="footer__copyright">
+		<span>© 2019 Yunseok's Dev Blog</span>
+		<a href="https://jekyllthemes.io" target="_blank">Jekyll Themes</a>
+	</div>
+
+</footer>
+
+
+	<!-- Javascript Assets -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script src="/js/simples-min.js"></script>
+
+	
+	<!-- Extra Footer JS Code -->
+	
+	
+
+
+</body>
+
+</html>

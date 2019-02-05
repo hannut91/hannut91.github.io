@@ -49,21 +49,21 @@ plugins:
   - jekyll-paginate-v2
   - jekyll-sitemap
 
-# timezone: "Asia/Seoul"
-# future: true
+timezone: "Asia/Seoul"
+future: true
 
-# pagination:
-#   enabled: true
-#   debug: false
-#   collection: 'blogs'
-#   per_page: 10
-#   permalink: '/page/:num/'
-#   title: ':title - page :num'
-#   limit: 0
-#   sort_field: 'createdat'
-#   sort_reverse: true
-#   trail: 
-#     before: 2
-#     after: 2
-#   extension: html
-#   indexpage: 'index'
+pagination:
+  enabled: true
+  debug: false
+  collection: 'blogs'
+  per_page: 10
+  permalink: '/page/:num/'
+  title: ':title - page :num'
+  limit: 0
+  sort_field: 'createdat'
+  sort_reverse: true
+  trail:
+    before: 2
+    after: 2
+  extension: html
+  indexpage: 'index'
