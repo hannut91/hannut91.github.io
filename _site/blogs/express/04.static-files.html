@@ -1,0 +1,283 @@
+<!doctype html>
+
+<html class="no-js" lang="en">
+
+<head>
+
+
+	<!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+	Yunseok's Dev Blog
+
+	Simples Theme by https://jekyllthemes.io
+	Premium + free Jekyll themes for your blog or website.
+
+	- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
+
+
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+	<!-- Page Info -->
+	<link rel="shortcut icon" href="/images/favicon.png">
+	<title>Express 정적파일 – Yunseok's Dev Blog</title>
+	<meta name="description" content="Express에서 정적파일 관리하기">
+
+	<!-- Twitter Card -->
+	<meta name="twitter:card" content="summary_large_image">
+	<meta name="twitter:title" content="Express 정적파일 – Yunseok's Dev Blog">
+	<meta name="twitter:description" content="Express에서 정적파일 관리하기">
+	<meta name="twitter:image:src" content="http://localhost:4000">
+
+	<!-- Facebook OpenGraph -->
+	<meta property="og:title" content="Express 정적파일 – Yunseok's Dev Blog" />
+	<meta property="og:description" content="Express에서 정적파일 관리하기" />
+	<meta property="og:image" content="http://localhost:4000" />
+
+	
+	<!-- Font Embed Code -->
+	<link href="https://fonts.googleapis.com/css?family=Nunito:300,400,400i,600" rel="stylesheet">
+	
+
+	<!-- Styles -->
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="/css/style.css">
+	
+	<!-- Icons -->
+	<script defer src="https://use.fontawesome.com/releases/v5.1.1/js/solid.js" integrity="sha384-GXi56ipjsBwAe6v5X4xSrVNXGOmpdJYZEEh/0/GqJ3JTHsfDsF8v0YQvZCJYAiGu" crossorigin="anonymous"></script>
+	<script defer src="https://use.fontawesome.com/releases/v5.1.1/js/brands.js" integrity="sha384-0inRy4HkP0hJ038ZyfQ4vLl+F4POKbqnaUB6ewmU4dWP0ki8Q27A0VFiVRIpscvL" crossorigin="anonymous"></script>
+	<script defer src="https://use.fontawesome.com/releases/v5.1.1/js/fontawesome.js" integrity="sha384-NY6PHjYLP2f+gL3uaVfqUZImmw71ArL9+Roi9o+I4+RBqArA2CfW1sJ1wkABFfPe" crossorigin="anonymous"></script>
+
+	
+	<!-- Custom Styles -->
+	<style></style>
+	
+
+	
+	<!-- Analytics Code -->
+	
+	
+
+	
+	<!-- Extra Header JS Code -->
+	
+	
+	
+</head>
+
+
+<body class="loading ajax-loading" data-site-url="http://localhost:4000" data-page-url="/blogs/express/04.static-files">
+
+
+	<header class="header">
+
+	<div class="wrap">
+
+		
+		<a href="/" class="header__avatar">
+			<img src="/images/profile.jpg" class="header__avatar__img">
+		</a>
+		
+
+		
+		<a href="/" class="header__title">
+			Yunseok's Dev Blog
+		</a>
+		
+
+		<p class="header__tagline">배운 것을 적는 블로그입니다.</p>
+
+		<div class="menu">
+			<ul class="menu__list">
+				
+				<li class="menu__list__item">
+					<a href="/" class="menu__list__item__link">Latest</a>
+				</li>
+				
+				<li class="menu__list__item">
+					<a href="/about" class="menu__list__item__link">About</a>
+				</li>
+				
+			</ul>
+		</div>
+
+	</div>
+
+</header>
+
+
+	<div class="loader"><svg width="120" height="30" viewBox="0 0 120 30" xmlns="http://www.w3.org/2000/svg"><circle cx="15" cy="15" r="15"><animate attributeName="r" from="15" to="15" begin="0s" dur="0.8s" values="15;9;15" calcMode="linear" repeatCount="indefinite" /><animate attributeName="fill-opacity" from="1" to="1" begin="0s" dur="0.8s" values="1;.5;1" calcMode="linear" repeatCount="indefinite" /></circle><circle cx="60" cy="15" r="9" fill-opacity="0.3"><animate attributeName="r" from="9" to="9" begin="0s" dur="0.8s" values="9;15;9" calcMode="linear" repeatCount="indefinite" /><animate attributeName="fill-opacity" from="0.5" to="0.5" begin="0s" dur="0.8s" values=".5;1;.5" calcMode="linear" repeatCount="indefinite" /></circle><circle cx="105" cy="15" r="15"><animate attributeName="r" from="15" to="15" begin="0s" dur="0.8s" values="15;9;15" calcMode="linear" repeatCount="indefinite" /><animate attributeName="fill-opacity" from="1" to="1" begin="0s" dur="0.8s" values="1;.5;1" calcMode="linear" repeatCount="indefinite" /></circle></svg></div>
+
+	<div class="page-loader"></div>
+
+	
+	<div class="page">
+
+		<div class="page__content" data-page-title="Express 정적파일 – Yunseok's Dev Blog" data-image="">
+
+			<section class="single">
+
+	<div class="wrap">
+
+		<h1>Express 정적파일</h1>
+		<p class="subtitle"></p>
+
+		<p>서버가 이미지나 css파일들 javascript파일같은 정적파일들을 전송하기 위해서는
+다음과 같이 <code class="highlighter-rouge">express.static</code>미들웨어를 사용하면 됩니다.</p>
+
+<div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nx">express</span><span class="p">.</span><span class="kr">static</span><span class="p">(</span><span class="nx">root</span><span class="p">,</span> <span class="p">[</span><span class="nx">options</span><span class="p">])</span>
+</code></pre></div></div>
+
+<ul>
+  <li>root는 정적파일들의 root directory입니다.</li>
+  <li>options는 <a href="https://expressjs.com/en/4x/api.html#express.static">express.static</a>
+을 참고하세요</li>
+</ul>
+
+<p>예를 들면 <code class="highlighter-rouge">public</code>이라는 폴더에 정적파일들이 있으면 다음과 같이 작성합니다.</p>
+
+<div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code> <span class="nx">app</span><span class="p">.</span><span class="nx">use</span><span class="p">(</span><span class="nx">express</span><span class="p">.</span><span class="kr">static</span><span class="p">(</span><span class="s1">'public'</span><span class="p">))</span>
+</code></pre></div></div>
+
+<p>그러면 
+http://localhost:3000/images/kitten.jpg
+http://localhost:3000/css/style.css
+http://localhost:3000/js/app.js
+http://localhost:3000/images/bg.png
+http://localhost:3000/hello.html
+경로들로 <code class="highlighter-rouge">public</code>폴더에 있는 정적파일들에 접근할 수 있습니다.</p>
+
+<ul>
+  <li>Express는 static directory로 상대경로로 파일을 찾습니다. 그래서 경로에 
+<code class="highlighter-rouge">public</code>이 없습니다.</li>
+</ul>
+
+<p>여러개의 static directory에 접근할 수 있도록 하려면 여러번 호출하면 됩니다.</p>
+
+<p>Express는 <code class="highlighter-rouge">express.static</code> 미들웨어 기능을 사용하여 정적 디렉토리를 설정하는 
+순서로 파일을 찾습니다.</p>
+
+<ul>
+  <li>캐싱하여 성능을 올리기 위해서는<a href="https://expressjs.com/en/advanced/best-practice-performance.html#use-a-reverse-proxy">reverse proxy</a> 를 사용해야합니다.</li>
+</ul>
+
+<p>실제 파일 시스템에없는 virtual path prefix를 사용하기 위해서는 다음과 같이 입력
+합니다.</p>
+
+<div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nx">app</span><span class="p">.</span><span class="nx">use</span><span class="p">(</span><span class="s1">'/static'</span><span class="p">,</span> <span class="nx">express</span><span class="p">.</span><span class="kr">static</span><span class="p">(</span><span class="s1">'public'</span><span class="p">))</span>
+</code></pre></div></div>
+
+<p>http://localhost:3000/static/images/kitten.jpg
+http://localhost:3000/static/css/style.css
+http://localhost:3000/static/js/app.js
+http://localhost:3000/static/images/bg.png
+http://localhost:3000/static/hello.html
+<code class="highlighter-rouge">public</code>에 있는 파일들을 <code class="highlighter-rouge">/static</code>path를 통해 접근할 수 있습니다.</p>
+
+<p>그러나 express.static 함수에 제공하는 경로는 노드 프로세스를 시작한 디렉토리와 관련이 있습니다. 다른 디렉토리에서 express 앱을 실행하는 경우 제공하려는 디렉토리의 절대 경로를 사용하는 것이 더 안전합니다.</p>
+
+<div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nx">app</span><span class="p">.</span><span class="nx">use</span><span class="p">(</span><span class="s1">'/static'</span><span class="p">,</span> <span class="nx">express</span><span class="p">.</span><span class="kr">static</span><span class="p">(</span><span class="nx">path</span><span class="p">.</span><span class="nx">join</span><span class="p">(</span><span class="nx">__dirname</span><span class="p">,</span> <span class="s1">'public'</span><span class="p">)))</span>
+</code></pre></div></div>
+
+<h2 id="sources">Sources</h2>
+
+<ul>
+  <li>https://expressjs.com/en/starter/static-files.html</li>
+</ul>
+
+
+	</div>
+
+</section>
+
+
+		</div>
+
+	</div>
+
+
+	<footer class="footer">
+
+	<ul class="socials">
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<li class="socials__item">
+		<a href="https://www.github.com/hannut91" target="_blank" class="socials__item__link" title="Github">
+			<i class="fab fa-github" aria-hidden="true"></i>
+		</a>
+	</li>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+</ul>
+
+	<div class="footer__copyright">
+		<span>© 2019 Yunseok's Dev Blog</span>
+		<a href="https://jekyllthemes.io" target="_blank">Jekyll Themes</a>
+	</div>
+
+</footer>
+
+
+	<!-- Javascript Assets -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script src="/js/simples-min.js"></script>
+
+	
+	<!-- Extra Footer JS Code -->
+	
+	
+
+
+</body>
+
+</html>
