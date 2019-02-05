@@ -1,0 +1,509 @@
+<!doctype html>
+
+<html class="no-js" lang="en">
+
+<head>
+
+
+	<!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+	Yunseok's Dev Blog
+
+	Simples Theme by https://jekyllthemes.io
+	Premium + free Jekyll themes for your blog or website.
+
+	- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
+
+
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+	<!-- Page Info -->
+	<link rel="shortcut icon" href="/images/favicon.png">
+	<title>Express 라우팅 심화 – Yunseok's Dev Blog</title>
+	<meta name="description" content="Express의 라우팅 심화내용">
+
+	<!-- Twitter Card -->
+	<meta name="twitter:card" content="summary_large_image">
+	<meta name="twitter:title" content="Express 라우팅 심화 – Yunseok's Dev Blog">
+	<meta name="twitter:description" content="Express의 라우팅 심화내용">
+	<meta name="twitter:image:src" content="http://localhost:4000">
+
+	<!-- Facebook OpenGraph -->
+	<meta property="og:title" content="Express 라우팅 심화 – Yunseok's Dev Blog" />
+	<meta property="og:description" content="Express의 라우팅 심화내용" />
+	<meta property="og:image" content="http://localhost:4000" />
+
+	
+	<!-- Font Embed Code -->
+	<link href="https://fonts.googleapis.com/css?family=Nunito:300,400,400i,600" rel="stylesheet">
+	
+
+	<!-- Styles -->
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="/css/style.css">
+	
+	<!-- Icons -->
+	<script defer src="https://use.fontawesome.com/releases/v5.1.1/js/solid.js" integrity="sha384-GXi56ipjsBwAe6v5X4xSrVNXGOmpdJYZEEh/0/GqJ3JTHsfDsF8v0YQvZCJYAiGu" crossorigin="anonymous"></script>
+	<script defer src="https://use.fontawesome.com/releases/v5.1.1/js/brands.js" integrity="sha384-0inRy4HkP0hJ038ZyfQ4vLl+F4POKbqnaUB6ewmU4dWP0ki8Q27A0VFiVRIpscvL" crossorigin="anonymous"></script>
+	<script defer src="https://use.fontawesome.com/releases/v5.1.1/js/fontawesome.js" integrity="sha384-NY6PHjYLP2f+gL3uaVfqUZImmw71ArL9+Roi9o+I4+RBqArA2CfW1sJ1wkABFfPe" crossorigin="anonymous"></script>
+
+	
+	<!-- Custom Styles -->
+	<style></style>
+	
+
+	
+	<!-- Analytics Code -->
+	
+	
+
+	
+	<!-- Extra Header JS Code -->
+	
+	
+	
+</head>
+
+
+<body class="loading ajax-loading" data-site-url="http://localhost:4000" data-page-url="/blogs/express/06.routing">
+
+
+	<header class="header">
+
+	<div class="wrap">
+
+		
+		<a href="/" class="header__avatar">
+			<img src="/images/profile.jpg" class="header__avatar__img">
+		</a>
+		
+
+		
+		<a href="/" class="header__title">
+			Yunseok's Dev Blog
+		</a>
+		
+
+		<p class="header__tagline">배운 것을 적는 블로그입니다.</p>
+
+		<div class="menu">
+			<ul class="menu__list">
+				
+				<li class="menu__list__item">
+					<a href="/" class="menu__list__item__link">Latest</a>
+				</li>
+				
+				<li class="menu__list__item">
+					<a href="/about" class="menu__list__item__link">About</a>
+				</li>
+				
+			</ul>
+		</div>
+
+	</div>
+
+</header>
+
+
+	<div class="loader"><svg width="120" height="30" viewBox="0 0 120 30" xmlns="http://www.w3.org/2000/svg"><circle cx="15" cy="15" r="15"><animate attributeName="r" from="15" to="15" begin="0s" dur="0.8s" values="15;9;15" calcMode="linear" repeatCount="indefinite" /><animate attributeName="fill-opacity" from="1" to="1" begin="0s" dur="0.8s" values="1;.5;1" calcMode="linear" repeatCount="indefinite" /></circle><circle cx="60" cy="15" r="9" fill-opacity="0.3"><animate attributeName="r" from="9" to="9" begin="0s" dur="0.8s" values="9;15;9" calcMode="linear" repeatCount="indefinite" /><animate attributeName="fill-opacity" from="0.5" to="0.5" begin="0s" dur="0.8s" values=".5;1;.5" calcMode="linear" repeatCount="indefinite" /></circle><circle cx="105" cy="15" r="15"><animate attributeName="r" from="15" to="15" begin="0s" dur="0.8s" values="15;9;15" calcMode="linear" repeatCount="indefinite" /><animate attributeName="fill-opacity" from="1" to="1" begin="0s" dur="0.8s" values="1;.5;1" calcMode="linear" repeatCount="indefinite" /></circle></svg></div>
+
+	<div class="page-loader"></div>
+
+	
+	<div class="page">
+
+		<div class="page__content" data-page-title="Express 라우팅 심화 – Yunseok's Dev Blog" data-image="">
+
+			<section class="single">
+
+	<div class="wrap">
+
+		<h1>Express 라우팅 심화</h1>
+		<p class="subtitle"></p>
+
+		<p>Routing이란 클라이언트의 요청에 어떻게 응답할 것인지 어플리케이션의 endpoint들(URI)을 정의하는것을 말합니다.
+Routing을 정의하기 위해서는 Express의 <code class="highlighter-rouge">app</code>객체를 이용해서 정의할 수 있는데 다음과 같은 것들이 필요합니다.</p>
+
+<ul>
+  <li>HTTP method
+    <ul>
+      <li>GET, POST, PUT, DELETE … 등등</li>
+    </ul>
+  </li>
+  <li>Endpoint(URI)
+    <ul>
+      <li>/users, /create … 등등</li>
+    </ul>
+  </li>
+  <li>Callback(action)
+    <ul>
+      <li>서버에서는 어떤 동작을 할 것인지</li>
+    </ul>
+  </li>
+</ul>
+
+<h2 id="route-methods">Route methods</h2>
+
+<div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1">// GET method route</span>
+<span class="nx">app</span><span class="p">.</span><span class="kd">get</span><span class="p">(</span><span class="s1">'/'</span><span class="p">,</span> <span class="kd">function</span> <span class="p">(</span><span class="nx">req</span><span class="p">,</span> <span class="nx">res</span><span class="p">)</span> <span class="p">{</span>
+  <span class="nx">res</span><span class="p">.</span><span class="nx">send</span><span class="p">(</span><span class="s1">'GET request to the homepage'</span><span class="p">)</span>
+<span class="p">})</span>
+
+<span class="c1">// POST method route</span>
+<span class="nx">app</span><span class="p">.</span><span class="nx">post</span><span class="p">(</span><span class="s1">'/'</span><span class="p">,</span> <span class="kd">function</span> <span class="p">(</span><span class="nx">req</span><span class="p">,</span> <span class="nx">res</span><span class="p">)</span> <span class="p">{</span>
+  <span class="nx">res</span><span class="p">.</span><span class="nx">send</span><span class="p">(</span><span class="s1">'POST request to the homepage'</span><span class="p">)</span>
+<span class="p">})</span>
+</code></pre></div></div>
+<p>위의 예는 GET과 POST의 예입니다. <code class="highlighter-rouge">Express</code>는 HTTP method들을 모두 지원합니다. 
+지원하는 모든 method들은 <a href="https://expressjs.com/en/4x/api.html#app.METHOD">app.METHOD</a>를 참고해주세요.</p>
+
+<p>추가로 <code class="highlighter-rouge">app.all()</code>이라는 method도 존재하는데 이는 모둔 HTTP method에 응답합니다.</p>
+
+<div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nx">app</span><span class="p">.</span><span class="nx">all</span><span class="p">(</span><span class="s1">'/secret'</span><span class="p">,</span> <span class="kd">function</span> <span class="p">(</span><span class="nx">req</span><span class="p">,</span> <span class="nx">res</span><span class="p">,</span> <span class="nx">next</span><span class="p">)</span> <span class="p">{</span>
+  <span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="s1">'Accessing the secret section ...'</span><span class="p">)</span>
+  <span class="nx">next</span><span class="p">()</span> <span class="c1">// pass control to the next handler</span>
+<span class="p">})</span>
+</code></pre></div></div>
+
+<p>위의 예는 <code class="highlighter-rouge">/secret</code> endpoint에 모든 GET, POST, PUT, DELETE에 응답합니다.</p>
+
+<h2 id="route-paths">Route paths</h2>
+
+<ul>
+  <li>Route path는 URI endpoint를 말합니다. string이 될 수도 있고 혹은 regular expression이 될 수 있습니다.</li>
+  <li>?, +, * 및 ()문자는 정규 표현식의 하위 집합입니다.</li>
+  <li>하이픈 (-)과 점 (.)은 문자열 기반 경로로 문자 그대로 해석됩니다.</li>
+  <li>경로 문자열에서 달러 문자 ($)를 사용해야하는 경우 이스케이프 처리 된 문자열 ([and])을 묶어야합니다. 예를 들어 “/data/$book”에있는 요청의 경로 문자열은 “/data/([$]) book”이됩니다.</li>
+  <li>Query string은 route path의 영역이 아닙니다.</li>
+  <li><code class="highlighter-rouge">Express</code>는 route path를 match할 때 <a href="https://www.npmjs.com/package/path-to-regexp">path-to-regexp</a>를 사용합니다.</li>
+  <li><a href="http://forbeslindesay.github.io/express-route-tester/">Express Route Tester</a>를 사용하여 테스트해볼 수 있습니다.</li>
+</ul>
+
+<p>다음과 같이 단순한 string으로 작성할 수 있습니다.</p>
+
+<div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nx">app</span><span class="p">.</span><span class="kd">get</span><span class="p">(</span><span class="s1">'/'</span><span class="p">,</span> <span class="kd">function</span> <span class="p">(</span><span class="nx">req</span><span class="p">,</span> <span class="nx">res</span><span class="p">)</span> <span class="p">{</span>
+  <span class="nx">res</span><span class="p">.</span><span class="nx">send</span><span class="p">(</span><span class="s1">'root'</span><span class="p">)</span>
+<span class="p">})</span>
+
+<span class="nx">app</span><span class="p">.</span><span class="kd">get</span><span class="p">(</span><span class="s1">'/about'</span><span class="p">,</span> <span class="kd">function</span> <span class="p">(</span><span class="nx">req</span><span class="p">,</span> <span class="nx">res</span><span class="p">)</span> <span class="p">{</span>
+  <span class="nx">res</span><span class="p">.</span><span class="nx">send</span><span class="p">(</span><span class="s1">'about'</span><span class="p">)</span>
+<span class="p">})</span>
+</code></pre></div></div>
+
+<p><code class="highlighter-rouge">/random.text</code>로 요청시에 Route path는 다음과같이 작성합니다.</p>
+
+<div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nx">app</span><span class="p">.</span><span class="kd">get</span><span class="p">(</span><span class="s1">'/random.text'</span><span class="p">,</span> <span class="kd">function</span> <span class="p">(</span><span class="nx">req</span><span class="p">,</span> <span class="nx">res</span><span class="p">)</span> <span class="p">{</span>
+  <span class="nx">res</span><span class="p">.</span><span class="nx">send</span><span class="p">(</span><span class="s1">'random.text'</span><span class="p">)</span>
+<span class="p">})</span>
+</code></pre></div></div>
+
+<p><code class="highlighter-rouge">/acd</code>와 <code class="highlighter-rouge">/abcd</code>에 대해 응답하는 Route path입니다.</p>
+
+<div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nx">app</span><span class="p">.</span><span class="kd">get</span><span class="p">(</span><span class="s1">'/ab?cd'</span><span class="p">,</span> <span class="kd">function</span> <span class="p">(</span><span class="nx">req</span><span class="p">,</span> <span class="nx">res</span><span class="p">)</span> <span class="p">{</span>
+  <span class="nx">res</span><span class="p">.</span><span class="nx">send</span><span class="p">(</span><span class="s1">'ab?cd'</span><span class="p">)</span>
+<span class="p">})</span>
+</code></pre></div></div>
+
+<p>다음은 <code class="highlighter-rouge">/abcd, /abbcd, /abbbcd</code> … 에 대해 응답하는 path입니다.</p>
+
+<div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nx">app</span><span class="p">.</span><span class="kd">get</span><span class="p">(</span><span class="s1">'/ab+cd'</span><span class="p">,</span> <span class="kd">function</span> <span class="p">(</span><span class="nx">req</span><span class="p">,</span> <span class="nx">res</span><span class="p">)</span> <span class="p">{</span>
+  <span class="nx">res</span><span class="p">.</span><span class="nx">send</span><span class="p">(</span><span class="s1">'ab+cd'</span><span class="p">)</span>
+<span class="p">})</span>
+</code></pre></div></div>
+
+<p>다음은 <code class="highlighter-rouge">/abcd, /abxcd, /abRANDOMcd, ab123cd</code> … 에 대해 응답하는 path입니다.</p>
+
+<div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nx">app</span><span class="p">.</span><span class="kd">get</span><span class="p">(</span><span class="s1">'/ab*cd'</span><span class="p">,</span> <span class="kd">function</span> <span class="p">(</span><span class="nx">req</span><span class="p">,</span> <span class="nx">res</span><span class="p">)</span> <span class="p">{</span>
+  <span class="nx">res</span><span class="p">.</span><span class="nx">send</span><span class="p">(</span><span class="s1">'ab*cd'</span><span class="p">)</span>
+<span class="p">})</span>
+</code></pre></div></div>
+
+<p>다음은 <code class="highlighter-rouge">/abe</code>와 <code class="highlighter-rouge">/abcde</code> 에 대해 응답하는 path입니다.</p>
+
+<div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nx">app</span><span class="p">.</span><span class="kd">get</span><span class="p">(</span><span class="s1">'/ab(cd)?e'</span><span class="p">,</span> <span class="kd">function</span> <span class="p">(</span><span class="nx">req</span><span class="p">,</span> <span class="nx">res</span><span class="p">)</span> <span class="p">{</span>
+  <span class="nx">res</span><span class="p">.</span><span class="nx">send</span><span class="p">(</span><span class="s1">'ab(cd)?e'</span><span class="p">)</span>
+<span class="p">})</span>
+</code></pre></div></div>
+
+<p>Regular expression을 사용하였을 때 다음은 <code class="highlighter-rouge">a</code>가 들어간 endpoint는 모두 일치하여 응답합니다.</p>
+
+<div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nx">app</span><span class="p">.</span><span class="kd">get</span><span class="p">(</span><span class="sr">/a/</span><span class="p">,</span> <span class="kd">function</span> <span class="p">(</span><span class="nx">req</span><span class="p">,</span> <span class="nx">res</span><span class="p">)</span> <span class="p">{</span>
+  <span class="nx">res</span><span class="p">.</span><span class="nx">send</span><span class="p">(</span><span class="s1">'/a/'</span><span class="p">)</span>
+<span class="p">})</span>
+</code></pre></div></div>
+
+<p>다음은 <code class="highlighter-rouge">butterfloy</code>와 <code class="highlighter-rouge">dragonfly</code>은 응답하지만 <code class="highlighter-rouge">butterflyman</code>와 <code class="highlighter-rouge">dragonflyman</code>은 응답하지 않습니다.</p>
+
+<div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nx">app</span><span class="p">.</span><span class="kd">get</span><span class="p">(</span><span class="sr">/.*fly$/</span><span class="p">,</span> <span class="kd">function</span> <span class="p">(</span><span class="nx">req</span><span class="p">,</span> <span class="nx">res</span><span class="p">)</span> <span class="p">{</span>
+  <span class="nx">res</span><span class="p">.</span><span class="nx">send</span><span class="p">(</span><span class="s1">'/.*fly$/'</span><span class="p">)</span>
+<span class="p">})</span>
+</code></pre></div></div>
+
+<h2 id="route-parameters">Route parameters</h2>
+
+<ul>
+  <li>URL에 있는 값을 불러오기 위한 URL segments를 말합니다.</li>
+  <li>값은 <code class="highlighter-rouge">req.params</code>에 파라미터의 이름과 함께 저장이 됩니다.</li>
+  <li>만약 Route path가 <code class="highlighter-rouge">/users/:userId/books/:bookId</code>이고 요청한 URL이 <code class="highlighter-rouge">http://localhost:3000/users/34/books/8989</code>이면 req.params의 값은 <code class="highlighter-rouge">{ "userId": "34", "bookId": "8989" }</code>가 됩니다.</li>
+</ul>
+
+<p>Route path는 다음과 같이 작성할 수 있습니다.</p>
+
+<div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nx">app</span><span class="p">.</span><span class="kd">get</span><span class="p">(</span><span class="s1">'/users/:userId/books/:bookId'</span><span class="p">,</span> <span class="kd">function</span> <span class="p">(</span><span class="nx">req</span><span class="p">,</span> <span class="nx">res</span><span class="p">)</span> <span class="p">{</span>
+  <span class="nx">res</span><span class="p">.</span><span class="nx">send</span><span class="p">(</span><span class="nx">req</span><span class="p">.</span><span class="nx">params</span><span class="p">)</span>
+<span class="p">})</span>
+</code></pre></div></div>
+
+<ul>
+  <li>Router parameter는 <code class="highlighter-rouge">[A-Za-z0-9_]</code>만 가능합니다.</li>
+  <li>만약 Route path가 <code class="highlighter-rouge">/flights/:from-:to</code>이고 요청한 URL이 <code class="highlighter-rouge">http://localhost:3000/flights/LAX-SFO</code>이면 req.params의 값은 <code class="highlighter-rouge">{ "from": "LAX", "to": "SFO" }</code>가 됩니다.</li>
+  <li>만약 Route path가 <code class="highlighter-rouge">/plantae/:genus.:species</code>이고 요청한 URL이 <code class="highlighter-rouge">http://localhost:3000/plantae/Prunus.persica</code>이면 req.params의 값은 <code class="highlighter-rouge">{ "genus": "Prunus", "species": "persica" }</code>가 됩니다.</li>
+  <li>더 정확한 매칭을 위하여 가로안에 regular expression을 사용할 수도 있습니다.
+    <ul>
+      <li>만약 Route path가 <code class="highlighter-rouge">/user/:userId(\d+)</code>이고 요청한 URL이 <code class="highlighter-rouge">http://localhost:3000/user/42</code>이면 req.params의 값은 <code class="highlighter-rouge">{"userId": "42"}</code>가 됩니다.</li>
+    </ul>
+  </li>
+</ul>
+
+<h2 id="route-handlers">Route handlers</h2>
+
+<ul>
+  <li><a href="https://expressjs.com/en/guide/using-middleware.html">middleware</a>처럼 여러개의 함수를 등록할 수 있습니다.</li>
+</ul>
+
+<p>하나의 callback함수만 등록할 경우 다음과 같이 작성합니다.</p>
+
+<div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nx">app</span><span class="p">.</span><span class="kd">get</span><span class="p">(</span><span class="s1">'/example/a'</span><span class="p">,</span> <span class="kd">function</span> <span class="p">(</span><span class="nx">req</span><span class="p">,</span> <span class="nx">res</span><span class="p">)</span> <span class="p">{</span>
+  <span class="nx">res</span><span class="p">.</span><span class="nx">send</span><span class="p">(</span><span class="s1">'Hello from A!'</span><span class="p">)</span>
+<span class="p">})</span>
+</code></pre></div></div>
+
+<p>여러개의 callback함수를 등록할 경우 다음과 같이 작성합니다.</p>
+
+<div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nx">app</span><span class="p">.</span><span class="kd">get</span><span class="p">(</span><span class="s1">'/example/b'</span><span class="p">,</span> <span class="kd">function</span> <span class="p">(</span><span class="nx">req</span><span class="p">,</span> <span class="nx">res</span><span class="p">,</span> <span class="nx">next</span><span class="p">)</span> <span class="p">{</span>
+  <span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="s1">'the response will be sent by the next function ...'</span><span class="p">)</span>
+  <span class="nx">next</span><span class="p">()</span>
+<span class="p">},</span> <span class="kd">function</span> <span class="p">(</span><span class="nx">req</span><span class="p">,</span> <span class="nx">res</span><span class="p">)</span> <span class="p">{</span>
+  <span class="nx">res</span><span class="p">.</span><span class="nx">send</span><span class="p">(</span><span class="s1">'Hello from B!'</span><span class="p">)</span>
+<span class="p">})</span>
+</code></pre></div></div>
+
+<p>혹은 callback으로 함수들의 배열을 입력할 수 있습니다.</p>
+
+<div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kd">var</span> <span class="nx">cb0</span> <span class="o">=</span> <span class="kd">function</span> <span class="p">(</span><span class="nx">req</span><span class="p">,</span> <span class="nx">res</span><span class="p">,</span> <span class="nx">next</span><span class="p">)</span> <span class="p">{</span>
+  <span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="s1">'CB0'</span><span class="p">)</span>
+  <span class="nx">next</span><span class="p">()</span>
+<span class="p">}</span>
+
+<span class="kd">var</span> <span class="nx">cb1</span> <span class="o">=</span> <span class="kd">function</span> <span class="p">(</span><span class="nx">req</span><span class="p">,</span> <span class="nx">res</span><span class="p">,</span> <span class="nx">next</span><span class="p">)</span> <span class="p">{</span>
+  <span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="s1">'CB1'</span><span class="p">)</span>
+  <span class="nx">next</span><span class="p">()</span>
+<span class="p">}</span>
+
+<span class="kd">var</span> <span class="nx">cb2</span> <span class="o">=</span> <span class="kd">function</span> <span class="p">(</span><span class="nx">req</span><span class="p">,</span> <span class="nx">res</span><span class="p">)</span> <span class="p">{</span>
+  <span class="nx">res</span><span class="p">.</span><span class="nx">send</span><span class="p">(</span><span class="s1">'Hello from C!'</span><span class="p">)</span>
+<span class="p">}</span>
+
+<span class="nx">app</span><span class="p">.</span><span class="kd">get</span><span class="p">(</span><span class="s1">'/example/c'</span><span class="p">,</span> <span class="p">[</span><span class="nx">cb0</span><span class="p">,</span> <span class="nx">cb1</span><span class="p">,</span> <span class="nx">cb2</span><span class="p">])</span>
+</code></pre></div></div>
+
+<p>혹은 배열과 함수를 동시에 같이 입력할 수도 있습니다.</p>
+
+<div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kd">var</span> <span class="nx">cb0</span> <span class="o">=</span> <span class="kd">function</span> <span class="p">(</span><span class="nx">req</span><span class="p">,</span> <span class="nx">res</span><span class="p">,</span> <span class="nx">next</span><span class="p">)</span> <span class="p">{</span>
+  <span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="s1">'CB0'</span><span class="p">)</span>
+  <span class="nx">next</span><span class="p">()</span>
+<span class="p">}</span>
+
+<span class="kd">var</span> <span class="nx">cb1</span> <span class="o">=</span> <span class="kd">function</span> <span class="p">(</span><span class="nx">req</span><span class="p">,</span> <span class="nx">res</span><span class="p">,</span> <span class="nx">next</span><span class="p">)</span> <span class="p">{</span>
+  <span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="s1">'CB1'</span><span class="p">)</span>
+  <span class="nx">next</span><span class="p">()</span>
+<span class="p">}</span>
+
+<span class="nx">app</span><span class="p">.</span><span class="kd">get</span><span class="p">(</span><span class="s1">'/example/d'</span><span class="p">,</span> <span class="p">[</span><span class="nx">cb0</span><span class="p">,</span> <span class="nx">cb1</span><span class="p">],</span> <span class="kd">function</span> <span class="p">(</span><span class="nx">req</span><span class="p">,</span> <span class="nx">res</span><span class="p">,</span> <span class="nx">next</span><span class="p">)</span> <span class="p">{</span>
+  <span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="s1">'the response will be sent by the next function ...'</span><span class="p">)</span>
+  <span class="nx">next</span><span class="p">()</span>
+<span class="p">},</span> <span class="kd">function</span> <span class="p">(</span><span class="nx">req</span><span class="p">,</span> <span class="nx">res</span><span class="p">)</span> <span class="p">{</span>
+  <span class="nx">res</span><span class="p">.</span><span class="nx">send</span><span class="p">(</span><span class="s1">'Hello from D!'</span><span class="p">)</span>
+<span class="p">})</span>
+</code></pre></div></div>
+
+<h2 id="response-methods">Response methods</h2>
+
+<ul>
+  <li><code class="highlighter-rouge">res</code> object가 가지고 있는 메소드들 입니다.
+Method|Description
+——|——
+<a href="https://expressjs.com/en/4x/api.html#res.download">res.download()</a>	| Prompt a file to be downloaded. 
+<a href="https://expressjs.com/en/4x/api.html#res.end">res.res.end()</a>	|End the response process.
+<a href="https://expressjs.com/en/4x/api.html#res.json">res.res.json()</a>	|Send a JSON response.
+<a href="https://expressjs.com/en/4x/api.html#res.jsonp">res.res.jsonp()</a>	|Send a JSON response with JSONP support.
+<a href="https://expressjs.com/en/4x/api.html#res.redirect">res.res.redirect()</a>|	Redirect a request.
+<a href="https://expressjs.com/en/4x/api.html#res.render">res.res.render()</a>|	Render a view template.
+<a href="https://expressjs.com/en/4x/api.html#res.send">res.res.send()</a>	|Send a response of various types.
+<a href="https://expressjs.com/en/4x/api.html#res.sendFile">res.res.sendFile()</a>	|Send a file as an octet stream.
+<a href="https://expressjs.com/en/4x/api.html#res.sendStatus">res.res.sendStatus()</a>	|Set the response status code and send its string representation as the response body.</li>
+</ul>
+
+<h2 id="approute">app.route()</h2>
+
+<ul>
+  <li>체인 가능한 route handler를 작성있습니다.</li>
+  <li>자세한 기능은 <a href="https://expressjs.com/en/4x/api.html#router">Router()</a>를 참고하세요.</li>
+</ul>
+
+<div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nx">app</span><span class="p">.</span><span class="nx">route</span><span class="p">(</span><span class="s1">'/book'</span><span class="p">)</span>
+  <span class="p">.</span><span class="kd">get</span><span class="p">(</span><span class="kd">function</span> <span class="p">(</span><span class="nx">req</span><span class="p">,</span> <span class="nx">res</span><span class="p">)</span> <span class="p">{</span>
+    <span class="nx">res</span><span class="p">.</span><span class="nx">send</span><span class="p">(</span><span class="s1">'Get a random book'</span><span class="p">)</span>
+  <span class="p">})</span>
+  <span class="p">.</span><span class="nx">post</span><span class="p">(</span><span class="kd">function</span> <span class="p">(</span><span class="nx">req</span><span class="p">,</span> <span class="nx">res</span><span class="p">)</span> <span class="p">{</span>
+    <span class="nx">res</span><span class="p">.</span><span class="nx">send</span><span class="p">(</span><span class="s1">'Add a book'</span><span class="p">)</span>
+  <span class="p">})</span>
+  <span class="p">.</span><span class="nx">put</span><span class="p">(</span><span class="kd">function</span> <span class="p">(</span><span class="nx">req</span><span class="p">,</span> <span class="nx">res</span><span class="p">)</span> <span class="p">{</span>
+    <span class="nx">res</span><span class="p">.</span><span class="nx">send</span><span class="p">(</span><span class="s1">'Update the book'</span><span class="p">)</span>
+  <span class="p">})</span>
+</code></pre></div></div>
+
+<h2 id="expressrouter">express.Router</h2>
+
+<ul>
+  <li><code class="highlighter-rouge">Router</code>는 routing시스템의 미들웨어입니다.</li>
+  <li><code class="highlighter-rouge">Router</code>를 통해 모듈러하고 mountable한 route handler를 작성할 수 있습니다.</li>
+</ul>
+
+<p><code class="highlighter-rouge">birds.js</code>라는 router파일을 만들고 다음과같이 작성합니다.</p>
+
+<div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kd">var</span> <span class="nx">express</span> <span class="o">=</span> <span class="nx">require</span><span class="p">(</span><span class="s1">'express'</span><span class="p">)</span>
+<span class="kd">var</span> <span class="nx">router</span> <span class="o">=</span> <span class="nx">express</span><span class="p">.</span><span class="nx">Router</span><span class="p">()</span>
+
+<span class="c1">// middleware that is specific to this router</span>
+<span class="nx">router</span><span class="p">.</span><span class="nx">use</span><span class="p">(</span><span class="kd">function</span> <span class="nx">timeLog</span> <span class="p">(</span><span class="nx">req</span><span class="p">,</span> <span class="nx">res</span><span class="p">,</span> <span class="nx">next</span><span class="p">)</span> <span class="p">{</span>
+  <span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="s1">'Time: '</span><span class="p">,</span> <span class="nb">Date</span><span class="p">.</span><span class="nx">now</span><span class="p">())</span>
+  <span class="nx">next</span><span class="p">()</span>
+<span class="p">})</span>
+<span class="c1">// define the home page route</span>
+<span class="nx">router</span><span class="p">.</span><span class="kd">get</span><span class="p">(</span><span class="s1">'/'</span><span class="p">,</span> <span class="kd">function</span> <span class="p">(</span><span class="nx">req</span><span class="p">,</span> <span class="nx">res</span><span class="p">)</span> <span class="p">{</span>
+  <span class="nx">res</span><span class="p">.</span><span class="nx">send</span><span class="p">(</span><span class="s1">'Birds home page'</span><span class="p">)</span>
+<span class="p">})</span>
+<span class="c1">// define the about route</span>
+<span class="nx">router</span><span class="p">.</span><span class="kd">get</span><span class="p">(</span><span class="s1">'/about'</span><span class="p">,</span> <span class="kd">function</span> <span class="p">(</span><span class="nx">req</span><span class="p">,</span> <span class="nx">res</span><span class="p">)</span> <span class="p">{</span>
+  <span class="nx">res</span><span class="p">.</span><span class="nx">send</span><span class="p">(</span><span class="s1">'About birds'</span><span class="p">)</span>
+<span class="p">})</span>
+
+<span class="nx">module</span><span class="p">.</span><span class="nx">exports</span> <span class="o">=</span> <span class="nx">router</span>
+</code></pre></div></div>
+
+<p>그리고 app에서 모듈을 로드합니다.</p>
+
+<div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code>
+<span class="kd">var</span> <span class="nx">birds</span> <span class="o">=</span> <span class="nx">require</span><span class="p">(</span><span class="s1">'./birds'</span><span class="p">)</span>
+
+<span class="c1">// ...</span>
+
+<span class="nx">app</span><span class="p">.</span><span class="nx">use</span><span class="p">(</span><span class="s1">'/birds'</span><span class="p">,</span> <span class="nx">birds</span><span class="p">)</span>
+</code></pre></div></div>
+
+<p>이제 응용 프로그램은 <code class="highlighter-rouge">/birds</code> <code class="highlighter-rouge">/about에</code> 대한 요청을 처리 할 수있을뿐 아니라 경로와 관련된 <code class="highlighter-rouge">timeLog</code> 미들웨어 기능을 호출 할 수 있습니다.</p>
+
+<h2 id="sources">Sources</h2>
+
+<ul>
+  <li>https://expressjs.com/en/guide/routing.html</li>
+</ul>
+
+
+	</div>
+
+</section>
+
+
+		</div>
+
+	</div>
+
+
+	<footer class="footer">
+
+	<ul class="socials">
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<li class="socials__item">
+		<a href="https://www.github.com/hannut91" target="_blank" class="socials__item__link" title="Github">
+			<i class="fab fa-github" aria-hidden="true"></i>
+		</a>
+	</li>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+</ul>
+
+	<div class="footer__copyright">
+		<span>© 2019 Yunseok's Dev Blog</span>
+		<a href="https://jekyllthemes.io" target="_blank">Jekyll Themes</a>
+	</div>
+
+</footer>
+
+
+	<!-- Javascript Assets -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script src="/js/simples-min.js"></script>
+
+	
+	<!-- Extra Footer JS Code -->
+	
+	
+
+
+</body>
+
+</html>

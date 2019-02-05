@@ -5,13 +5,12 @@ description: 배운 것을 적는 블로그입니다.
 featured_image: /images/social.jpg
 pagination:
   enabled: true
-  collection: blogs
 ---
 
 <section class="listing single">
     <div class="wrap">
 
-        {% for post in paginator.posts %}
+        {% for post in site.blogs %}
 
         <article class="listing-post">
             <div class="listing-post__header">

@@ -50,11 +50,11 @@ plugins:
   - jekyll-sitemap
 
 autopages:
-  # enabled: true
+  enabled: true
   collections:
     enabled: true
-    layouts:
-      - post.html
+    # layouts:
+    #   - post.html
 
 timezone: "Asia/Seoul"
 future: true
