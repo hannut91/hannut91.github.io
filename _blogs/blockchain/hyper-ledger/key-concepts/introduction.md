@@ -4,13 +4,13 @@ subTitle: 하이퍼렛저 페블릭에대한 기초지식
 category: 
 tags: 
 createdat: 2019-02-06 00:20:14
-updatedat: 2019-02-05 23:20:14
+updatedat: 2019-02-20 16:18:33
 ---
 
 ## Introduction
 
 * 모듈러 구조를 가지고 있어 컴포넌트들을 교체 교체 가능할 수 있도록
-  설계된 분산 원장 솔루션 플랫폽입니다.
+  설계된 분산 원장 솔루션 플랫폼입니다.
 
 ## What is a Blockchain?
 
