@@ -20,18 +20,18 @@
 
 	<!-- Page Info -->
 	<link rel="shortcut icon" href="/images/favicon.png">
-	<title>Git Branch – Yunseok's Dev Blog</title>
-	<meta name="description" content="이미 Merge되었거나 더이상 사용되지 않는 branch들은 정리하는것이 좋습니다.">
+	<title>CodeceptJS를 이용하여 e2e테스트 시작하기 – Yunseok's Dev Blog</title>
+	<meta name="description" content="CodeceptJS를 이용하여 e2e테스트 시작하기">
 
 	<!-- Twitter Card -->
 	<meta name="twitter:card" content="summary_large_image">
-	<meta name="twitter:title" content="Git Branch – Yunseok's Dev Blog">
-	<meta name="twitter:description" content="이미 Merge되었거나 더이상 사용되지 않는 branch들은 정리하는것이 좋습니다.">
+	<meta name="twitter:title" content="CodeceptJS를 이용하여 e2e테스트 시작하기 – Yunseok's Dev Blog">
+	<meta name="twitter:description" content="CodeceptJS를 이용하여 e2e테스트 시작하기">
 	<meta name="twitter:image:src" content="http://localhost:4000">
 
 	<!-- Facebook OpenGraph -->
-	<meta property="og:title" content="Git Branch – Yunseok's Dev Blog" />
-	<meta property="og:description" content="이미 Merge되었거나 더이상 사용되지 않는 branch들은 정리하는것이 좋습니다." />
+	<meta property="og:title" content="CodeceptJS를 이용하여 e2e테스트 시작하기 – Yunseok's Dev Blog" />
+	<meta property="og:description" content="CodeceptJS를 이용하여 e2e테스트 시작하기" />
 	<meta property="og:image" content="http://localhost:4000" />
 
 	
@@ -66,7 +66,7 @@
 </head>
 
 
-<body class="loading ajax-loading" data-site-url="http://localhost:4000" data-page-url="/blogs/git/branch">
+<body class="loading ajax-loading" data-site-url="http://localhost:4000" data-page-url="/blogs/e2e/index">
 
 
 	<header class="header">
@@ -113,56 +113,16 @@
 	
 	<div class="page">
 
-		<div class="page__content" data-page-title="Git Branch – Yunseok's Dev Blog" data-image="">
+		<div class="page__content" data-page-title="CodeceptJS를 이용하여 e2e테스트 시작하기 – Yunseok's Dev Blog" data-image="">
 
 			<section class="single">
 
 	<div class="wrap">
 
-		<h1>Git Branch</h1>
+		<h1>CodeceptJS를 이용하여 e2e테스트 시작하기</h1>
 		<p class="subtitle"></p>
 
-		<h2 id="1-merge되어있는-branch-조회하기">1. merge되어있는 branch 조회하기</h2>
-
-<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>git branch <span class="nt">--merged</span>
-</code></pre></div></div>
-
-<p>현재 checkout되어있는 branch는 merge와 상관없이  반드시 표시되니 주의해야 
-합니다.</p>
-
-<h3 id="remote에-있는-branch도-확인하고-싶다면">remote에 있는 branch도 확인하고 싶다면</h3>
-
-<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>git branch <span class="nt">-a</span> <span class="nt">--merged</span>
-</code></pre></div></div>
-
-<h2 id="2-merge되어있는-branch-삭제하기">2. merge되어있는 branch 삭제하기</h2>
-
-<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>git branch <span class="nt">-d</span> &lt;branch-name&gt;
-</code></pre></div></div>
-
-<p>만약 해당 branch가 merge되어 있지 않다면 삭제가 되지 않습니다. 그래도 강제로 
-삭제하고 싶다면 다음과 같이 입력하여 삭제할 수 있습니다.</p>
-
-<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>git branch <span class="nt">-D</span> &lt;branch-name&gt;
-</code></pre></div></div>
-
-<h3 id="merged된-브렌치들을-전부-지우고-싶다면">merged된 브렌치들을 전부 지우고 싶다면</h3>
-
-<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>git branch <span class="nt">-d</span> <span class="k">$(</span>git branch <span class="nt">--merged</span> | master<span class="k">)</span>
-</code></pre></div></div>
-
-<h2 id="3-github에-업로드-되어있는-branch-삭제하기">3. Github에 업로드 되어있는 branch 삭제하기</h2>
-
-<p>다른 remote에 merge되어 더이상 나의 remote에 사용되지 않는 branch를 삭제하려면 
-다음과 같이 입력합니다.</p>
-
-<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>git push &lt;remote-name&gt; :&lt;branch-name&gt;
-</code></pre></div></div>
-
-<h3 id="현재-변경사항을-그대로-다른-브렌치로-옮기고-싶을-때">현재 변경사항을 그대로 다른 브렌치로 옮기고 싶을 때</h3>
-
-<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nv">$ </span>git checkout <span class="nt">-b</span> &lt;branch&gt; <span class="nt">--track</span> &lt;remote&gt;/&lt;branch&gt;
-</code></pre></div></div>
+		<h2 id="요약">요약</h2>
 
 
 

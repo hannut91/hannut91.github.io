@@ -333,6 +333,128 @@ Express에서 <code class="highlighter-rouge">NODE_ENV</code>를 <code class="hi
   <li><a href="https://www.npmjs.com/package/forever">Forever</a></li>
 </ul>
 
+<h3 id="use-an-init-system">Use an init system</h3>
+
+<p>서버가 재시작 될 때 애플리케이션 또한 재시작되어야 합니다. 시스템들은 여러가지
+이유로 다운될 수 있기 때문에 서버가 재시작 될 때 애플리케이션도 또한 재시작
+되어야 합니다. <a href="https://wiki.debian.org/systemd">systemd</a>와 <a href="http://upstart.ubuntu.com/">Upstart</a>가 가장많이 사용됩니다.</p>
+
+<ul>
+  <li>프로세스 매니저에서 앱을 실행시키고 init 시스템과 함께 프로세스 매니저를
+설치해야 합니다. 앱이 충돌로 중단이 되었을 때 프로세스 매니저가 앱을
+재시작하게 되고 OS가 재시작될 대 init 시스템이 프로세스 매니저를 재시작 하게
+됩니다.</li>
+</ul>
+
+<h4 id="systemd">Systemd</h4>
+
+<p><code class="highlighter-rouge">Systemd</code>는 리눅스 시스템의 서비스 매니저입니다. 대부분의 리눅스 배포판에서
+기본으로 탑재되어 있습니다. systemd서비스 설정파일은 <code class="highlighter-rouge">unit file</code>이고
+<code class="highlighter-rouge">.service</code>라는 이름으로 작성합니다.</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>[Unit]
+Description=Awesome Express App
+
+[Service]
+Type=simple
+ExecStart=/usr/local/bin/node /projects/myapp/index.js
+WorkingDirectory=/projects/myapp
+
+User=nobody
+Group=nogroup
+
+# Environment variables:
+Environment=NODE_ENV=production
+
+# Allow many incoming connections
+LimitNOFILE=infinity
+
+# Allow core dumps for debugging
+LimitCORE=infinity
+
+StandardInput=null
+StandardOutput=syslog
+StandardError=syslog
+Restart=always
+
+[Install]
+WantedBy=multi-user.target
+</code></pre></div></div>
+
+<p>위의 예제는 직접적으로 node를 실행시킵니다.</p>
+
+<h4 id="stringloop-pm-as-a-systemd-service">StringLoop PM as a systemd service</h4>
+
+<p>쉽게 <code class="highlighter-rouge">StringLoop PM</code>을 systemd service로 설치할 수 있는데 그러면 서버가 재시작
+될 때 자등으로 <code class="highlighter-rouge">StringLoop PM</code>을 실행할 것입니다. 
+<code class="highlighter-rouge">StringLoop PM</code>을 systemd service로 설치하려면 다음과 같이 입력하면 됩니다.</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nv">$ </span><span class="nb">sudo </span>sl-pm-install <span class="nt">--systemd</span>
+</code></pre></div></div>
+
+<p>그리고 서비스를 재시작할 때는 다음과 같이 입력합니다.</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nv">$ </span><span class="nb">sudo</span> /usr/bin/systemctl start strong-pm
+</code></pre></div></div>
+
+<h4 id="upstart">Upstart</h4>
+
+<p><code class="highlighter-rouge">Upstart</code>는 만은 리눅스 배포판에서 사용가능한 시스템 도구 입니다. Express혹은
+PM을 서비스로서 설정할 수 있고 <code class="highlighter-rouge">Upstart</code>가 서버가 재시작 될 때 Express혹은 PM을
+재시작 할 것입니다.</p>
+
+<p><code class="highlighter-rouge">Upstart</code>서비스는 job설정파일로 정의되는데 <code class="highlighter-rouge">.conf</code>로 끝나는 이름으로
+작성됩니다. 밑의 예는 설정파일 예제입니다. <code class="highlighter-rouge">myapp.conf</code>를 <code class="highlighter-rouge">/etc/init/</code>에 만들고
+다음과 같이 설정 할 수 있습니다.</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code># When to start the process
+start on runlevel [2345]
+
+# When to stop the process
+stop on runlevel [016]
+
+# Increase file descriptor limit to be able to handle more requests
+limit nofile 50000 50000
+
+# Use production mode
+env NODE_ENV=production
+
+# Run as www-data
+setuid www-data
+setgid www-data
+
+# Run from inside the app dir
+chdir /projects/myapp
+
+# The process to start
+exec /usr/local/bin/node /projects/myapp/index.js
+
+# Restart the process if it is down
+respawn
+
+# Limit restart attempt to 10 times within 10 seconds
+respawn limit 10 10
+</code></pre></div></div>
+
+<h4 id="strongloop-pm-as-an-upstart-service">StrongLoop PM as an Upstart service</h4>
+
+<p><code class="highlighter-rouge">StrongLoop PM</code>을 <code class="highlighter-rouge">Upstart</code>서비스로서 쉽게 설치할 수 있습니다. 서버가 재시작 될
+때 자동으로 PM이 재시작 됩니다.</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nv">$ </span><span class="nb">sudo </span>sl-pm-install
+</code></pre></div></div>
+
+<p>설치 후 서비스를 실행시켜줍니다.</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nv">$ </span><span class="nb">sudo</span> /sbin/initctl start strong-pm
+</code></pre></div></div>
+
+<h3 id="run-your-app-in-cluster">Run your app in cluster</h3>
+
+<p>멀티코어 시스템에서 Node 애플리케이션의 프로세스들의 클러스터를 실행시켜
+성능을 향상시킬 수있습니다. 클러스터는 앱의 인스턴스를 여러개 실행시켜 각 CPU
+core마다 하나의 인스턴스를 실행시켜 인스턴스의 부하를 줄일 수 있습니다.</p>
+
 <h2 id="sources">Sources</h2>
 
 <ul>

@@ -20,18 +20,18 @@
 
 	<!-- Page Info -->
 	<link rel="shortcut icon" href="/images/favicon.png">
-	<title>Docker install on macOS – Yunseok's Dev Blog</title>
-	<meta name="description" content="Docker를 맥os에 설치하는 방법">
+	<title>Install mongodb – Yunseok's Dev Blog</title>
+	<meta name="description" content="">
 
 	<!-- Twitter Card -->
 	<meta name="twitter:card" content="summary_large_image">
-	<meta name="twitter:title" content="Docker install on macOS – Yunseok's Dev Blog">
-	<meta name="twitter:description" content="Docker를 맥os에 설치하는 방법">
+	<meta name="twitter:title" content="Install mongodb – Yunseok's Dev Blog">
+	<meta name="twitter:description" content="">
 	<meta name="twitter:image:src" content="http://localhost:4000">
 
 	<!-- Facebook OpenGraph -->
-	<meta property="og:title" content="Docker install on macOS – Yunseok's Dev Blog" />
-	<meta property="og:description" content="Docker를 맥os에 설치하는 방법" />
+	<meta property="og:title" content="Install mongodb – Yunseok's Dev Blog" />
+	<meta property="og:description" content="" />
 	<meta property="og:image" content="http://localhost:4000" />
 
 	
@@ -66,7 +66,7 @@
 </head>
 
 
-<body class="loading ajax-loading" data-site-url="http://localhost:4000" data-page-url="/blogs/docker/install">
+<body class="loading ajax-loading" data-site-url="http://localhost:4000" data-page-url="/blogs/mongodb/install">
 
 
 	<header class="header">
@@ -113,78 +113,17 @@
 	
 	<div class="page">
 
-		<div class="page__content" data-page-title="Docker install on macOS – Yunseok's Dev Blog" data-image="">
+		<div class="page__content" data-page-title="Install mongodb – Yunseok's Dev Blog" data-image="">
 
 			<section class="single">
 
 	<div class="wrap">
 
-		<h1>Docker install on macOS</h1>
+		<h1>Install mongodb</h1>
 		<p class="subtitle"></p>
 
-		<h2 id="install">Install</h2>
-
-<ul>
-  <li>https://hub.docker.com/editions/community/docker-ce-desktop-mac에서
-<code class="highlighter-rouge">stable</code>버전을 다운로드 받습니다.</li>
-  <li>다운받은 파일로 설치합니다.</li>
-  <li><code class="highlighter-rouge">Docker</code>를 실행합니다.</li>
-  <li><code class="highlighter-rouge">Docker</code>를 실행하면 화면 오른쪽 상단에 아이콘이 생깁니다.</li>
-</ul>
-
-<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>docker version
+		<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nv">$ </span>docker run <span class="nt">--name</span> mongo_local <span class="nt">-e</span> <span class="nv">MONGO_INITDB_ROOT_USERNAME</span><span class="o">=</span>root <span class="nt">-e</span> <span class="nv">MONGO_INITDB_ROOT_PASSWORD</span><span class="o">=</span>password <span class="nt">-e</span> <span class="nt">-v</span> /Users/yunseok/Documents/mongodb:/data/db <span class="nt">-p</span> 27017:27017 <span class="nt">-d</span> mongo:4.0.9
 </code></pre></div></div>
-
-<ul>
-  <li>혹은 Homebrew Cask를 이용해서 설치할 수 있습니다.</li>
-</ul>
-
-<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>brew cask <span class="nb">install </span>docker
-</code></pre></div></div>
-
-<h3 id="amazon-ami-2">Amazon AMI 2</h3>
-
-<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nb">sudo </span>yum update <span class="nt">-y</span>
-<span class="nb">sudo </span>yum <span class="nb">install</span> <span class="nt">-y</span> docker
-<span class="nb">sudo </span>service docker start
-<span class="nb">sudo </span>usermod <span class="nt">-a</span> <span class="nt">-G</span> docker ec2-user
-</code></pre></div></div>
-
-<h2 id="cli">CLI</h2>
-
-<h3 id="shell-completion">Shell completion</h3>
-
-<ul>
-  <li>bash shell에서 자동완성을 사용하려면 다음을 터미널에서 입력하세요.</li>
-</ul>
-
-<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nv">etc</span><span class="o">=</span>/Applications/Docker.app/Contents/Resources/etc
-<span class="nb">ln</span> <span class="nt">-s</span> <span class="nv">$etc</span>/docker.bash-completion <span class="k">$(</span>brew <span class="nt">--prefix</span><span class="k">)</span>/etc/bash_completion.d/docker
-<span class="nb">ln</span> <span class="nt">-s</span> <span class="nv">$etc</span>/docker-machine.bash-completion <span class="k">$(</span>brew <span class="nt">--prefix</span><span class="k">)</span>/etc/bash_completion.d/docker-machine
-<span class="nb">ln</span> <span class="nt">-s</span> <span class="nv">$etc</span>/docker-compose.bash-completion <span class="k">$(</span>brew <span class="nt">--prefix</span><span class="k">)</span>/etc/bash_completion.d/docker-compose
-</code></pre></div></div>
-
-<ul>
-  <li>그 후 다음을 <code class="highlighter-rouge">~/.bash_profile</code>에 삽입합니다.</li>
-</ul>
-
-<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="o">[</span> <span class="nt">-f</span> /usr/local/etc/bash_completion <span class="o">]</span> <span class="o">&amp;&amp;</span> <span class="nb">.</span> /usr/local/etc/bash_completion
-</code></pre></div></div>
-
-<ul>
-  <li>혹은 다음과 같이 입력합니다.</li>
-</ul>
-
-<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">if</span> <span class="o">[</span> <span class="nt">-f</span> <span class="k">$(</span>brew <span class="nt">--prefix</span><span class="k">)</span>/etc/bash_completion <span class="o">]</span><span class="p">;</span> <span class="k">then</span>
-<span class="nb">.</span> <span class="k">$(</span>brew <span class="nt">--prefix</span><span class="k">)</span>/etc/bash_completion
-<span class="k">fi</span>
-</code></pre></div></div>
-
-<h2 id="sources">Sources</h2>
-
-<ul>
-  <li>https://docs.docker.com/docker-for-mac/</li>
-</ul>
 
 
 	</div>

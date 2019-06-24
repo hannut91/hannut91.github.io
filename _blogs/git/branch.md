@@ -4,7 +4,7 @@ subTitle: 이미 Merge되었거나 더이상 사용되지 않는 branch들은 �
 category: 
 tags: 
 createdat: 2019-02-05 23:20:14
-updatedat: 2019-02-05 23:20:14
+updatedat: 2019-06-24 23:45:00
 ---
 
 ## 1. merge되어있는 branch 조회하기
@@ -48,5 +48,11 @@ git branch -d $(git branch --merged | master)
 
 ```bash
 git push <remote-name> :<branch-name>
+```
+
+### 현재 변경사항을 그대로 다른 브렌치로 옮기고 싶을 때
+
+```bash
+$ git checkout -b <branch> --track <remote>/<branch>
 ```
 
