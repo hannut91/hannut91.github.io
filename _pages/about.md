@@ -5,29 +5,29 @@ subtitle: Simples is a super simple blogging theme for Jekyll.
 featured_image: /images/social.jpg
 ---
 
-![](/images/demo/demo-landscape.jpg)
+## 이력
 
-## Features
+* 2015.09 ~ 2015.12 vlogue 인턴
+웹 개발
+* 2016.05 ~ 2018.02 Appicat
+웹, 하이브리드앱 개발
+* 2018.03 ~ 2019.06 Artifriends
+블럭체인 코어 개발
+* 2018.03 ~ 2019.06 Artiwealth
+웹 개발
 
-Simples is packed with powerful features to showcase your content:
+## 역사
 
-* Beautiful, minimal design
-* Single column post layout
-* Responsive – works perfectly on all devices
-* Portfolio/projects post type to show your work
-* Blog with pagination
-* Sleek Ajax navigation and page transitions
-* Unique 'gallery' feature for image grids and carousels
-* Full markdown support and code highlighting
-* Social media icons
-* Fast page rendering
-* Built with SEO best practices in mind
-* Customize everything – colors, fonts, sizes etc. – via a simple settings file
-* Works with GitHub Pages
-* Updated and supported by the developers
+* 2018.09.04 if kakao
+* 2018.09.28 2018 future conference Blockchain
+  <https://www.fastcampus.co.kr/2018future/>
+* 2018.10.30 MongoDB Forum Seoul 2018 <https://www.sharedit.co.kr/seminars/252>
+* 2018.11.06 AWS Dev Day <https://aws.amazon.com/ko/events/devday/#agenda>
+* 2018.10.11 ~ 10.12 Deview 2018 <https://deview.kr/2018>
+* 2018.11.10 GDG DevFest Seoul <https://festa.io/events/88>
+* 2018.12.18 Devstamp <https://www.devstamp.io/>
+* 책모임
+* 아샬 프라이데이 나잇
+* 아샬 블럭체인
+* 아샬 1차 2차
 
-## Get Simples
-
-Simples is created and supported by [Jekyll Themes](https://jekyllthemes.io), and is available for $29.
-
-<a href="https://jekyllthemes.io/theme/simples-blog-jekyll-theme" class="button button--large">Get This Theme</a>

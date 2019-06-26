@@ -4,7 +4,7 @@ subTitle: DynamoDB를 로컬 컴퓨터에 설치하여 개발환경을 구축합
 category: 
 tags: 
 createdat: 2019-06-24 23:45:00
-updatedat: 2019-06-25 00:23:39
+updatedat: 2019-06-26 00:04:48
 ---
 
 ## Install with Docker
