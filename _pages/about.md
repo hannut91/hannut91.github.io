@@ -1,7 +1,7 @@
 ---
-title: About Simples
-description: Simples is a super simple blogging theme for Jekyll.
-subtitle: Simples is a super simple blogging theme for Jekyll.
+title: About
+description:
+subtitle:
 featured_image: /images/social.jpg
 ---
 
@@ -73,3 +73,8 @@ featured_image: /images/social.jpg
 * 2019.06.19 JavaScript로 익히는 자료구조와 알고리즘 #2 3주: 그래프
 * 2019.06.21 Friday Night Trainning: Dokcer와 DevOps시작하기
 * 2019.06.26 JavaScript로 익히는 자료구조와 알고리즘 #2 4주: 최단 거리 찾기
+  * <https://hannut91.github.io/blogs/DSA/retrospective>
+* 2019.06.28 Friday Night Trainning: Git과 Github으로 협업하기
+* 2019.06.29 스프린트 서울: RustPython
+  * <https://github.com/RustPython/RustPython/pull/1071>
+  * <https://github.com/RustPython/RustPython/pull/1077>
