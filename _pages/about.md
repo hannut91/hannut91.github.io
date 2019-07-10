@@ -76,5 +76,8 @@ featured_image: /images/social.jpg
   * <https://hannut91.github.io/blogs/DSA/retrospective>
 * 2019.06.28 Friday Night Trainning: Git과 Github으로 협업하기
 * 2019.06.29 스프린트 서울: RustPython
+  * <https://hannut91.github.io/blogs/sprint/rust-python>
   * <https://github.com/RustPython/RustPython/pull/1071>
   * <https://github.com/RustPython/RustPython/pull/1077>
+* 2019.07.03 코드체인 세미나
+ * <https://github.com/hannut91/TIL/blob/master/conference/2019_07_03_codechain/session01.md>
