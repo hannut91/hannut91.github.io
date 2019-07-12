@@ -80,6 +80,6 @@ featured_image: /images/social.jpg
   * <https://github.com/RustPython/RustPython/pull/1071>
   * <https://github.com/RustPython/RustPython/pull/1077>
 * 2019.07.03 코드체인 세미나
- * <https://github.com/hannut91/TIL/blob/master/conference/2019_07_03_codechain/session01.md>
+  * <https://github.com/hannut91/TIL/blob/master/conference/2019_07_03_codechain/session01.md>
 * 2019.07.10 Hashicof usergroup meet up
- * <https://github.com/hannut91/TIL/blob/master/conference/2019_07_10_hashicorp>
+  * <https://github.com/hannut91/TIL/blob/master/conference/2019_07_10_hashicorp>
