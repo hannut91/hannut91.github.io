@@ -1,11 +1,10 @@
 ---
 title: CircleCI에서 forekd 풀리퀘스트에서도 빌드되도록 수정하기
-subTitle: CircleCI에서 forked repository에서 pull request를 만들어도 빌드가 
-실행되도록 수정하기
+subTitle: CircleCI에서 forked repository에서 pull request를 만들어도 빌드가 실행되도록 수정하기
 category: 
 tags: 
-createdat: 2019-06-24 23:45:00
-updatedat: 2019-06-24 23:45:00
+createdat: 2019-07-16 01:05:00
+updatedat: 2019-07-16 01:05:00
 ---
 
 ## 문제
