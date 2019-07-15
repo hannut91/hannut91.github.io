@@ -83,3 +83,4 @@ featured_image: /images/social.jpg
   * <https://github.com/hannut91/TIL/blob/master/conference/2019_07_03_codechain/session01.md>
 * 2019.07.10 Hashicof usergroup meet up
   * <https://github.com/hannut91/TIL/blob/master/conference/2019_07_10_hashicorp>
+* 2019.07.12 Friday Night Trainning: TDD
