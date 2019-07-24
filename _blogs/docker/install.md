@@ -4,7 +4,7 @@ subTitle: Docker를 맥os에 설치하는 방법
 category: 
 tags: 
 createdat: 2019-02-05 23:20:14
-updatedat: 2019-06-24 23:45:00
+updatedat: 2019-07-24 19:44:00
 ---
 
 ## Install
@@ -28,10 +28,17 @@ brew cask install docker
 ### Amazon AMI 2
 
 ```bash
-sudo yum update -y
-sudo yum install -y docker
-sudo service docker start
-sudo usermod -a -G docker ec2-user
+$ sudo yum update -y
+$ sudo yum install -y docker
+$ sudo service docker start
+$ sudo usermod -a -G docker ec2-user
+```
+
+#### Docker-compose install
+
+```bash
+$ sudo curl -L "https://github.com/docker/compose/releases/download/1.24.1/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose
+$ sudo chmod +x /usr/local/bin/docker-compose
 ```
 
 ## CLI
