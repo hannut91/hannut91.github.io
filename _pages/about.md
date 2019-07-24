@@ -84,3 +84,8 @@ featured_image: /images/social.jpg
 * 2019.07.10 Hashicof usergroup meet up
   * <https://github.com/hannut91/TIL/blob/master/conference/2019_07_10_hashicorp>
 * 2019.07.12 Friday Night Trainning: TDD
+* 2019.07.19 ~ 21 Cosmos Hackatom
+  * ![](https://user-images.githubusercontent.com/14071105/61802944-45aa4b00-ae6c-11e9-83eb-8a6b23e01f46.JPG)
+  * <https://blog.cosmos.network/cosmos-hackatom-seoul-winners-d6badbd0629b>
+* 2019.07.23 달랩 짝 프로그래밍 실습
+  * <https://hannut91.github.io/blogs/dallab/pair-programming>

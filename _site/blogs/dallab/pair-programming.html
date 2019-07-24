@@ -20,18 +20,18 @@
 
 	<!-- Page Info -->
 	<link rel="shortcut icon" href="/images/favicon.png">
-	<title>가비아에서 구매한 도메인을 AWS Route53에서 호스팅하기 – Yunseok's Dev Blog</title>
-	<meta name="description" content="가비아에서 구매한 도메인을 AWS Route53에서 호스팅하기">
+	<title>달랩 멘토링 짝 프로그래밍 실습 회고 – Yunseok's Dev Blog</title>
+	<meta name="description" content="달랩 멘토링 짝 프로그래밍 실습 회고">
 
 	<!-- Twitter Card -->
 	<meta name="twitter:card" content="summary_large_image">
-	<meta name="twitter:title" content="가비아에서 구매한 도메인을 AWS Route53에서 호스팅하기 – Yunseok's Dev Blog">
-	<meta name="twitter:description" content="가비아에서 구매한 도메인을 AWS Route53에서 호스팅하기">
+	<meta name="twitter:title" content="달랩 멘토링 짝 프로그래밍 실습 회고 – Yunseok's Dev Blog">
+	<meta name="twitter:description" content="달랩 멘토링 짝 프로그래밍 실습 회고">
 	<meta name="twitter:image:src" content="http://localhost:4000">
 
 	<!-- Facebook OpenGraph -->
-	<meta property="og:title" content="가비아에서 구매한 도메인을 AWS Route53에서 호스팅하기 – Yunseok's Dev Blog" />
-	<meta property="og:description" content="가비아에서 구매한 도메인을 AWS Route53에서 호스팅하기" />
+	<meta property="og:title" content="달랩 멘토링 짝 프로그래밍 실습 회고 – Yunseok's Dev Blog" />
+	<meta property="og:description" content="달랩 멘토링 짝 프로그래밍 실습 회고" />
 	<meta property="og:image" content="http://localhost:4000" />
 
 	
@@ -66,7 +66,7 @@
 </head>
 
 
-<body class="loading ajax-loading" data-site-url="http://localhost:4000" data-page-url="/blogs/route53/gabia">
+<body class="loading ajax-loading" data-site-url="http://localhost:4000" data-page-url="/blogs/dallab/pair-programming">
 
 
 	<header class="header">
@@ -113,78 +113,47 @@
 	
 	<div class="page">
 
-		<div class="page__content" data-page-title="가비아에서 구매한 도메인을 AWS Route53에서 호스팅하기 – Yunseok's Dev Blog" data-image="">
+		<div class="page__content" data-page-title="달랩 멘토링 짝 프로그래밍 실습 회고 – Yunseok's Dev Blog" data-image="">
 
 			<section class="single">
 
 	<div class="wrap">
 
-		<h1>가비아에서 구매한 도메인을 AWS Route53에서 호스팅하기</h1>
+		<h1>달랩 멘토링 짝 프로그래밍 실습 회고</h1>
 		<p class="subtitle"></p>
 
-		<p>가비아에서 구매한 도메인을 AWS를 통해 서비스 하고 싶을 때 Route53을 이용해서
-서비스 할 수 있다.</p>
+		<h2 id="짝-프로그래밍">짝 프로그래밍</h2>
 
-<h2 id="요약">요약</h2>
+<h3 id="채팅-프로그램-화면-웹에서-html로-구현하기">채팅 프로그램 화면 웹에서 HTML로 구현하기</h3>
 
-<ol>
-  <li>Route53에서 새로운 Hosted zone을 만듭니다.</li>
-  <li>Name server목록을 가비아에서 네임서버 설정에 등록시킨다.</li>
-  <li>Route53에서 새로운 Record set을 만듭니다.</li>
-</ol>
+<p>처음에는 카카오톡같은 메신저 화면을 HTML로 만드는 것을 했다. 상대방의 메세지는
+왼쪽으로 정렬된 모습으로 출력되고 내가 보낸 메세지는 오른쪽으로 정렬되어
+출력되도록 만들었다. 채팅창에 입력한 데이터가 내가 보낸 메세지로 출력이 되도록
+하는 간단한 프로그램을 페어프로그래밍으로 만들었다.<br />
+HTML마크업을 짝 프로그래밍으로 한건 처음이었는데 같은 모양을 만들더라도 다른
+css스타일을 사용해서 만들 수 있어서 내가 생각했던 것과 다르게 진행되어서 몰랐던
+부분도 알게 되었다.</p>
 
-<h2 id="route53에서-hosted-zone-만들기">Route53에서 Hosted Zone 만들기</h2>
+<h3 id="리액트로-달력-만들기">리액트로 달력 만들기</h3>
 
-<p><img src="https://user-images.githubusercontent.com/14071105/61511631-51dc7580-aa32-11e9-9793-a907faa996de.png" alt="" /></p>
+<p>달력을 출력하기 위해 어떤 데이터가 필요한지 같이 얘기하고 그 데이터가 있을
+경우에 어떻게 화면에 출력되는지를 먼저 만들고, 데이터를 만드는 것은 TDD로
+진행했다.<br />
+프론트에서 테스트하기 어렵다는 말이 많은데 데이터를 만드는 것은 웹, 프론트,
+또는 리액트와도 전혀 상관없는 로직이었고 TDD를 하는 것은 그냥 일반적으로 코드를
+작성하는 느낌이었다.<br />
+데이터가 올바르게 만들어지니 달력도 올바르게 출력이 되어서 프론트라서 TDD가
+어렵다는 말은 더이상 할 수 없을 것 같다.</p>
 
-<ul>
-  <li>AWS console에 접속하여 Route53서비스를 선택한 후 <code class="highlighter-rouge">Hosted zones</code> 탭을 선택한다.</li>
-  <li><code class="highlighter-rouge">Create Hosted Zone</code>버튼을 클릭하면 오른쪽과 같은 화면이 나옵니다.</li>
-  <li>구매한 도메을 입력하고 <code class="highlighter-rouge">Create</code>버튼을 클릭합니다.</li>
-</ul>
-
-<p><img src="https://user-images.githubusercontent.com/14071105/61511200-f2ca3100-aa30-11e9-88ab-3aaa523b82df.png" alt="" /></p>
-
-<ul>
-  <li>생성된 <code class="highlighter-rouge">Hosed Zone</code>을 들어가보면 Type에 <code class="highlighter-rouge">NS</code>라고 되어있는 값들을 가비아
-네임서버에 등록해주야 합니다.</li>
-</ul>
-
-<h2 id="가비아에서-네임서버-등록하기">가비아에서 네임서버 등록하기</h2>
-
-<p><img src="https://user-images.githubusercontent.com/14071105/61511923-3f167080-aa33-11e9-8a6d-695a3bda62a5.png" alt="" /></p>
+<h2 id="좋았던-점">좋았던 점</h2>
 
 <ul>
-  <li>가비아에 접속하여 로그인 후 <code class="highlighter-rouge">My가비아</code>로 들어간 후 낼려보면 내가 구입한
-도메인 목록이 있습니다.</li>
-  <li>해당하는 도메인의 관리툴을 선택합니다.</li>
-</ul>
-
-<p><img src="https://user-images.githubusercontent.com/14071105/61512067-c1069980-aa33-11e9-9893-7ac030973ede.png" alt="" /></p>
-
-<ul>
-  <li>네임서버에 설정을 누릅니다.</li>
-</ul>
-
-<p><img src="https://user-images.githubusercontent.com/14071105/61512235-383c2d80-aa34-11e9-98d8-abf8c90bfbd2.png" alt="" /></p>
-
-<ul>
-  <li>이전에 <code class="highlighter-rouge">Route53</code>에서 <code class="highlighter-rouge">Hosted Zone</code>을 만들었을 때 생성됐던 네임서버를 모두
-입력합니다.</li>
-  <li>네임서버는 마지막에 <code class="highlighter-rouge">.</code>을 지우고 입력하여야 합니다. 예) 
-<code class="highlighter-rouge">ns-123-awsdns-43.com</code></li>
-  <li>소유자 인증을하고 적용을 누릅니다.</li>
-</ul>
-
-<h2 id="route53에서-record-set만들기">Route53에서 Record Set만들기</h2>
-
-<p><img src="https://user-images.githubusercontent.com/14071105/61512354-9b2dc480-aa34-11e9-8f5f-a39baa28725d.png" alt="" /></p>
-
-<ul>
-  <li>이제 도메인을 연결하는 것은 끝났고 Route53에서 이제 Record set을 만들어
-서비스를 등록하면 됩니다.</li>
-  <li>AWS를 이용해서 도메인을 연결한다면 <code class="highlighter-rouge">2</code>번 <code class="highlighter-rouge">Alias</code>를 <code class="highlighter-rouge">Yes</code>로 선택하여 서비스를
-선택합니다.</li>
+  <li>한 번에 만들지 않고 만들어지는 한 단계 한 단계 작은것을 확인하면서 만들었다. 
+기존에는 한 번에 생각 한것을 통채로 만들고는 했었는데, 차근차근히 내가 작성한 
+코드가 올바르게 동작하는지를 빠른시간안에 확인하고 그 피드백을 보고 다시 
+코드를 작성하면서 프로그램을 만드는게 좋다는 것을 배웠다.</li>
+  <li>짝 프로그래밍을 하다 보니 나와 다르게 문제를 해결하는 것을 보고 다르게
+생각하는 법을 배울 수 있어서 좋았다.</li>
 </ul>
 
 
