@@ -122,7 +122,7 @@
 		<h1>PHP install</h1>
 		<p class="subtitle"></p>
 
-		<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nv">$ </span>brew <span class="nb">install </span>php
+		<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nv">$ </span>brew install php
 <span class="nv">$ </span>php <span class="nt">-v</span>
 </code></pre></div></div>
 
@@ -130,20 +130,20 @@
   <li>만약 설치 중 다음과 같은 에러가 출력된다면</li>
 </ul>
 
-<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Error: The <span class="sb">`</span>brew <span class="nb">link</span><span class="sb">`</span> step did not <span class="nb">complete </span>successfully
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Error: The <span class="sb">`</span>brew link<span class="sb">`</span> step did not <span class="nb">complete </span>successfully
 The formula built, but is not symlinked into /usr/local
 Could not symlink sbin/php-fpm
 /usr/local/sbin is not writable.
 
 You can try again using:
-  brew <span class="nb">link </span>php
+  brew link php
 </code></pre></div></div>
 
 <ul>
   <li>다음과 같이 입력하이 다시 시도할 수 있습니다.</li>
 </ul>
 
-<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nv">$ </span>brew <span class="nb">link </span>php
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nv">$ </span>brew link php
 </code></pre></div></div>
 
 <ul>
@@ -160,8 +160,8 @@ Error: Could not symlink sbin/php-fpm
   <li>따라서 다음과 같이 만들어주고 권한을 설정하면 해결이 됩니다.</li>
 </ul>
 
-<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nv">$ </span><span class="nb">sudo chown</span> <span class="nt">-R</span> <span class="k">$(</span><span class="nb">whoami</span><span class="k">)</span> <span class="k">$(</span>brew <span class="nt">--prefix</span><span class="k">)</span>/sbin
-<span class="nv">$ </span>brew <span class="nb">link </span>php
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nv">$ </span><span class="nb">sudo </span>chown <span class="nt">-R</span> <span class="k">$(</span>whoami<span class="k">)</span> <span class="k">$(</span>brew <span class="nt">--prefix</span><span class="k">)</span>/sbin
+<span class="nv">$ </span>brew link php
 <span class="nv">$ </span>php <span class="nt">-v</span>
 </code></pre></div></div>
 

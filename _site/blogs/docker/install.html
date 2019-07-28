@@ -139,21 +139,21 @@
   <li>혹은 Homebrew Cask를 이용해서 설치할 수 있습니다.</li>
 </ul>
 
-<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>brew cask <span class="nb">install </span>docker
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>brew cask install docker
 </code></pre></div></div>
 
 <h3 id="amazon-ami-2">Amazon AMI 2</h3>
 
 <div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nv">$ </span><span class="nb">sudo </span>yum update <span class="nt">-y</span>
-<span class="nv">$ </span><span class="nb">sudo </span>yum <span class="nb">install</span> <span class="nt">-y</span> docker
+<span class="nv">$ </span><span class="nb">sudo </span>yum install <span class="nt">-y</span> docker
 <span class="nv">$ </span><span class="nb">sudo </span>service docker start
 <span class="nv">$ </span><span class="nb">sudo </span>usermod <span class="nt">-a</span> <span class="nt">-G</span> docker ec2-user
 </code></pre></div></div>
 
 <h4 id="docker-compose-install">Docker-compose install</h4>
 
-<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nv">$ </span><span class="nb">sudo </span>curl <span class="nt">-L</span> <span class="s2">"https://github.com/docker/compose/releases/download/1.24.1/docker-compose-</span><span class="k">$(</span><span class="nb">uname</span> <span class="nt">-s</span><span class="k">)</span><span class="s2">-</span><span class="k">$(</span><span class="nb">uname</span> <span class="nt">-m</span><span class="k">)</span><span class="s2">"</span> <span class="nt">-o</span> /usr/local/bin/docker-compose
-<span class="nv">$ </span><span class="nb">sudo chmod</span> +x /usr/local/bin/docker-compose
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nv">$ </span><span class="nb">sudo </span>curl <span class="nt">-L</span> <span class="s2">"https://github.com/docker/compose/releases/download/1.24.1/docker-compose-</span><span class="k">$(</span>uname <span class="nt">-s</span><span class="k">)</span><span class="s2">-</span><span class="k">$(</span>uname <span class="nt">-m</span><span class="k">)</span><span class="s2">"</span> <span class="nt">-o</span> /usr/local/bin/docker-compose
+<span class="nv">$ </span><span class="nb">sudo </span>chmod +x /usr/local/bin/docker-compose
 </code></pre></div></div>
 
 <h2 id="cli">CLI</h2>
@@ -165,9 +165,9 @@
 </ul>
 
 <div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nv">etc</span><span class="o">=</span>/Applications/Docker.app/Contents/Resources/etc
-<span class="nb">ln</span> <span class="nt">-s</span> <span class="nv">$etc</span>/docker.bash-completion <span class="k">$(</span>brew <span class="nt">--prefix</span><span class="k">)</span>/etc/bash_completion.d/docker
-<span class="nb">ln</span> <span class="nt">-s</span> <span class="nv">$etc</span>/docker-machine.bash-completion <span class="k">$(</span>brew <span class="nt">--prefix</span><span class="k">)</span>/etc/bash_completion.d/docker-machine
-<span class="nb">ln</span> <span class="nt">-s</span> <span class="nv">$etc</span>/docker-compose.bash-completion <span class="k">$(</span>brew <span class="nt">--prefix</span><span class="k">)</span>/etc/bash_completion.d/docker-compose
+ln <span class="nt">-s</span> <span class="nv">$etc</span>/docker.bash-completion <span class="k">$(</span>brew <span class="nt">--prefix</span><span class="k">)</span>/etc/bash_completion.d/docker
+ln <span class="nt">-s</span> <span class="nv">$etc</span>/docker-machine.bash-completion <span class="k">$(</span>brew <span class="nt">--prefix</span><span class="k">)</span>/etc/bash_completion.d/docker-machine
+ln <span class="nt">-s</span> <span class="nv">$etc</span>/docker-compose.bash-completion <span class="k">$(</span>brew <span class="nt">--prefix</span><span class="k">)</span>/etc/bash_completion.d/docker-compose
 </code></pre></div></div>
 
 <ul>

@@ -149,15 +149,15 @@
 </ul>
 
 <div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>// ClassA.spec.php
-<span class="cp">&lt;?php</span>
+&lt;?php
 
-<span class="nx">describe</span><span class="p">(</span><span class="s2">"ToBe"</span><span class="p">,</span> <span class="k">function</span><span class="p">()</span> <span class="p">{</span>
-    <span class="nx">describe</span><span class="p">(</span><span class="s2">"::match()"</span><span class="p">,</span> <span class="k">function</span><span class="p">()</span> <span class="p">{</span>
-        <span class="nx">it</span><span class="p">(</span><span class="s2">"passes if true === true"</span><span class="p">,</span> <span class="k">function</span><span class="p">()</span> <span class="p">{</span>
-            <span class="nx">expect</span><span class="p">(</span><span class="kc">true</span><span class="p">)</span><span class="o">-&gt;</span><span class="na">toBe</span><span class="p">(</span><span class="kc">true</span><span class="p">);</span>
-        <span class="p">});</span>
-    <span class="p">});</span>
-<span class="p">});</span>
+describe("ToBe", function() {
+    describe("::match()", function() {
+        it("passes if true === true", function() {
+            expect(true)-&gt;toBe(true);
+        });
+    });
+});
 </code></pre></div></div>
 
 <div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nv">$ </span>./vendor/bin/kahlan

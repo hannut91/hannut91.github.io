@@ -135,28 +135,28 @@
 
 <span class="k">namespace</span> <span class="nx">src</span><span class="p">;</span>
 
-<span class="c1">// 사용하지 않음 use</span>
-<span class="k">use</span> <span class="nx">src\Util\Logger</span><span class="p">;</span>
-<span class="c1">// 존재하지않는 클래스</span>
-<span class="k">use</span> <span class="nx">src\Util\NotExist</span><span class="p">;</span>
+<span class="c1">// 사용하지 않음 use
+</span><span class="k">use</span> <span class="nx">src\Util\Logger</span><span class="p">;</span>
+<span class="c1">// 존재하지않는 클래스
+</span><span class="k">use</span> <span class="nx">src\Util\NotExist</span><span class="p">;</span>
 
-<span class="c1">// 클래서 다음에 오는 중괄호는 빈줄이 있어야함</span>
-<span class="k">class</span> <span class="nc">Calculator</span> <span class="p">{</span>
-    <span class="c1">// 생성자에서 사용하지 않는 파라미터</span>
-    <span class="c1">// 함수 다음의 중괄호는 빈줄이 있어야함</span>
-    <span class="c1">// 생성자 함수는 퍼블릭으로 선언되어야함</span>
-    <span class="k">function</span> <span class="nf">__construct</span><span class="p">(</span><span class="nv">$a</span><span class="p">)</span> <span class="p">{</span>
+<span class="c1">// 클래서 다음에 오는 중괄호는 빈줄이 있어야함
+</span><span class="k">class</span> <span class="nc">Calculator</span> <span class="p">{</span>
+    <span class="c1">// 생성자에서 사용하지 않는 파라미터
+</span>    <span class="c1">// 함수 다음의 중괄호는 빈줄이 있어야함
+</span>    <span class="c1">// 생성자 함수는 퍼블릭으로 선언되어야함
+</span>    <span class="k">function</span> <span class="nf">__construct</span><span class="p">(</span><span class="nv">$a</span><span class="p">)</span> <span class="p">{</span>
     <span class="p">}</span>
 
-    <span class="c1">// 함수에서 사용하지 않는 파라미터</span>
-    <span class="k">public</span> <span class="k">function</span> <span class="nf">plus</span><span class="p">(</span><span class="nv">$a</span><span class="p">,</span> <span class="nv">$b</span><span class="p">)</span> <span class="p">{</span>
-        <span class="nv">$d</span> <span class="o">=</span> <span class="mi">4</span><span class="p">;</span> <span class="c1">// 사용하지 않는 변수</span>
+    <span class="c1">// 함수에서 사용하지 않는 파라미터
+</span>    <span class="k">public</span> <span class="k">function</span> <span class="nf">plus</span><span class="p">(</span><span class="nv">$a</span><span class="p">,</span> <span class="nv">$b</span><span class="p">)</span> <span class="p">{</span>
+        <span class="nv">$d</span> <span class="o">=</span> <span class="mi">4</span><span class="p">;</span> <span class="c1">// 사용하지 않는 변수
+</span>
+        <span class="k">return</span> <span class="nv">$a</span> <span class="o">+</span> <span class="nv">$c</span><span class="p">;</span> <span class="c1">// 존재하지 않는 변수
+</span>    <span class="p">}</span>
 
-        <span class="k">return</span> <span class="nv">$a</span> <span class="o">+</span> <span class="nv">$c</span><span class="p">;</span> <span class="c1">// 존재하지 않는 변수</span>
-    <span class="p">}</span>
-
-    <span class="c1">// return 타입이 맞지 않음</span>
-    <span class="k">public</span> <span class="k">function</span> <span class="nf">minus</span><span class="p">(</span><span class="nx">int</span> <span class="nv">$a</span><span class="p">)</span><span class="o">:</span> <span class="nx">string</span> <span class="p">{</span>
+    <span class="c1">// return 타입이 맞지 않음
+</span>    <span class="k">public</span> <span class="k">function</span> <span class="nf">minus</span><span class="p">(</span><span class="nx">int</span> <span class="nv">$a</span><span class="p">)</span><span class="o">:</span> <span class="nx">string</span> <span class="p">{</span>
         <span class="k">return</span> <span class="nv">$a</span><span class="p">;</span>
     <span class="p">}</span>
 <span class="p">}</span>
