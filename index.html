@@ -4,12 +4,13 @@ title: 배운 것을 적는 블로그입니다.
 description: 배운 것을 적는 블로그입니다.
 featured_image: /images/social.jpg
 pagination:
-    enabled: true
+  enabled: true
 ---
 
 <section class="listing single">
     <div class="wrap">
-        {% for post in paginator.posts %}
+
+        {% for post in site.blogs %}
 
         <article class="listing-post">
             <div class="listing-post__header">
@@ -26,11 +27,9 @@ pagination:
 
             {% if post.featured_image %}
 
-            <a
-                class="listing-post__image"
-                href="{{ post.url }}"
-                style="background-image: url({{ post.featured_image  }});"
-            ></a>
+            <a class="listing-post__image"
+               href="{{ post.url }}"
+               style="background-image: url({{ post.featured_image  }});"></a>
 
             {% endif %}
 
@@ -42,41 +41,33 @@ pagination:
 
             {% if post.featured_image %}
 
-            <a
-                class="listing-post__image"
-                href="{{ post.url }}"
-                style="background-image: url({{ post.featured_image  }});"
-            ></a>
+            <a class="listing-post__image"
+               href="{{ post.url }}"
+               style="background-image: url({{ post.featured_image  }});"></a>
 
             {% endif %}
         </article>
 
         {% endfor %}
+
     </div>
 </section>
 
 {% if paginator.total_pages > 1 %}
 
 <section class="pagination">
+
     {% if paginator.previous_page %}
     <div class="pagination__prev">
-        <a
-            href="{{ paginator.previous_page_path | prepend: site.baseurl }}"
-            class="button button--large"
-            ><i class="fa fa-angle-left" aria-hidden="true"></i>
-            <span>Newer Posts</span></a
-        >
-    </div>
-    {% endif %} {% if paginator.next_page %}
-    <div class="pagination__next">
-        <a
-            href="{{ paginator.next_page_path | prepend: site.baseurl }}"
-            class="button button--large"
-            ><span>Older Posts</span>
-            <i class="fa fa-angle-right" aria-hidden="true"></i
-        ></a>
+        <a href="{{ paginator.previous_page_path | prepend: site.baseurl }}" class="button button--large"><i class="fa fa-angle-left" aria-hidden="true"></i> <span>Newer Posts</span></a>
     </div>
     {% endif %}
+    {% if paginator.next_page %}
+    <div class="pagination__next">
+        <a href="{{ paginator.next_page_path | prepend: site.baseurl }}" class="button button--large"><span>Older Posts</span> <i class="fa fa-angle-right" aria-hidden="true"></i></a>
+    </div>
+    {% endif %}
+
 </section>
 
 {% endif %}
