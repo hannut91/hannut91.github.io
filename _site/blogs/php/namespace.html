@@ -66,7 +66,7 @@
 </head>
 
 
-<body class="loading ajax-loading" data-site-url="http://localhost:4000" data-page-url="/blogs/php/namespace">
+<body class="loading ajax-loading" data-site-url="http://localhost:4000" data-page-url="/blogs/php/namespace.html">
 
 
 	<header class="header">
@@ -165,7 +165,7 @@
 <p>greeting_en_ns.php</p>
 <div class="language-php highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="cp">&lt;?php</span>
 
-<span class="k">namespace</span> <span class="nx">language\en</span><span class="p">;</span>
+<span class="kn">namespace</span> <span class="nn">language\en</span><span class="p">;</span>
 
 <span class="k">function</span> <span class="nf">welcome</span><span class="p">()</span> <span class="p">{</span>
     <span class="k">return</span> <span class="s1">'Hello world'</span><span class="p">;</span>
@@ -175,7 +175,7 @@
 <p>greeting_ko_ns.php</p>
 <div class="language-php highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="cp">&lt;?php</span>
 
-<span class="k">namespace</span> <span class="nx">language\ko</span><span class="p">;</span>
+<span class="kn">namespace</span> <span class="nn">language\ko</span><span class="p">;</span>
 
 <span class="k">function</span> <span class="nf">welcome</span><span class="p">()</span> <span class="p">{</span>
     <span class="k">return</span> <span class="s1">'안녕 세상아'</span><span class="p">;</span>
@@ -202,18 +202,18 @@
 <h3 id="example-1">Example #1</h3>
 
 <div class="language-php highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="cp">&lt;?php</span>
-<span class="k">namespace</span> <span class="nx">MyProject</span><span class="p">;</span>
+<span class="kn">namespace</span> <span class="nn">MyProject</span><span class="p">;</span>
 
 <span class="k">const</span> <span class="no">CONNECT_OK</span> <span class="o">=</span> <span class="mi">1</span><span class="p">;</span>
-<span class="k">class</span> <span class="nc">Connection</span> <span class="p">{</span> <span class="cm">/* ... */</span> <span class="p">}</span>
+<span class="kd">class</span> <span class="nc">Connection</span> <span class="p">{</span> <span class="cm">/* ... */</span> <span class="p">}</span>
 <span class="k">function</span> <span class="nf">connect</span><span class="p">()</span> <span class="p">{</span> <span class="cm">/* ... */</span>  <span class="p">}</span>
 </code></pre></div></div>
 
 <h3 id="example-2">Example #2</h3>
 
 <div class="language-php highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="cp">&lt;?php</span>
-<span class="k">namespace</span> <span class="nx">MyProject</span><span class="p">;</span> <span class="c1">// fatal error - namespace must be the first statement in the script
-</span></code></pre></div></div>
+<span class="kn">namespace</span> <span class="nn">MyProject</span><span class="p">;</span> <span class="c1">// fatal error - namespace must be the first statement in the script</span>
+</code></pre></div></div>
 
 <h2 id="declaring-sub-namespaces">Declaring sub-namespaces</h2>
 
@@ -225,10 +225,10 @@
 <h3 id="example-1-1">Example #1</h3>
 
 <div class="language-php highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="cp">&lt;?php</span>
-<span class="k">namespace</span> <span class="nx">MyProject\Sub\Level</span><span class="p">;</span>
+<span class="kn">namespace</span> <span class="nn">MyProject\Sub\Level</span><span class="p">;</span>
 
 <span class="k">const</span> <span class="no">CONNECT_OK</span> <span class="o">=</span> <span class="mi">1</span><span class="p">;</span>
-<span class="k">class</span> <span class="nc">Connection</span> <span class="p">{</span> <span class="cm">/* ... */</span> <span class="p">}</span>
+<span class="kd">class</span> <span class="nc">Connection</span> <span class="p">{</span> <span class="cm">/* ... */</span> <span class="p">}</span>
 <span class="k">function</span> <span class="nf">connect</span><span class="p">()</span> <span class="p">{</span> <span class="cm">/* ... */</span>  <span class="p">}</span>
 </code></pre></div></div>
 
@@ -251,13 +251,13 @@
 <p>greeting_langs.php</p>
 <div class="language-php highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="cp">&lt;?php</span>
 
-<span class="k">namespace</span> <span class="nx">language\en</span><span class="p">;</span>
+<span class="kn">namespace</span> <span class="nn">language\en</span><span class="p">;</span>
 
 <span class="k">function</span> <span class="nf">welcome</span><span class="p">()</span> <span class="p">{</span>
     <span class="k">return</span> <span class="s1">'Hello world'</span><span class="p">;</span>
 <span class="p">}</span>
 
-<span class="k">namespace</span> <span class="nx">language\ko</span><span class="p">;</span>
+<span class="kn">namespace</span> <span class="nn">language\ko</span><span class="p">;</span>
 
 <span class="k">function</span> <span class="nf">welcome</span><span class="p">()</span> <span class="p">{</span>
     <span class="k">return</span> <span class="s1">'안녕 세상아'</span><span class="p">;</span>
@@ -271,13 +271,13 @@
 
 <div class="language-php highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="cp">&lt;?php</span>
 
-<span class="k">namespace</span> <span class="nx">language\en</span> <span class="p">{</span>
+<span class="kn">namespace</span> <span class="nn">language\en</span> <span class="p">{</span>
     <span class="k">function</span> <span class="nf">welcome</span><span class="p">()</span> <span class="p">{</span>
         <span class="k">return</span> <span class="s1">'Hello world'</span><span class="p">;</span>
     <span class="p">}</span>
 <span class="p">}</span>
 
-<span class="k">namespace</span> <span class="nx">language\ko</span> <span class="p">{</span>
+<span class="kn">namespace</span> <span class="nn">language\ko</span> <span class="p">{</span>
     <span class="k">function</span> <span class="nf">welcome</span><span class="p">()</span> <span class="p">{</span>
         <span class="k">return</span> <span class="s1">'안녕 세상아'</span><span class="p">;</span>
     <span class="p">}</span>
@@ -308,82 +308,82 @@
     }
 }</p>
 <div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>
-## Using namespaces: Basics
+<span class="c1">## Using namespaces: Basics</span>
 
-* PHP가 네임 스페이스로 구분 된 요소를 어떻게 요구 하는지를 이해하는 것이 
-  중요합니다.
-* namespace와 파일시스템을 비교하여 생각해봅시다.
+<span class="o">*</span> <span class="nx">PHP가</span> <span class="nx">네임</span> <span class="nx">스페이스로</span> <span class="nx">구분</span> <span class="nx">된</span> <span class="nx">요소를</span> <span class="nx">어떻게</span> <span class="nx">요구</span> <span class="nx">하는지를</span> <span class="nx">이해하는</span> <span class="nx">것이</span> 
+  <span class="nx">중요합니다</span><span class="o">.</span>
+<span class="o">*</span> <span class="nx">namespace와</span> <span class="nx">파일시스템을</span> <span class="nx">비교하여</span> <span class="nx">생각해봅시다</span><span class="o">.</span>
 
-1. `file.txt`같은 상대경로 파일이름의 경우 `currentdirectory/foo.txt`로
-   해석됩니다. 만약 현재 위치가 `/home/foo`일 경우 `/home/foo/foo.txt`로
-   해석됩니다.
-2. `subdirectory/foo.txt`의 경우 `currentdirectory/subdirectory/foo.txt`로
-   해석됩니다.
-3. 절대경로인 `/main/foo.txt`는 `/main/foo.txt`로 해석됩니다.
+<span class="mf">1.</span> <span class="sb">`file.txt`</span><span class="nx">같은</span> <span class="nx">상대경로</span> <span class="nx">파일이름의</span> <span class="nx">경우</span> <span class="sb">`currentdirectory/foo.txt`</span><span class="nx">로</span>
+   <span class="nx">해석됩니다</span><span class="o">.</span> <span class="nx">만약</span> <span class="nx">현재</span> <span class="nx">위치가</span> <span class="sb">`/home/foo`</span><span class="nx">일</span> <span class="nx">경우</span> <span class="sb">`/home/foo/foo.txt`</span><span class="nx">로</span>
+   <span class="nx">해석됩니다</span><span class="o">.</span>
+<span class="mf">2.</span> <span class="sb">`subdirectory/foo.txt`</span><span class="nx">의</span> <span class="nx">경우</span> <span class="sb">`currentdirectory/subdirectory/foo.txt`</span><span class="nx">로</span>
+   <span class="nx">해석됩니다</span><span class="o">.</span>
+<span class="mf">3.</span> <span class="nx">절대경로인</span> <span class="sb">`/main/foo.txt`</span><span class="nx">는</span> <span class="sb">`/main/foo.txt`</span><span class="nx">로</span> <span class="nx">해석됩니다</span><span class="o">.</span>
 
-* 같은 원리로 PHP namespace에도 적용이 될 수 있습니다.
+<span class="o">*</span> <span class="nx">같은</span> <span class="nx">원리로</span> <span class="nx">PHP</span> <span class="nx">namespace에도</span> <span class="nx">적용이</span> <span class="nx">될</span> <span class="nx">수</span> <span class="nx">있습니다</span><span class="o">.</span>
 
-1. `prefix`없이 사용될 때, 예를 들면 `$a = new foo()` 혹은 
-  `foo::staticmethod()`
-  * 만약 현재 namespace를 `currentnamespace`라고 한다면
-    `currentanmespace\foo`로 해석합니다.
-  * 만약 현재 namespace에서 정의되어있지 않은 경우 global변수로 해석합니다.
-2. `$a = new subnamespace\foo()` 혹은 `subnamespace\foo::staticmethod()` 일
-   경우
-  * 현재 namespace가 `currentnamespace`일 때
-    `currentnamespace\subnamespace\foo` 로 해석합니다.
+<span class="mf">1.</span> <span class="sb">`prefix`</span><span class="nx">없이</span> <span class="nx">사용될</span> <span class="nx">때</span><span class="p">,</span> <span class="nx">예를</span> <span class="nx">들면</span> <span class="sb">`$a = new foo()`</span> <span class="nx">혹은</span> 
+  <span class="sb">`foo::staticmethod()`</span>
+  <span class="o">*</span> <span class="nx">만약</span> <span class="nx">현재</span> <span class="nx">namespace를</span> <span class="sb">`currentnamespace`</span><span class="nx">라고</span> <span class="nx">한다면</span>
+    <span class="sb">`currentanmespace\foo`</span><span class="nx">로</span> <span class="nx">해석합니다</span><span class="o">.</span>
+  <span class="o">*</span> <span class="nx">만약</span> <span class="nx">현재</span> <span class="nx">namespace에서</span> <span class="nx">정의되어있지</span> <span class="nx">않은</span> <span class="nx">경우</span> <span class="nx">global변수로</span> <span class="nx">해석합니다</span><span class="o">.</span>
+<span class="mf">2.</span> <span class="sb">`$a = new subnamespace\foo()`</span> <span class="nx">혹은</span> <span class="sb">`subnamespace\foo::staticmethod()`</span> <span class="nx">일</span>
+   <span class="nx">경우</span>
+  <span class="o">*</span> <span class="nx">현재</span> <span class="nx">namespace가</span> <span class="sb">`currentnamespace`</span><span class="nx">일</span> <span class="nx">때</span>
+    <span class="sb">`currentnamespace\subnamespace\foo`</span> <span class="nx">로</span> <span class="nx">해석합니다</span><span class="o">.</span>
 
-  * 만약 namespace가 정의되어있지 않은 경우에는 `subnamespace\foo`로
-    해석합니다.
-3. `$a = new \currentnamespace\foo()` 혹은
-   `\currentnamespace\foo::staticmethod();`일 경우에는
-  *  이것은 항상 `currentnamespace\foo`로 해석됩니다.
+  <span class="o">*</span> <span class="nx">만약</span> <span class="nx">namespace가</span> <span class="nx">정의되어있지</span> <span class="nx">않은</span> <span class="nx">경우에는</span> <span class="sb">`subnamespace\foo`</span><span class="nx">로</span>
+    <span class="nx">해석합니다</span><span class="o">.</span>
+<span class="mf">3.</span> <span class="sb">`$a = new \currentnamespace\foo()`</span> <span class="nx">혹은</span>
+   <span class="sb">`\currentnamespace\foo::staticmethod();`</span><span class="nx">일</span> <span class="nx">경우에는</span>
+  <span class="o">*</span>  <span class="nx">이것은</span> <span class="nx">항상</span> <span class="sb">`currentnamespace\foo`</span><span class="nx">로</span> <span class="nx">해석됩니다</span><span class="o">.</span>
 
-### Example #1
+<span class="c1">### Example #1</span>
 
-file1.php
-```php
-&lt;?php
-namespace Foo\Bar\subnamespace;
+<span class="nx">file1</span><span class="o">.</span><span class="nx">php</span>
+<span class="sb">``</span><span class="err">`</span><span class="nx">php</span>
+<span class="o">&lt;?</span><span class="nx">php</span>
+<span class="kn">namespace</span> <span class="nn">Foo\Bar\subnamespace</span><span class="p">;</span>
 
-const FOO = 1;
-function foo() {}
-class foo
-{
-    static function staticmethod() {}
-}
+<span class="k">const</span> <span class="no">FOO</span> <span class="o">=</span> <span class="mi">1</span><span class="p">;</span>
+<span class="k">function</span> <span class="nf">foo</span><span class="p">()</span> <span class="p">{}</span>
+<span class="kd">class</span> <span class="nc">foo</span>
+<span class="p">{</span>
+    <span class="k">static</span> <span class="k">function</span> <span class="nf">staticmethod</span><span class="p">()</span> <span class="p">{}</span>
+<span class="p">}</span>
 </code></pre></div></div>
 
 <p>file2.php</p>
 <div class="language-php highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="cp">&lt;?php</span>
 
-<span class="k">namespace</span> <span class="nx">Foo\Bar</span><span class="p">;</span>
+<span class="kn">namespace</span> <span class="nn">Foo\Bar</span><span class="p">;</span>
 
 <span class="k">include</span> <span class="s1">'file1.php'</span><span class="p">;</span>
 
 <span class="k">const</span> <span class="no">FOO</span> <span class="o">=</span> <span class="mi">2</span><span class="p">;</span>
 <span class="k">function</span> <span class="nf">foo</span><span class="p">()</span> <span class="p">{}</span>
-<span class="k">class</span> <span class="nc">foo</span>
+<span class="kd">class</span> <span class="nc">foo</span>
 <span class="p">{</span>
     <span class="k">static</span> <span class="k">function</span> <span class="nf">staticmethod</span><span class="p">()</span> <span class="p">{}</span>
 <span class="p">}</span>
 
 <span class="cm">/* Unqualified name */</span>
-<span class="nx">foo</span><span class="p">();</span> <span class="c1">// resolves to function Foo\Bar\foo
-</span><span class="nx">foo</span><span class="o">::</span><span class="na">staticmethod</span><span class="p">();</span> <span class="c1">// resolves to class Foo\Bar\foo, method staticmethod
-</span><span class="k">echo</span> <span class="nx">FOO</span><span class="p">;</span> <span class="c1">// resolves to constant Foo\Bar\FOO
-</span>
+<span class="nx">foo</span><span class="p">();</span> <span class="c1">// resolves to function Foo\Bar\foo</span>
+<span class="nx">foo</span><span class="o">::</span><span class="na">staticmethod</span><span class="p">();</span> <span class="c1">// resolves to class Foo\Bar\foo, method staticmethod</span>
+<span class="k">echo</span> <span class="nx">FOO</span><span class="p">;</span> <span class="c1">// resolves to constant Foo\Bar\FOO</span>
+
 <span class="cm">/* Qualified name */</span>
-<span class="nx">subnamespace\foo</span><span class="p">();</span> <span class="c1">// resolves to function Foo\Bar\subnamespace\foo
-</span><span class="nx">subnamespace\foo</span><span class="o">::</span><span class="na">staticmethod</span><span class="p">();</span> <span class="c1">// resolves to class Foo\Bar\subnamespace\foo,
-</span>                                  <span class="c1">// method staticmethod
-</span><span class="k">echo</span> <span class="nx">subnamespace\FOO</span><span class="p">;</span> <span class="c1">// resolves to constant Foo\Bar\subnamespace\FOO
-</span>                                  
+<span class="nx">subnamespace\foo</span><span class="p">();</span> <span class="c1">// resolves to function Foo\Bar\subnamespace\foo</span>
+<span class="nx">subnamespace\foo</span><span class="o">::</span><span class="na">staticmethod</span><span class="p">();</span> <span class="c1">// resolves to class Foo\Bar\subnamespace\foo,</span>
+                                  <span class="c1">// method staticmethod</span>
+<span class="k">echo</span> <span class="nx">subnamespace\FOO</span><span class="p">;</span> <span class="c1">// resolves to constant Foo\Bar\subnamespace\FOO</span>
+                                  
 <span class="cm">/* Fully qualified name */</span>
-<span class="nx">\Foo\Bar\foo</span><span class="p">();</span> <span class="c1">// resolves to function Foo\Bar\foo
-</span><span class="nx">\Foo\Bar\foo</span><span class="o">::</span><span class="na">staticmethod</span><span class="p">();</span> <span class="c1">// resolves to class Foo\Bar\foo, method staticmethod
-</span><span class="k">echo</span> <span class="nx">\Foo\Bar\FOO</span><span class="p">;</span> <span class="c1">// resolves to constant Foo\Bar\FOO
-</span><span class="cp">?&gt;</span>
+<span class="nx">\Foo\Bar\foo</span><span class="p">();</span> <span class="c1">// resolves to function Foo\Bar\foo</span>
+<span class="nx">\Foo\Bar\foo</span><span class="o">::</span><span class="na">staticmethod</span><span class="p">();</span> <span class="c1">// resolves to class Foo\Bar\foo, method staticmethod</span>
+<span class="k">echo</span> <span class="nx">\Foo\Bar\FOO</span><span class="p">;</span> <span class="c1">// resolves to constant Foo\Bar\FOO</span>
+<span class="cp">?&gt;</span>
 </code></pre></div></div>
 
 <h3 id="example-2-1">Example #2</h3>
@@ -394,16 +394,16 @@ class foo
 </ul>
 
 <div class="language-php highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="cp">&lt;?php</span>
-<span class="k">namespace</span> <span class="nx">Foo</span><span class="p">;</span>
+<span class="kn">namespace</span> <span class="nn">Foo</span><span class="p">;</span>
 
 <span class="k">function</span> <span class="nf">strlen</span><span class="p">()</span> <span class="p">{}</span>
 <span class="k">const</span> <span class="no">INI_ALL</span> <span class="o">=</span> <span class="mi">3</span><span class="p">;</span>
-<span class="k">class</span> <span class="nc">Exception</span> <span class="p">{}</span>
+<span class="kd">class</span> <span class="nc">Exception</span> <span class="p">{}</span>
 
-<span class="nv">$a</span> <span class="o">=</span> <span class="nx">\strlen</span><span class="p">(</span><span class="s1">'hi'</span><span class="p">);</span> <span class="c1">// calls global function strlen
-</span><span class="nv">$b</span> <span class="o">=</span> <span class="nx">\INI_ALL</span><span class="p">;</span> <span class="c1">// accesses global constant INI_ALL
-</span><span class="nv">$c</span> <span class="o">=</span> <span class="k">new</span> <span class="nx">\Exception</span><span class="p">(</span><span class="s1">'error'</span><span class="p">);</span> <span class="c1">// instantiates global class Exception
-</span><span class="cp">?&gt;</span>
+<span class="nv">$a</span> <span class="o">=</span> <span class="nx">\strlen</span><span class="p">(</span><span class="s1">'hi'</span><span class="p">);</span> <span class="c1">// calls global function strlen</span>
+<span class="nv">$b</span> <span class="o">=</span> <span class="nx">\INI_ALL</span><span class="p">;</span> <span class="c1">// accesses global constant INI_ALL</span>
+<span class="nv">$c</span> <span class="o">=</span> <span class="k">new</span> <span class="nx">\Exception</span><span class="p">(</span><span class="s1">'error'</span><span class="p">);</span> <span class="c1">// instantiates global class Exception</span>
+<span class="cp">?&gt;</span>
 </code></pre></div></div>
 
 <h2 id="namespaces-and-dynamic-language-features">Namespaces and dynamic language features</h2>
@@ -417,7 +417,7 @@ class foo
 <p>example1.php</p>
 <div class="language-php highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="cp">&lt;?php</span>
 
-<span class="k">class</span> <span class="nc">classname</span>
+<span class="kd">class</span> <span class="nc">classname</span>
 <span class="p">{</span>
     <span class="k">function</span> <span class="nf">__construct</span><span class="p">()</span>
     <span class="p">{</span>
@@ -433,19 +433,19 @@ class foo
 <span class="k">const</span> <span class="no">constname</span> <span class="o">=</span> <span class="s2">"global"</span><span class="p">;</span>
 
 <span class="nv">$a</span> <span class="o">=</span> <span class="s1">'classname'</span><span class="p">;</span>
-<span class="nv">$obj</span> <span class="o">=</span> <span class="k">new</span> <span class="nv">$a</span><span class="p">;</span> <span class="c1">// prints classname::__construct
-</span><span class="nv">$b</span> <span class="o">=</span> <span class="s1">'funcname'</span><span class="p">;</span>
-<span class="nv">$b</span><span class="p">();</span> <span class="c1">// prints funcname
-</span><span class="k">echo</span> <span class="nb">constant</span><span class="p">(</span><span class="s1">'constname'</span><span class="p">),</span> <span class="s2">"</span><span class="se">\n</span><span class="s2">"</span><span class="p">;</span> <span class="c1">// prints global
-</span><span class="cp">?&gt;</span>
+<span class="nv">$obj</span> <span class="o">=</span> <span class="k">new</span> <span class="nv">$a</span><span class="p">;</span> <span class="c1">// prints classname::__construct</span>
+<span class="nv">$b</span> <span class="o">=</span> <span class="s1">'funcname'</span><span class="p">;</span>
+<span class="nv">$b</span><span class="p">();</span> <span class="c1">// prints funcname</span>
+<span class="k">echo</span> <span class="nb">constant</span><span class="p">(</span><span class="s1">'constname'</span><span class="p">),</span> <span class="s2">"</span><span class="se">\n</span><span class="s2">"</span><span class="p">;</span> <span class="c1">// prints global</span>
+<span class="cp">?&gt;</span>
 * 
 </code></pre></div></div>
 
 <h3 id="example-2-2">Example #2</h3>
 
 <div class="language-php highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="cp">&lt;?php</span>
-<span class="k">namespace</span> <span class="nx">namespacename</span><span class="p">;</span>
-<span class="k">class</span> <span class="nc">classname</span>
+<span class="kn">namespace</span> <span class="nn">namespacename</span><span class="p">;</span>
+<span class="kd">class</span> <span class="nc">classname</span>
 <span class="p">{</span>
     <span class="k">function</span> <span class="nf">__construct</span><span class="p">()</span>
     <span class="p">{</span>
@@ -461,23 +461,23 @@ class foo
 <span class="k">include</span> <span class="s1">'example1.php'</span><span class="p">;</span>
 
 <span class="nv">$a</span> <span class="o">=</span> <span class="s1">'classname'</span><span class="p">;</span>
-<span class="nv">$obj</span> <span class="o">=</span> <span class="k">new</span> <span class="nv">$a</span><span class="p">;</span> <span class="c1">// prints classname::__construct
-</span><span class="nv">$b</span> <span class="o">=</span> <span class="s1">'funcname'</span><span class="p">;</span>
-<span class="nv">$b</span><span class="p">();</span> <span class="c1">// prints funcname
-</span><span class="k">echo</span> <span class="nb">constant</span><span class="p">(</span><span class="s1">'constname'</span><span class="p">),</span> <span class="s2">"</span><span class="se">\n</span><span class="s2">"</span><span class="p">;</span> <span class="c1">// prints global
-</span>
+<span class="nv">$obj</span> <span class="o">=</span> <span class="k">new</span> <span class="nv">$a</span><span class="p">;</span> <span class="c1">// prints classname::__construct</span>
+<span class="nv">$b</span> <span class="o">=</span> <span class="s1">'funcname'</span><span class="p">;</span>
+<span class="nv">$b</span><span class="p">();</span> <span class="c1">// prints funcname</span>
+<span class="k">echo</span> <span class="nb">constant</span><span class="p">(</span><span class="s1">'constname'</span><span class="p">),</span> <span class="s2">"</span><span class="se">\n</span><span class="s2">"</span><span class="p">;</span> <span class="c1">// prints global</span>
+
 <span class="cm">/* note that if using double quotes, "\\namespacename\\classname" must be used */</span>
 <span class="nv">$a</span> <span class="o">=</span> <span class="s1">'\namespacename\classname'</span><span class="p">;</span>
-<span class="nv">$obj</span> <span class="o">=</span> <span class="k">new</span> <span class="nv">$a</span><span class="p">;</span> <span class="c1">// prints namespacename\classname::__construct
-</span><span class="nv">$a</span> <span class="o">=</span> <span class="s1">'namespacename\classname'</span><span class="p">;</span>
-<span class="nv">$obj</span> <span class="o">=</span> <span class="k">new</span> <span class="nv">$a</span><span class="p">;</span> <span class="c1">// also prints namespacename\classname::__construct
-</span><span class="nv">$b</span> <span class="o">=</span> <span class="s1">'namespacename\funcname'</span><span class="p">;</span>
-<span class="nv">$b</span><span class="p">();</span> <span class="c1">// prints namespacename\funcname
-</span><span class="nv">$b</span> <span class="o">=</span> <span class="s1">'\namespacename\funcname'</span><span class="p">;</span>
-<span class="nv">$b</span><span class="p">();</span> <span class="c1">// also prints namespacename\funcname
-</span><span class="k">echo</span> <span class="nb">constant</span><span class="p">(</span><span class="s1">'\namespacename\constname'</span><span class="p">),</span> <span class="s2">"</span><span class="se">\n</span><span class="s2">"</span><span class="p">;</span> <span class="c1">// prints namespaced
-</span><span class="k">echo</span> <span class="nb">constant</span><span class="p">(</span><span class="s1">'namespacename\constname'</span><span class="p">),</span> <span class="s2">"</span><span class="se">\n</span><span class="s2">"</span><span class="p">;</span> <span class="c1">// also prints namespaced
-</span><span class="cp">?&gt;</span>
+<span class="nv">$obj</span> <span class="o">=</span> <span class="k">new</span> <span class="nv">$a</span><span class="p">;</span> <span class="c1">// prints namespacename\classname::__construct</span>
+<span class="nv">$a</span> <span class="o">=</span> <span class="s1">'namespacename\classname'</span><span class="p">;</span>
+<span class="nv">$obj</span> <span class="o">=</span> <span class="k">new</span> <span class="nv">$a</span><span class="p">;</span> <span class="c1">// also prints namespacename\classname::__construct</span>
+<span class="nv">$b</span> <span class="o">=</span> <span class="s1">'namespacename\funcname'</span><span class="p">;</span>
+<span class="nv">$b</span><span class="p">();</span> <span class="c1">// prints namespacename\funcname</span>
+<span class="nv">$b</span> <span class="o">=</span> <span class="s1">'\namespacename\funcname'</span><span class="p">;</span>
+<span class="nv">$b</span><span class="p">();</span> <span class="c1">// also prints namespacename\funcname</span>
+<span class="k">echo</span> <span class="nb">constant</span><span class="p">(</span><span class="s1">'\namespacename\constname'</span><span class="p">),</span> <span class="s2">"</span><span class="se">\n</span><span class="s2">"</span><span class="p">;</span> <span class="c1">// prints namespaced</span>
+<span class="k">echo</span> <span class="nb">constant</span><span class="p">(</span><span class="s1">'namespacename\constname'</span><span class="p">),</span> <span class="s2">"</span><span class="se">\n</span><span class="s2">"</span><span class="p">;</span> <span class="c1">// also prints namespaced</span>
+<span class="cp">?&gt;</span>
 </code></pre></div></div>
 
 <h2 id="usting-namespaces-aliasingimporting">Usting namespaces: Aliasing/Importing</h2>

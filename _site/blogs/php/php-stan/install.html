@@ -66,7 +66,7 @@
 </head>
 
 
-<body class="loading ajax-loading" data-site-url="http://localhost:4000" data-page-url="/blogs/php/php-stan/install">
+<body class="loading ajax-loading" data-site-url="http://localhost:4000" data-page-url="/blogs/php/php-stan/install.html">
 
 
 	<header class="header">
@@ -178,7 +178,7 @@ Installation failed, reverting ./composer.json to its original content.
   <li><code class="highlighter-rouge">phpbrew</code>를 사용하고 있을 경우 다음과 같이 설치합니다.</li>
 </ul>
 
-<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>phpbrew ext install iconv
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>phpbrew ext <span class="nb">install </span>iconv
 </code></pre></div></div>
 
 <ul>
@@ -188,14 +188,14 @@ Installation failed, reverting ./composer.json to its original content.
 <div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Error: Command failed: ./configure <span class="nt">--with-php-config</span><span class="o">=</span>/Users/yunseok/.phpbrew/php/php-7.3.0/bin/php-config <span class="o">&gt;&gt;</span> /Users/yunseok/.phpbrew/build/php-7.3.0/ext/iconv/build.log 2&gt;&amp;1 returns:
 
 <span class="c"># in build.log</span>
-configure: error: Please specify the install prefix of iconv with <span class="nt">--with-iconv</span><span class="o">=</span>&lt;DIR&gt;
+configure: error: Please specify the <span class="nb">install </span>prefix of iconv with <span class="nt">--with-iconv</span><span class="o">=</span>&lt;DIR&gt;
 </code></pre></div></div>
 
 <ul>
   <li>에러를 확인했는데 위와 같다면 <code class="highlighter-rouge">iconv</code>를 빌드하여 경로를 지정해주어야 합니다.</li>
 </ul>
 
-<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>phpbrew ext install iconv <span class="nt">--with-iconv</span><span class="o">=</span>&lt;DIR&gt;
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>phpbrew ext <span class="nb">install </span>iconv <span class="nt">--with-iconv</span><span class="o">=</span>&lt;DIR&gt;
 </code></pre></div></div>
 
 <ul>
@@ -206,7 +206,7 @@ configure: error: Please specify the install prefix of iconv with <span class="n
 
 <div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>./configure <span class="nt">--prefix</span><span class="o">=</span>/usr/local
 make
-make install
+make <span class="nb">install</span>
 </code></pre></div></div>
 
 <ul>
@@ -214,7 +214,7 @@ make install
 진행됩니다.</li>
 </ul>
 
-<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>phpbrew ext install iconv <span class="nt">--with-iconv</span><span class="o">=</span>&lt;DIR&gt;
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>phpbrew ext <span class="nb">install </span>iconv <span class="nt">--with-iconv</span><span class="o">=</span>&lt;DIR&gt;
 </code></pre></div></div>
 
 <ul>

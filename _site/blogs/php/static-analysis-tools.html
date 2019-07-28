@@ -66,7 +66,7 @@
 </head>
 
 
-<body class="loading ajax-loading" data-site-url="http://localhost:4000" data-page-url="/blogs/php/static-analysis-tools">
+<body class="loading ajax-loading" data-site-url="http://localhost:4000" data-page-url="/blogs/php/static-analysis-tools.html">
 
 
 	<header class="header">
@@ -133,30 +133,30 @@
 <p>src/Calculator.php</p>
 <div class="language-php highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="cp">&lt;?php</span>
 
-<span class="k">namespace</span> <span class="nx">src</span><span class="p">;</span>
+<span class="kn">namespace</span> <span class="nn">src</span><span class="p">;</span>
 
-<span class="c1">// 사용하지 않음 use
-</span><span class="k">use</span> <span class="nx">src\Util\Logger</span><span class="p">;</span>
-<span class="c1">// 존재하지않는 클래스
-</span><span class="k">use</span> <span class="nx">src\Util\NotExist</span><span class="p">;</span>
+<span class="c1">// 사용하지 않음 use</span>
+<span class="kn">use</span> <span class="nn">src\Util\Logger</span><span class="p">;</span>
+<span class="c1">// 존재하지않는 클래스</span>
+<span class="kn">use</span> <span class="nn">src\Util\NotExist</span><span class="p">;</span>
 
-<span class="c1">// 클래서 다음에 오는 중괄호는 빈줄이 있어야함
-</span><span class="k">class</span> <span class="nc">Calculator</span> <span class="p">{</span>
-    <span class="c1">// 생성자에서 사용하지 않는 파라미터
-</span>    <span class="c1">// 함수 다음의 중괄호는 빈줄이 있어야함
-</span>    <span class="c1">// 생성자 함수는 퍼블릭으로 선언되어야함
-</span>    <span class="k">function</span> <span class="nf">__construct</span><span class="p">(</span><span class="nv">$a</span><span class="p">)</span> <span class="p">{</span>
+<span class="c1">// 클래서 다음에 오는 중괄호는 빈줄이 있어야함</span>
+<span class="kd">class</span> <span class="nc">Calculator</span> <span class="p">{</span>
+    <span class="c1">// 생성자에서 사용하지 않는 파라미터</span>
+    <span class="c1">// 함수 다음의 중괄호는 빈줄이 있어야함</span>
+    <span class="c1">// 생성자 함수는 퍼블릭으로 선언되어야함</span>
+    <span class="k">function</span> <span class="nf">__construct</span><span class="p">(</span><span class="nv">$a</span><span class="p">)</span> <span class="p">{</span>
     <span class="p">}</span>
 
-    <span class="c1">// 함수에서 사용하지 않는 파라미터
-</span>    <span class="k">public</span> <span class="k">function</span> <span class="nf">plus</span><span class="p">(</span><span class="nv">$a</span><span class="p">,</span> <span class="nv">$b</span><span class="p">)</span> <span class="p">{</span>
-        <span class="nv">$d</span> <span class="o">=</span> <span class="mi">4</span><span class="p">;</span> <span class="c1">// 사용하지 않는 변수
-</span>
-        <span class="k">return</span> <span class="nv">$a</span> <span class="o">+</span> <span class="nv">$c</span><span class="p">;</span> <span class="c1">// 존재하지 않는 변수
-</span>    <span class="p">}</span>
+    <span class="c1">// 함수에서 사용하지 않는 파라미터</span>
+    <span class="k">public</span> <span class="k">function</span> <span class="nf">plus</span><span class="p">(</span><span class="nv">$a</span><span class="p">,</span> <span class="nv">$b</span><span class="p">)</span> <span class="p">{</span>
+        <span class="nv">$d</span> <span class="o">=</span> <span class="mi">4</span><span class="p">;</span> <span class="c1">// 사용하지 않는 변수</span>
 
-    <span class="c1">// return 타입이 맞지 않음
-</span>    <span class="k">public</span> <span class="k">function</span> <span class="nf">minus</span><span class="p">(</span><span class="nx">int</span> <span class="nv">$a</span><span class="p">)</span><span class="o">:</span> <span class="nx">string</span> <span class="p">{</span>
+        <span class="k">return</span> <span class="nv">$a</span> <span class="o">+</span> <span class="nv">$c</span><span class="p">;</span> <span class="c1">// 존재하지 않는 변수</span>
+    <span class="p">}</span>
+
+    <span class="c1">// return 타입이 맞지 않음</span>
+    <span class="k">public</span> <span class="k">function</span> <span class="nf">minus</span><span class="p">(</span><span class="nx">int</span> <span class="nv">$a</span><span class="p">)</span><span class="o">:</span> <span class="nx">string</span> <span class="p">{</span>
         <span class="k">return</span> <span class="nv">$a</span><span class="p">;</span>
     <span class="p">}</span>
 <span class="p">}</span>
@@ -165,9 +165,9 @@
 <p>src/Util/Logger.php</p>
 <div class="language-php highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="cp">&lt;?php</span>
 
-<span class="k">namespace</span> <span class="nx">src\Util</span><span class="p">;</span>
+<span class="kn">namespace</span> <span class="nn">src\Util</span><span class="p">;</span>
 
-<span class="k">class</span> <span class="nc">Logger</span> <span class="p">{</span>
+<span class="kd">class</span> <span class="nc">Logger</span> <span class="p">{</span>
     <span class="k">function</span> <span class="nf">log</span><span class="p">(</span><span class="nv">$a</span><span class="p">)</span> <span class="p">{</span>
         <span class="k">echo</span> <span class="nv">$a</span><span class="p">;</span>
     <span class="p">}</span>
@@ -200,7 +200,7 @@
 
 <div class="language-php highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="cp">&lt;?php</span>
 
-<span class="k">use</span> <span class="nx">Phan\Issue</span><span class="p">;</span>
+<span class="kn">use</span> <span class="nn">Phan\Issue</span><span class="p">;</span>
 
 <span class="k">return</span> <span class="p">[</span>
     <span class="s1">'target_php_version'</span> <span class="o">=&gt;</span> <span class="k">NULL</span><span class="p">,</span>

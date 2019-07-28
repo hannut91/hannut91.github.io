@@ -66,7 +66,7 @@
 </head>
 
 
-<body class="loading ajax-loading" data-site-url="http://localhost:4000" data-page-url="/blogs/webpack/concepts/02.entry-points">
+<body class="loading ajax-loading" data-site-url="http://localhost:4000" data-page-url="/blogs/webpack/concepts/02.entry-points.html">
 
 
 	<header class="header">
@@ -131,7 +131,7 @@
 
 <p>webpack.config.js</p>
 <div class="language-js highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nx">module</span><span class="p">.</span><span class="nx">exports</span> <span class="o">=</span> <span class="p">{</span>
-  <span class="na">entry</span><span class="p">:</span> <span class="s1">'./path/to/my/entry/file.js'</span>
+  <span class="na">entry</span><span class="p">:</span> <span class="dl">'</span><span class="s1">./path/to/my/entry/file.js</span><span class="dl">'</span>
 <span class="p">};</span>
 </code></pre></div></div>
 
@@ -155,8 +155,8 @@
 <p>webpack.config.js</p>
 <div class="language-js highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nx">module</span><span class="p">.</span><span class="nx">exports</span> <span class="o">=</span> <span class="p">{</span>
   <span class="na">entry</span><span class="p">:</span> <span class="p">{</span>
-    <span class="na">app</span><span class="p">:</span> <span class="s1">'./src/app.js'</span><span class="p">,</span>
-    <span class="na">adminApp</span><span class="p">:</span> <span class="s1">'./src/adminApp.js'</span>
+    <span class="na">app</span><span class="p">:</span> <span class="dl">'</span><span class="s1">./src/app.js</span><span class="dl">'</span><span class="p">,</span>
+    <span class="na">adminApp</span><span class="p">:</span> <span class="dl">'</span><span class="s1">./src/adminApp.js</span><span class="dl">'</span>
   <span class="p">}</span>
 <span class="p">};</span>
 
@@ -180,9 +180,9 @@
 <p>webpack.config.js</p>
 <div class="language-js highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nx">module</span><span class="p">.</span><span class="nx">exports</span> <span class="o">=</span> <span class="p">{</span>
   <span class="na">entry</span><span class="p">:</span> <span class="p">{</span>
-    <span class="na">pageOne</span><span class="p">:</span> <span class="s1">'./src/pageOne/index.js'</span><span class="p">,</span>
-    <span class="na">pageTwo</span><span class="p">:</span> <span class="s1">'./src/pageTwo/index.js'</span><span class="p">,</span>
-    <span class="na">pageThree</span><span class="p">:</span> <span class="s1">'./src/pageThree/index.js'</span>
+    <span class="na">pageOne</span><span class="p">:</span> <span class="dl">'</span><span class="s1">./src/pageOne/index.js</span><span class="dl">'</span><span class="p">,</span>
+    <span class="na">pageTwo</span><span class="p">:</span> <span class="dl">'</span><span class="s1">./src/pageTwo/index.js</span><span class="dl">'</span><span class="p">,</span>
+    <span class="na">pageThree</span><span class="p">:</span> <span class="dl">'</span><span class="s1">./src/pageThree/index.js</span><span class="dl">'</span>
   <span class="p">}</span>
 <span class="p">};</span>
 </code></pre></div></div>

@@ -66,7 +66,7 @@
 </head>
 
 
-<body class="loading ajax-loading" data-site-url="http://localhost:4000" data-page-url="/blogs/php/error-control-operators">
+<body class="loading ajax-loading" data-site-url="http://localhost:4000" data-page-url="/blogs/php/error-control-operators.html">
 
 
 	<header class="header">
@@ -138,10 +138,10 @@ PHP에서 표현식앞에 <code class="highlighter-rouge">@</code>문자가 있�
 <span class="nv">$my_file</span> <span class="o">=</span> <span class="o">@</span><span class="nb">file</span> <span class="p">(</span><span class="s1">'non_existent_file'</span><span class="p">)</span> <span class="k">or</span>
     <span class="k">die</span> <span class="p">(</span><span class="s2">"Failed opening file: error was '</span><span class="nv">$php_errormsg</span><span class="s2">'"</span><span class="p">);</span>
 
-<span class="c1">// this works for any expression, not just functions:
-</span><span class="nv">$value</span> <span class="o">=</span> <span class="o">@</span><span class="nv">$cache</span><span class="p">[</span><span class="nv">$key</span><span class="p">];</span>
-<span class="c1">// will not issue a notice if the index $key doesn't exist.
-</span>
+<span class="c1">// this works for any expression, not just functions:</span>
+<span class="nv">$value</span> <span class="o">=</span> <span class="o">@</span><span class="nv">$cache</span><span class="p">[</span><span class="nv">$key</span><span class="p">];</span>
+<span class="c1">// will not issue a notice if the index $key doesn't exist.</span>
+
 <span class="cp">?&gt;</span>
 </code></pre></div></div>
 

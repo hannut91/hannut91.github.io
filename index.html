@@ -3,15 +3,12 @@ layout: default
 title: 배운 것을 적는 블로그입니다.
 description: 배운 것을 적는 블로그입니다.
 featured_image: /images/social.jpg
-pagination:
-  enabled: true
 ---
-
 <section class="listing single">
     <div class="wrap">
 
-        {% for post in site.blogs %}
-
+    {% assign documents = site.blogs | sort: 'createdat' | reverse %}
+        {% for post in documents %}
         <article class="listing-post">
             <div class="listing-post__header">
                 <h2 class="listing-post__title">

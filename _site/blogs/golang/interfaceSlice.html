@@ -66,7 +66,7 @@
 </head>
 
 
-<body class="loading ajax-loading" data-site-url="http://localhost:4000" data-page-url="/blogs/golang/interfaceSlice">
+<body class="loading ajax-loading" data-site-url="http://localhost:4000" data-page-url="/blogs/golang/interfaceSlice.html">
 
 
 	<header class="header">
@@ -122,9 +122,9 @@
 		<h1>Golang InterfaceSlice</h1>
 		<p class="subtitle"></p>
 
-		<div class="language-go highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">var</span><span class="x"> </span><span class="n">dataSlice</span><span class="x"> </span><span class="p">[]</span><span class="kt">int</span><span class="x"> </span><span class="o">=</span><span class="x"> </span><span class="p">[]</span><span class="kt">int</span><span class="p">{</span><span class="m">1</span><span class="p">,</span><span class="x"> </span><span class="m">2</span><span class="p">,</span><span class="x"> </span><span class="m">3</span><span class="p">}</span><span class="x">
-</span><span class="k">var</span><span class="x"> </span><span class="n">interfaceSlice</span><span class="x"> </span><span class="p">[]</span><span class="k">interface</span><span class="p">{}</span><span class="x"> </span><span class="o">=</span><span class="x"> </span><span class="n">dataSlice</span><span class="x">
-</span></code></pre></div></div>
+		<div class="language-go highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">var</span> <span class="n">dataSlice</span> <span class="p">[]</span><span class="kt">int</span> <span class="o">=</span> <span class="p">[]</span><span class="kt">int</span><span class="p">{</span><span class="m">1</span><span class="p">,</span> <span class="m">2</span><span class="p">,</span> <span class="m">3</span><span class="p">}</span>
+<span class="k">var</span> <span class="n">interfaceSlice</span> <span class="p">[]</span><span class="k">interface</span><span class="p">{}</span> <span class="o">=</span> <span class="n">dataSlice</span>
+</code></pre></div></div>
 
 <ul>
   <li>위와 같이 작성된 코드가 있습니다. 위의 코드를 컴파일 할 시 다음과 같은 
@@ -155,36 +155,36 @@ Word 하나는 포함된 데이터의 타입을 표현하기 위해 쓰이고
   <li>실제로 메모리를 어떻게 가지고 있는지 실험해보았습니다.</li>
 </ul>
 
-<div class="language-go highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">func</span><span class="x"> </span><span class="n">main</span><span class="p">()</span><span class="x"> </span><span class="p">{</span><span class="x">
-	</span><span class="n">PrintMemUsage</span><span class="p">()</span><span class="x">
+<div class="language-go highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">func</span> <span class="n">main</span><span class="p">()</span> <span class="p">{</span>
+	<span class="n">PrintMemUsage</span><span class="p">()</span>
 
-	</span><span class="k">var</span><span class="x"> </span><span class="n">dataSlice</span><span class="x"> </span><span class="p">[]</span><span class="kt">int64</span><span class="x"> </span><span class="o">=</span><span class="x"> </span><span class="nb">make</span><span class="p">([]</span><span class="kt">int64</span><span class="p">,</span><span class="x"> </span><span class="m">0</span><span class="p">,</span><span class="x"> </span><span class="m">1024</span><span class="o">*</span><span class="m">1024</span><span class="o">/</span><span class="m">8</span><span class="p">)</span><span class="x">
+	<span class="k">var</span> <span class="n">dataSlice</span> <span class="p">[]</span><span class="kt">int64</span> <span class="o">=</span> <span class="nb">make</span><span class="p">([]</span><span class="kt">int64</span><span class="p">,</span> <span class="m">0</span><span class="p">,</span> <span class="m">1024</span><span class="o">*</span><span class="m">1024</span><span class="o">/</span><span class="m">8</span><span class="p">)</span>
 
-	</span><span class="n">PrintMemUsage</span><span class="p">()</span><span class="x">
+	<span class="n">PrintMemUsage</span><span class="p">()</span>
 
-	</span><span class="n">runtime</span><span class="o">.</span><span class="n">GC</span><span class="p">()</span><span class="x">
+	<span class="n">runtime</span><span class="o">.</span><span class="n">GC</span><span class="p">()</span>
 
-	</span><span class="k">var</span><span class="x"> </span><span class="n">interfaceSlices</span><span class="x"> </span><span class="p">[]</span><span class="k">interface</span><span class="p">{}</span><span class="x"> </span><span class="o">=</span><span class="x"> </span><span class="nb">make</span><span class="p">([]</span><span class="k">interface</span><span class="p">{},</span><span class="x"> </span><span class="m">0</span><span class="p">,</span><span class="x"> </span><span class="m">1024</span><span class="o">*</span><span class="m">1024</span><span class="o">/</span><span class="m">8</span><span class="p">)</span><span class="x">
+	<span class="k">var</span> <span class="n">interfaceSlices</span> <span class="p">[]</span><span class="k">interface</span><span class="p">{}</span> <span class="o">=</span> <span class="nb">make</span><span class="p">([]</span><span class="k">interface</span><span class="p">{},</span> <span class="m">0</span><span class="p">,</span> <span class="m">1024</span><span class="o">*</span><span class="m">1024</span><span class="o">/</span><span class="m">8</span><span class="p">)</span>
 
-	</span><span class="n">PrintMemUsage</span><span class="p">()</span><span class="x">
+	<span class="n">PrintMemUsage</span><span class="p">()</span>
 
-	</span><span class="n">_</span><span class="x"> </span><span class="o">=</span><span class="x"> </span><span class="n">dataSlice</span><span class="x">
-	</span><span class="n">_</span><span class="x"> </span><span class="o">=</span><span class="x"> </span><span class="n">interfaceSlices</span><span class="x">
-</span><span class="p">}</span><span class="x">
+	<span class="n">_</span> <span class="o">=</span> <span class="n">dataSlice</span>
+	<span class="n">_</span> <span class="o">=</span> <span class="n">interfaceSlices</span>
+<span class="p">}</span>
 
-</span><span class="k">func</span><span class="x"> </span><span class="n">PrintMemUsage</span><span class="p">()</span><span class="x"> </span><span class="p">{</span><span class="x">
-	</span><span class="k">var</span><span class="x"> </span><span class="n">m</span><span class="x"> </span><span class="n">runtime</span><span class="o">.</span><span class="n">MemStats</span><span class="x">
-	</span><span class="n">runtime</span><span class="o">.</span><span class="n">ReadMemStats</span><span class="p">(</span><span class="o">&amp;</span><span class="n">m</span><span class="p">)</span><span class="x">
-	</span><span class="n">fmt</span><span class="o">.</span><span class="n">Printf</span><span class="p">(</span><span class="s">"Alloc = %v MiB"</span><span class="p">,</span><span class="x"> </span><span class="n">byteToMegaByte</span><span class="p">(</span><span class="n">m</span><span class="o">.</span><span class="n">Alloc</span><span class="p">))</span><span class="x">
-	</span><span class="n">fmt</span><span class="o">.</span><span class="n">Printf</span><span class="p">(</span><span class="s">"</span><span class="se">\t</span><span class="s">TotalAlloc = %v MiB"</span><span class="p">,</span><span class="x"> </span><span class="n">byteToMegaByte</span><span class="p">(</span><span class="n">m</span><span class="o">.</span><span class="n">TotalAlloc</span><span class="p">))</span><span class="x">
-	</span><span class="n">fmt</span><span class="o">.</span><span class="n">Printf</span><span class="p">(</span><span class="s">"</span><span class="se">\t</span><span class="s">Sys = %v MiB"</span><span class="p">,</span><span class="x"> </span><span class="n">byteToMegaByte</span><span class="p">(</span><span class="n">m</span><span class="o">.</span><span class="n">Sys</span><span class="p">))</span><span class="x">
-	</span><span class="n">fmt</span><span class="o">.</span><span class="n">Printf</span><span class="p">(</span><span class="s">"</span><span class="se">\t</span><span class="s">NumGC = %v</span><span class="se">\n</span><span class="s">"</span><span class="p">,</span><span class="x"> </span><span class="n">m</span><span class="o">.</span><span class="n">NumGC</span><span class="p">)</span><span class="x">
-</span><span class="p">}</span><span class="x">
+<span class="k">func</span> <span class="n">PrintMemUsage</span><span class="p">()</span> <span class="p">{</span>
+	<span class="k">var</span> <span class="n">m</span> <span class="n">runtime</span><span class="o">.</span><span class="n">MemStats</span>
+	<span class="n">runtime</span><span class="o">.</span><span class="n">ReadMemStats</span><span class="p">(</span><span class="o">&amp;</span><span class="n">m</span><span class="p">)</span>
+	<span class="n">fmt</span><span class="o">.</span><span class="n">Printf</span><span class="p">(</span><span class="s">"Alloc = %v MiB"</span><span class="p">,</span> <span class="n">byteToMegaByte</span><span class="p">(</span><span class="n">m</span><span class="o">.</span><span class="n">Alloc</span><span class="p">))</span>
+	<span class="n">fmt</span><span class="o">.</span><span class="n">Printf</span><span class="p">(</span><span class="s">"</span><span class="se">\t</span><span class="s">TotalAlloc = %v MiB"</span><span class="p">,</span> <span class="n">byteToMegaByte</span><span class="p">(</span><span class="n">m</span><span class="o">.</span><span class="n">TotalAlloc</span><span class="p">))</span>
+	<span class="n">fmt</span><span class="o">.</span><span class="n">Printf</span><span class="p">(</span><span class="s">"</span><span class="se">\t</span><span class="s">Sys = %v MiB"</span><span class="p">,</span> <span class="n">byteToMegaByte</span><span class="p">(</span><span class="n">m</span><span class="o">.</span><span class="n">Sys</span><span class="p">))</span>
+	<span class="n">fmt</span><span class="o">.</span><span class="n">Printf</span><span class="p">(</span><span class="s">"</span><span class="se">\t</span><span class="s">NumGC = %v</span><span class="se">\n</span><span class="s">"</span><span class="p">,</span> <span class="n">m</span><span class="o">.</span><span class="n">NumGC</span><span class="p">)</span>
+<span class="p">}</span>
 
-</span><span class="k">func</span><span class="x"> </span><span class="n">byteToMegaByte</span><span class="p">(</span><span class="n">b</span><span class="x"> </span><span class="kt">uint64</span><span class="p">)</span><span class="x"> </span><span class="kt">uint64</span><span class="x"> </span><span class="p">{</span><span class="x">
-	</span><span class="k">return</span><span class="x"> </span><span class="n">b</span><span class="x"> </span><span class="o">/</span><span class="x"> </span><span class="m">1024</span><span class="x"> </span><span class="o">/</span><span class="x"> </span><span class="m">1024</span><span class="x">
-</span><span class="p">}</span><span class="x">
-</span></code></pre></div></div>
+<span class="k">func</span> <span class="n">byteToMegaByte</span><span class="p">(</span><span class="n">b</span> <span class="kt">uint64</span><span class="p">)</span> <span class="kt">uint64</span> <span class="p">{</span>
+	<span class="k">return</span> <span class="n">b</span> <span class="o">/</span> <span class="m">1024</span> <span class="o">/</span> <span class="m">1024</span>
+<span class="p">}</span>
+</code></pre></div></div>
 
 <div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Alloc <span class="o">=</span> 0 MiB   TotalAlloc <span class="o">=</span> 0 MiB      Sys <span class="o">=</span> 66 MiB    NumGC <span class="o">=</span> 0                              
 Alloc <span class="o">=</span> 1 MiB   TotalAlloc <span class="o">=</span> 1 MiB      Sys <span class="o">=</span> 68 MiB    NumGC <span class="o">=</span> 0                              
@@ -205,30 +205,30 @@ Alloc <span class="o">=</span> 2 MiB   TotalAlloc <span class="o">=</span> 3 MiB
   <li>혹은 다음과 같이 작성하는 방법이 있습니다.</li>
 </ul>
 
-<div class="language-go highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">var</span><span class="x"> </span><span class="n">dataSlice</span><span class="x"> </span><span class="p">[]</span><span class="kt">int</span><span class="x"> </span><span class="o">=</span><span class="x"> </span><span class="n">foo</span><span class="p">()</span><span class="x">
-</span><span class="k">var</span><span class="x"> </span><span class="n">interfaceSlice</span><span class="x"> </span><span class="p">[]</span><span class="k">interface</span><span class="p">{}</span><span class="x"> </span><span class="o">=</span><span class="x"> </span><span class="nb">make</span><span class="p">([]</span><span class="k">interface</span><span class="p">{},</span><span class="x"> </span><span class="nb">len</span><span class="p">(</span><span class="n">dataSlice</span><span class="p">))</span><span class="x">
-</span><span class="k">for</span><span class="x"> </span><span class="n">i</span><span class="p">,</span><span class="x"> </span><span class="n">d</span><span class="x"> </span><span class="o">:=</span><span class="x"> </span><span class="k">range</span><span class="x"> </span><span class="n">dataSlice</span><span class="x"> </span><span class="p">{</span><span class="x">
-	</span><span class="n">interfaceSlice</span><span class="p">[</span><span class="n">i</span><span class="p">]</span><span class="x"> </span><span class="o">=</span><span class="x"> </span><span class="n">d</span><span class="x">
-</span><span class="p">}</span><span class="x">
-</span></code></pre></div></div>
+<div class="language-go highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">var</span> <span class="n">dataSlice</span> <span class="p">[]</span><span class="kt">int</span> <span class="o">=</span> <span class="n">foo</span><span class="p">()</span>
+<span class="k">var</span> <span class="n">interfaceSlice</span> <span class="p">[]</span><span class="k">interface</span><span class="p">{}</span> <span class="o">=</span> <span class="nb">make</span><span class="p">([]</span><span class="k">interface</span><span class="p">{},</span> <span class="nb">len</span><span class="p">(</span><span class="n">dataSlice</span><span class="p">))</span>
+<span class="k">for</span> <span class="n">i</span><span class="p">,</span> <span class="n">d</span> <span class="o">:=</span> <span class="k">range</span> <span class="n">dataSlice</span> <span class="p">{</span>
+	<span class="n">interfaceSlice</span><span class="p">[</span><span class="n">i</span><span class="p">]</span> <span class="o">=</span> <span class="n">d</span>
+<span class="p">}</span>
+</code></pre></div></div>
 
 <h1 id="method-of-interface">Method of Interface</h1>
 
-<div class="language-go highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">type</span><span class="x"> </span><span class="n">Duck</span><span class="x"> </span><span class="k">interface</span><span class="x"> </span><span class="p">{</span><span class="x">
-	</span><span class="n">quack</span><span class="p">()</span><span class="x">
-</span><span class="p">}</span><span class="x">
+<div class="language-go highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">type</span> <span class="n">Duck</span> <span class="k">interface</span> <span class="p">{</span>
+	<span class="n">quack</span><span class="p">()</span>
+<span class="p">}</span>
 
-</span><span class="k">type</span><span class="x"> </span><span class="n">DonaldDuck</span><span class="x"> </span><span class="k">struct</span><span class="x"> </span><span class="p">{</span><span class="x">
-</span><span class="p">}</span><span class="x">
+<span class="k">type</span> <span class="n">DonaldDuck</span> <span class="k">struct</span> <span class="p">{</span>
+<span class="p">}</span>
 
-</span><span class="k">func</span><span class="x"> </span><span class="p">(</span><span class="n">donald</span><span class="x"> </span><span class="n">DonaldDuck</span><span class="p">)</span><span class="x"> </span><span class="n">quack</span><span class="p">()</span><span class="x"> </span><span class="p">{</span><span class="x">
-	</span><span class="n">fmt</span><span class="o">.</span><span class="n">Println</span><span class="p">(</span><span class="s">"Quack!"</span><span class="p">)</span><span class="x">
-</span><span class="p">}</span><span class="x">
+<span class="k">func</span> <span class="p">(</span><span class="n">donald</span> <span class="n">DonaldDuck</span><span class="p">)</span> <span class="n">quack</span><span class="p">()</span> <span class="p">{</span>
+	<span class="n">fmt</span><span class="o">.</span><span class="n">Println</span><span class="p">(</span><span class="s">"Quack!"</span><span class="p">)</span>
+<span class="p">}</span>
 
-</span><span class="k">func</span><span class="x"> </span><span class="n">quack</span><span class="p">(</span><span class="n">duck</span><span class="x"> </span><span class="n">Duck</span><span class="p">)</span><span class="x"> </span><span class="p">{</span><span class="x">
-	</span><span class="n">duck</span><span class="o">.</span><span class="n">quack</span><span class="p">()</span><span class="x">
-</span><span class="p">}</span><span class="x">
-</span></code></pre></div></div>
+<span class="k">func</span> <span class="n">quack</span><span class="p">(</span><span class="n">duck</span> <span class="n">Duck</span><span class="p">)</span> <span class="p">{</span>
+	<span class="n">duck</span><span class="o">.</span><span class="n">quack</span><span class="p">()</span>
+<span class="p">}</span>
+</code></pre></div></div>
 
 <ul>
   <li><code class="highlighter-rouge">Duck</code>라는 인터페이스는 <code class="highlighter-rouge">quack()</code>라는 메소드를 가지고 있습니다.</li>
@@ -238,20 +238,20 @@ Alloc <span class="o">=</span> 2 MiB   TotalAlloc <span class="o">=</span> 3 MiB
 통과합니다.</li>
 </ul>
 
-<div class="language-go highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">func</span><span class="x"> </span><span class="n">ExampleQuack</span><span class="p">()</span><span class="x"> </span><span class="p">{</span><span class="x">
-	</span><span class="n">donaldDuck</span><span class="x"> </span><span class="o">:=</span><span class="x"> </span><span class="n">DonaldDuck</span><span class="p">{}</span><span class="x">
+<div class="language-go highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">func</span> <span class="n">ExampleQuack</span><span class="p">()</span> <span class="p">{</span>
+	<span class="n">donaldDuck</span> <span class="o">:=</span> <span class="n">DonaldDuck</span><span class="p">{}</span>
 
-	</span><span class="n">quack</span><span class="p">(</span><span class="n">donaldDuck</span><span class="p">)</span><span class="x">
+	<span class="n">quack</span><span class="p">(</span><span class="n">donaldDuck</span><span class="p">)</span>
 
-	</span><span class="n">pointerDonaldDuck</span><span class="x"> </span><span class="o">:=</span><span class="x"> </span><span class="o">&amp;</span><span class="n">DonaldDuck</span><span class="p">{}</span><span class="x">
+	<span class="n">pointerDonaldDuck</span> <span class="o">:=</span> <span class="o">&amp;</span><span class="n">DonaldDuck</span><span class="p">{}</span>
 
-	</span><span class="n">quack</span><span class="p">(</span><span class="n">pointerDonaldDuck</span><span class="p">)</span><span class="x">
+	<span class="n">quack</span><span class="p">(</span><span class="n">pointerDonaldDuck</span><span class="p">)</span>
 
-	</span><span class="c">// Output:</span><span class="x">
-	</span><span class="c">// Quack!</span><span class="x">
-	</span><span class="c">// Quack!</span><span class="x">
-</span><span class="p">}</span><span class="x">
-</span></code></pre></div></div>
+	<span class="c">// Output:</span>
+	<span class="c">// Quack!</span>
+	<span class="c">// Quack!</span>
+<span class="p">}</span>
+</code></pre></div></div>
 
 <div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Ran 0 of 0 Specs <span class="k">in </span>0.000 seconds                                                              
 SUCCESS! <span class="nt">--</span> 0 Passed | 0 Failed | 0 Pending | 0 Skipped                                        
@@ -267,10 +267,10 @@ ok      go-test/interface/slice_interface       0.013s
 구현한다면 결과는 어떻게 될까요?</li>
 </ul>
 
-<div class="language-go highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">func</span><span class="x"> </span><span class="p">(</span><span class="n">donald</span><span class="x"> </span><span class="o">*</span><span class="n">DonaldDuck</span><span class="p">)</span><span class="x"> </span><span class="n">quack</span><span class="p">()</span><span class="x"> </span><span class="p">{</span><span class="x">
-	</span><span class="n">fmt</span><span class="o">.</span><span class="n">Println</span><span class="p">(</span><span class="s">"Quack!"</span><span class="p">)</span><span class="x">
-</span><span class="p">}</span><span class="x">
-</span></code></pre></div></div>
+<div class="language-go highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">func</span> <span class="p">(</span><span class="n">donald</span> <span class="o">*</span><span class="n">DonaldDuck</span><span class="p">)</span> <span class="n">quack</span><span class="p">()</span> <span class="p">{</span>
+	<span class="n">fmt</span><span class="o">.</span><span class="n">Println</span><span class="p">(</span><span class="s">"Quack!"</span><span class="p">)</span>
+<span class="p">}</span>
+</code></pre></div></div>
 
 <div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c"># go-test/interface/slice_interface [go-test/interface/slice_interface.test]                   </span>
 ./slice_interface_test.go:6:7: cannot use donaldDuck <span class="o">(</span><span class="nb">type </span>DonaldDuck<span class="o">)</span> as <span class="nb">type </span>Duck <span class="k">in </span>argument

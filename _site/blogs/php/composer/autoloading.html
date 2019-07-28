@@ -66,7 +66,7 @@
 </head>
 
 
-<body class="loading ajax-loading" data-site-url="http://localhost:4000" data-page-url="/blogs/php/composer/autoloading">
+<body class="loading ajax-loading" data-site-url="http://localhost:4000" data-page-url="/blogs/php/composer/autoloading.html">
 
 
 	<header class="header">
@@ -135,8 +135,8 @@
   <li><code class="highlighter-rouge">composer.json</code>에 다음과 같이 추가합니다.</li>
 </ul>
 
-<div class="language-json highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="s2">"autoload"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
-    </span><span class="s2">"psr-4"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="s2">"Src</span><span class="se">\\</span><span class="s2">"</span><span class="p">:</span><span class="w"> </span><span class="s2">"src/"</span><span class="p">}</span><span class="w">
+<div class="language-json highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nl">"autoload"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
+    </span><span class="nl">"psr-4"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="nl">"Src\\"</span><span class="p">:</span><span class="w"> </span><span class="s2">"src/"</span><span class="p">}</span><span class="w">
 </span><span class="p">}</span><span class="w">
 </span></code></pre></div></div>
 
@@ -174,9 +174,9 @@
 <p>src/Calculator.php</p>
 <div class="language-php highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="cp">&lt;?php</span>
 
-<span class="k">namespace</span> <span class="nx">src</span><span class="p">;</span>
+<span class="kn">namespace</span> <span class="nn">src</span><span class="p">;</span>
 
-<span class="k">class</span> <span class="nc">Calculator</span> <span class="p">{</span>
+<span class="kd">class</span> <span class="nc">Calculator</span> <span class="p">{</span>
     <span class="k">function</span> <span class="nf">plus</span><span class="p">(</span><span class="nv">$a</span><span class="p">,</span> <span class="nv">$b</span><span class="p">)</span> <span class="p">{</span>
         <span class="k">return</span> <span class="nv">$a</span> <span class="o">+</span> <span class="nv">$b</span><span class="p">;</span>
     <span class="p">}</span>
@@ -186,7 +186,7 @@
 <p>spec/Calculator.spec.php</p>
 <div class="language-php highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="cp">&lt;?php</span>
 
-<span class="k">use</span> <span class="nx">Src\Calculator</span><span class="p">;</span>
+<span class="kn">use</span> <span class="nn">Src\Calculator</span><span class="p">;</span>
 
 <span class="nx">describe</span><span class="p">(</span><span class="s1">'Calculator'</span><span class="p">,</span> <span class="k">function</span><span class="p">()</span> <span class="p">{</span>
     <span class="nx">given</span><span class="p">(</span><span class="s1">'calculator'</span><span class="p">,</span> <span class="k">function</span><span class="p">()</span> <span class="p">{</span> <span class="k">return</span> <span class="k">new</span> <span class="nx">Calculator</span><span class="p">();</span> <span class="p">});</span>

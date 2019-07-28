@@ -66,7 +66,7 @@
 </head>
 
 
-<body class="loading ajax-loading" data-site-url="http://localhost:4000" data-page-url="/blogs/golang/gomega/02.matchers">
+<body class="loading ajax-loading" data-site-url="http://localhost:4000" data-page-url="/blogs/golang/gomega/02.matchers.html">
 
 
 	<header class="header">
@@ -126,8 +126,8 @@
 
 <h3 id="equalexpected-interface">Equal(expected interface{})</h3>
 
-<div class="language-go highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">Expect</span><span class="p">(</span><span class="n">ACTUAL</span><span class="p">)</span><span class="o">.</span><span class="n">To</span><span class="p">(</span><span class="n">Equal</span><span class="p">(</span><span class="n">EXPECTED</span><span class="p">))</span><span class="x">
-</span></code></pre></div></div>
+<div class="language-go highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">Expect</span><span class="p">(</span><span class="n">ACTUAL</span><span class="p">)</span><span class="o">.</span><span class="n">To</span><span class="p">(</span><span class="n">Equal</span><span class="p">(</span><span class="n">EXPECTED</span><span class="p">))</span>
+</code></pre></div></div>
 
 <ul>
   <li>내부적으로 <code class="highlighter-rouge">reflect.DeepEqual</code>을 사용해서 <code class="highlighter-rouge">ACTUAL</code>과 <code class="highlighter-rouge">EXPECTED</code>를 비교합니다.</li>
@@ -139,8 +139,8 @@
 
 <h3 id="beequivalenttoexpected-interface">BeEquivalentTo(expected interface{})</h3>
 
-<div class="language-go highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">Expect</span><span class="p">(</span><span class="n">ACTUAL</span><span class="p">)</span><span class="o">.</span><span class="n">To</span><span class="p">(</span><span class="n">BeEquivalentTo</span><span class="p">(</span><span class="n">EXPECTED</span><span class="p">))</span><span class="x">
-</span></code></pre></div></div>
+<div class="language-go highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">Expect</span><span class="p">(</span><span class="n">ACTUAL</span><span class="p">)</span><span class="o">.</span><span class="n">To</span><span class="p">(</span><span class="n">BeEquivalentTo</span><span class="p">(</span><span class="n">EXPECTED</span><span class="p">))</span>
+</code></pre></div></div>
 
 <ul>
   <li><code class="highlighter-rouge">Equal</code>과 동일하게 내부적으로 <code class="highlighter-rouge">refelect.DeepEqual</code>을 사용해서 <code class="highlighter-rouge">ACTUAL</code>과 <code class="highlighter-rouge">EXPECTED</code>를 비교합니다.</li>
@@ -149,9 +149,9 @@
   <li>숫자를 사용해서 비교를 할때는 사용하면 안됩니다.</li>
 </ul>
 
-<div class="language-go highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">Expect</span><span class="p">(</span><span class="m">5.1</span><span class="p">)</span><span class="o">.</span><span class="n">Should</span><span class="p">(</span><span class="n">BeEquivalentTo</span><span class="p">(</span><span class="m">5</span><span class="p">))</span><span class="x">
-</span><span class="n">Expect</span><span class="p">(</span><span class="m">5</span><span class="p">)</span><span class="o">.</span><span class="n">ShouldNot</span><span class="p">(</span><span class="n">BeEquivalentTo</span><span class="p">(</span><span class="m">5.1</span><span class="p">))</span><span class="x">
-</span></code></pre></div></div>
+<div class="language-go highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">Expect</span><span class="p">(</span><span class="m">5.1</span><span class="p">)</span><span class="o">.</span><span class="n">Should</span><span class="p">(</span><span class="n">BeEquivalentTo</span><span class="p">(</span><span class="m">5</span><span class="p">))</span>
+<span class="n">Expect</span><span class="p">(</span><span class="m">5</span><span class="p">)</span><span class="o">.</span><span class="n">ShouldNot</span><span class="p">(</span><span class="n">BeEquivalentTo</span><span class="p">(</span><span class="m">5.1</span><span class="p">))</span>
+</code></pre></div></div>
 
 <ul>
   <li>위의 결과는 둘다 통과하게 됩니다. 이런 경우에는 <code class="highlighter-rouge">BeNumerically()</code>을 사용해야 합니다.</li>
@@ -159,8 +159,8 @@
 
 <h3 id="beidenticaltoexpected-interface">BeIdenticalTo(expected interface{})</h3>
 
-<div class="language-go highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">Expect</span><span class="p">(</span><span class="n">ACTUAL</span><span class="p">)</span><span class="o">.</span><span class="n">To</span><span class="p">(</span><span class="n">BeIdenticalTo</span><span class="p">(</span><span class="n">EXPECTED</span><span class="p">))</span><span class="x">
-</span></code></pre></div></div>
+<div class="language-go highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">Expect</span><span class="p">(</span><span class="n">ACTUAL</span><span class="p">)</span><span class="o">.</span><span class="n">To</span><span class="p">(</span><span class="n">BeIdenticalTo</span><span class="p">(</span><span class="n">EXPECTED</span><span class="p">))</span>
+</code></pre></div></div>
 
 <ul>
   <li><code class="highlighter-rouge">Equal</code>과 동일하게 내부적으로 <code class="highlighter-rouge">refelect.DeepEqual</code>을 사용해서 <code class="highlighter-rouge">ACTUAL</code>과 <code class="highlighter-rouge">EXPECTED</code>를 비교합니다.</li>
@@ -171,8 +171,8 @@
 
 <h3 id="beassignabletotypeofexpected-interface">BeAssignableToTypeOf(expected interface)</h3>
 
-<div class="language-go highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">Expect</span><span class="p">(</span><span class="n">ACTUAL</span><span class="p">)</span><span class="o">.</span><span class="n">To</span><span class="p">(</span><span class="n">BeAssignableToTypeOf</span><span class="p">(</span><span class="n">EXPECTED</span><span class="p">))</span><span class="x">
-</span></code></pre></div></div>
+<div class="language-go highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">Expect</span><span class="p">(</span><span class="n">ACTUAL</span><span class="p">)</span><span class="o">.</span><span class="n">To</span><span class="p">(</span><span class="n">BeAssignableToTypeOf</span><span class="p">(</span><span class="n">EXPECTED</span><span class="p">))</span>
+</code></pre></div></div>
 
 <ul>
   <li><code class="highlighter-rouge">ACTUAL</code>을 <code class="highlighter-rouge">EXPECTED</code>와 같은 타입으로 할당할 수 있는지 비교합니다.</li>
@@ -183,8 +183,8 @@
 
 <h3 id="benil">BeNil()</h3>
 
-<div class="language-go highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">Expect</span><span class="p">(</span><span class="n">ACTUAL</span><span class="p">)</span><span class="o">.</span><span class="n">To</span><span class="p">(</span><span class="n">BeNil</span><span class="p">())</span><span class="x">
-</span></code></pre></div></div>
+<div class="language-go highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">Expect</span><span class="p">(</span><span class="n">ACTUAL</span><span class="p">)</span><span class="o">.</span><span class="n">To</span><span class="p">(</span><span class="n">BeNil</span><span class="p">())</span>
+</code></pre></div></div>
 
 <ul>
   <li><code class="highlighter-rouge">ACTUAL</code>이 nil인지 검사합니다.</li>
@@ -192,8 +192,8 @@
 
 <h3 id="bezerobeidenticaltoexpected">BeZeroBeIdenticalTo(EXPECTED)</h3>
 
-<div class="language-go highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">Expect</span><span class="p">(</span><span class="n">ACTUAL</span><span class="p">)</span><span class="o">.</span><span class="n">To</span><span class="p">(</span><span class="n">BeZero</span><span class="p">())</span><span class="x">
-</span></code></pre></div></div>
+<div class="language-go highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">Expect</span><span class="p">(</span><span class="n">ACTUAL</span><span class="p">)</span><span class="o">.</span><span class="n">To</span><span class="p">(</span><span class="n">BeZero</span><span class="p">())</span>
+</code></pre></div></div>
 
 <ul>
   <li><code class="highlighter-rouge">ACTUAL</code>이 zero value인지 혹은 <code class="highlighter-rouge">nil</code>인지 검사합니다.</li>
@@ -203,8 +203,8 @@
 
 <h3 id="betrue">BeTrue()</h3>
 
-<div class="language-go highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">Expect</span><span class="p">(</span><span class="n">ACTUAL</span><span class="p">)</span><span class="o">.</span><span class="n">To</span><span class="p">(</span><span class="n">BeTrue</span><span class="p">())</span><span class="x">
-</span></code></pre></div></div>
+<div class="language-go highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">Expect</span><span class="p">(</span><span class="n">ACTUAL</span><span class="p">)</span><span class="o">.</span><span class="n">To</span><span class="p">(</span><span class="n">BeTrue</span><span class="p">())</span>
+</code></pre></div></div>
 
 <ul>
   <li><code class="highlighter-rouge">ACTUAL</code>이 <code class="highlighter-rouge">true</code>인지 검사합니다.</li>
@@ -213,8 +213,8 @@
 
 <h3 id="befalse">BeFalse()</h3>
 
-<div class="language-go highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">Expect</span><span class="p">(</span><span class="n">ACTUAL</span><span class="p">)</span><span class="o">.</span><span class="n">To</span><span class="p">(</span><span class="n">BeFalse</span><span class="p">())</span><span class="x">
-</span></code></pre></div></div>
+<div class="language-go highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">Expect</span><span class="p">(</span><span class="n">ACTUAL</span><span class="p">)</span><span class="o">.</span><span class="n">To</span><span class="p">(</span><span class="n">BeFalse</span><span class="p">())</span>
+</code></pre></div></div>
 
 <ul>
   <li><code class="highlighter-rouge">ACTUAL</code>이 <code class="highlighter-rouge">false</code>인지 검사합니다.</li>
@@ -225,9 +225,9 @@
 
 <h3 id="haveoccurred">HaveOccurred()</h3>
 
-<div class="language-go highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">err</span><span class="x"> </span><span class="o">:=</span><span class="x"> </span><span class="n">SomethingThatMightFail</span><span class="p">()</span><span class="x">
-</span><span class="n">Expect</span><span class="p">(</span><span class="n">err</span><span class="p">)</span><span class="o">.</span><span class="n">ToNot</span><span class="p">(</span><span class="n">HaveOccurred</span><span class="p">())</span><span class="x">
-</span></code></pre></div></div>
+<div class="language-go highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">err</span> <span class="o">:=</span> <span class="n">SomethingThatMightFail</span><span class="p">()</span>
+<span class="n">Expect</span><span class="p">(</span><span class="n">err</span><span class="p">)</span><span class="o">.</span><span class="n">ToNot</span><span class="p">(</span><span class="n">HaveOccurred</span><span class="p">())</span>
+</code></pre></div></div>
 
 <ul>
   <li>에러가 있으면 통과합니다.</li>
@@ -235,8 +235,8 @@
 
 <h3 id="succeed">Succeed()</h3>
 
-<div class="language-go highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">Expect</span><span class="p">(</span><span class="n">FUNCTION</span><span class="p">())</span><span class="o">.</span><span class="n">ToNot</span><span class="p">(</span><span class="n">HaveOccurred</span><span class="p">())</span><span class="x">
-</span></code></pre></div></div>
+<div class="language-go highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">Expect</span><span class="p">(</span><span class="n">FUNCTION</span><span class="p">())</span><span class="o">.</span><span class="n">ToNot</span><span class="p">(</span><span class="n">HaveOccurred</span><span class="p">())</span>
+</code></pre></div></div>
 
 <ul>
   <li>함수가 nil을 return하면 통과합니다.</li>
@@ -246,8 +246,8 @@
 
 <h3 id="matcherrorexpected-interface">MatchError(expected interface{})</h3>
 
-<div class="language-go highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">Expect</span><span class="p">(</span><span class="n">ACTUAL</span><span class="p">)</span><span class="o">.</span><span class="n">To</span><span class="p">(</span><span class="n">MatchError</span><span class="p">(</span><span class="n">EXPECTED</span><span class="p">))</span><span class="x">
-</span></code></pre></div></div>
+<div class="language-go highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">Expect</span><span class="p">(</span><span class="n">ACTUAL</span><span class="p">)</span><span class="o">.</span><span class="n">To</span><span class="p">(</span><span class="n">MatchError</span><span class="p">(</span><span class="n">EXPECTED</span><span class="p">))</span>
+</code></pre></div></div>
 
 <ul>
   <li><code class="highlighter-rouge">EXPECTED</code>가 문자열일 경우 <code class="highlighter-rouge">ACTUAL.Error()</code>과 비교를 합니다.</li>
@@ -258,8 +258,8 @@
 
 <h3 id="beclosed">BeClosed()</h3>
 
-<div class="language-go highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">Expect</span><span class="p">(</span><span class="n">ACTUAL</span><span class="p">)</span><span class="o">.</span><span class="n">To</span><span class="p">(</span><span class="n">BeClosed</span><span class="p">())</span><span class="x">
-</span></code></pre></div></div>
+<div class="language-go highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">Expect</span><span class="p">(</span><span class="n">ACTUAL</span><span class="p">)</span><span class="o">.</span><span class="n">To</span><span class="p">(</span><span class="n">BeClosed</span><span class="p">())</span>
+</code></pre></div></div>
 
 <ul>
   <li><code class="highlighter-rouge">ACTUAL</code>이 닫힌 채널이면 통과합니다.</li>
@@ -272,8 +272,8 @@ read해야 합니다.</li>
 
 <h2 id="receive">Receive()</h2>
 
-<div class="language-go highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">Expect</span><span class="p">(</span><span class="n">ACTUAL</span><span class="p">)</span><span class="o">.</span><span class="n">To</span><span class="p">(</span><span class="n">Receive</span><span class="p">(</span><span class="o">&lt;</span><span class="n">optionalPointer</span><span class="o">&gt;</span><span class="p">))</span><span class="x">
-</span></code></pre></div></div>
+<div class="language-go highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">Expect</span><span class="p">(</span><span class="n">ACTUAL</span><span class="p">)</span><span class="o">.</span><span class="n">To</span><span class="p">(</span><span class="n">Receive</span><span class="p">(</span><span class="o">&lt;</span><span class="n">optionalPointer</span><span class="o">&gt;</span><span class="p">))</span>
+</code></pre></div></div>
 
 <ul>
   <li>수신 할 메시지가 있으면 통과합니다.</li>
@@ -287,19 +287,19 @@ read해야 합니다.</li>
 <code class="highlighter-rouge">Expect(c).NotTo(Receive())</code>는 통과합니다.</li>
 </ul>
 
-<div class="language-go highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">go</span><span class="x"> </span><span class="k">func</span><span class="p">()</span><span class="x"> </span><span class="p">{</span><span class="x">
-    </span><span class="n">time</span><span class="o">.</span><span class="n">Sleep</span><span class="p">(</span><span class="m">100</span><span class="x"> </span><span class="o">*</span><span class="x"> </span><span class="n">time</span><span class="o">.</span><span class="n">Millisecond</span><span class="p">)</span><span class="x">
-    </span><span class="n">c</span><span class="x"> </span><span class="o">&lt;-</span><span class="x"> </span><span class="no">true</span><span class="x">
-</span><span class="p">}()</span><span class="x">
-</span></code></pre></div></div>
+<div class="language-go highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">go</span> <span class="k">func</span><span class="p">()</span> <span class="p">{</span>
+    <span class="n">time</span><span class="o">.</span><span class="n">Sleep</span><span class="p">(</span><span class="m">100</span> <span class="o">*</span> <span class="n">time</span><span class="o">.</span><span class="n">Millisecond</span><span class="p">)</span>
+    <span class="n">c</span> <span class="o">&lt;-</span> <span class="no">true</span>
+<span class="p">}()</span>
+</code></pre></div></div>
 
 <ul>
   <li>위와같은 go routine이 있을 때 <code class="highlighter-rouge">c</code>는 어떤 아무 값이나 받기 때문에 다음은
 통과를 하게 됩니다.</li>
 </ul>
 
-<div class="language-go highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">Eventually</span><span class="p">(</span><span class="n">c</span><span class="p">)</span><span class="o">.</span><span class="n">To</span><span class="p">(</span><span class="n">Receive</span><span class="p">())</span><span class="x">
-</span></code></pre></div></div>
+<div class="language-go highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">Eventually</span><span class="p">(</span><span class="n">c</span><span class="p">)</span><span class="o">.</span><span class="n">To</span><span class="p">(</span><span class="n">Receive</span><span class="p">())</span>
+</code></pre></div></div>
 
 <ul>
   <li><code class="highlighter-rouge">c</code>가 아무런 값을 받지 못한다면 타임아웃이 발생합니다.</li>
@@ -307,15 +307,15 @@ read해야 합니다.</li>
 작성할 수 있습니다.</li>
 </ul>
 
-<div class="language-go highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">Consistently</span><span class="p">(</span><span class="n">c</span><span class="p">)</span><span class="o">.</span><span class="n">NotTo</span><span class="p">(</span><span class="n">Receive</span><span class="p">())</span><span class="x">
-</span></code></pre></div></div>
+<div class="language-go highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">Consistently</span><span class="p">(</span><span class="n">c</span><span class="p">)</span><span class="o">.</span><span class="n">NotTo</span><span class="p">(</span><span class="n">Receive</span><span class="p">())</span>
+</code></pre></div></div>
 
 <ul>
   <li>또한 채널에서 받아온 값을 추가적으로 검사할 수 있습니다.</li>
 </ul>
 
-<div class="language-go highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">Eventually</span><span class="p">(</span><span class="n">c</span><span class="p">)</span><span class="o">.</span><span class="n">To</span><span class="p">(</span><span class="n">Receive</span><span class="p">(</span><span class="n">Equal</span><span class="p">(</span><span class="s">"foo"</span><span class="p">)))</span><span class="x">
-</span></code></pre></div></div>
+<div class="language-go highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">Eventually</span><span class="p">(</span><span class="n">c</span><span class="p">)</span><span class="o">.</span><span class="n">To</span><span class="p">(</span><span class="n">Receive</span><span class="p">(</span><span class="n">Equal</span><span class="p">(</span><span class="s">"foo"</span><span class="p">)))</span>
+</code></pre></div></div>
 
 <ul>
   <li><code class="highlighter-rouge">Eventually</code>는 주기적으로 채널 <code class="highlighter-rouge">c</code>를 폴링합니다. 건네받은 Matcher를 채우지 
@@ -327,11 +327,11 @@ read해야 합니다.</li>
 있습니다.</li>
 </ul>
 
-<div class="language-go highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">var</span><span class="x"> </span><span class="n">receivedBagel</span><span class="x"> </span><span class="n">Bagel</span><span class="x">
-</span><span class="n">Eventually</span><span class="p">(</span><span class="n">bagelChan</span><span class="p">)</span><span class="o">.</span><span class="n">To</span><span class="p">(</span><span class="n">Receive</span><span class="p">(</span><span class="o">&amp;</span><span class="n">receivedBagel</span><span class="p">))</span><span class="o">.</span><span class="x"> 
-</span><span class="n">Expect</span><span class="p">(</span><span class="n">receivedBagel</span><span class="o">.</span><span class="n">Contents</span><span class="p">())</span><span class="o">.</span><span class="n">To</span><span class="p">(</span><span class="n">ContainElement</span><span class="p">(</span><span class="s">"cream cheese"</span><span class="p">))</span><span class="x">
-</span><span class="n">Expect</span><span class="p">(</span><span class="n">receivedBagel</span><span class="o">.</span><span class="n">Kind</span><span class="p">())</span><span class="o">.</span><span class="n">To</span><span class="p">(</span><span class="n">Equal</span><span class="p">(</span><span class="s">"sesame"</span><span class="p">))</span><span class="x">
-</span></code></pre></div></div>
+<div class="language-go highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">var</span> <span class="n">receivedBagel</span> <span class="n">Bagel</span>
+<span class="n">Eventually</span><span class="p">(</span><span class="n">bagelChan</span><span class="p">)</span><span class="o">.</span><span class="n">To</span><span class="p">(</span><span class="n">Receive</span><span class="p">(</span><span class="o">&amp;</span><span class="n">receivedBagel</span><span class="p">))</span><span class="o">.</span> 
+<span class="n">Expect</span><span class="p">(</span><span class="n">receivedBagel</span><span class="o">.</span><span class="n">Contents</span><span class="p">())</span><span class="o">.</span><span class="n">To</span><span class="p">(</span><span class="n">ContainElement</span><span class="p">(</span><span class="s">"cream cheese"</span><span class="p">))</span>
+<span class="n">Expect</span><span class="p">(</span><span class="n">receivedBagel</span><span class="o">.</span><span class="n">Kind</span><span class="p">())</span><span class="o">.</span><span class="n">To</span><span class="p">(</span><span class="n">Equal</span><span class="p">(</span><span class="s">"sesame"</span><span class="p">))</span>
+</code></pre></div></div>
 
 <ul>
   <li>물론 이것은 receivedBagel : = &lt;-bagelChan으로 작성되었을 수 있습니다. 그러나 
@@ -343,8 +343,8 @@ Receive를 사용하면 채널에 아무 것도 나오지 않아도 테스트 �
 
 <h3 id="besentvalue-interface">BeSent(value interface{})</h3>
 
-<div class="language-go highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">Expect</span><span class="p">(</span><span class="n">ACTUAL</span><span class="p">)</span><span class="o">.</span><span class="n">To</span><span class="p">(</span><span class="n">BeSent</span><span class="p">(</span><span class="n">VALUE</span><span class="p">))</span><span class="x">
-</span></code></pre></div></div>
+<div class="language-go highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">Expect</span><span class="p">(</span><span class="n">ACTUAL</span><span class="p">)</span><span class="o">.</span><span class="n">To</span><span class="p">(</span><span class="n">BeSent</span><span class="p">(</span><span class="n">VALUE</span><span class="p">))</span>
+</code></pre></div></div>
 
 <ul>
   <li><code class="highlighter-rouge">VALUE</code>를 channel <code class="highlighter-rouge">ACTUAL</code>로 블락킹 없이 전송합니다. 성공하면 테스트가
@@ -370,8 +370,8 @@ Receive를 사용하면 채널에 아무 것도 나오지 않아도 테스트 �
 
 <h3 id="beanexistingfile">BeAnExistingFile</h3>
 
-<div class="language-go highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">Expect</span><span class="p">(</span><span class="n">ACTUAL</span><span class="p">)</span><span class="o">.</span><span class="n">To</span><span class="p">(</span><span class="n">BeAnExistingFile</span><span class="p">())</span><span class="x">
-</span></code></pre></div></div>
+<div class="language-go highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">Expect</span><span class="p">(</span><span class="n">ACTUAL</span><span class="p">)</span><span class="o">.</span><span class="n">To</span><span class="p">(</span><span class="n">BeAnExistingFile</span><span class="p">())</span>
+</code></pre></div></div>
 
 <ul>
   <li>파일이 <code class="highlighter-rouge">ACTUAL</code>위치에 있으면 통과합니다.</li>
@@ -380,8 +380,8 @@ Receive를 사용하면 채널에 아무 것도 나오지 않아도 테스트 �
 
 <h3 id="bearegularfile">BeARegularFile</h3>
 
-<div class="language-go highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">Expect</span><span class="p">(</span><span class="n">ACTUAL</span><span class="p">)</span><span class="o">.</span><span class="n">To</span><span class="p">(</span><span class="n">BeARegularFile</span><span class="p">())</span><span class="x">
-</span></code></pre></div></div>
+<div class="language-go highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">Expect</span><span class="p">(</span><span class="n">ACTUAL</span><span class="p">)</span><span class="o">.</span><span class="n">To</span><span class="p">(</span><span class="n">BeARegularFile</span><span class="p">())</span>
+</code></pre></div></div>
 
 <ul>
   <li>파일이 <code class="highlighter-rouge">ACTUAL</code>위치에 있고 일반 파일이면 통과합니다.</li>
@@ -390,8 +390,8 @@ Receive를 사용하면 채널에 아무 것도 나오지 않아도 테스트 �
 
 <h3 id="beadirectory">BeADirectory</h3>
 
-<div class="language-go highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">Expect</span><span class="p">(</span><span class="n">ACTUAL</span><span class="p">)</span><span class="o">.</span><span class="n">To</span><span class="p">(</span><span class="n">BeARegularFile</span><span class="p">())</span><span class="x">
-</span></code></pre></div></div>
+<div class="language-go highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">Expect</span><span class="p">(</span><span class="n">ACTUAL</span><span class="p">)</span><span class="o">.</span><span class="n">To</span><span class="p">(</span><span class="n">BeARegularFile</span><span class="p">())</span>
+</code></pre></div></div>
 
 <ul>
   <li>파일이 <code class="highlighter-rouge">ACTUAL</code>위치에 존재하고 디렉토리면 통과합니다.</li>
@@ -402,8 +402,8 @@ Receive를 사용하면 채널에 아무 것도 나오지 않아도 테스트 �
 
 <h3 id="containsubstringsubstr-string-args-interface">ContainSubstring(substr string, args …interface{})</h3>
 
-<div class="language-go highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">Expect</span><span class="p">(</span><span class="n">ACTUAL</span><span class="p">)</span><span class="o">.</span><span class="n">To</span><span class="p">(</span><span class="n">ContainSubstring</span><span class="p">(</span><span class="n">STRING</span><span class="p">,</span><span class="x"> </span><span class="n">ARGS</span><span class="o">...</span><span class="p">))</span><span class="x">
-</span></code></pre></div></div>
+<div class="language-go highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">Expect</span><span class="p">(</span><span class="n">ACTUAL</span><span class="p">)</span><span class="o">.</span><span class="n">To</span><span class="p">(</span><span class="n">ContainSubstring</span><span class="p">(</span><span class="n">STRING</span><span class="p">,</span> <span class="n">ARGS</span><span class="o">...</span><span class="p">))</span>
+</code></pre></div></div>
 
 <ul>
   <li><code class="highlighter-rouge">ACTUAL</code>이 <code class="highlighter-rouge">fmt.Sprintf(STRING, ARGS...)</code>을 포함하고 있으면 통과합니다.</li>
@@ -413,8 +413,8 @@ Receive를 사용하면 채널에 아무 것도 나오지 않아도 테스트 �
 
 <h3 id="haveprefixprefix-string-args-interface">HavePrefix(prefix string, args …interface{})</h3>
 
-<div class="language-go highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">Expect</span><span class="p">(</span><span class="n">ACTUAL</span><span class="p">)</span><span class="o">.</span><span class="n">To</span><span class="p">(</span><span class="n">HaveSuffix</span><span class="p">(</span><span class="n">STRING</span><span class="p">,</span><span class="x"> </span><span class="n">ARGS</span><span class="o">...</span><span class="p">))</span><span class="x">
-</span></code></pre></div></div>
+<div class="language-go highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">Expect</span><span class="p">(</span><span class="n">ACTUAL</span><span class="p">)</span><span class="o">.</span><span class="n">To</span><span class="p">(</span><span class="n">HaveSuffix</span><span class="p">(</span><span class="n">STRING</span><span class="p">,</span> <span class="n">ARGS</span><span class="o">...</span><span class="p">))</span>
+</code></pre></div></div>
 
 <ul>
   <li><code class="highlighter-rouge">ACTUAL</code>이 <code class="highlighter-rouge">fmt.Sprintf(STRING, ARGS...)</code>접미사를 가지고 있으면 통과합니다.</li>
@@ -424,8 +424,8 @@ Receive를 사용하면 채널에 아무 것도 나오지 않아도 테스트 �
 
 <h3 id="matchjsonjson-interface">MatchJSON(json interface{})</h3>
 
-<div class="language-go highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">Expect</span><span class="p">(</span><span class="n">ACTUAL</span><span class="p">)</span><span class="o">.</span><span class="n">To</span><span class="p">(</span><span class="n">MatchJSON</span><span class="p">(</span><span class="n">EXPECTED</span><span class="p">))</span><span class="x">
-</span></code></pre></div></div>
+<div class="language-go highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">Expect</span><span class="p">(</span><span class="n">ACTUAL</span><span class="p">)</span><span class="o">.</span><span class="n">To</span><span class="p">(</span><span class="n">MatchJSON</span><span class="p">(</span><span class="n">EXPECTED</span><span class="p">))</span>
+</code></pre></div></div>
 
 <ul>
   <li><code class="highlighter-rouge">ACTUAL</code>과 <code class="highlighter-rouge">EXPECTED</code>가 같은 Object의 JSON표현이면 통과합니다.</li>
@@ -438,8 +438,8 @@ Receive를 사용하면 채널에 아무 것도 나오지 않아도 테스트 �
 
 <h3 id="matchxmlxml-interface">MatchXML(xml interface{})</h3>
 
-<div class="language-go highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">Expect</span><span class="p">(</span><span class="n">ACTUAL</span><span class="p">)</span><span class="o">.</span><span class="n">To</span><span class="p">(</span><span class="n">MatchXML</span><span class="p">(</span><span class="n">EXPECTED</span><span class="p">))</span><span class="x">
-</span></code></pre></div></div>
+<div class="language-go highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">Expect</span><span class="p">(</span><span class="n">ACTUAL</span><span class="p">)</span><span class="o">.</span><span class="n">To</span><span class="p">(</span><span class="n">MatchXML</span><span class="p">(</span><span class="n">EXPECTED</span><span class="p">))</span>
+</code></pre></div></div>
 
 <ul>
   <li><code class="highlighter-rouge">ACTUAL</code>과 <code class="highlighter-rouge">EXPECTED</code>가 같은 Object의 XML표현이면 통과합니다.</li>
@@ -452,8 +452,8 @@ Receive를 사용하면 채널에 아무 것도 나오지 않아도 테스트 �
 
 <h3 id="matchyamlyaml-interface">MatchYAML(yaml interface{})</h3>
 
-<div class="language-go highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">Expect</span><span class="p">(</span><span class="n">ACTUAL</span><span class="p">)</span><span class="o">.</span><span class="n">To</span><span class="p">(</span><span class="n">MatchYAML</span><span class="p">(</span><span class="n">EXPECTED</span><span class="p">))</span><span class="x">
-</span></code></pre></div></div>
+<div class="language-go highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">Expect</span><span class="p">(</span><span class="n">ACTUAL</span><span class="p">)</span><span class="o">.</span><span class="n">To</span><span class="p">(</span><span class="n">MatchYAML</span><span class="p">(</span><span class="n">EXPECTED</span><span class="p">))</span>
+</code></pre></div></div>
 
 <ul>
   <li><code class="highlighter-rouge">ACTUAL</code>과 <code class="highlighter-rouge">EXPECTED</code>가 같은 Object의 YAML표현이면 통과합니다.</li>
@@ -468,8 +468,8 @@ Receive를 사용하면 채널에 아무 것도 나오지 않아도 테스트 �
 
 <h3 id="beempty">BeEmpty()</h3>
 
-<div class="language-go highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">Expect</span><span class="p">(</span><span class="n">ACTUAL</span><span class="p">)</span><span class="o">.</span><span class="n">To</span><span class="p">(</span><span class="n">BeEmpty</span><span class="p">())</span><span class="x">
-</span></code></pre></div></div>
+<div class="language-go highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">Expect</span><span class="p">(</span><span class="n">ACTUAL</span><span class="p">)</span><span class="o">.</span><span class="n">To</span><span class="p">(</span><span class="n">BeEmpty</span><span class="p">())</span>
+</code></pre></div></div>
 
 <ul>
   <li><code class="highlighter-rouge">ACTUAL</code>이 empty면 통과합니다.</li>
@@ -479,8 +479,8 @@ Receive를 사용하면 채널에 아무 것도 나오지 않아도 테스트 �
 
 <h3 id="havelencount-int">HaveLen(count int)</h3>
 
-<div class="language-go highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">Expect</span><span class="p">(</span><span class="n">ACTUAL</span><span class="p">)</span><span class="o">.</span><span class="n">To</span><span class="p">(</span><span class="n">HaveLen</span><span class="p">(</span><span class="n">INT</span><span class="p">))</span><span class="x">
-</span></code></pre></div></div>
+<div class="language-go highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">Expect</span><span class="p">(</span><span class="n">ACTUAL</span><span class="p">)</span><span class="o">.</span><span class="n">To</span><span class="p">(</span><span class="n">HaveLen</span><span class="p">(</span><span class="n">INT</span><span class="p">))</span>
+</code></pre></div></div>
 
 <ul>
   <li><code class="highlighter-rouge">ACTUAL</code>의 길이가 <code class="highlighter-rouge">INT</code>와 같으면 통과합니다.</li>
@@ -490,8 +490,8 @@ Receive를 사용하면 채널에 아무 것도 나오지 않아도 테스트 �
 
 <h3 id="havecapcount-int">HaveCap(count int)</h3>
 
-<div class="language-go highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">Expect</span><span class="p">(</span><span class="n">ACTUAL</span><span class="p">)</span><span class="o">.</span><span class="n">To</span><span class="p">(</span><span class="n">HaveCap</span><span class="p">(</span><span class="n">INT</span><span class="p">))</span><span class="x">
-</span></code></pre></div></div>
+<div class="language-go highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">Expect</span><span class="p">(</span><span class="n">ACTUAL</span><span class="p">)</span><span class="o">.</span><span class="n">To</span><span class="p">(</span><span class="n">HaveCap</span><span class="p">(</span><span class="n">INT</span><span class="p">))</span>
+</code></pre></div></div>
 
 <ul>
   <li><code class="highlighter-rouge">ACTUAL</code>의 capacity가 <code class="highlighter-rouge">INT</code>와 같으면 통과합니다.</li>
@@ -500,8 +500,8 @@ Receive를 사용하면 채널에 아무 것도 나오지 않아도 테스트 �
 
 <h3 id="containelementelement-interface">ContainElement(element interface{})</h3>
 
-<div class="language-go highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">Expect</span><span class="p">(</span><span class="n">ACTUAL</span><span class="p">)</span><span class="o">.</span><span class="n">To</span><span class="p">(</span><span class="n">ContainElement</span><span class="p">(</span><span class="n">ELEMENT</span><span class="p">))</span><span class="x">
-</span></code></pre></div></div>
+<div class="language-go highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">Expect</span><span class="p">(</span><span class="n">ACTUAL</span><span class="p">)</span><span class="o">.</span><span class="n">To</span><span class="p">(</span><span class="n">ContainElement</span><span class="p">(</span><span class="n">ELEMENT</span><span class="p">))</span>
+</code></pre></div></div>
 
 <ul>
   <li><code class="highlighter-rouge">ACTUAL</code>이 <code class="highlighter-rouge">ELEMENT</code>를 포함하고 있으면 통과합니다.</li>
@@ -512,18 +512,18 @@ Receive를 사용하면 채널에 아무 것도 나오지 않아도 테스트 �
 <code class="highlighter-rouge">GomegaMatcher</code>를 사용할수도 있습니다.</li>
 </ul>
 
-<div class="language-go highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">Expect</span><span class="p">([]</span><span class="kt">string</span><span class="p">{</span><span class="s">"Foo"</span><span class="p">,</span><span class="x"> </span><span class="s">"FooBar"</span><span class="p">})</span><span class="o">.</span><span class="n">To</span><span class="p">(</span><span class="n">ContainElement</span><span class="p">(</span><span class="n">ContainSubstring</span><span class="p">(</span><span class="s">"Bar"</span><span class="p">)))</span><span class="x">
-</span></code></pre></div></div>
+<div class="language-go highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">Expect</span><span class="p">([]</span><span class="kt">string</span><span class="p">{</span><span class="s">"Foo"</span><span class="p">,</span> <span class="s">"FooBar"</span><span class="p">})</span><span class="o">.</span><span class="n">To</span><span class="p">(</span><span class="n">ContainElement</span><span class="p">(</span><span class="n">ContainSubstring</span><span class="p">(</span><span class="s">"Bar"</span><span class="p">)))</span>
+</code></pre></div></div>
 
 <h3 id="consistofelement-interface">ConsistOf(element …interface{})</h3>
 
-<div class="language-go highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">Expect</span><span class="p">(</span><span class="n">ACTUAL</span><span class="p">)</span><span class="o">.</span><span class="n">To</span><span class="p">(</span><span class="n">ConsistOf</span><span class="p">(</span><span class="n">ELEMENT1</span><span class="p">,</span><span class="x"> </span><span class="n">ELEMENT2</span><span class="p">,</span><span class="x"> </span><span class="n">ELEMENT3</span><span class="p">,</span><span class="x"> </span><span class="o">...</span><span class="p">))</span><span class="x">
-</span></code></pre></div></div>
+<div class="language-go highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">Expect</span><span class="p">(</span><span class="n">ACTUAL</span><span class="p">)</span><span class="o">.</span><span class="n">To</span><span class="p">(</span><span class="n">ConsistOf</span><span class="p">(</span><span class="n">ELEMENT1</span><span class="p">,</span> <span class="n">ELEMENT2</span><span class="p">,</span> <span class="n">ELEMENT3</span><span class="p">,</span> <span class="o">...</span><span class="p">))</span>
+</code></pre></div></div>
 
 <p>or</p>
 
-<div class="language-go highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">Expect</span><span class="p">(</span><span class="n">ACTUAL</span><span class="p">)</span><span class="o">.</span><span class="n">To</span><span class="p">(</span><span class="n">ConsistOf</span><span class="p">([]</span><span class="n">SOME_TYPE</span><span class="p">{</span><span class="n">ELEMENT1</span><span class="p">,</span><span class="x"> </span><span class="n">ELEMENT2</span><span class="p">,</span><span class="x"> </span><span class="n">ELEMENT3</span><span class="p">,</span><span class="x"> </span><span class="o">...</span><span class="p">}))</span><span class="x">
-</span></code></pre></div></div>
+<div class="language-go highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">Expect</span><span class="p">(</span><span class="n">ACTUAL</span><span class="p">)</span><span class="o">.</span><span class="n">To</span><span class="p">(</span><span class="n">ConsistOf</span><span class="p">([]</span><span class="n">SOME_TYPE</span><span class="p">{</span><span class="n">ELEMENT1</span><span class="p">,</span> <span class="n">ELEMENT2</span><span class="p">,</span> <span class="n">ELEMENT3</span><span class="p">,</span> <span class="o">...</span><span class="p">}))</span>
+</code></pre></div></div>
 
 <ul>
   <li><code class="highlighter-rouge">ACTUAL</code>이 정확하게 요소들을 가지고 있으면 통과합니다.</li>
@@ -532,10 +532,10 @@ Receive를 사용하면 채널에 아무 것도 나오지 않아도 테스트 �
 <code class="highlighter-rouge">GomegaMatcher</code>를 사용할수도 있습니다.</li>
 </ul>
 
-<div class="language-go highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">Expect</span><span class="p">([]</span><span class="kt">string</span><span class="p">{</span><span class="s">"Foo"</span><span class="p">,</span><span class="x"> </span><span class="s">"FooBar"</span><span class="p">})</span><span class="o">.</span><span class="n">To</span><span class="p">(</span><span class="n">ConsistOf</span><span class="p">(</span><span class="s">"FooBar"</span><span class="p">,</span><span class="x"> </span><span class="s">"Foo"</span><span class="p">))</span><span class="x">
-</span><span class="n">Expect</span><span class="p">([]</span><span class="kt">string</span><span class="p">{</span><span class="s">"Foo"</span><span class="p">,</span><span class="x"> </span><span class="s">"FooBar"</span><span class="p">})</span><span class="o">.</span><span class="n">To</span><span class="p">(</span><span class="n">ConsistOf</span><span class="p">(</span><span class="n">ContainSubstring</span><span class="p">(</span><span class="s">"Bar"</span><span class="p">),</span><span class="x"> </span><span class="s">"Foo"</span><span class="p">))</span><span class="x">
-</span><span class="n">Expect</span><span class="p">([]</span><span class="kt">string</span><span class="p">{</span><span class="s">"Foo"</span><span class="p">,</span><span class="x"> </span><span class="s">"FooBar"</span><span class="p">})</span><span class="o">.</span><span class="n">To</span><span class="p">(</span><span class="n">ConsistOf</span><span class="p">(</span><span class="n">ContainSubstring</span><span class="p">(</span><span class="s">"Foo"</span><span class="p">),</span><span class="x"> </span><span class="n">ContainSubstring</span><span class="p">(</span><span class="s">"Foo"</span><span class="p">)))</span><span class="x">
-</span></code></pre></div></div>
+<div class="language-go highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">Expect</span><span class="p">([]</span><span class="kt">string</span><span class="p">{</span><span class="s">"Foo"</span><span class="p">,</span> <span class="s">"FooBar"</span><span class="p">})</span><span class="o">.</span><span class="n">To</span><span class="p">(</span><span class="n">ConsistOf</span><span class="p">(</span><span class="s">"FooBar"</span><span class="p">,</span> <span class="s">"Foo"</span><span class="p">))</span>
+<span class="n">Expect</span><span class="p">([]</span><span class="kt">string</span><span class="p">{</span><span class="s">"Foo"</span><span class="p">,</span> <span class="s">"FooBar"</span><span class="p">})</span><span class="o">.</span><span class="n">To</span><span class="p">(</span><span class="n">ConsistOf</span><span class="p">(</span><span class="n">ContainSubstring</span><span class="p">(</span><span class="s">"Bar"</span><span class="p">),</span> <span class="s">"Foo"</span><span class="p">))</span>
+<span class="n">Expect</span><span class="p">([]</span><span class="kt">string</span><span class="p">{</span><span class="s">"Foo"</span><span class="p">,</span> <span class="s">"FooBar"</span><span class="p">})</span><span class="o">.</span><span class="n">To</span><span class="p">(</span><span class="n">ConsistOf</span><span class="p">(</span><span class="n">ContainSubstring</span><span class="p">(</span><span class="s">"Foo"</span><span class="p">),</span> <span class="n">ContainSubstring</span><span class="p">(</span><span class="s">"Foo"</span><span class="p">)))</span>
+</code></pre></div></div>
 
 <ul>
   <li><code class="highlighter-rouge">array</code>, <code class="highlighter-rouge">map</code>, <code class="highlighter-rouge">slice</code>타입만 가능하고 다른 타입은 에러가</li>
@@ -543,13 +543,13 @@ Receive를 사용하면 채널에 아무 것도 나오지 않아도 테스트 �
   <li>다음과 같이 인자로 <code class="highlighter-rouge">slice</code>를 입력할 수도 있습니다.</li>
 </ul>
 
-<div class="language-go highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">Expect</span><span class="p">([]</span><span class="kt">string</span><span class="p">{</span><span class="s">"Foo"</span><span class="p">,</span><span class="x"> </span><span class="s">"FooBar"</span><span class="p">})</span><span class="o">.</span><span class="n">To</span><span class="p">(</span><span class="n">ConsistOf</span><span class="p">([]</span><span class="kt">string</span><span class="p">{</span><span class="s">"FooBar"</span><span class="p">,</span><span class="x"> </span><span class="s">"Foo"</span><span class="p">}))</span><span class="x">
-</span></code></pre></div></div>
+<div class="language-go highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">Expect</span><span class="p">([]</span><span class="kt">string</span><span class="p">{</span><span class="s">"Foo"</span><span class="p">,</span> <span class="s">"FooBar"</span><span class="p">})</span><span class="o">.</span><span class="n">To</span><span class="p">(</span><span class="n">ConsistOf</span><span class="p">([]</span><span class="kt">string</span><span class="p">{</span><span class="s">"FooBar"</span><span class="p">,</span> <span class="s">"Foo"</span><span class="p">}))</span>
+</code></pre></div></div>
 
 <h3 id="havekeykey-interface">HaveKey(key interface{})</h3>
 
-<div class="language-go highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">Expect</span><span class="p">(</span><span class="n">ACTUAL</span><span class="p">)</span><span class="o">.</span><span class="n">To</span><span class="p">(</span><span class="n">HaveKey</span><span class="p">(</span><span class="n">KEY</span><span class="p">))</span><span class="x">
-</span></code></pre></div></div>
+<div class="language-go highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">Expect</span><span class="p">(</span><span class="n">ACTUAL</span><span class="p">)</span><span class="o">.</span><span class="n">To</span><span class="p">(</span><span class="n">HaveKey</span><span class="p">(</span><span class="n">KEY</span><span class="p">))</span>
+</code></pre></div></div>
 
 <ul>
   <li><code class="highlighter-rouge">ACTUAL</code>이 <code class="highlighter-rouge">KEY</code>키를 가지고 있으면 통과합니다.</li>
@@ -558,13 +558,13 @@ Receive를 사용하면 채널에 아무 것도 나오지 않아도 테스트 �
 <code class="highlighter-rouge">GomegaMatcher</code>를 사용할수도 있습니다.</li>
 </ul>
 
-<div class="language-go highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">Expect</span><span class="p">(</span><span class="k">map</span><span class="p">[</span><span class="kt">string</span><span class="p">]</span><span class="kt">string</span><span class="p">{</span><span class="s">"Foo"</span><span class="o">:</span><span class="x"> </span><span class="s">"Bar"</span><span class="p">,</span><span class="x"> </span><span class="s">"BazFoo"</span><span class="o">:</span><span class="x"> </span><span class="s">"Duck"</span><span class="p">})</span><span class="o">.</span><span class="n">To</span><span class="p">(</span><span class="n">HaveKey</span><span class="p">(</span><span class="n">MatchRegexp</span><span class="p">(</span><span class="s">`.+Foo$`</span><span class="p">)))</span><span class="x">
-</span></code></pre></div></div>
+<div class="language-go highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">Expect</span><span class="p">(</span><span class="k">map</span><span class="p">[</span><span class="kt">string</span><span class="p">]</span><span class="kt">string</span><span class="p">{</span><span class="s">"Foo"</span><span class="o">:</span> <span class="s">"Bar"</span><span class="p">,</span> <span class="s">"BazFoo"</span><span class="o">:</span> <span class="s">"Duck"</span><span class="p">})</span><span class="o">.</span><span class="n">To</span><span class="p">(</span><span class="n">HaveKey</span><span class="p">(</span><span class="n">MatchRegexp</span><span class="p">(</span><span class="s">`.+Foo$`</span><span class="p">)))</span>
+</code></pre></div></div>
 
 <h3 id="havekeywithvaluekey-interface-value-interface">HaveKeyWithValue(key interface{}, value interface{})</h3>
 
-<div class="language-go highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">Expect</span><span class="p">(</span><span class="n">ACTUAL</span><span class="p">)</span><span class="o">.</span><span class="n">To</span><span class="p">(</span><span class="n">HaveKeyWithValue</span><span class="p">(</span><span class="n">KEY</span><span class="p">,</span><span class="x"> </span><span class="n">VALUE</span><span class="p">))</span><span class="x">
-</span></code></pre></div></div>
+<div class="language-go highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">Expect</span><span class="p">(</span><span class="n">ACTUAL</span><span class="p">)</span><span class="o">.</span><span class="n">To</span><span class="p">(</span><span class="n">HaveKeyWithValue</span><span class="p">(</span><span class="n">KEY</span><span class="p">,</span> <span class="n">VALUE</span><span class="p">))</span>
+</code></pre></div></div>
 
 <ul>
   <li><code class="highlighter-rouge">ACTUAL</code>이 키와 값이 같으면 통과합니다.</li>
@@ -577,8 +577,8 @@ Receive를 사용하면 채널에 아무 것도 나오지 않아도 테스트 �
 
 <h3 id="benumericallycomparator-string-compareto-interface">BeNumerically(comparator string, compareTo …interface{})</h3>
 
-<div class="language-go highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">Expect</span><span class="p">(</span><span class="n">ACTUAL</span><span class="p">)</span><span class="o">.</span><span class="n">To</span><span class="p">(</span><span class="n">BeNumerically</span><span class="p">(</span><span class="n">COMPARATOR_STRING</span><span class="p">,</span><span class="x"> </span><span class="n">EXPECTED</span><span class="p">,</span><span class="x"> </span><span class="o">&lt;</span><span class="n">THRESHOLD</span><span class="o">&gt;</span><span class="p">))</span><span class="x">
-</span></code></pre></div></div>
+<div class="language-go highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">Expect</span><span class="p">(</span><span class="n">ACTUAL</span><span class="p">)</span><span class="o">.</span><span class="n">To</span><span class="p">(</span><span class="n">BeNumerically</span><span class="p">(</span><span class="n">COMPARATOR_STRING</span><span class="p">,</span> <span class="n">EXPECTED</span><span class="p">,</span> <span class="o">&lt;</span><span class="n">THRESHOLD</span><span class="o">&gt;</span><span class="p">))</span>
+</code></pre></div></div>
 
 <ul>
   <li><code class="highlighter-rouge">ACTUAL</code>과 <code class="highlighter-rouge">EXPECTED</code>는  숫자 타입이어야 합니다.</li>
@@ -598,8 +598,8 @@ Receive를 사용하면 채널에 아무 것도 나오지 않아도 테스트 �
 
 <h3 id="betemporallycomparator-string-compareto-timetime-threshold-timeduration">BeTemporally(comparator string, compareTo time.Time, threshold …time.Duration)</h3>
 
-<div class="language-go highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">Expect</span><span class="p">(</span><span class="n">ACTUAL</span><span class="p">)</span><span class="o">.</span><span class="n">To</span><span class="p">(</span><span class="n">BeTemporally</span><span class="p">(</span><span class="n">COMPARATOR_STRING</span><span class="p">,</span><span class="x"> </span><span class="n">EXPECTED_TIME</span><span class="p">,</span><span class="x"> </span><span class="o">&lt;</span><span class="n">THRESHOLD_DURATION</span><span class="o">&gt;</span><span class="p">))</span><span class="x">
-</span></code></pre></div></div>
+<div class="language-go highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">Expect</span><span class="p">(</span><span class="n">ACTUAL</span><span class="p">)</span><span class="o">.</span><span class="n">To</span><span class="p">(</span><span class="n">BeTemporally</span><span class="p">(</span><span class="n">COMPARATOR_STRING</span><span class="p">,</span> <span class="n">EXPECTED_TIME</span><span class="p">,</span> <span class="o">&lt;</span><span class="n">THRESHOLD_DURATION</span><span class="o">&gt;</span><span class="p">))</span>
+</code></pre></div></div>
 
 <ul>
   <li>시간과 관련된 단정문을 작성할 때 사용됩니다.</li>
@@ -619,8 +619,8 @@ Receive를 사용하면 채널에 아무 것도 나오지 않아도 테스트 �
 
 <h3 id="panic">Panic()</h3>
 
-<div class="language-go highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">Expect</span><span class="p">(</span><span class="n">ACTUAL</span><span class="p">)</span><span class="o">.</span><span class="n">To</span><span class="p">(</span><span class="n">Panic</span><span class="p">())</span><span class="x">
-</span></code></pre></div></div>
+<div class="language-go highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">Expect</span><span class="p">(</span><span class="n">ACTUAL</span><span class="p">)</span><span class="o">.</span><span class="n">To</span><span class="p">(</span><span class="n">Panic</span><span class="p">())</span>
+</code></pre></div></div>
 
 <ul>
   <li><code class="highlighter-rouge">ACTUAL</code>이 함수이고 panic을 발생하면 통과합니다.</li>
@@ -630,35 +630,35 @@ Receive를 사용하면 채널에 아무 것도 나오지 않아도 테스트 �
 
 <h2 id="composing-matchers">Composing Matchers</h2>
 
-<div class="language-go highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">Expect</span><span class="p">(</span><span class="n">number</span><span class="p">)</span><span class="o">.</span><span class="n">To</span><span class="p">(</span><span class="n">SatisfyAll</span><span class="p">(</span><span class="x">
-            </span><span class="n">BeNumerically</span><span class="p">(</span><span class="s">"&gt;"</span><span class="p">,</span><span class="x"> </span><span class="m">0</span><span class="p">),</span><span class="x">
-            </span><span class="n">BeNumerically</span><span class="p">(</span><span class="s">"&lt;"</span><span class="p">,</span><span class="x"> </span><span class="m">10</span><span class="p">)))</span><span class="x">
+<div class="language-go highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">Expect</span><span class="p">(</span><span class="n">number</span><span class="p">)</span><span class="o">.</span><span class="n">To</span><span class="p">(</span><span class="n">SatisfyAll</span><span class="p">(</span>
+            <span class="n">BeNumerically</span><span class="p">(</span><span class="s">"&gt;"</span><span class="p">,</span> <span class="m">0</span><span class="p">),</span>
+            <span class="n">BeNumerically</span><span class="p">(</span><span class="s">"&lt;"</span><span class="p">,</span> <span class="m">10</span><span class="p">)))</span>
 
-</span><span class="n">Expect</span><span class="p">(</span><span class="n">msg</span><span class="p">)</span><span class="o">.</span><span class="n">To</span><span class="p">(</span><span class="n">SatisfyAny</span><span class="p">(</span><span class="x">
-            </span><span class="n">Equal</span><span class="p">(</span><span class="s">"Success"</span><span class="p">),</span><span class="x">
-            </span><span class="n">MatchRegexp</span><span class="p">(</span><span class="s">`^Error .+$`</span><span class="p">)))</span><span class="x">
-</span></code></pre></div></div>
+<span class="n">Expect</span><span class="p">(</span><span class="n">msg</span><span class="p">)</span><span class="o">.</span><span class="n">To</span><span class="p">(</span><span class="n">SatisfyAny</span><span class="p">(</span>
+            <span class="n">Equal</span><span class="p">(</span><span class="s">"Success"</span><span class="p">),</span>
+            <span class="n">MatchRegexp</span><span class="p">(</span><span class="s">`^Error .+$`</span><span class="p">)))</span>
+</code></pre></div></div>
 
 <ul>
   <li>또는 다음과 같이 만들어 사용할 수 있습니다.</li>
 </ul>
 
-<div class="language-go highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">func</span><span class="x"> </span><span class="n">BeBetween</span><span class="p">(</span><span class="n">min</span><span class="p">,</span><span class="x"> </span><span class="n">max</span><span class="x"> </span><span class="kt">int</span><span class="p">)</span><span class="x"> </span><span class="n">GomegaMatcher</span><span class="x"> </span><span class="p">{</span><span class="x">
-    </span><span class="k">return</span><span class="x"> </span><span class="n">SatisfyAll</span><span class="p">(</span><span class="x">
-            </span><span class="n">BeNumerically</span><span class="p">(</span><span class="s">"&gt;"</span><span class="p">,</span><span class="x"> </span><span class="n">min</span><span class="p">),</span><span class="x">
-            </span><span class="n">BeNumerically</span><span class="p">(</span><span class="s">"&lt;"</span><span class="p">,</span><span class="x"> </span><span class="n">max</span><span class="p">))</span><span class="x">
-</span><span class="p">}</span><span class="x">
+<div class="language-go highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">func</span> <span class="n">BeBetween</span><span class="p">(</span><span class="n">min</span><span class="p">,</span> <span class="n">max</span> <span class="kt">int</span><span class="p">)</span> <span class="n">GomegaMatcher</span> <span class="p">{</span>
+    <span class="k">return</span> <span class="n">SatisfyAll</span><span class="p">(</span>
+            <span class="n">BeNumerically</span><span class="p">(</span><span class="s">"&gt;"</span><span class="p">,</span> <span class="n">min</span><span class="p">),</span>
+            <span class="n">BeNumerically</span><span class="p">(</span><span class="s">"&lt;"</span><span class="p">,</span> <span class="n">max</span><span class="p">))</span>
+<span class="p">}</span>
 
-</span><span class="n">Expect</span><span class="p">(</span><span class="n">number</span><span class="p">)</span><span class="o">.</span><span class="n">To</span><span class="p">(</span><span class="n">BeBetween</span><span class="p">(</span><span class="m">0</span><span class="p">,</span><span class="x"> </span><span class="m">10</span><span class="p">))</span><span class="x">
-</span></code></pre></div></div>
+<span class="n">Expect</span><span class="p">(</span><span class="n">number</span><span class="p">)</span><span class="o">.</span><span class="n">To</span><span class="p">(</span><span class="n">BeBetween</span><span class="p">(</span><span class="m">0</span><span class="p">,</span> <span class="m">10</span><span class="p">))</span>
+</code></pre></div></div>
 
 <h3 id="andmatchers-gomegamatcher-satisfyallmatchers-gomegamatcher">And(matchers …GomegaMatcher) SatisfyAll(matchers …GomegaMatcher)</h3>
 
-<div class="language-go highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">Expect</span><span class="p">(</span><span class="n">ACTUAL</span><span class="p">)</span><span class="o">.</span><span class="n">To</span><span class="p">(</span><span class="n">And</span><span class="p">(</span><span class="n">MATCHER1</span><span class="p">,</span><span class="x"> </span><span class="n">MATCHER2</span><span class="p">,</span><span class="x"> </span><span class="o">...</span><span class="p">))</span><span class="x">
-</span></code></pre></div></div>
+<div class="language-go highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">Expect</span><span class="p">(</span><span class="n">ACTUAL</span><span class="p">)</span><span class="o">.</span><span class="n">To</span><span class="p">(</span><span class="n">And</span><span class="p">(</span><span class="n">MATCHER1</span><span class="p">,</span> <span class="n">MATCHER2</span><span class="p">,</span> <span class="o">...</span><span class="p">))</span>
+</code></pre></div></div>
 
-<div class="language-go highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">Expect</span><span class="p">(</span><span class="n">ACTUAL</span><span class="p">)</span><span class="o">.</span><span class="n">To</span><span class="p">(</span><span class="n">SatisfyAll</span><span class="p">(</span><span class="n">MATCHER1</span><span class="p">,</span><span class="x"> </span><span class="n">MATCHER2</span><span class="p">,</span><span class="x"> </span><span class="o">...</span><span class="p">))</span><span class="x">
-</span></code></pre></div></div>
+<div class="language-go highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">Expect</span><span class="p">(</span><span class="n">ACTUAL</span><span class="p">)</span><span class="o">.</span><span class="n">To</span><span class="p">(</span><span class="n">SatisfyAll</span><span class="p">(</span><span class="n">MATCHER1</span><span class="p">,</span> <span class="n">MATCHER2</span><span class="p">,</span> <span class="o">...</span><span class="p">))</span>
+</code></pre></div></div>
 
 <ul>
   <li><code class="highlighter-rouge">ACTUAL</code>이 모든 MATCHER들을 만족하면 통과합니다.</li>
@@ -667,11 +667,11 @@ Receive를 사용하면 채널에 아무 것도 나오지 않아도 테스트 �
 
 <h2 id="ormatchers-gomegamatcher-satisfyanymatchers-gomegamatcher">Or(matchers …GomegaMatcher) SatisfyAny(matchers …GomegaMatcher)</h2>
 
-<div class="language-go highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">Expect</span><span class="p">(</span><span class="n">ACTUAL</span><span class="p">)</span><span class="o">.</span><span class="n">To</span><span class="p">(</span><span class="n">Or</span><span class="p">(</span><span class="n">MATCHER1</span><span class="p">,</span><span class="x"> </span><span class="n">MATCHER2</span><span class="p">,</span><span class="x"> </span><span class="o">...</span><span class="p">))</span><span class="x">
-</span></code></pre></div></div>
+<div class="language-go highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">Expect</span><span class="p">(</span><span class="n">ACTUAL</span><span class="p">)</span><span class="o">.</span><span class="n">To</span><span class="p">(</span><span class="n">Or</span><span class="p">(</span><span class="n">MATCHER1</span><span class="p">,</span> <span class="n">MATCHER2</span><span class="p">,</span> <span class="o">...</span><span class="p">))</span>
+</code></pre></div></div>
 
-<div class="language-go highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">Expect</span><span class="p">(</span><span class="n">ACTUAL</span><span class="p">)</span><span class="o">.</span><span class="n">To</span><span class="p">(</span><span class="n">SatisfyAny</span><span class="p">(</span><span class="n">MATCHER1</span><span class="p">,</span><span class="x"> </span><span class="n">MATCHER2</span><span class="p">,</span><span class="x"> </span><span class="o">...</span><span class="p">))</span><span class="x">
-</span></code></pre></div></div>
+<div class="language-go highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">Expect</span><span class="p">(</span><span class="n">ACTUAL</span><span class="p">)</span><span class="o">.</span><span class="n">To</span><span class="p">(</span><span class="n">SatisfyAny</span><span class="p">(</span><span class="n">MATCHER1</span><span class="p">,</span> <span class="n">MATCHER2</span><span class="p">,</span> <span class="o">...</span><span class="p">))</span>
+</code></pre></div></div>
 
 <ul>
   <li><code class="highlighter-rouge">ACTUAL</code>이 MATCHER들중 하나라도 만족하면 통과합니다.</li>
@@ -681,8 +681,8 @@ Receive를 사용하면 채널에 아무 것도 나오지 않아도 테스트 �
 
 <h3 id="notmatcher-gomegamatcher">Not(matcher GomegaMatcher)</h3>
 
-<div class="language-go highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">Expect</span><span class="p">(</span><span class="n">ACTUAL</span><span class="p">)</span><span class="o">.</span><span class="n">To</span><span class="p">(</span><span class="n">Not</span><span class="p">(</span><span class="n">MATCHER</span><span class="p">))</span><span class="x">
-</span></code></pre></div></div>
+<div class="language-go highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">Expect</span><span class="p">(</span><span class="n">ACTUAL</span><span class="p">)</span><span class="o">.</span><span class="n">To</span><span class="p">(</span><span class="n">Not</span><span class="p">(</span><span class="n">MATCHER</span><span class="p">))</span>
+</code></pre></div></div>
 
 <ul>
   <li><code class="highlighter-rouge">ACTUAL</code>이 Matcher를 통과하지 않다면 통과합니다.</li>
@@ -690,31 +690,31 @@ Receive를 사용하면 채널에 아무 것도 나오지 않아도 테스트 �
 
 <h3 id="withtransformtransform-interface-matcher-gomegamatcher">WithTransform(transform interface{}, matcher GomegaMatcher)</h3>
 
-<div class="language-go highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">Expect</span><span class="p">(</span><span class="n">ACTUAL</span><span class="p">)</span><span class="o">.</span><span class="n">To</span><span class="p">(</span><span class="n">WithTransform</span><span class="p">(</span><span class="n">TRANSFORM</span><span class="p">,</span><span class="x"> </span><span class="n">MATCHER</span><span class="p">))</span><span class="x">
-</span></code></pre></div></div>
+<div class="language-go highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">Expect</span><span class="p">(</span><span class="n">ACTUAL</span><span class="p">)</span><span class="o">.</span><span class="n">To</span><span class="p">(</span><span class="n">WithTransform</span><span class="p">(</span><span class="n">TRANSFORM</span><span class="p">,</span> <span class="n">MATCHER</span><span class="p">))</span>
+</code></pre></div></div>
 
 <ul>
   <li><code class="highlighter-rouge">ACTUAL</code>을 <code class="highlighter-rouge">TRANSFORM</code>함수를 이용하여 변형하여 Matcher를 통과하면 통과합니다.</li>
 </ul>
 
-<div class="language-go highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">GetColor</span><span class="x"> </span><span class="o">:=</span><span class="x"> </span><span class="k">func</span><span class="p">(</span><span class="n">e</span><span class="x"> </span><span class="n">Element</span><span class="p">)</span><span class="x"> </span><span class="n">Color</span><span class="x"> </span><span class="p">{</span><span class="x"> </span><span class="k">return</span><span class="x"> </span><span class="n">e</span><span class="o">.</span><span class="n">Color</span><span class="x"> </span><span class="p">}</span><span class="x">
+<div class="language-go highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">GetColor</span> <span class="o">:=</span> <span class="k">func</span><span class="p">(</span><span class="n">e</span> <span class="n">Element</span><span class="p">)</span> <span class="n">Color</span> <span class="p">{</span> <span class="k">return</span> <span class="n">e</span><span class="o">.</span><span class="n">Color</span> <span class="p">}</span>
 
-</span><span class="n">Expect</span><span class="p">(</span><span class="n">element</span><span class="p">)</span><span class="o">.</span><span class="n">To</span><span class="p">(</span><span class="n">WithTransform</span><span class="p">(</span><span class="n">GetColor</span><span class="p">,</span><span class="x"> </span><span class="n">Equal</span><span class="p">(</span><span class="n">BLUE</span><span class="p">)))</span><span class="x">
-</span></code></pre></div></div>
+<span class="n">Expect</span><span class="p">(</span><span class="n">element</span><span class="p">)</span><span class="o">.</span><span class="n">To</span><span class="p">(</span><span class="n">WithTransform</span><span class="p">(</span><span class="n">GetColor</span><span class="p">,</span> <span class="n">Equal</span><span class="p">(</span><span class="n">BLUE</span><span class="p">)))</span>
+</code></pre></div></div>
 
 <ul>
   <li>혹은 다음과 같이 만들어서 사용할 수 있습니다.</li>
 </ul>
 
-<div class="language-go highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c">// HaveColor returns a matcher that expects the element to have the given color.</span><span class="x">
-</span><span class="k">func</span><span class="x"> </span><span class="n">HaveColor</span><span class="p">(</span><span class="n">c</span><span class="x"> </span><span class="n">Color</span><span class="p">)</span><span class="x"> </span><span class="n">GomegaMatcher</span><span class="x"> </span><span class="p">{</span><span class="x">
-    </span><span class="k">return</span><span class="x"> </span><span class="n">WithTransform</span><span class="p">(</span><span class="k">func</span><span class="p">(</span><span class="n">e</span><span class="x"> </span><span class="n">Element</span><span class="p">)</span><span class="x"> </span><span class="n">Color</span><span class="x"> </span><span class="p">{</span><span class="x">
-        </span><span class="k">return</span><span class="x"> </span><span class="n">e</span><span class="o">.</span><span class="n">Color</span><span class="x">
-    </span><span class="p">},</span><span class="x"> </span><span class="n">Equal</span><span class="p">(</span><span class="n">c</span><span class="p">))</span><span class="x">
-</span><span class="p">}</span><span class="x">
+<div class="language-go highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c">// HaveColor returns a matcher that expects the element to have the given color.</span>
+<span class="k">func</span> <span class="n">HaveColor</span><span class="p">(</span><span class="n">c</span> <span class="n">Color</span><span class="p">)</span> <span class="n">GomegaMatcher</span> <span class="p">{</span>
+    <span class="k">return</span> <span class="n">WithTransform</span><span class="p">(</span><span class="k">func</span><span class="p">(</span><span class="n">e</span> <span class="n">Element</span><span class="p">)</span> <span class="n">Color</span> <span class="p">{</span>
+        <span class="k">return</span> <span class="n">e</span><span class="o">.</span><span class="n">Color</span>
+    <span class="p">},</span> <span class="n">Equal</span><span class="p">(</span><span class="n">c</span><span class="p">))</span>
+<span class="p">}</span>
 
-</span><span class="n">Expect</span><span class="p">(</span><span class="n">element</span><span class="p">)</span><span class="o">.</span><span class="n">To</span><span class="p">(</span><span class="n">HaveColor</span><span class="p">(</span><span class="n">BLUE</span><span class="p">)))</span><span class="x">
-</span></code></pre></div></div>
+<span class="n">Expect</span><span class="p">(</span><span class="n">element</span><span class="p">)</span><span class="o">.</span><span class="n">To</span><span class="p">(</span><span class="n">HaveColor</span><span class="p">(</span><span class="n">BLUE</span><span class="p">)))</span>
+</code></pre></div></div>
 
 
 	</div>

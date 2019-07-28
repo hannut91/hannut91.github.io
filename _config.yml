@@ -1,15 +1,8 @@
 site: Yunseok's Dev Blog
 
 collections:
-  pages:
-    output: true
-    permalink: /:name
   blogs:
     output: true
-    permalink: /:collection/:path
-  projects:
-    output: true
-    permalink: /project/:slug
 
 defaults:
   -
@@ -20,21 +13,9 @@ defaults:
   -
     scope:
       path: ""
-      type: "pages"
-    values:
-      layout: "page"
-  -
-    scope:
-      path: ""
       type: "blogs"
     values:
       layout: "post"
-  -
-    scope:
-      path: ""
-      type: "projects"
-    values:
-      layout: "project"
 
 markdown: kramdown
 
@@ -46,31 +27,8 @@ sass:
   style: compressed
 
 plugins:
-  - jekyll-paginate-v2
+  - jekyll-paginate
   - jekyll-sitemap
-
-autopages:
-  enabled: true
-  collections:
-    enabled: true
-    # layouts:
-    #   - post.html
 
 timezone: "Asia/Seoul"
 future: true
-
-pagination:
-  enabled: true
-  debug: false
-  collection: 'blogs'
-  per_page: 10
-  permalink: '/page/:num/'
-  title: ':title - page :num'
-  limit: 0
-  sort_field: 'createdat'
-  sort_reverse: true
-  trail:
-    before: 2
-    after: 2
-  extension: html
-  indexpage: 'index'

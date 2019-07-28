@@ -66,7 +66,7 @@
 </head>
 
 
-<body class="loading ajax-loading" data-site-url="http://localhost:4000" data-page-url="/blogs/e2e/codeceptjs">
+<body class="loading ajax-loading" data-site-url="http://localhost:4000" data-page-url="/blogs/e2e/codeceptjs.html">
 
 
 	<header class="header">
@@ -138,10 +138,10 @@
 
 <h2 id="설치">설치</h2>
 
-<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nv">$ </span>mkdir e2e-example <span class="o">&amp;&amp;</span> <span class="nb">cd </span>e2e-example
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nv">$ </span><span class="nb">mkdir </span>e2e-example <span class="o">&amp;&amp;</span> <span class="nb">cd </span>e2e-example
 <span class="nv">$ </span>npm init
 
-<span class="nv">$ </span>npm install codeceptjs webdriverio selenium-standalone <span class="nt">--save-dev</span>
+<span class="nv">$ </span>npm <span class="nb">install </span>codeceptjs webdriverio selenium-standalone <span class="nt">--save-dev</span>
 </code></pre></div></div>
 
 <h2 id="설정파일-만들기">설정파일 만들기</h2>
@@ -161,17 +161,17 @@ enter키를 눌러 넘어갑니다.</p>
 <p>테스트 파일 이름과 테스트 이름을 입력해줍니다.
 그 후 테스트 파일을 아래와 같이 편집합니다.</p>
 
-<div class="language-js highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nx">Feature</span><span class="p">(</span><span class="s1">'My First Test'</span><span class="p">);</span>
+<div class="language-js highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nx">Feature</span><span class="p">(</span><span class="dl">'</span><span class="s1">My First Test</span><span class="dl">'</span><span class="p">);</span>
 
-<span class="nx">Scenario</span><span class="p">(</span><span class="s1">'test something'</span><span class="p">,</span> <span class="p">(</span><span class="nx">I</span><span class="p">)</span> <span class="o">=&gt;</span> <span class="p">{</span>
-  <span class="nx">I</span><span class="p">.</span><span class="nx">amOnPage</span><span class="p">(</span><span class="s1">'https://github.com'</span><span class="p">);</span>
-  <span class="nx">I</span><span class="p">.</span><span class="nx">see</span><span class="p">(</span><span class="s1">'GitHub'</span><span class="p">);</span>
+<span class="nx">Scenario</span><span class="p">(</span><span class="dl">'</span><span class="s1">test something</span><span class="dl">'</span><span class="p">,</span> <span class="p">(</span><span class="nx">I</span><span class="p">)</span> <span class="o">=&gt;</span> <span class="p">{</span>
+  <span class="nx">I</span><span class="p">.</span><span class="nx">amOnPage</span><span class="p">(</span><span class="dl">'</span><span class="s1">https://github.com</span><span class="dl">'</span><span class="p">);</span>
+  <span class="nx">I</span><span class="p">.</span><span class="nx">see</span><span class="p">(</span><span class="dl">'</span><span class="s1">GitHub</span><span class="dl">'</span><span class="p">);</span>
 <span class="p">});</span>
 </code></pre></div></div>
 
 <h2 id="웹드라이버-설치하기">웹드라이버 설치하기</h2>
 
-<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>./node_modules/.bin/selenium_standalone install
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>./node_modules/.bin/selenium_standalone <span class="nb">install</span>
 </code></pre></div></div>
 
 <h2 id="셀레늄-서버-실행하기">셀레늄 서버 실행하기</h2>

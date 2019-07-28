@@ -66,7 +66,7 @@
 </head>
 
 
-<body class="loading ajax-loading" data-site-url="http://localhost:4000" data-page-url="/blogs/express/13.security-best-practice">
+<body class="loading ajax-loading" data-site-url="http://localhost:4000" data-page-url="/blogs/express/13.security-best-practice.html">
 
 
 	<header class="header">
@@ -160,12 +160,12 @@ sniffing</a>과 <a href="https://en.wikipedia.org/wiki/Man-in-the-middle_attack"
 미들웨어들의 모음입니다.</li>
 </ul>
 
-<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>npm install <span class="nt">--save</span> helmet
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>npm <span class="nb">install</span> <span class="nt">--save</span> helmet
 </code></pre></div></div>
 
 <div class="language-js highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1">// ...</span>
 
-<span class="kd">var</span> <span class="nx">helmet</span> <span class="o">=</span> <span class="nx">require</span><span class="p">(</span><span class="s1">'helmet'</span><span class="p">)</span>
+<span class="kd">var</span> <span class="nx">helmet</span> <span class="o">=</span> <span class="nx">require</span><span class="p">(</span><span class="dl">'</span><span class="s1">helmet</span><span class="dl">'</span><span class="p">)</span>
 <span class="nx">app</span><span class="p">.</span><span class="nx">use</span><span class="p">(</span><span class="nx">helmet</span><span class="p">())</span>
 
 <span class="c1">// ...</span>
@@ -179,7 +179,7 @@ sniffing</a>과 <a href="https://en.wikipedia.org/wiki/Man-in-the-middle_attack"
 알 수 있고 공격을 할 수 있습니다.</li>
 </ul>
 
-<div class="language-js highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nx">app</span><span class="p">.</span><span class="nx">disable</span><span class="p">(</span><span class="s1">'x-powered-by'</span><span class="p">)</span>
+<div class="language-js highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nx">app</span><span class="p">.</span><span class="nx">disable</span><span class="p">(</span><span class="dl">'</span><span class="s1">x-powered-by</span><span class="dl">'</span><span class="p">)</span>
 </code></pre></div></div>
 
 <h2 id="use-cookies-securly">Use cookies securly</h2>
@@ -225,11 +225,11 @@ sniffing</a>과 <a href="https://en.wikipedia.org/wiki/Man-in-the-middle_attack"
   <li>이 문제를 피하기 위해 일반적인 쿠키 이름을 사용해야 합니다.</li>
 </ul>
 
-<div class="language-js highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kd">var</span> <span class="nx">session</span> <span class="o">=</span> <span class="nx">require</span><span class="p">(</span><span class="s1">'express-session'</span><span class="p">)</span>
-<span class="nx">app</span><span class="p">.</span><span class="kd">set</span><span class="p">(</span><span class="s1">'trust proxy'</span><span class="p">,</span> <span class="mi">1</span><span class="p">)</span> <span class="c1">// trust first proxy</span>
+<div class="language-js highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kd">var</span> <span class="nx">session</span> <span class="o">=</span> <span class="nx">require</span><span class="p">(</span><span class="dl">'</span><span class="s1">express-session</span><span class="dl">'</span><span class="p">)</span>
+<span class="nx">app</span><span class="p">.</span><span class="kd">set</span><span class="p">(</span><span class="dl">'</span><span class="s1">trust proxy</span><span class="dl">'</span><span class="p">,</span> <span class="mi">1</span><span class="p">)</span> <span class="c1">// trust first proxy</span>
 <span class="nx">app</span><span class="p">.</span><span class="nx">use</span><span class="p">(</span><span class="nx">session</span><span class="p">({</span>
-  <span class="na">secret</span><span class="p">:</span> <span class="s1">'s3Cur3'</span><span class="p">,</span>
-  <span class="na">name</span><span class="p">:</span> <span class="s1">'sessionId'</span>
+  <span class="na">secret</span><span class="p">:</span> <span class="dl">'</span><span class="s1">s3Cur3</span><span class="dl">'</span><span class="p">,</span>
+  <span class="na">name</span><span class="p">:</span> <span class="dl">'</span><span class="s1">sessionId</span><span class="dl">'</span>
 <span class="p">}))</span>
 </code></pre></div></div>
 
@@ -248,19 +248,19 @@ sniffing</a>과 <a href="https://en.wikipedia.org/wiki/Man-in-the-middle_attack"
   <li>expires - 쿠키의 만료시간을 설정합니다.</li>
 </ul>
 
-<div class="language-js highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kd">var</span> <span class="nx">session</span> <span class="o">=</span> <span class="nx">require</span><span class="p">(</span><span class="s1">'cookie-session'</span><span class="p">)</span>
-<span class="kd">var</span> <span class="nx">express</span> <span class="o">=</span> <span class="nx">require</span><span class="p">(</span><span class="s1">'express'</span><span class="p">)</span>
+<div class="language-js highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kd">var</span> <span class="nx">session</span> <span class="o">=</span> <span class="nx">require</span><span class="p">(</span><span class="dl">'</span><span class="s1">cookie-session</span><span class="dl">'</span><span class="p">)</span>
+<span class="kd">var</span> <span class="nx">express</span> <span class="o">=</span> <span class="nx">require</span><span class="p">(</span><span class="dl">'</span><span class="s1">express</span><span class="dl">'</span><span class="p">)</span>
 <span class="kd">var</span> <span class="nx">app</span> <span class="o">=</span> <span class="nx">express</span><span class="p">()</span>
 
 <span class="kd">var</span> <span class="nx">expiryDate</span> <span class="o">=</span> <span class="k">new</span> <span class="nb">Date</span><span class="p">(</span><span class="nb">Date</span><span class="p">.</span><span class="nx">now</span><span class="p">()</span> <span class="o">+</span> <span class="mi">60</span> <span class="o">*</span> <span class="mi">60</span> <span class="o">*</span> <span class="mi">1000</span><span class="p">)</span> <span class="c1">// 1 hour</span>
 <span class="nx">app</span><span class="p">.</span><span class="nx">use</span><span class="p">(</span><span class="nx">session</span><span class="p">({</span>
-  <span class="na">name</span><span class="p">:</span> <span class="s1">'session'</span><span class="p">,</span>
-  <span class="na">keys</span><span class="p">:</span> <span class="p">[</span><span class="s1">'key1'</span><span class="p">,</span> <span class="s1">'key2'</span><span class="p">],</span>
+  <span class="na">name</span><span class="p">:</span> <span class="dl">'</span><span class="s1">session</span><span class="dl">'</span><span class="p">,</span>
+  <span class="na">keys</span><span class="p">:</span> <span class="p">[</span><span class="dl">'</span><span class="s1">key1</span><span class="dl">'</span><span class="p">,</span> <span class="dl">'</span><span class="s1">key2</span><span class="dl">'</span><span class="p">],</span>
   <span class="na">cookie</span><span class="p">:</span> <span class="p">{</span>
     <span class="na">secure</span><span class="p">:</span> <span class="kc">true</span><span class="p">,</span>
     <span class="na">httpOnly</span><span class="p">:</span> <span class="kc">true</span><span class="p">,</span>
-    <span class="na">domain</span><span class="p">:</span> <span class="s1">'example.com'</span><span class="p">,</span>
-    <span class="na">path</span><span class="p">:</span> <span class="s1">'foo/bar'</span><span class="p">,</span>
+    <span class="na">domain</span><span class="p">:</span> <span class="dl">'</span><span class="s1">example.com</span><span class="dl">'</span><span class="p">,</span>
+    <span class="na">path</span><span class="p">:</span> <span class="dl">'</span><span class="s1">foo/bar</span><span class="dl">'</span><span class="p">,</span>
     <span class="na">expires</span><span class="p">:</span> <span class="nx">expiryDate</span>
   <span class="p">}</span>
 <span class="p">}))</span>

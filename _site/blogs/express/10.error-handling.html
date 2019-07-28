@@ -66,7 +66,7 @@
 </head>
 
 
-<body class="loading ajax-loading" data-site-url="http://localhost:4000" data-page-url="/blogs/express/10.error-handling">
+<body class="loading ajax-loading" data-site-url="http://localhost:4000" data-page-url="/blogs/express/10.error-handling.html">
 
 
 	<header class="header">
@@ -137,8 +137,8 @@
   <li>synchronous코드에서 에러가 발생한다면 <code class="highlighter-rouge">Express</code>는 캐치하여 처리합니다.</li>
 </ul>
 
-<div class="language-js highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nx">app</span><span class="p">.</span><span class="kd">get</span><span class="p">(</span><span class="s2">"/"</span><span class="p">,</span> <span class="kd">function</span> <span class="p">(</span><span class="nx">req</span><span class="p">,</span> <span class="nx">res</span><span class="p">)</span> <span class="p">{</span>
-  <span class="k">throw</span> <span class="k">new</span> <span class="nb">Error</span><span class="p">(</span><span class="s2">"BROKEN"</span><span class="p">);</span> <span class="c1">// Express will catch this on its own.</span>
+<div class="language-js highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nx">app</span><span class="p">.</span><span class="kd">get</span><span class="p">(</span><span class="dl">"</span><span class="s2">/</span><span class="dl">"</span><span class="p">,</span> <span class="kd">function</span> <span class="p">(</span><span class="nx">req</span><span class="p">,</span> <span class="nx">res</span><span class="p">)</span> <span class="p">{</span>
+  <span class="k">throw</span> <span class="k">new</span> <span class="nb">Error</span><span class="p">(</span><span class="dl">"</span><span class="s2">BROKEN</span><span class="dl">"</span><span class="p">);</span> <span class="c1">// Express will catch this on its own.</span>
 <span class="p">});</span>
 </code></pre></div></div>
 
@@ -147,8 +147,8 @@
 반드시 <code class="highlighter-rouge">next()</code>함수를 통해 에러를 전달해줘야 합니다.</li>
 </ul>
 
-<div class="language-js highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nx">app</span><span class="p">.</span><span class="kd">get</span><span class="p">(</span><span class="s2">"/"</span><span class="p">,</span> <span class="kd">function</span> <span class="p">(</span><span class="nx">req</span><span class="p">,</span> <span class="nx">res</span><span class="p">,</span> <span class="nx">next</span><span class="p">)</span> <span class="p">{</span>
-  <span class="nx">fs</span><span class="p">.</span><span class="nx">readFile</span><span class="p">(</span><span class="s2">"/file-does-not-exist"</span><span class="p">,</span> <span class="kd">function</span> <span class="p">(</span><span class="nx">err</span><span class="p">,</span> <span class="nx">data</span><span class="p">)</span> <span class="p">{</span>
+<div class="language-js highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nx">app</span><span class="p">.</span><span class="kd">get</span><span class="p">(</span><span class="dl">"</span><span class="s2">/</span><span class="dl">"</span><span class="p">,</span> <span class="kd">function</span> <span class="p">(</span><span class="nx">req</span><span class="p">,</span> <span class="nx">res</span><span class="p">,</span> <span class="nx">next</span><span class="p">)</span> <span class="p">{</span>
+  <span class="nx">fs</span><span class="p">.</span><span class="nx">readFile</span><span class="p">(</span><span class="dl">"</span><span class="s2">/file-does-not-exist</span><span class="dl">"</span><span class="p">,</span> <span class="kd">function</span> <span class="p">(</span><span class="nx">err</span><span class="p">,</span> <span class="nx">data</span><span class="p">)</span> <span class="p">{</span>
     <span class="k">if</span> <span class="p">(</span><span class="nx">err</span><span class="p">)</span> <span class="p">{</span>
       <span class="nx">next</span><span class="p">(</span><span class="nx">err</span><span class="p">);</span> <span class="c1">// Pass errors to Express.</span>
     <span class="p">}</span>
@@ -167,15 +167,15 @@
 작성할 수 있습니다.</li>
 </ul>
 
-<div class="language-go highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">app</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="s">"/"</span><span class="p">,</span><span class="x"> </span><span class="p">[</span><span class="x">
-  </span><span class="n">function</span><span class="x"> </span><span class="p">(</span><span class="n">req</span><span class="p">,</span><span class="x"> </span><span class="n">res</span><span class="p">,</span><span class="x"> </span><span class="n">next</span><span class="p">)</span><span class="x"> </span><span class="p">{</span><span class="x">
-    </span><span class="n">fs</span><span class="o">.</span><span class="n">writeFile</span><span class="p">(</span><span class="s">"/inaccessible-path"</span><span class="p">,</span><span class="x"> </span><span class="s">"data"</span><span class="p">,</span><span class="x"> </span><span class="n">next</span><span class="p">);</span><span class="x">
-  </span><span class="p">},</span><span class="x">
-  </span><span class="n">function</span><span class="x"> </span><span class="p">(</span><span class="n">req</span><span class="p">,</span><span class="x"> </span><span class="n">res</span><span class="p">)</span><span class="x"> </span><span class="p">{</span><span class="x">
-    </span><span class="n">res</span><span class="o">.</span><span class="n">send</span><span class="p">(</span><span class="s">"OK"</span><span class="p">);</span><span class="x">
-  </span><span class="p">}</span><span class="x">
-</span><span class="p">]);</span><span class="x">
-</span></code></pre></div></div>
+<div class="language-go highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">app</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="s">"/"</span><span class="p">,</span> <span class="p">[</span>
+  <span class="n">function</span> <span class="p">(</span><span class="n">req</span><span class="p">,</span> <span class="n">res</span><span class="p">,</span> <span class="n">next</span><span class="p">)</span> <span class="p">{</span>
+    <span class="n">fs</span><span class="o">.</span><span class="n">writeFile</span><span class="p">(</span><span class="s">"/inaccessible-path"</span><span class="p">,</span> <span class="s">"data"</span><span class="p">,</span> <span class="n">next</span><span class="p">);</span>
+  <span class="p">},</span>
+  <span class="n">function</span> <span class="p">(</span><span class="n">req</span><span class="p">,</span> <span class="n">res</span><span class="p">)</span> <span class="p">{</span>
+    <span class="n">res</span><span class="o">.</span><span class="n">send</span><span class="p">(</span><span class="s">"OK"</span><span class="p">);</span>
+  <span class="p">}</span>
+<span class="p">]);</span>
+</code></pre></div></div>
 
 <ul>
   <li>위의 예에서 <code class="highlighter-rouge">fs.writeFile</code>의 콜백 함수로 <code class="highlighter-rouge">next</code>함수가 전달 되었습니다.</li>
@@ -185,11 +185,11 @@
 합니다.</li>
 </ul>
 
-<div class="language-js highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nx">app</span><span class="p">.</span><span class="kd">get</span><span class="p">(</span><span class="s2">"/"</span><span class="p">,</span> <span class="kd">function</span> <span class="p">(</span><span class="nx">req</span><span class="p">,</span> <span class="nx">res</span><span class="p">,</span> <span class="nx">next</span><span class="p">)</span> <span class="p">{</span>
+<div class="language-js highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nx">app</span><span class="p">.</span><span class="kd">get</span><span class="p">(</span><span class="dl">"</span><span class="s2">/</span><span class="dl">"</span><span class="p">,</span> <span class="kd">function</span> <span class="p">(</span><span class="nx">req</span><span class="p">,</span> <span class="nx">res</span><span class="p">,</span> <span class="nx">next</span><span class="p">)</span> <span class="p">{</span>
 
   <span class="nx">setTimeout</span><span class="p">(</span><span class="kd">function</span> <span class="p">()</span> <span class="p">{</span>
     <span class="k">try</span> <span class="p">{</span>
-      <span class="k">throw</span> <span class="k">new</span> <span class="nb">Error</span><span class="p">(</span><span class="s2">"BROKEN"</span><span class="p">);</span>
+      <span class="k">throw</span> <span class="k">new</span> <span class="nb">Error</span><span class="p">(</span><span class="dl">"</span><span class="s2">BROKEN</span><span class="dl">"</span><span class="p">);</span>
     <span class="p">}</span>
     <span class="k">catch</span> <span class="p">(</span><span class="nx">err</span><span class="p">)</span> <span class="p">{</span>
       <span class="nx">next</span><span class="p">(</span><span class="nx">err</span><span class="p">);</span>
@@ -207,9 +207,9 @@
 <code class="highlighter-rouge">try...catch</code>블락의 오버헤드를 피할 수 있습니다.</li>
 </ul>
 
-<div class="language-js highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nx">app</span><span class="p">.</span><span class="kd">get</span><span class="p">(</span><span class="s2">"/"</span><span class="p">,</span> <span class="kd">function</span> <span class="p">(</span><span class="nx">req</span><span class="p">,</span> <span class="nx">res</span><span class="p">,</span> <span class="nx">next</span><span class="p">)</span> <span class="p">{</span>
+<div class="language-js highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nx">app</span><span class="p">.</span><span class="kd">get</span><span class="p">(</span><span class="dl">"</span><span class="s2">/</span><span class="dl">"</span><span class="p">,</span> <span class="kd">function</span> <span class="p">(</span><span class="nx">req</span><span class="p">,</span> <span class="nx">res</span><span class="p">,</span> <span class="nx">next</span><span class="p">)</span> <span class="p">{</span>
   <span class="nb">Promise</span><span class="p">.</span><span class="nx">resolve</span><span class="p">().</span><span class="nx">then</span><span class="p">(</span><span class="kd">function</span> <span class="p">()</span> <span class="p">{</span>
-    <span class="k">throw</span> <span class="k">new</span> <span class="nb">Error</span><span class="p">(</span><span class="s2">"BROKEN"</span><span class="p">);</span>
+    <span class="k">throw</span> <span class="k">new</span> <span class="nb">Error</span><span class="p">(</span><span class="dl">"</span><span class="s2">BROKEN</span><span class="dl">"</span><span class="p">);</span>
   <span class="p">}).</span><span class="k">catch</span><span class="p">(</span><span class="nx">next</span><span class="p">);</span> <span class="c1">// Errors will be passed to Express.</span>
 <span class="p">});</span>
 </code></pre></div></div>

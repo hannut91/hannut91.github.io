@@ -66,7 +66,7 @@
 </head>
 
 
-<body class="loading ajax-loading" data-site-url="http://localhost:4000" data-page-url="/blogs/devops/cicd">
+<body class="loading ajax-loading" data-site-url="http://localhost:4000" data-page-url="/blogs/devops/cicd.html">
 
 
 	<header class="header">
@@ -143,22 +143,22 @@
 
 <p>‘Hello world’를 출력하는 간단한 Express app을 작성해봅시다.</p>
 
-<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nv">$ </span>mkdir express-example
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nv">$ </span><span class="nb">mkdir </span>express-example
 <span class="nv">$ </span><span class="nb">cd </span>express-example
 <span class="nv">$ </span>npm init
 <span class="nv">$ </span>npm i express
 </code></pre></div></div>
 
 <p>/app.js</p>
-<div class="language-js highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kd">const</span> <span class="nx">express</span> <span class="o">=</span> <span class="nx">require</span><span class="p">(</span><span class="s1">'express'</span><span class="p">);</span>
+<div class="language-js highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kd">const</span> <span class="nx">express</span> <span class="o">=</span> <span class="nx">require</span><span class="p">(</span><span class="dl">'</span><span class="s1">express</span><span class="dl">'</span><span class="p">);</span>
 
-<span class="kd">const</span> <span class="nx">GreetService</span> <span class="o">=</span> <span class="nx">require</span><span class="p">(</span><span class="s1">'./services/greet.service'</span><span class="p">);</span>
+<span class="kd">const</span> <span class="nx">GreetService</span> <span class="o">=</span> <span class="nx">require</span><span class="p">(</span><span class="dl">'</span><span class="s1">./services/greet.service</span><span class="dl">'</span><span class="p">);</span>
 
 <span class="kd">const</span> <span class="nx">port</span> <span class="o">=</span> <span class="nx">process</span><span class="p">.</span><span class="nx">env</span><span class="p">.</span><span class="nx">PROT</span> <span class="o">||</span> <span class="mi">3000</span><span class="p">;</span>
 
 <span class="kd">const</span> <span class="nx">app</span> <span class="o">=</span> <span class="nx">express</span><span class="p">();</span>
 
-<span class="nx">app</span><span class="p">.</span><span class="kd">get</span><span class="p">(</span><span class="s1">'/'</span><span class="p">,</span> <span class="p">(</span><span class="nx">req</span><span class="p">,</span> <span class="nx">res</span><span class="p">)</span> <span class="o">=&gt;</span> <span class="p">{</span>
+<span class="nx">app</span><span class="p">.</span><span class="kd">get</span><span class="p">(</span><span class="dl">'</span><span class="s1">/</span><span class="dl">'</span><span class="p">,</span> <span class="p">(</span><span class="nx">req</span><span class="p">,</span> <span class="nx">res</span><span class="p">)</span> <span class="o">=&gt;</span> <span class="p">{</span>
   <span class="nx">res</span><span class="p">.</span><span class="nx">status</span><span class="p">(</span><span class="mi">200</span><span class="p">).</span><span class="nx">send</span><span class="p">(</span><span class="nx">GreetService</span><span class="p">.</span><span class="nx">greet</span><span class="p">(</span><span class="nx">req</span><span class="p">.</span><span class="nx">query</span><span class="p">.</span><span class="nx">name</span><span class="p">));</span>
 <span class="p">});</span>
 
@@ -168,10 +168,10 @@
 </code></pre></div></div>
 
 <p>/services/greet.service.test.js</p>
-<div class="language-js highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kd">const</span> <span class="nx">GreetService</span> <span class="o">=</span> <span class="nx">require</span><span class="p">(</span><span class="s1">'./greet.service'</span><span class="p">);</span>
+<div class="language-js highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kd">const</span> <span class="nx">GreetService</span> <span class="o">=</span> <span class="nx">require</span><span class="p">(</span><span class="dl">'</span><span class="s1">./greet.service</span><span class="dl">'</span><span class="p">);</span>
 
-<span class="nx">test</span><span class="p">(</span><span class="s1">'Greet test'</span><span class="p">,</span> <span class="p">()</span> <span class="o">=&gt;</span> <span class="p">{</span>
-  <span class="nx">expect</span><span class="p">(</span><span class="nx">GreetService</span><span class="p">.</span><span class="nx">greet</span><span class="p">(</span><span class="s1">'John Doe'</span><span class="p">)).</span><span class="nx">toBe</span><span class="p">(</span><span class="s1">'John Doe hello'</span><span class="p">);</span>
+<span class="nx">test</span><span class="p">(</span><span class="dl">'</span><span class="s1">Greet test</span><span class="dl">'</span><span class="p">,</span> <span class="p">()</span> <span class="o">=&gt;</span> <span class="p">{</span>
+  <span class="nx">expect</span><span class="p">(</span><span class="nx">GreetService</span><span class="p">.</span><span class="nx">greet</span><span class="p">(</span><span class="dl">'</span><span class="s1">John Doe</span><span class="dl">'</span><span class="p">)).</span><span class="nx">toBe</span><span class="p">(</span><span class="dl">'</span><span class="s1">John Doe hello</span><span class="dl">'</span><span class="p">);</span>
 <span class="p">});</span>
 </code></pre></div></div>
 

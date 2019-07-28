@@ -66,7 +66,7 @@
 </head>
 
 
-<body class="loading ajax-loading" data-site-url="http://localhost:4000" data-page-url="/blogs/php/phpbrew/install">
+<body class="loading ajax-loading" data-site-url="http://localhost:4000" data-page-url="/blogs/php/phpbrew/install.html">
 
 
 	<header class="header">
@@ -130,19 +130,19 @@
 </ul>
 
 <div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>xcode-select <span class="nt">--install</span>
-brew install automake autoconf curl pcre bison re2c mhash libtool icu4c gettext jpeg openssl libxml2 mcrypt gmp libevent
-brew link icu4c
-brew link <span class="nt">--force</span> openssl
-brew link <span class="nt">--force</span> libxml2
+brew <span class="nb">install </span>automake autoconf curl pcre bison re2c mhash libtool icu4c gettext jpeg openssl libxml2 mcrypt gmp libevent
+brew <span class="nb">link </span>icu4c
+brew <span class="nb">link</span> <span class="nt">--force</span> openssl
+brew <span class="nb">link</span> <span class="nt">--force</span> libxml2
 </code></pre></div></div>
 
 <h2 id="install">Install</h2>
 
 <div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>curl <span class="nt">-L</span> <span class="nt">-O</span> https://github.com/phpbrew/phpbrew/raw/master/phpbrew
-chmod +x phpbrew
+<span class="nb">chmod</span> +x phpbrew
 
 <span class="c"># phpbrew를 $PATH로 옮깁니다. </span>
-<span class="nb">sudo </span>mv phpbrew /usr/local/bin/phpbrew
+<span class="nb">sudo mv </span>phpbrew /usr/local/bin/phpbrew
 </code></pre></div></div>
 
 <ul>
@@ -197,7 +197,7 @@ chmod +x phpbrew
   <li>PHP를 설치합니다.</li>
 </ul>
 
-<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>phpbrew install 7.3 +default
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>phpbrew <span class="nb">install </span>7.3 +default
 </code></pre></div></div>
 
 <ul>
@@ -218,13 +218,13 @@ chmod +x phpbrew
 
 <div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Error: Configure failed:
 The last 5 lines <span class="k">in </span>the log file:
-checking <span class="k">if </span>the location of ZLIB install directory is defined... no
+checking <span class="k">if </span>the location of ZLIB <span class="nb">install </span>directory is defined... no
 
-checking whether to <span class="nb">enable </span>bc style precision math functions... yes
+checking whether to <span class="nb">enable </span>bc style precision math functions... <span class="nb">yes
 
-checking <span class="k">for </span>BZip2 support... yes
+</span>checking <span class="k">for </span>BZip2 support... <span class="nb">yes
 
-checking <span class="k">for </span>BZip2 <span class="k">in </span>default path... not found
+</span>checking <span class="k">for </span>BZip2 <span class="k">in </span>default path... not found
 
 configure: error: Please reinstall the BZip2 distribution
 </code></pre></div></div>
@@ -235,20 +235,20 @@ configure: error: Please reinstall the BZip2 distribution
   <li>BZip2가 설치되어 있지 않다면 <code class="highlighter-rouge">brew install BZip2</code>로 설치해주세요.</li>
 </ul>
 
-<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>phpbrew install 7.3 +default +bz2<span class="o">=</span>/usr/local/Cellar/bzip2/1.0.6_1/ 
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>phpbrew <span class="nb">install </span>7.3 +default +bz2<span class="o">=</span>/usr/local/Cellar/bzip2/1.0.6_1/ 
 </code></pre></div></div>
 
 <div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Error: Configure failed:
 The last 5 lines <span class="k">in </span>the log file:
 checking whether to <span class="nb">enable </span>zend-test extension... no
 
-checking <span class="k">for </span>zip archive <span class="nb">read</span>/writesupport... yes
+checking <span class="k">for </span>zip archive <span class="nb">read</span>/writesupport... <span class="nb">yes
 
-checking pcre install prefix... /usr/local
+</span>checking pcre <span class="nb">install </span>prefix... /usr/local
 
-checking libzip... yes
+checking libzip... <span class="nb">yes
 
-checking <span class="k">for </span>the location of zlib... configure: error: zip support requires ZLIB. Use <span class="nt">--with-zlib-dir</span><span class="o">=</span>&lt;DIR&gt; to specify prefix where ZLIB include and library are located
+</span>checking <span class="k">for </span>the location of zlib... configure: error: zip support requires ZLIB. Use <span class="nt">--with-zlib-dir</span><span class="o">=</span>&lt;DIR&gt; to specify prefix where ZLIB include and library are located
 </code></pre></div></div>
 
 <ul>
@@ -257,7 +257,7 @@ checking <span class="k">for </span>the location of zlib... configure: error: zi
   <li>zlib가 설치되어 있지 않다면 <code class="highlighter-rouge">brew install zlib</code>로 설치해주세요.</li>
 </ul>
 
-<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>phpbrew install 7.3 +default +bz2<span class="o">=</span>/usr/local/Cellar/bzip2/1.0.6_1/ +zlib<span class="o">=</span>/usr/local/Cellar/zlib/1.2.11/
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>phpbrew <span class="nb">install </span>7.3 +default +bz2<span class="o">=</span>/usr/local/Cellar/bzip2/1.0.6_1/ +zlib<span class="o">=</span>/usr/local/Cellar/zlib/1.2.11/
 </code></pre></div></div>
 
 <h2 id="sources">Sources</h2>

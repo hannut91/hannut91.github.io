@@ -66,7 +66,7 @@
 </head>
 
 
-<body class="loading ajax-loading" data-site-url="http://localhost:4000" data-page-url="/blogs/express/07.wrting-middleware">
+<body class="loading ajax-loading" data-site-url="http://localhost:4000" data-page-url="/blogs/express/07.wrting-middleware.html">
 
 
 	<header class="header">
@@ -151,11 +151,11 @@
   <li>처음에는 단순한 텍스트를 돌려주는 기능이지만 로그를 출력하는 <code class="highlighter-rouge">myLogger</code>와 요청한 시간을 출력해주는 <code class="highlighter-rouge">requestTime</code>을 미들웨어로 추가할 것 입니다.</li>
 </ul>
 
-<div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kd">var</span> <span class="nx">express</span> <span class="o">=</span> <span class="nx">require</span><span class="p">(</span><span class="s1">'express'</span><span class="p">)</span>
+<div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kd">var</span> <span class="nx">express</span> <span class="o">=</span> <span class="nx">require</span><span class="p">(</span><span class="dl">'</span><span class="s1">express</span><span class="dl">'</span><span class="p">)</span>
 <span class="kd">var</span> <span class="nx">app</span> <span class="o">=</span> <span class="nx">express</span><span class="p">()</span>
 
-<span class="nx">app</span><span class="p">.</span><span class="kd">get</span><span class="p">(</span><span class="s1">'/'</span><span class="p">,</span> <span class="kd">function</span> <span class="p">(</span><span class="nx">req</span><span class="p">,</span> <span class="nx">res</span><span class="p">)</span> <span class="p">{</span>
-  <span class="nx">res</span><span class="p">.</span><span class="nx">send</span><span class="p">(</span><span class="s1">'Hello World!'</span><span class="p">)</span>
+<span class="nx">app</span><span class="p">.</span><span class="kd">get</span><span class="p">(</span><span class="dl">'</span><span class="s1">/</span><span class="dl">'</span><span class="p">,</span> <span class="kd">function</span> <span class="p">(</span><span class="nx">req</span><span class="p">,</span> <span class="nx">res</span><span class="p">)</span> <span class="p">{</span>
+  <span class="nx">res</span><span class="p">.</span><span class="nx">send</span><span class="p">(</span><span class="dl">'</span><span class="s1">Hello World!</span><span class="dl">'</span><span class="p">)</span>
 <span class="p">})</span>
 
 <span class="nx">app</span><span class="p">.</span><span class="nx">listen</span><span class="p">(</span><span class="mi">3000</span><span class="p">)</span>
@@ -168,7 +168,7 @@
 </ul>
 
 <div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kd">var</span> <span class="nx">myLogger</span> <span class="o">=</span> <span class="kd">function</span> <span class="p">(</span><span class="nx">req</span><span class="p">,</span> <span class="nx">res</span><span class="p">,</span> <span class="nx">next</span><span class="p">)</span> <span class="p">{</span>
-  <span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="s1">'LOGGED'</span><span class="p">)</span>
+  <span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="dl">'</span><span class="s1">LOGGED</span><span class="dl">'</span><span class="p">)</span>
   <span class="nx">next</span><span class="p">()</span>
 <span class="p">}</span>
 </code></pre></div></div>
@@ -212,7 +212,7 @@ app.listen(3000)
 <span class="p">}</span>
 </code></pre></div></div>
 
-<div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kd">var</span> <span class="nx">express</span> <span class="o">=</span> <span class="nx">require</span><span class="p">(</span><span class="s1">'express'</span><span class="p">)</span>
+<div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kd">var</span> <span class="nx">express</span> <span class="o">=</span> <span class="nx">require</span><span class="p">(</span><span class="dl">'</span><span class="s1">express</span><span class="dl">'</span><span class="p">)</span>
 <span class="kd">var</span> <span class="nx">app</span> <span class="o">=</span> <span class="nx">express</span><span class="p">()</span>
 
 <span class="kd">var</span> <span class="nx">requestTime</span> <span class="o">=</span> <span class="kd">function</span> <span class="p">(</span><span class="nx">req</span><span class="p">,</span> <span class="nx">res</span><span class="p">,</span> <span class="nx">next</span><span class="p">)</span> <span class="p">{</span>
@@ -222,9 +222,9 @@ app.listen(3000)
 
 <span class="nx">app</span><span class="p">.</span><span class="nx">use</span><span class="p">(</span><span class="nx">requestTime</span><span class="p">)</span>
 
-<span class="nx">app</span><span class="p">.</span><span class="kd">get</span><span class="p">(</span><span class="s1">'/'</span><span class="p">,</span> <span class="kd">function</span> <span class="p">(</span><span class="nx">req</span><span class="p">,</span> <span class="nx">res</span><span class="p">)</span> <span class="p">{</span>
-  <span class="kd">var</span> <span class="nx">responseText</span> <span class="o">=</span> <span class="s1">'Hello World!&lt;br&gt;'</span>
-  <span class="nx">responseText</span> <span class="o">+=</span> <span class="s1">'&lt;small&gt;Requested at: '</span> <span class="o">+</span> <span class="nx">req</span><span class="p">.</span><span class="nx">requestTime</span> <span class="o">+</span> <span class="s1">'&lt;/small&gt;'</span>
+<span class="nx">app</span><span class="p">.</span><span class="kd">get</span><span class="p">(</span><span class="dl">'</span><span class="s1">/</span><span class="dl">'</span><span class="p">,</span> <span class="kd">function</span> <span class="p">(</span><span class="nx">req</span><span class="p">,</span> <span class="nx">res</span><span class="p">)</span> <span class="p">{</span>
+  <span class="kd">var</span> <span class="nx">responseText</span> <span class="o">=</span> <span class="dl">'</span><span class="s1">Hello World!&lt;br&gt;</span><span class="dl">'</span>
+  <span class="nx">responseText</span> <span class="o">+=</span> <span class="dl">'</span><span class="s1">&lt;small&gt;Requested at: </span><span class="dl">'</span> <span class="o">+</span> <span class="nx">req</span><span class="p">.</span><span class="nx">requestTime</span> <span class="o">+</span> <span class="dl">'</span><span class="s1">&lt;/small&gt;</span><span class="dl">'</span>
   <span class="nx">res</span><span class="p">.</span><span class="nx">send</span><span class="p">(</span><span class="nx">responseText</span><span class="p">)</span>
 <span class="p">})</span>
 
@@ -249,9 +249,9 @@ app.listen(3000)
   <li>미들웨어를 사용할 떄는 다음과 같이 사용합니다.</li>
 </ul>
 
-<div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kd">var</span> <span class="nx">mw</span> <span class="o">=</span> <span class="nx">require</span><span class="p">(</span><span class="s1">'./my-middleware.js'</span><span class="p">)</span>
+<div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kd">var</span> <span class="nx">mw</span> <span class="o">=</span> <span class="nx">require</span><span class="p">(</span><span class="dl">'</span><span class="s1">./my-middleware.js</span><span class="dl">'</span><span class="p">)</span>
 
-<span class="nx">app</span><span class="p">.</span><span class="nx">use</span><span class="p">(</span><span class="nx">mw</span><span class="p">({</span> <span class="na">option1</span><span class="p">:</span> <span class="s1">'1'</span><span class="p">,</span> <span class="na">option2</span><span class="p">:</span> <span class="s1">'2'</span> <span class="p">}))</span>
+<span class="nx">app</span><span class="p">.</span><span class="nx">use</span><span class="p">(</span><span class="nx">mw</span><span class="p">({</span> <span class="na">option1</span><span class="p">:</span> <span class="dl">'</span><span class="s1">1</span><span class="dl">'</span><span class="p">,</span> <span class="na">option2</span><span class="p">:</span> <span class="dl">'</span><span class="s1">2</span><span class="dl">'</span> <span class="p">}))</span>
 </code></pre></div></div>
 
 <h2 id="source">Source</h2>

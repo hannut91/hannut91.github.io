@@ -66,7 +66,7 @@
 </head>
 
 
-<body class="loading ajax-loading" data-site-url="http://localhost:4000" data-page-url="/blogs/webpack/concepts/01.concepts">
+<body class="loading ajax-loading" data-site-url="http://localhost:4000" data-page-url="/blogs/webpack/concepts/01.concepts.html">
 
 
 	<header class="header">
@@ -140,7 +140,7 @@
 
 <p>webpack.config.js</p>
 <div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nx">module</span><span class="p">.</span><span class="nx">exports</span> <span class="o">=</span> <span class="p">{</span>
-  <span class="na">entry</span><span class="p">:</span> <span class="s1">'./path/to/my/entry/file.js'</span>
+  <span class="na">entry</span><span class="p">:</span> <span class="dl">'</span><span class="s1">./path/to/my/entry/file.js</span><span class="dl">'</span>
 <span class="p">};</span>
 </code></pre></div></div>
 
@@ -154,13 +154,13 @@
 </ul>
 
 <p>webpack.config.js</p>
-<div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kd">const</span> <span class="nx">path</span> <span class="o">=</span> <span class="nx">require</span><span class="p">(</span><span class="s1">'path'</span><span class="p">);</span>
+<div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kd">const</span> <span class="nx">path</span> <span class="o">=</span> <span class="nx">require</span><span class="p">(</span><span class="dl">'</span><span class="s1">path</span><span class="dl">'</span><span class="p">);</span>
 
 <span class="nx">module</span><span class="p">.</span><span class="nx">exports</span> <span class="o">=</span> <span class="p">{</span>
-  <span class="na">entry</span><span class="p">:</span> <span class="s1">'./path/to/my/entry/file.js'</span><span class="p">,</span>
+  <span class="na">entry</span><span class="p">:</span> <span class="dl">'</span><span class="s1">./path/to/my/entry/file.js</span><span class="dl">'</span><span class="p">,</span>
   <span class="na">output</span><span class="p">:</span> <span class="p">{</span>
-    <span class="na">path</span><span class="p">:</span> <span class="nx">path</span><span class="p">.</span><span class="nx">resolve</span><span class="p">(</span><span class="nx">__dirname</span><span class="p">,</span> <span class="s1">'dist'</span><span class="p">),</span>
-    <span class="na">filename</span><span class="p">:</span> <span class="s1">'my-first-webpack.bundle.js'</span>
+    <span class="na">path</span><span class="p">:</span> <span class="nx">path</span><span class="p">.</span><span class="nx">resolve</span><span class="p">(</span><span class="nx">__dirname</span><span class="p">,</span> <span class="dl">'</span><span class="s1">dist</span><span class="dl">'</span><span class="p">),</span>
+    <span class="na">filename</span><span class="p">:</span> <span class="dl">'</span><span class="s1">my-first-webpack.bundle.js</span><span class="dl">'</span>
   <span class="p">}</span>
 <span class="p">};</span>
 </code></pre></div></div>
@@ -180,15 +180,15 @@
 </ul>
 
 <p>webpack.config.js</p>
-<div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kd">const</span> <span class="nx">path</span> <span class="o">=</span> <span class="nx">require</span><span class="p">(</span><span class="s1">'path'</span><span class="p">);</span>
+<div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kd">const</span> <span class="nx">path</span> <span class="o">=</span> <span class="nx">require</span><span class="p">(</span><span class="dl">'</span><span class="s1">path</span><span class="dl">'</span><span class="p">);</span>
 
 <span class="nx">module</span><span class="p">.</span><span class="nx">exports</span> <span class="o">=</span> <span class="p">{</span>
   <span class="na">output</span><span class="p">:</span> <span class="p">{</span>
-    <span class="na">filename</span><span class="p">:</span> <span class="s1">'my-first-webpack.bundle.js'</span>
+    <span class="na">filename</span><span class="p">:</span> <span class="dl">'</span><span class="s1">my-first-webpack.bundle.js</span><span class="dl">'</span>
   <span class="p">},</span>
   <span class="na">module</span><span class="p">:</span> <span class="p">{</span>
     <span class="na">rules</span><span class="p">:</span> <span class="p">[</span>
-      <span class="p">{</span> <span class="na">test</span><span class="p">:</span> <span class="sr">/</span><span class="se">\.</span><span class="sr">txt$/</span><span class="p">,</span> <span class="na">use</span><span class="p">:</span> <span class="s1">'raw-loader'</span> <span class="p">}</span>
+      <span class="p">{</span> <span class="na">test</span><span class="p">:</span> <span class="sr">/</span><span class="se">\.</span><span class="sr">txt$/</span><span class="p">,</span> <span class="na">use</span><span class="p">:</span> <span class="dl">'</span><span class="s1">raw-loader</span><span class="dl">'</span> <span class="p">}</span>
     <span class="p">]</span>
   <span class="p">}</span>
 <span class="p">};</span>
@@ -207,17 +207,17 @@
 </ul>
 
 <p>webpack.config.js</p>
-<div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kd">const</span> <span class="nx">HtmlWebpackPlugin</span> <span class="o">=</span> <span class="nx">require</span><span class="p">(</span><span class="s1">'html-webpack-plugin'</span><span class="p">);</span> <span class="c1">//installed via npm</span>
-<span class="kd">const</span> <span class="nx">webpack</span> <span class="o">=</span> <span class="nx">require</span><span class="p">(</span><span class="s1">'webpack'</span><span class="p">);</span> <span class="c1">//to access built-in plugins</span>
+<div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kd">const</span> <span class="nx">HtmlWebpackPlugin</span> <span class="o">=</span> <span class="nx">require</span><span class="p">(</span><span class="dl">'</span><span class="s1">html-webpack-plugin</span><span class="dl">'</span><span class="p">);</span> <span class="c1">//installed via npm</span>
+<span class="kd">const</span> <span class="nx">webpack</span> <span class="o">=</span> <span class="nx">require</span><span class="p">(</span><span class="dl">'</span><span class="s1">webpack</span><span class="dl">'</span><span class="p">);</span> <span class="c1">//to access built-in plugins</span>
 
 <span class="nx">module</span><span class="p">.</span><span class="nx">exports</span> <span class="o">=</span> <span class="p">{</span>
   <span class="na">module</span><span class="p">:</span> <span class="p">{</span>
     <span class="na">rules</span><span class="p">:</span> <span class="p">[</span>
-      <span class="p">{</span> <span class="na">test</span><span class="p">:</span> <span class="sr">/</span><span class="se">\.</span><span class="sr">txt$/</span><span class="p">,</span> <span class="na">use</span><span class="p">:</span> <span class="s1">'raw-loader'</span> <span class="p">}</span>
+      <span class="p">{</span> <span class="na">test</span><span class="p">:</span> <span class="sr">/</span><span class="se">\.</span><span class="sr">txt$/</span><span class="p">,</span> <span class="na">use</span><span class="p">:</span> <span class="dl">'</span><span class="s1">raw-loader</span><span class="dl">'</span> <span class="p">}</span>
     <span class="p">]</span>
   <span class="p">},</span>
   <span class="na">plugins</span><span class="p">:</span> <span class="p">[</span>
-    <span class="k">new</span> <span class="nx">HtmlWebpackPlugin</span><span class="p">({</span><span class="na">template</span><span class="p">:</span> <span class="s1">'./src/index.html'</span><span class="p">})</span>
+    <span class="k">new</span> <span class="nx">HtmlWebpackPlugin</span><span class="p">({</span><span class="na">template</span><span class="p">:</span> <span class="dl">'</span><span class="s1">./src/index.html</span><span class="dl">'</span><span class="p">})</span>
   <span class="p">]</span>
 <span class="p">};</span>
 </code></pre></div></div>
@@ -230,7 +230,7 @@
 </ul>
 
 <div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nx">module</span><span class="p">.</span><span class="nx">exports</span> <span class="o">=</span> <span class="p">{</span>
-  <span class="na">mode</span><span class="p">:</span> <span class="s1">'production'</span>
+  <span class="na">mode</span><span class="p">:</span> <span class="dl">'</span><span class="s1">production</span><span class="dl">'</span>
 <span class="p">};</span>
 </code></pre></div></div>
 
