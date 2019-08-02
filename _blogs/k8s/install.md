@@ -31,7 +31,7 @@ $ brew cask install minikube
 ```
 
 * 최신 버전의 minikube는 `kubectl`을 패키징하고 있으며 $PATH에 `kubectl`이
-  없으면 설치한다.
+  없으면 설치합니다.
 
 ## Start Minikube
 
