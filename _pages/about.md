@@ -90,3 +90,5 @@ featured_image: /images/social.jpg
   * <https://blog.cosmos.network/cosmos-hackatom-seoul-winners-d6badbd0629b>
 * 2019.07.23 달랩 짝 프로그래밍 실습
   * <https://hannut91.github.io/blogs/dallab/pair-programming>
+* 2019.08.06 달랩 짝 프로그래밍 실습 2번쨰
+  * <https://hannut91.github.io/blogs/dallab/pair-programming2>
