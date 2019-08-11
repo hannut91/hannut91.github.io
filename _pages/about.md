@@ -7,14 +7,14 @@ featured_image: /images/social.jpg
 
 ## 이력
 
-* 2015.09 ~ 2015.12 vlogue 인턴
-웹 개발
-* 2016.05 ~ 2018.02 Appicat
-웹, 하이브리드앱 개발
-* 2018.03 ~ 2019.06 Artifriends
-블럭체인 코어 개발
 * 2018.03 ~ 2019.06 Artiwealth
-웹 개발
+  * 웹 개발
+* 2018.03 ~ 2019.06 Artifriends
+ * 블럭체인 코어 개발
+* 2016.05 ~ 2018.02 Appicat
+ * 웹, 하이브리드웹앱 개발
+* 2015.09 ~ 2015.12 vlogue 인턴
+ * 웹 개발
 
 ## 역사
 
@@ -84,11 +84,18 @@ featured_image: /images/social.jpg
 * 2019.07.10 Hashicof usergroup meet up
   * <https://github.com/hannut91/TIL/blob/master/conference/2019_07_10_hashicorp>
 * 2019.07.12 Friday Night Trainning: TDD
-* 2019.07.19 ~ 21 Cosmos Hackatom
+* 2019.07.19 ~ 21 Cosmos Hackatom 3등
   * ![](https://user-images.githubusercontent.com/14071105/61802944-45aa4b00-ae6c-11e9-83eb-8a6b23e01f46.JPG)
   * <https://hannut91.github.io/blogs/hackatom/retrospective>
   * <https://blog.cosmos.network/cosmos-hackatom-seoul-winners-d6badbd0629b>
-* 2019.07.23 달랩 짝 프로그래밍 실습
+* 2019.07.23 달랩 짝 프로그래밍 실습 1번 째
   * <https://hannut91.github.io/blogs/dallab/pair-programming>
+* 2019.07.31 달랩 GOOSGT 스터디 1번째
+  * <https://hannut91.github.io/blogs/dallab/GOOGST_01>
 * 2019.08.06 달랩 짝 프로그래밍 실습 2번쨰
   * <https://hannut91.github.io/blogs/dallab/pair-programming2>
+* 2019.08.07 달랩 GOOSGT 스터디 2번째
+  * <https://hannut91.github.io/blogs/dallab/GOOGST_02>
+* 2019.08.09 ~ 08.10 Huobi X WaykiChain 해커톤 3등
+  * ![](https://user-images.githubusercontent.com/14071105/62836064-652dda00-bc9a-11e9-9ac7-fde487724f23.jpg)
+  * <https://hannut91.github.io/blogs/retrospective/huobi-wayki-hackathon>
