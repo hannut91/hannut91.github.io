@@ -99,3 +99,5 @@ featured_image: /images/social.jpg
 * 2019.08.09 ~ 08.10 Huobi X WaykiChain 해커톤 3등
   * ![](https://user-images.githubusercontent.com/14071105/62836064-652dda00-bc9a-11e9-9ac7-fde487724f23.jpg)
   * <https://hannut91.github.io/blogs/retrospective/huobi-wayki-hackathon>
+* 2019.08.07 달랩 GOOSGT 스터디 3번째
+  * <https://hannut91.github.io/blogs/dallab/GOOGST_03>
