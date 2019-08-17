@@ -101,3 +101,5 @@ featured_image: /images/social.jpg
   * <https://hannut91.github.io/blogs/retrospective/huobi-wayki-hackathon>
 * 2019.08.14 달랩 GOOSGT 스터디 3번째
   * <https://hannut91.github.io/blogs/dallab/GOOGST_03>
+* 2019.08.17 달랩 파이썬으로 프론트엔드 개발하기
+  * <https://hannut91.github.io/blogs/dallab/brython>
