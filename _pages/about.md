@@ -103,3 +103,5 @@ featured_image: /images/social.jpg
   * <https://hannut91.github.io/blogs/dallab/GOOGST_03>
 * 2019.08.17 달랩 파이썬으로 프론트엔드 개발하기
   * <https://hannut91.github.io/blogs/dallab/brython>
+* 2019.08.19 개발자 한 달에 책 한 권 읽기: 읽기 좋은 코드가 좋은 코드다
+  * <https://hannut91.github.io/blogs/retrospective/reading-books-1>
