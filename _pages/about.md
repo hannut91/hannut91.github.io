@@ -105,3 +105,5 @@ featured_image: /images/social.jpg
   * <https://hannut91.github.io/blogs/dallab/brython>
 * 2019.08.19 개발자 한 달에 책 한 권 읽기: 읽기 좋은 코드가 좋은 코드다
   * <https://hannut91.github.io/blogs/retrospective/reading-books-1>
+* 2019.08.21 달랩 짝 프로그래밍 실습 3번쨰
+  * <https://hannut91.github.io/blogs/dallab/pair-programming3>
