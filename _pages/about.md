@@ -107,3 +107,5 @@ featured_image: /images/social.jpg
   * <https://hannut91.github.io/blogs/retrospective/reading-books-1>
 * 2019.08.21 달랩 짝 프로그래밍 실습 3번쨰
   * <https://hannut91.github.io/blogs/dallab/pair-programming3>
+* 2019.08.21 달랩 GOOSGT 스터디 4번째
+  * <https://hannut91.github.io/blogs/dallab/GOOGST_04>
