@@ -109,3 +109,5 @@ featured_image: /images/social.jpg
   * <https://hannut91.github.io/blogs/dallab/pair-programming3>
 * 2019.08.21 달랩 GOOSGT 스터디 4번째
   * <https://hannut91.github.io/blogs/dallab/GOOGST_04>
+* 2019.08.24 달랩 Front-end TDD 세미나
+  * <https://hannut91.github.io/blogs/dallab/front-end-tdd>
