@@ -4,24 +4,29 @@ collections:
   pages:
     output: true
     permalink: /:name
+  daily:
+    output: true
+    permalink: /:collection/:path
   blogs:
     output: true
     permalink: /:collection/:path
 
 defaults:
-  -
-    scope:
+  - scope:
       path: ""
     values:
       layout: "default"
-  -
-    scope:
+  - scope:
       path: ""
       type: "pages"
     values:
       layout: "page"
-  -
-    scope:
+  - scope:
+      path: ""
+      type: "daily"
+    values:
+      layout: "post"
+  - scope:
       path: ""
       type: "blogs"
     values:
@@ -48,4 +53,3 @@ autopages:
 
 timezone: "Asia/Seoul"
 future: true
-
