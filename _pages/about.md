@@ -18,6 +18,8 @@ featured_image: /images/social.jpg
 
 ## 역사
 
+* 2019.08.27 달랩 짝 프로그래밍 실습 3번쨰
+  * <https://hannut91.github.io/blogs/dallab/pair-programming4>
 * 2019.08.24 달랩 Front-end TDD 세미나
   * <https://hannut91.github.io/blogs/dallab/front-end-tdd>
 * 2019.08.21 달랩 GOOSGT 스터디 4번째
