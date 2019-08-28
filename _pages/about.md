@@ -18,6 +18,10 @@ featured_image: /images/social.jpg
 
 ## 역사
 
+* 2019.08.28 달랩 GOOSGT 스터디 5번째
+  * <https://hannut91.github.io/blogs/dallab/GOOGST_05>
+* 2019.08.28 D-LAB 영지식 증명을 활용한 탈중앙화된 신원증명
+  * <https://hannut91.github.io/blogs/conference/2019-08-28/session01>
 * 2019.08.27 달랩 짝 프로그래밍 실습 3번쨰
   * <https://hannut91.github.io/blogs/dallab/pair-programming4>
 * 2019.08.24 달랩 Front-end TDD 세미나
@@ -227,7 +231,7 @@ featured_image: /images/social.jpg
 * 클린 아키텍처
 * 마이크로서비스 인 액션
 * 쿠버네티스 인 액션
-* 쿠버네티스 쿡
+* 쿠버네티스 쿡북
 * 이 책도 읽지 마세요
 * 뷰티풀 자바스크립트
 * 엔터프라이즈 애플리케이션 아키텍처 패턴
