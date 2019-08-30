@@ -25,6 +25,24 @@ Vim으로 블로그 글을 작성하다 보면 맞춤법을 헷갈릴 때가 많
 
 ## 실행 방법
 
+### spell-checkr 설치 
+
+golang이 깔려있다고 가정하고 spell-checker를 설치합니다.
+
+```bash
+$ go get github.com/hannut91/spell-checker
+```
+
+잘 설치되었는지 확인하려면 다음과 같이 실행해 봅니다.
+
+```bash
+$ spell-checker "외않되"
+
+# 외않되왜 않돼
+```
+
+### Vim 커맨드 작성
+
 `.vimrc`에 다음과 같이 작성한다.
 
 ```
@@ -35,7 +53,7 @@ function! Spell()
     let l:text = getreg('"')
     silent call setreg('"', l:oldReg)
 
-    " Golang으로작성된 프로그램을 실행시켜 결과를 받습니다.
+    " Golang으로 작성된 프로그램을 실행시켜 결과를 받습니다.
     let l:result = system("spell-checker '" . l:text . "'")
 
     " 새로운 window를 만들고 텍스트를 출력합니다.
@@ -52,19 +70,9 @@ endfunction
 command! Spell call Spell()
 ```
 
-golang이 깔려있다고 가정하고 spell-checker를 설치합니다.
+### 실행
 
-```bash
-$ go get github.com/hannut91/spell-checker
-```
-
-잘 설치되었는지 확인하려면 다음과 같이 실행해 봅니다.
-
-```bash
-$ spell-checker "외않되"
-
-# 외않되왜 않돼
-```
+Visual 모드에서 텍스트를 선택한 후 `:Spell`이라고 커맨드를 실행합니다.
 
 ## 전체 코드
 
