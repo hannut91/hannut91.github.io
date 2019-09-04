@@ -18,11 +18,13 @@ featured_image: /images/social.jpg
 
 ## 역사
 
+* 2019.09.03 달랩 짝 프로그래밍 실습 5번쨰
+  * <https://hannut91.github.io/blogs/dallab/pair-programming5>
 * 2019.08.28 달랩 GOOSGT 스터디 5번째
   * <https://hannut91.github.io/blogs/dallab/GOOGST_05>
 * 2019.08.28 D-LAB 영지식 증명을 활용한 탈중앙화된 신원증명
   * <https://hannut91.github.io/blogs/conference/2019-08-28/session01>
-* 2019.08.27 달랩 짝 프로그래밍 실습 3번쨰
+* 2019.08.27 달랩 짝 프로그래밍 실습 4번쨰
   * <https://hannut91.github.io/blogs/dallab/pair-programming4>
 * 2019.08.24 달랩 Front-end TDD 세미나
   * <https://hannut91.github.io/blogs/dallab/front-end-tdd>
