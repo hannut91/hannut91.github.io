@@ -18,7 +18,13 @@ featured_image: /images/social.jpg
 
 ## 역사
 
-* 2019.09.03 달랩 짝 프로그래밍 실습 5번쨰
+* 2019.09.04 달랩 GOOSGT 스터디 6번째
+  * <https://hannut91.github.io/blogs/dallab/GOOSGBT_06>
+* 2019.09.04 달랩 책읽고 실천하기 모임 1번째
+  * <https://hannut91.github.io/blogs/dallab/read-and-practice>
+* 2019.09.03 JSConf
+  * <https://hannut91.github.io/blogs/conference/2019-09-03/jsconf>
+* 2019.09.03 달랩 짝 프로그래밍 실습 5번째
   * <https://hannut91.github.io/blogs/dallab/pair-programming5>
 * 2019.08.28 달랩 GOOSGT 스터디 5번째
   * <https://hannut91.github.io/blogs/dallab/GOOGST_05>
