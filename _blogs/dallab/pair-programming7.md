@@ -40,4 +40,4 @@ TravisCI만 사용하다가 CircleCI를 사용했는데 TravisCI에서 쓰던 �
 * <https://dal-lab.com/>
 * <https://circleci.com/docs/2.0/artifacts/>
 * <https://chris.beams.io/posts/git-commit/>
-* <https://github.com/RomuloOliveira/commit-messages-guide>
+* <https://github.com/agis/git-style-guide>
