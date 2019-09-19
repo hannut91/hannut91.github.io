@@ -18,6 +18,10 @@ featured_image: /images/social.jpg
 
 ## 역사
 
+* 2019.09.18 달랩 책 읽고 실천하기 모임 3번째
+  * <https://hannut91.github.io/blogs/dallab/read-and-practice3>
+* 2019.09.18 달랩 GOOSGBT 스터디 7번째
+  * <https://hannut91.github.io/blogs/dallab/GOOSGBT_08>
 * 2019.09.17 달랩 짝 프로그래밍 실습 7번째
   * <https://hannut91.github.io/blogs/dallab/pair-programming7>
 * 2019.09.11 달랩 GOOSGBT 스터디 7번째
