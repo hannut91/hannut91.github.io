@@ -4,6 +4,9 @@ collections:
   pages:
     output: true
     permalink: /:name
+  retrospective:
+    output: true
+    permalink: /:collection/:path
   daily:
     output: true
     permalink: /:collection/:path
@@ -21,6 +24,11 @@ defaults:
       type: "pages"
     values:
       layout: "page"
+  - scope:
+      path: ""
+      type: "retrospective"
+    values:
+      layout: "post"
   - scope:
       path: ""
       type: "daily"

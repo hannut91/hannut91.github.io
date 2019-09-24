@@ -12,6 +12,8 @@ menu_settings:
   menu_items:
     - title: "Latest"
       url: "/"
+    - title: "Retrospective"
+      url: "/retrospective"
     - title: "Daily Journal"
       url: "/daily"
     - title: "About"

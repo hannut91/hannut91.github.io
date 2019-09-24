@@ -19,58 +19,58 @@ featured_image: /images/social.jpg
 ## 역사
 
 * 2019.09.18 달랩 책 읽고 실천하기 모임 3번째
-  * <https://hannut91.github.io/blogs/dallab/read-and-practice3>
+  * <https://hannut91.github.io/retrospective/dallab/read-and-practice3>
 * 2019.09.18 달랩 GOOSGBT 스터디 8번째
-  * <https://hannut91.github.io/blogs/dallab/GOOSGBT_08>
+  * <https://hannut91.github.io/retrospective/dallab/GOOSGBT_08>
 * 2019.09.17 달랩 짝 프로그래밍 실습 7번째
-  * <https://hannut91.github.io/blogs/dallab/pair-programming7>
+  * <https://hannut91.github.io/retrospective/dallab/pair-programming7>
 * 2019.09.11 달랩 GOOSGBT 스터디 7번째
-  * <https://hannut91.github.io/blogs/dallab/GOOSGBT_07>
+  * <https://hannut91.github.io/retrospective/dallab/GOOSGBT_07>
 * 2019.09.11 달랩 책 읽고 실천하기 모임 2번째
-  * <https://hannut91.github.io/blogs/dallab/read-and-practice2>
+  * <https://hannut91.github.io/retrospective/dallab/read-and-practice2>
 * 2019.09.03 달랩 짝 프로그래밍 실습 6번째
-  * <https://hannut91.github.io/blogs/dallab/pair-programming6>
+  * <https://hannut91.github.io/retrospective/dallab/pair-programming6>
 * 2019.09.04 달랩 GOOSGBT 스터디 6번째
-  * <https://hannut91.github.io/blogs/dallab/GOOSGBT_06>
+  * <https://hannut91.github.io/retrospective/dallab/GOOSGBT_06>
 * 2019.09.04 달랩 책 읽고 실천하기 모임 1번째
-  * <https://hannut91.github.io/blogs/dallab/read-and-practice>
+  * <https://hannut91.github.io/retrospective/dallab/read-and-practice>
 * 2019.09.03 JSConf
   * <https://hannut91.github.io/blogs/conference/2019-09-03/jsconf>
 * 2019.09.03 달랩 짝 프로그래밍 실습 5번째
-  * <https://hannut91.github.io/blogs/dallab/pair-programming5>
+  * <https://hannut91.github.io/retrospective/dallab/pair-programming5>
 * 2019.08.28 달랩 GOOSGT 스터디 5번째
-  * <https://hannut91.github.io/blogs/dallab/GOOGST_05>
+  * <https://hannut91.github.io/retrospective/dallab/GOOGST_05>
 * 2019.08.28 D-LAB 영지식 증명을 활용한 탈중앙화된 신원증명
   * <https://hannut91.github.io/blogs/conference/2019-08-28/session01>
 * 2019.08.27 달랩 짝 프로그래밍 실습 4번쨰
-  * <https://hannut91.github.io/blogs/dallab/pair-programming4>
+  * <https://hannut91.github.io/retrospective/dallab/pair-programming4>
 * 2019.08.24 달랩 Front-end TDD 세미나
-  * <https://hannut91.github.io/blogs/dallab/front-end-tdd>
+  * <https://hannut91.github.io/retrospective/dallab/front-end-tdd>
 * 2019.08.21 달랩 GOOSGT 스터디 4번째
-  * <https://hannut91.github.io/blogs/dallab/GOOGST_04>
+  * <https://hannut91.github.io/retrospective/dallab/GOOGST_04>
 * 2019.08.21 달랩 짝 프로그래밍 실습 3번쨰
-  * <https://hannut91.github.io/blogs/dallab/pair-programming3>
+  * <https://hannut91.github.io/retrospective/dallab/pair-programming3>
 * 2019.08.19 개발자 한 달에 책 한 권 읽기: 읽기 좋은 코드가 좋은 코드다
-  * <https://hannut91.github.io/blogs/retrospective/reading-books-1>
+  * <https://hannut91.github.io/retrospective/reading-books-1>
 * 2019.08.17 달랩 파이썬으로 프론트엔드 개발하기
-  * <https://hannut91.github.io/blogs/dallab/brython>
+  * <https://hannut91.github.io/retrospective/dallab/brython>
 * 2019.08.14 달랩 GOOSGT 스터디 3번째
-  * <https://hannut91.github.io/blogs/dallab/GOOGST_03>
+  * <https://hannut91.github.io/retrospective/dallab/GOOGST_03>
 * 2019.08.09 ~ 08.10 Huobi X WaykiChain 해커톤 3등
   * ![](https://user-images.githubusercontent.com/14071105/62836064-652dda00-bc9a-11e9-9ac7-fde487724f23.jpg)
-  * <https://hannut91.github.io/blogs/retrospective/huobi-wayki-hackathon>
+  * <https://hannut91.github.io/retrospective/huobi-wayki-hackathon>
 * 2019.08.07 달랩 GOOSGT 스터디 2번째
-  * <https://hannut91.github.io/blogs/dallab/GOOGST_02>
+  * <https://hannut91.github.io/retrospective/dallab/GOOGST_02>
 * 2019.08.06 달랩 짝 프로그래밍 실습 2번쨰
-  * <https://hannut91.github.io/blogs/dallab/pair-programming2>
+  * <https://hannut91.github.io/retrospective/dallab/pair-programming2>
 * 2019.07.31 달랩 GOOSGT 스터디 1번째
-  * <https://hannut91.github.io/blogs/dallab/GOOGST_01>
+  * <https://hannut91.github.io/retrospective/dallab/GOOGST_01>
 * 2019.07.23 달랩 짝 프로그래밍 실습 1번 째
-  * <https://hannut91.github.io/blogs/dallab/pair-programming>
+  * <https://hannut91.github.io/retrospective/dallab/pair-programming>
 * 2019.07.22 개발자 한 달에 책 한 권 읽기: 오브젝트
 * 2019.07.19 ~ 21 Cosmos Hackatom 3등
   * ![](https://user-images.githubusercontent.com/14071105/61802944-45aa4b00-ae6c-11e9-83eb-8a6b23e01f46.JPG)
-  * <https://hannut91.github.io/blogs/hackatom/retrospective>
+  * <https://hannut91.github.io/retrospective/hackatom/retrospective>
   * <https://blog.cosmos.network/cosmos-hackatom-seoul-winners-d6badbd0629b>
 * 2019.07.12 Friday Night Trainning: TDD
 * 2019.07.10 Hashicof usergroup meet up
@@ -83,7 +83,7 @@ featured_image: /images/social.jpg
   * <https://github.com/RustPython/RustPython/pull/1077>
 * 2019.06.28 Friday Night Trainning: Git과 Github으로 협업하기
 * 2019.06.26 JavaScript로 익히는 자료구조와 알고리즘 #2 4주: 최단 거리 찾기
-  * <https://hannut91.github.io/blogs/DSA/retrospective>
+  * <https://hannut91.github.io/retrospective/dallab/DSA/retrospective>
 * 2019.06.21 Friday Night Trainning: Dokcer와 DevOps시작하기
 * 2019.06.19 JavaScript로 익히는 자료구조와 알고리즘 #2 3주: 그래프
 * 2019.06.17 개발자 한 달에 책 한 권 읽기: 데브옵스 핸드북

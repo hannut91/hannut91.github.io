@@ -1,0 +1,23 @@
+---
+layout: default
+title: Retrospective
+description: Retrospective
+featured_image: /images/social.jpg
+---
+
+<section class="listing single">
+  <div class="wrap">
+    {% assign retrospectives = site.retrospective | sort: 'createdat' | reverse %} {% for
+        retrosepctive in retrospectives %}
+
+    <article class="listing-post">
+      <div class="listing-post__header">
+        <h2 class="listing-post__title">
+          <a href="{{ retrosepctive.url }}">{{ retrosepctive.title }}</a>
+        </h2>
+      </div>
+    </article>
+
+    {% endfor %}
+  </div>
+</section>
