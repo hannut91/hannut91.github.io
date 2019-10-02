@@ -18,6 +18,12 @@ featured_image: /images/social.jpg
 
 ## 역사
 
+* 2019.10.02 달랩 GOOSGBT 스터디 10번째
+  * <https://hannut91.github.io/retrospective/dallab/GOOSGBT_10>
+* 2019.09.25 달랩 GOOSGBT 스터디 9번째
+  * <https://hannut91.github.io/retrospective/dallab/GOOSGBT_09>
+* 2019.09.23 개발자 한 달에 책 한 권 읽기: 클린 아키텍처
+  * <https://hannut91.github.io/retrospective/reading-books-2>
 * 2019.09.18 달랩 책 읽고 실천하기 모임 3번째
   * <https://hannut91.github.io/retrospective/dallab/read-and-practice3>
 * 2019.09.18 달랩 GOOSGBT 스터디 8번째
@@ -141,6 +147,8 @@ featured_image: /images/social.jpg
 
 ## 읽은 책들
 
+* 이 책도 읽지 마세요
+* 클린 아키텍처
 * 프로그래머의 길 멘토에게 묻다
 * 읽기 좋은 코드가 좋은 코드다
 * 원씽
@@ -249,11 +257,8 @@ featured_image: /images/social.jpg
 ## 읽을 책들
 
 * 아주 작은 습관의 힘
-* 이 책도 읽지 마세요
-* 클린 아키텍처
 * 마이크로서비스 인 액션
 * 쿠버네티스 인 액션
-
 * 프로그래머, 열정을 말하다
 * 애자일 회고
 * 소프트웨어 장인
