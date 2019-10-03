@@ -4,12 +4,10 @@ subTitle:
 category: 
 tags: 
 createdat: 2019-10-02 14:03:00
-updatedat: 2019-10- 02 14:03:00
+updatedat: 2019-10-02 14:03:00
 ---
 
 ![](https://user-images.githubusercontent.com/14071105/64485534-21a89a80-d25d-11e9-9614-8d52dae3392b.gif)
-
-## VS Code에서 한글맞춤법 검사하기
 
 전에 
 [Vim에서 한글맞춤법 검사하기](https://hannut91.github.io/blogs/vim/spell-checker)를 
@@ -24,8 +22,7 @@ VS Code 라이브러리를 찾으면서 익히는 게 쉽지는 않았지만 Typ
 따라 하면서 만들어서 금방 만들 수 있었다.
 
 [여기](https://marketplace.visualstudio.com/items?itemName=Yunseok.korean-spell-checker-vs-code)서 다운로드하고 써볼 수 있다. 다른 사람에게 소개하다 보면 자동으로 수정되는 기능을 원하는 사람들이 
-많았는데 개인적으로 목표는 맞춤법을 배우고 이 맞춤법 검사기가 필요 없어질 정도가 되는 것이 목표라서 
-추가하지 않았다.
+많았는데, 맞춤법을 배우고 이 맞춤법 검사기가 필요 없어질 정도가 되는 것이 목표라서 추가하지 않았다.
 
 ## Sources
 
