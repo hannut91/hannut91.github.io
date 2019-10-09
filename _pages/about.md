@@ -18,6 +18,8 @@ featured_image: /images/social.jpg
 
 ## 역사
 
+* 2019.10.09 달랩 짝 프로그래밍 실습 8번째
+  * <https://hannut91.github.io/retrospective/dallab/pair-programming8>
 * 2019.10.02 달랩 GOOSGBT 스터디 10번째
   * <https://hannut91.github.io/retrospective/dallab/GOOSGBT_10>
 * 2019.09.25 달랩 GOOSGBT 스터디 9번째
