@@ -18,6 +18,8 @@ featured_image: /images/social.jpg
 
 ## 역사
 
+* 2019.10.09 달랩 GOOSGBT 스터디 11번째
+  * <https://hannut91.github.io/retrospective/dallab/GOOSGBT_11>
 * 2019.10.09 달랩 짝 프로그래밍 실습 8번째
   * <https://hannut91.github.io/retrospective/dallab/pair-programming8>
 * 2019.10.02 달랩 GOOSGBT 스터디 10번째
@@ -149,6 +151,7 @@ featured_image: /images/social.jpg
 
 ## 읽은 책들
 
+* 클린 코더
 * 이 책도 읽지 마세요
 * 클린 아키텍처
 * 프로그래머의 길 멘토에게 묻다
@@ -265,7 +268,6 @@ featured_image: /images/social.jpg
 * 애자일 회고
 * 소프트웨어 장인
 * 린 UX
-* 클린 코더
 * 스프린트
 * 쿠버네티스 쿡북
 * 뷰티풀 자바스크립트
