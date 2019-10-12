@@ -67,7 +67,7 @@ Github: <https://github.com/hannut91>
 </div>
 
 <div class="title-with-date">
-  <h4>보인고등학교 졸업</h4><h4>1997.03 ~ 2010.02</h4>
+  <h4>보인고등학교 졸업</h4><h4>2007.03 ~ 2010.02</h4>
 </div>
 
 ### EXPERIENCE
