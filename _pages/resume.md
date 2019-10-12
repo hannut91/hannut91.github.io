@@ -87,7 +87,7 @@ Github: <https://github.com/hannut91>
 ### PROJECTS
 ---
 
-* StartSmall - TO DO를 작성하고, 했을 때 감정을 기록하고 다시 복기할 수 있는 생산성 도구
+* StartSmall(진행중) - TO DO를 작성하고, 했을 때 감정을 기록하고 다시 복기할 수 있는 생산성 도구
   * <https://startsmall.me>
 * VS Code Wiki - VS Code에서 Wiki를 작성할 수 있는 확장 프로그램
   * <https://marketplace.visualstudio.com/items?itemName=Yunseok.vs-code-wiki>

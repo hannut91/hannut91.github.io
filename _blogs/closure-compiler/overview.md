@@ -4,7 +4,7 @@ subTitle: Closure Compiler 알아보기
 category: 
 tags: 
 createdat: 2019-07-10 15:14:00
-updatedat: 2019-07-10 15:14:00
+updatedat: 2019-10-13 08:28:00
 ---
 
 ## 요약
@@ -35,7 +35,9 @@ updatedat: 2019-07-10 15:14:00
 
 1. <https://dl.google.com/closure-compiler/compiler-latest.zip>다운로드받는다.
 2. 압축을 푼다.
-3. ```bash
+3. 다음과 같이 실행한다.
+
+```bash
 $ java -jar compiler.jar --js foo.js --js_output_file foo-compiled.js
 ```
 
