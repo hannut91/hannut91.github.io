@@ -31,7 +31,7 @@
     margin: 0!important;
 
     &:first-child {
-      text-align: center;
+      text-align: left;
     }
 
     &:last-child {
@@ -155,7 +155,7 @@
     padding: .1em .2em;
     border-radius: 3px;
   }
-  
+
   .highlighter-rouge,
   table {
     margin: 20px auto;
