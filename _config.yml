@@ -39,6 +39,11 @@ defaults:
       type: "blogs"
     values:
       layout: "post"
+  - scope:
+      path: ""
+      type: "resume"
+    values:
+      layout: "resume"
 
 markdown: kramdown
 

@@ -18,6 +18,8 @@ menu_settings:
       url: "/daily"
     - title: "About"
       url: "/about"
+    - title: "Resume"
+      url: "/resume"
 
 grid_settings:
   grid_spacing: 10
