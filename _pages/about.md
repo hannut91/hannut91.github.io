@@ -143,7 +143,9 @@ featured_image: /images/social.jpg
 ## 읽은 책들
 
 * 클린 코더
+  * <https://hannut91.github.io/blogs/books/clean-coder>
 * 이 책도 읽지 마세요
+  * <https://hannut91.github.io/blogs/books/do-not-read-this-book>
 * 클린 아키텍처
 * 프로그래머의 길 멘토에게 묻다
 * 읽기 좋은 코드가 좋은 코드다
