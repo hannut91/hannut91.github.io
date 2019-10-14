@@ -142,6 +142,8 @@ featured_image: /images/social.jpg
 
 ## 읽은 책들
 
+* 아주 작은 습관의 힘
+  * <https://hannut91.github.io/blogs/books/atomic-habits>
 * 클린 코더
   * <https://hannut91.github.io/blogs/books/clean-coder>
 * 이 책도 읽지 마세요
@@ -254,7 +256,6 @@ featured_image: /images/social.jpg
 
 ## 읽을 책들
 
-* 아주 작은 습관의 힘
 * 마이크로서비스 인 액션
 * 쿠버네티스 인 액션
 * 프로그래머, 열정을 말하다
