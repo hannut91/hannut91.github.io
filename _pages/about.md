@@ -7,7 +7,9 @@ featured_image: /images/social.jpg
 
 ## 역사
 
-* 2019.10.09 달랩 짝 프로그래밍 실습 9번째
+* 2019.10.15 달랩 코딩 도장 1번째
+  * <https://hannut91.github.io/retrospective/dallab/coding-dojo-1>
+* 2019.10.14 달랩 짝 프로그래밍 실습 9번째
   * <https://hannut91.github.io/retrospective/dallab/pair-programming9>
 * 2019.10.12 달랩 멘토링 워크숍 2번째 참여
   * <https://hannut91.github.io/retrospective/dallab/mentoring2-workshop-2>
