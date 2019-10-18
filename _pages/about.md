@@ -7,6 +7,8 @@ featured_image: /images/social.jpg
 
 ## 역사
 
+* 2019.10.17 달랩 GOOSGBT 스터디 12번째
+  * <https://hannut91.github.io/retrospective/dallab/GOOSGBT_12>
 * 2019.10.15 달랩 코딩 도장 1번째
   * <https://hannut91.github.io/retrospective/dallab/coding-dojo-1>
 * 2019.10.14 달랩 짝 프로그래밍 실습 9번째
