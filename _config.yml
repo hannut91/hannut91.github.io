@@ -13,6 +13,9 @@ collections:
   blogs:
     output: true
     permalink: /:collection/:path
+  wikis:
+    output: true
+    permalink: /:path
 
 defaults:
   - scope:
@@ -44,6 +47,11 @@ defaults:
       type: "resume"
     values:
       layout: "resume"
+  - scope:
+      path: ""
+      type: "wikis"
+    values:
+      layout: "wiki"
 
 markdown: kramdown
 

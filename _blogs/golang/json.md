@@ -35,7 +35,7 @@ want:
 test
 ```
 
-테스트는 실패한다.  `Unmarshal`할 때 JSON의 `test` 속성값이 나올 것이라고 생각했는데 아니었다. 그렇다면 `struct`에 두 속성 모두 추가해주면 어떻게 될까?
+테스트는 실패한다. `Unmarshal`할 때 JSON의 `test` 속성값이 나올 것이라고 생각했는데 아니었다. 그렇다면 `struct`에 두 속성 모두 추가해주면 어떻게 될까?
 
 ```golang
 func ExampleUnmarshal() {
