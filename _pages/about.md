@@ -148,6 +148,8 @@ featured_image: /images/social.jpg
 
 ## 읽은 책들
 
+* 스프린트
+  * <https://hannut91.github.io/blogs/books/sprint>
 * 아주 작은 습관의 힘
   * <https://hannut91.github.io/blogs/books/atomic-habits>
 * 클린 코더
@@ -268,7 +270,6 @@ featured_image: /images/social.jpg
 * 애자일 회고
 * 소프트웨어 장인
 * 린 UX
-* 스프린트
 * 쿠버네티스 쿡북
 * 뷰티풀 자바스크립트
 * 엔터프라이즈 애플리케이션 아키텍처 패턴
