@@ -1,5 +1,5 @@
 ---
-title: 달랩 멘토링 짝 프로그래밍 실습 9번째 회고
+title: 달랩 멘토링 짝 프로그래밍 실습 10번째 회고
 subTitle:
 category: 
 tags: 
@@ -35,5 +35,3 @@ GOOSGBT 책에서 경매 스나이퍼 프로그램이 자바 기반으로 되어
 * <https://dal-lab.com/>
 * <https://github.com/dal-lab/project-auction-sniper>
 * <http://www.kyobobook.co.kr/product/detailViewKor.laf?ejkGb=KOR&mallGb=KOR&barcode=9788966260836&orderClick=LAG&Kc=>
-
-
