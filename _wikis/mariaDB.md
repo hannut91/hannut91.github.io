@@ -1,5 +1,5 @@
 ---
-title: mariaDB
+title: MariaDB
 ---
 
 ## Run MariaDB using [Docker](Docker)

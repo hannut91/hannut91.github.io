@@ -7,6 +7,8 @@ featured_image: /images/social.jpg
 
 ## 역사
 
+* 2019.10.28 달랩 짝 프로그래밍 실습 11번째
+  * <https://hannut91.github.io/retrospective/dallab/pair-programming11>
 * 2019.10.22 달랩 코딩 도장 2번째
   * <https://hannut91.github.io/retrospective/dallab/coding-dojo-2>
 * 2019.10.21 개발자 한 달에 책 한 권 읽기: 클린 코더

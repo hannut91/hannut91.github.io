@@ -7,3 +7,9 @@ title: git
 ```bash
 git diff <commit>
 ```
+
+## 깃 커밋 취소하기
+
+```bash
+git reset --soft HEAD^
+```

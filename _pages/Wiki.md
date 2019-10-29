@@ -10,3 +10,6 @@ title: Wiki
 * [terminal shortcuts](terminal-shortcuts)
 * [git](git)
 * [terraform](terraform)
+* [git-bash](git-bash)
+* [typeorm](typeorm)
+* [sequlize](sequlize)
