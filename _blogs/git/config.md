@@ -37,7 +37,7 @@ git config --global core.excludesfile ~/.gitignore_global
 git config --global alias.co checkout
 ```
 
-그러면 이제 `git checkout`대신에 `git co`를 사용할 수 있습니다.  
+그러면 이제 `git commit`대신에 `git co`를 사용할 수 있습니다.  
 
 혹은 직접 다음과 같이 `~/.gitconfig`파일을 수정하여 만들 수도 있습니다.
 
