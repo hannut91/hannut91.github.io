@@ -101,6 +101,7 @@ Github: <https://github.com/hannut91>
   * <https://marketplace.visualstudio.com/items?itemName=Yunseok.korean-spell-checker-vs-code>
 
 ### SKILLS
+---
 
 * Front framework: Angular, Ionic
 * Banckend framework: Express, MarbleJS

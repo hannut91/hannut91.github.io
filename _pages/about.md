@@ -158,6 +158,8 @@ featured_image: /images/social.jpg
 
 ## 읽은 책들
 
+* 프로그래머, 열정을 말하다
+  * <https://hannut91.github.io/blogs/books/the-passionate-programmer>
 * 스프린트
   * <https://hannut91.github.io/blogs/books/sprint>
 * 아주 작은 습관의 힘
@@ -276,7 +278,6 @@ featured_image: /images/social.jpg
 
 * 마이크로서비스 인 액션
 * 쿠버네티스 인 액션
-* 프로그래머, 열정을 말하다
 * 애자일 회고
 * 소프트웨어 장인
 * 린 UX
