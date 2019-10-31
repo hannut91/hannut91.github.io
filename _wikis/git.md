@@ -8,7 +8,7 @@ title: git
 git diff <commit>
 ```
 
-## 깃 커밋 취소하기
+## Cancel commit
 
 ```bash
 git reset --soft HEAD^

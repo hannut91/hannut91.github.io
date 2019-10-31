@@ -2,6 +2,12 @@
 title: terraform
 ---
 
+## Install terraform
+
+```bash
+brew install terraform
+```
+
 ## Init terraform
 
 ```bash
