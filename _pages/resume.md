@@ -51,11 +51,11 @@ Github: <https://github.com/hannut91>
 
 * HTML 마크업
   * 얄라톡, 칼라고리, GDOC, GODOC HTML 마크업
-  * 다양한 디스플레이에 디자이너들이 의도한 대로 마크업을 하는 것을 고민을 굉장히 많이하다가 팀냉서 vw css단위를 사용하도록 제안.
+  * 다양한 디스플레이에 디자이너들이 의도한 대로 마크업을 하는 것을 고민을 굉장히 많이 하다가 팀 내에서 vw css 단위를 사용하도록 제안.
 
 * 하이브리드 웹앱 개발
-  * 굿아카, 우리동네정육점, 골딕, 운동하는날, AccuniqBand, OOTU, 이비온, 겟워크 등 하이브리드 웹앱 개발
-  * 앱젯 리셀러 어드민, 이벤트 랜딩페이지 웹 개발
+  * 굿아카, 우리 동네 정육점, 골딕, 운동하는 날, AccuniqBand, OOTU, 이비온, 겟워크 등 하이브리드 웹앱 개발
+  * 앱젯 리셀러 어드민, 이벤트 랜딩 페이지 웹 개발
   * 앱젯 모바일 홈페이지 웹 개발 - <https://www.m.appzet.com>
 
 <div class="title-with-date">
@@ -90,9 +90,9 @@ Github: <https://github.com/hannut91>
 </div>
 
 * 좋은 일을 하는 사람이나 불우이웃에게 개인과 개인이 토큰으로 기부를 할 수 있는 플랫폼
-* 기부를 받은 사람은 토큰으로만 물품을 구매 할 수 있어서 구매한 목록에 블록체인 네트워크에 기록되고 이 기록은 사라지거나 조작할 수 없어서 투명한 기부 생태계를 만들수 있도록 플랫폼을 만들었습니다.
-* 프론트는 Ionic 프레임워크를 사용했고 API서버는 Node.js Express프레임워크를 사용했습니다. 블록체인 서버는 코스모스 SDK(Goalng)을 사용했습니다.
-* 프론트와 API서버 개발을 담당했습니다.
+* 기부를 받은 사람은 토큰으로만 물품을 구매할 수 있어서 구매한 목록에 블록체인 네트워크에 기록되고 이 기록은 사라지거나 조작할 수 없어서 투명한 기부 생태계를 만들 수 있도록 플랫폼을 만들었습니다.
+* 프론트는 Ionic 프레임워크를 사용했고 API 서버는 Node.js Express 프레임워크를 사용했습니다. 블록체인 서버는 코스모스 SDK(Goalng)을 사용했습니다.
+* 프론트와 API 서버 개발을 담당했습니다.
 * <https://hannut91.github.io/retrospective/hackatom/retrospective>
 
 ### PROJECTS
@@ -103,7 +103,7 @@ Github: <https://github.com/hannut91>
 </div>
 
 TO DO를 작성하고, 했을 때 감정을 기록하고 다시 복기할 수 있는 생산성 도구
-* 생산성있는 일들을 하기 위해 제가 사용하기 위해 만들었습니다.
+* 생산성 있는 일들을 하기 위해 제가 사용하기 위해 만들었습니다.
 * 프론트는 Angular 백엔드는 MarbleJS, CI/CD는 CircleCI, IaC는 Terraform, Cloud는  AWS를 사용했습니다.
 * <https://startsmall.me>
 
@@ -112,7 +112,7 @@ TO DO를 작성하고, 했을 때 감정을 기록하고 다시 복기할 수 �
 </div>
 
 VS Code에서 Wiki를 작성할 수 있는 확장 프로그램
-* 개발하면서 필요한 지식들을 편집기내에서 간단하게 작성할 수 있고 쉽게 조회할 수 있는 Wiki.
+* 개발하면서 필요한 지식들을 편집기 내에서 간단하게 작성할 수 있고 쉽게 조회할 수 있는 Wiki.
 * 검색 기능과 Jekyll로 추출하는 기능 포함.
 * <https://marketplace.visualstudio.com/items?itemName=Yunseok.vs-code-wiki>
 
