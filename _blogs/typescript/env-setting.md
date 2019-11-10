@@ -99,7 +99,7 @@ $ ./node_modules/.bin/eslint --init
 ```json
 "scripts": {
   "test": "jest",
-  "lint": "node_modules/.bin/tslint src/**/*.ts"
+  "lint": "node_modules/.bin/tslint -p ."
 },
 ```
 
