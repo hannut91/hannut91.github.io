@@ -162,6 +162,8 @@ featured_image: /images/social.jpg
 
 ## 읽은 책들
 
+* 자바와 JUnit을 활용한 실용주의 단위 테스트
+  * <https://hannut91.github.io/blogs/books/pragmatic-unit-testing-in-java-with-junit>
 * 프로그래머, 열정을 말하다
   * <https://hannut91.github.io/blogs/books/the-passionate-programmer>
 * 스프린트
