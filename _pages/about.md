@@ -7,6 +7,10 @@ featured_image: /images/social.jpg
 
 ## 역사
 
+* 2019.11.05 달랩 코딩 도장 4번째
+  * <https://hannut91.github.io/retrospective/dallab/coding-dojo-4>
+* 2019.11.11 달랩 짝 프로그래밍 실습 13번째
+  * <https://hannut91.github.io/retrospective/dallab/pair-programming13>
 * 2019.11.05 달랩 코딩 도장 3번째
   * <https://hannut91.github.io/retrospective/dallab/coding-dojo-3>
 * 2019.11.04 달랩 짝 프로그래밍 실습 12번째
