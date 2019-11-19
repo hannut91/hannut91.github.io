@@ -7,6 +7,10 @@ featured_image: /images/social.jpg
 
 ## 역사
 
+* 2019.11.19 달랩 코딩 도장 5번째
+  * <https://hannut91.github.io/retrospective/dallab/coding-dojo-5>
+* 2019.11.18 개발자 한 달에 책 한 권 읽기: 자바와 JUnit을 활용한 실용주의 단위 테스트
+  * <https://hannut91.github.io/retrospective/reading-books-4>
 * 2019.11.12 달랩 코딩 도장 4번째
   * <https://hannut91.github.io/retrospective/dallab/coding-dojo-4>
 * 2019.11.11 달랩 짝 프로그래밍 실습 13번째
