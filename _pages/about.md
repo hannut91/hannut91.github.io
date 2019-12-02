@@ -7,6 +7,8 @@ featured_image: /images/social.jpg
 
 ## 역사
 
+* 2019.12.02 달랩 멘토링 2기 참여
+  * <https://hannut91.github.io/retrospective/dallab/mentoring-2>
 * 2019.11.26 달랩 코딩 도장 6번째
   * <https://hannut91.github.io/retrospective/dallab/coding-dojo-6>
 * 2019.11.19 달랩 코딩 도장 5번째
