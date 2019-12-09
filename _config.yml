@@ -65,12 +65,18 @@ sass:
 plugins:
   - jekyll-sitemap
 
-autopages:
-  enabled: true
-  collections:
-    enabled: true
+# autopages:
+#   enabled: true
+#   collections:
+#     enabled: true
     # layouts:
     #   - post.html
 
 timezone: "Asia/Seoul"
 future: true
+
+utterances:
+  repo: hannut91/hannut91.github.io
+  issue-term: pathname
+  label: Comment
+  branch: master

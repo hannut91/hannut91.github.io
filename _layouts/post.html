@@ -3,14 +3,13 @@ layout: default
 ---
 
 <section class="single">
+  <div class="wrap">
+    <h1>{{ page.title }}</h1>
 
-	<div class="wrap">
+    <p class="subtitle">{{ page.createdAt | date_to_long_string }}</p>
 
-		<h1>{{ page.title }}</h1>
-		<p class="subtitle">{{ page.createdAt | date_to_long_string }}</p>
+    {{ page.content }}
+  </div>
 
-		{{ page.content }}
-
-	</div>
-
+  {% include comment.html %}
 </section>
