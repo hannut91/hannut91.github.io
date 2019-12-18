@@ -7,6 +7,10 @@ featured_image: /images/social.jpg
 
 ## 역사
 
+* 2019.12.17 달랩 코딩 도장 7번째
+  * <https://hannut91.github.io/retrospective/dallab/coding-dojo-7>
+* 2019.12.10 당근마켓 웹 개발 챌린지 참여
+  * <https://hannut91.github.io/retrospective/daangn-web-challenge>
 * 2019.12.02 달랩 멘토링 2기 참여
   * <https://hannut91.github.io/retrospective/dallab/mentoring-2>
 * 2019.11.26 달랩 코딩 도장 6번째
