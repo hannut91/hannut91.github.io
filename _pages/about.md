@@ -7,6 +7,9 @@ featured_image: /images/social.jpg
 
 ## 역사
 
+* 2019.12.23 개발자 한 달에 책 한 권 읽기: 심플 소프트웨어
+  * <https://hannut91.github.io/retrospective/reading-books-5>
+  * <https://hannut91.github.io/blogs/books/understanding-software>
 * 2019.12.17 달랩 코딩 도장 7번째
   * <https://hannut91.github.io/retrospective/dallab/coding-dojo-7>
 * 2019.12.10 당근마켓 웹 개발 챌린지 참여
@@ -178,6 +181,8 @@ featured_image: /images/social.jpg
 
 ## 읽은 책들
 
+* 심플 소프트웨어
+  * <https://hannut91.github.io/blogs/books/understanding-software>
 * 자바와 JUnit을 활용한 실용주의 단위 테스트
   * <https://hannut91.github.io/blogs/books/pragmatic-unit-testing-in-java-with-junit>
 * 프로그래머, 열정을 말하다
