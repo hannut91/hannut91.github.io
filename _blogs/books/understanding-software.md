@@ -1,5 +1,5 @@
 ---
-title: 심플 소프트웨어
+title: 심플 소프트웨어 서평
 subTitle:
 category: 
 tags: 
