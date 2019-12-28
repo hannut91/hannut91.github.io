@@ -181,6 +181,8 @@ featured_image: /images/social.jpg
 
 ## 읽은 책들
 
+* 린 UX
+  * <https://hannut91.github.io/blogs/books/lean-ux>
 * 심플 소프트웨어
   * <https://hannut91.github.io/blogs/books/understanding-software>
 * 자바와 JUnit을 활용한 실용주의 단위 테스트
@@ -303,21 +305,19 @@ featured_image: /images/social.jpg
 
 ## 읽을 책들
 
-* 마이크로서비스 인 액션
-* 쿠버네티스 인 액션
 * 애자일 회고
 * 소프트웨어 장인
-* 린 UX
-* 쿠버네티스 쿡북
-* 뷰티풀 자바스크립트
+* 도메인 주도 설계 구현
+* GoF의 디자인 패턴
 * 엔터프라이즈 애플리케이션 아키텍처 패턴
 * 알고리즘 도감
 * 테스트 주도 개발로 배우는 객체 지향 설계와 실천
-* 사용자 스토리
-* 마스터링 이더리움
 * HTTP 완벽 가이드
+* 사용자 스토리
+* 마이크로서비스 인 액션
+* 쿠버네티스 인 액션
 * 애자일 프랙티스
 * 엘라스틱서치 인 액션
-* GoF의 디자인 패턴
-* 도메인 주도 설계 구현
 * Kakao AI Report
+* 쿠버네티스 쿡북
+* 뷰티풀 자바스크립트
