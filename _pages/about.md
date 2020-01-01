@@ -181,6 +181,8 @@ featured_image: /images/social.jpg
 
 ## 읽은 책들
 
+* 애자일 회고
+  * <https://hannut91.github.io/blogs/books/agile-retrospectives>
 * 린 UX
   * <https://hannut91.github.io/blogs/books/lean-ux>
 * 심플 소프트웨어
