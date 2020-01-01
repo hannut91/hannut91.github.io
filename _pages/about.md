@@ -307,7 +307,6 @@ featured_image: /images/social.jpg
 
 ## 읽을 책들
 
-* 애자일 회고
 * 소프트웨어 장인
 * 도메인 주도 설계 구현
 * GoF의 디자인 패턴
