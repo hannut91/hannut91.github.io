@@ -99,6 +99,14 @@ Github: <https://github.com/hannut91>
 ---
 
 <div class="title-with-date">
+  <h4><strong>세금도둑들(진행중)</strong></h4><h4>2019.12.05 ~ </h4>
+</div>
+
+2019년 고액 체납자 명단이 공개되었다. 주소도 같이 공개가 되었는데 내 주변의 세금도둑들이 얼마나 있나 볼 수 있는 웹사이트가 있으면 재밌을 것 같아 시작했다.
+
+* <https://github.com/hannut91/tax-thiefs>
+
+<div class="title-with-date">
   <h4><strong>StartSmall(진행중)</strong></h4><h4>2019.10.01 ~ </h4>
 </div>
 
@@ -128,9 +136,9 @@ VS Code에서 한글 맞춤법을 검사할 수 있는 확장 프로그램
 ---
 
 * Front framework: Angular, Ionic
-* Banckend framework: Express, MarbleJS
-* Language: JavaScript, TypeScript, Golang
+* Banckend framework: Express, MarbleJS, Spring boot
+* Language: JavaScript, TypeScript, Golang, Kotlin
 * Cloud: AWS, AWS Lambda(Serverless framework)
 * Build: CircleCI, TravisCI
 * Database: MongoDB, MySQL, DynamoDB
-* Infra: Terraform
+* Infra: Terraform, Docker
