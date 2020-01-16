@@ -15,9 +15,9 @@ Babel과 웹팩의 동작원리에 대해 알게 되어서 좋았다. 바벨 커
 
 강의자료를 보다가 고칠 곳을 발견해서 Pull request를 보냈다. 기여를 해서 일단 좋았고, 간단한 수정사항이라도 자세하게 설명하려고 노력했다. 좋은 연습이 됐다.
 
-* https://github.com/jeonghwan-kim/lecture-frontend-dev-env/pull/1
-* https://github.com/jeonghwan-kim/lecture-frontend-dev-env/pull/2
-* https://github.com/jeonghwan-kim/jeonghwan-kim.github.com/pull/127
+* <https://github.com/jeonghwan-kim/lecture-frontend-dev-env/pull/1>
+* <https://github.com/jeonghwan-kim/lecture-frontend-dev-env/pull/2>
+* <https://github.com/jeonghwan-kim/jeonghwan-kim.github.com/pull/127>
 
 ## 좋았던 점
 
@@ -30,5 +30,5 @@ Babel과 웹팩의 동작원리에 대해 알게 되어서 좋았다. 바벨 커
 
 ## Sources
 
-* https://github.com/jeonghwan-kim/lecture-frontend-dev-env
-* http://jeonghwan-kim.github.io/
+* <https://github.com/jeonghwan-kim/lecture-frontend-dev-env>
+* <http://jeonghwan-kim.github.io/>
