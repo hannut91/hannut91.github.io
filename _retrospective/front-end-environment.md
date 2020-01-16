@@ -3,8 +3,8 @@ title: 프론트엔드 개발 환경의 이해 강의 회고
 subTitle:
 category:
 tags:
-createdat: 2019-01-16 19:09:00
-updatedat: 2019-01-16 19:09:00
+createdat: 2020-01-16 19:09:00
+updatedat: 2020-01-16 19:09:00
 ---
 
 NPM, Babel, Lint, Webpack 등 프런트엔드 개발 환경에 대해 기본부터 실무에서 사용하는 사례까지 배웠다. JavaScript의 모듈 시스템에 대해 잘 몰랐는데 알게 되어서 좋았다. AMD와 CommonJS 등을 공부하고 싶었는데 JavaScript의 역사까지도 알고 있어야 해서 공부하기 참 어려웠다. 간단하게 알려주셔서 쉽게 이해할 수 있었다.  
