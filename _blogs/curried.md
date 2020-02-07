@@ -50,4 +50,4 @@ console.log(repeatStar(5)); // *****
 
 ## Source
 
-* 가장 쉬운 하스켈 책 5장 고차웒 함수 <http://www.kyobobook.co.kr/product/detailViewKor.laf?barcode=9788994774619>
+* 가장 쉬운 하스켈 책 5장 고차원 함수 <http://www.kyobobook.co.kr/product/detailViewKor.laf?barcode=9788994774619>

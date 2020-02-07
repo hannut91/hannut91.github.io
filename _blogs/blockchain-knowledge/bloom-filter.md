@@ -61,9 +61,9 @@ N이 16 M은 3인 Bloom filter의 예제를 살펴보자
 
 Y가 Bloom filter에 포함되는지 확인하는 경우는 다음과 같다.
 ![](https://github.com/bitcoinbook/bitcoinbook/raw/f8b883dcd4e3d1b9adf40fed59b7e898fbd9241f/images/mbc2_0812.png)
-Y가 Bloom filter에 확실히 포함되지 않는다는것을 알 수 있다.
+Y가 Bloom filter에 확실히 포함되지 않는다는 것을 알 수 있다.
 
-따라서 확률적으로 찾거나 확실피 포함되지 않는다는것을 알 수 있다.
+따라서 확률적으로 찾거나 확실히 포함되지 않는다는 것을 알 수 있다.
 
 ## See also
 * https://github.com/bitcoinbook/bitcoinbook/blob/f8b883dcd4e3d1b9adf40fed59b7e898fbd9241f/ch08.asciidoc
