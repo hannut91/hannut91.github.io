@@ -7,7 +7,7 @@ featured_image: /images/social.jpg
 
 ## 역사
 
-* 2019.02.11 달랩 코딩 도장 8번째
+* 2019.02.11 달랩 코딩 도장 9번째
   * <https://hannut91.github.io/retrospective/dallab/coding-dojo-9>
 * 2019.02.04 달랩 코딩 도장 8번째
   * <https://hannut91.github.io/retrospective/dallab/coding-dojo-8>
