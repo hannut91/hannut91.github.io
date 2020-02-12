@@ -7,6 +7,8 @@ featured_image: /images/social.jpg
 
 ## 역사
 
+* 2019.02.11 달랩 코딩 도장 8번째
+  * <https://hannut91.github.io/retrospective/dallab/coding-dojo-9>
 * 2019.02.04 달랩 코딩 도장 8번째
   * <https://hannut91.github.io/retrospective/dallab/coding-dojo-8>
 * 2020-01-20 개발자 한 달에 책 한 권 읽기: 도메인 디자인 설계 구현 4장 까지
