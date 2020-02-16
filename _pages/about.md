@@ -189,6 +189,8 @@ featured_image: /images/social.jpg
 
 ## 읽은 책들
 
+* 하루 3분 네트워크 교실
+  * <https://hannut91.github.io/blogs/network/network>
 * 애자일 회고
   * <https://hannut91.github.io/blogs/books/agile-retrospectives>
 * 린 UX
