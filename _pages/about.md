@@ -7,15 +7,15 @@ featured_image: /images/social.jpg
 
 ## 역사
 
-* 2020-02-17 개발자 한 달에 책 한 권 읽기: 도메인 디자인 설계 구현 9장 까지
+* 2020.02.17 개발자 한 달에 책 한 권 읽기: 도메인 디자인 설계 구현 9장 까지
   * <https://hannut91.github.io/retrospective/reading-books-7>
 * 2019.02.11 달랩 코딩 도장 9번째
   * <https://hannut91.github.io/retrospective/dallab/coding-dojo-9>
 * 2019.02.04 달랩 코딩 도장 8번째
   * <https://hannut91.github.io/retrospective/dallab/coding-dojo-8>
-* 2020-01-20 개발자 한 달에 책 한 권 읽기: 도메인 디자인 설계 구현 4장 까지
+* 2020.01.20 개발자 한 달에 책 한 권 읽기: 도메인 디자인 설계 구현 4장 까지
   * <https://hannut91.github.io/retrospective/reading-books-6>
-* 2020-01-16 프론트엔드 개발 환경의 이해 강의 참석
+* 2020.01.16 프론트엔드 개발 환경의 이해 강의 참석
   * <https://hannut91.github.io/retrospective/front-end-environment>
 * 2019.12.23 개발자 한 달에 책 한 권 읽기: 심플 소프트웨어
   * <https://hannut91.github.io/retrospective/reading-books-5>
