@@ -137,7 +137,7 @@ VS Code에서 한글 맞춤법을 검사할 수 있는 확장 프로그램
 
 * Front framework: Angular, Ionic
 * Banckend framework: Express, MarbleJS, Spring boot
-* Language: JavaScript, TypeScript, Golang, Kotlin
+* Language: JavaScript, TypeScript, Golang, Kotlin, Haskell
 * Cloud: AWS, AWS Lambda(Serverless framework)
 * Build: CircleCI, TravisCI
 * Database: MongoDB, MySQL, DynamoDB
