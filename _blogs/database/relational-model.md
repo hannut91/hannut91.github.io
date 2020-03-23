@@ -130,7 +130,7 @@ INERT는 합집합이다.
 
 DELETE는 차집합이다.
 
-### updatedat
+### UPDATE
 
 UPDATE는 차집합에서 본래 튜플과의 합집합이다.
 
