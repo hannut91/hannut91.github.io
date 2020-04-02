@@ -99,23 +99,6 @@ Github: <https://github.com/hannut91>
 ---
 
 <div class="title-with-date">
-  <h4><strong>세금도둑들(진행중)</strong></h4><h4>2019.12.05 ~ </h4>
-</div>
-
-2019년 고액 체납자 명단이 공개되었다. 주소도 같이 공개가 되었는데 내 주변의 세금도둑들이 얼마나 있나 볼 수 있는 웹사이트가 있으면 재밌을 것 같아 시작했다.
-
-* <https://github.com/hannut91/tax-thiefs>
-
-<div class="title-with-date">
-  <h4><strong>StartSmall(진행중)</strong></h4><h4>2019.10.01 ~ </h4>
-</div>
-
-TO DO를 작성하고, 했을 때 감정을 기록하고 다시 복기할 수 있는 생산성 도구
-* 생산성 있는 일들을 하기 위해 제가 사용하기 위해 만들었습니다.
-* 프론트는 Angular 백엔드는 MarbleJS, CI/CD는 CircleCI, IaC는 Terraform, Cloud는  AWS를 사용했습니다.
-* <https://startsmall.me>
-
-<div class="title-with-date">
   <h4><strong>VS Code Wiki</strong></h4><h4>2019.09.22 ~ </h4>
 </div>
 
