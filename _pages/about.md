@@ -191,6 +191,8 @@ featured_image: /images/social.jpg
 
 ## 읽은 책들
 
+* 어떻게 공부할 것인가
+  * <https://hannut91.github.io/blogs/books/make-stick-it>
 * 쉽게 배우는 하스켈
   * <https://hannut91.github.io/blogs/recursion>
 * 웹을 지탱하는 기술
