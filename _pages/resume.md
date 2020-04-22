@@ -99,6 +99,22 @@ Github: <https://github.com/hannut91>
 ---
 
 <div class="title-with-date">
+  <h4><strong>awscli for GitHub Actions</strong></h4><h4>2020.04.20 ~ </h4>
+</div>
+
+GitHub Actions에서 `awscli`를 Docker를 이용해서 바로 사용할 수 있도록 Dockerfile 작성  
+`awscli`의 새로운 버전이 나오면 자동으로 빌드를 해서 자동으로 GitHub에 푸시되도록 GitHub Action 설정.
+* <https://github.com/marketplace/actions/awscli>
+* <https://github.com/hannut91/aws-cli>
+
+<div class="title-with-date">
+  <h4><strong>셀프 시험웹</strong></h4><h4>2020.03.24 ~ </h4>
+</div>
+
+내가 공부했떤 것들을 시험 문제를 만들고 답을 기록할 수 있는 웹
+* <https://github.com/hannut91/self-exam>
+
+<div class="title-with-date">
   <h4><strong>VS Code Wiki</strong></h4><h4>2019.09.22 ~ </h4>
 </div>
 
