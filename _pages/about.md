@@ -7,6 +7,8 @@ featured_image: /images/social.jpg
 
 ## 역사
 
+* 2020.04.22 관계형 데이터베이스 실전 입문 스터디 4주차
+  * <https://hannut91.github.io/retrospective/relational-study/week-4>
 * 2020.02.17 개발자 한 달에 책 한 권 읽기: 도메인 주도 설계 구현 9장 까지
   * <https://hannut91.github.io/retrospective/reading-books-7>
 * 2019.02.11 달랩 코딩 도장 9번째
@@ -191,6 +193,9 @@ featured_image: /images/social.jpg
 
 ## 읽은 책들
 
+* 피드포워드
+* 관계형 데이터베이스 실전 입문
+  * <https://hannut91.github.io/retrospective/relational-study/week-4>
 * 어떻게 공부할 것인가
   * <https://hannut91.github.io/blogs/books/make-stick-it>
 * 쉽게 배우는 하스켈
@@ -227,7 +232,6 @@ featured_image: /images/social.jpg
 * 탤런트 코드
 * 오브젝트
 * 자바스크립트 자료 구조와 알고리즘
-* 관계형 데이터베이스 실전 입문
 * 데브옵스 핸드북
 * 그들은 알고리즘을 알았을까?
 * 완벽한 IT 인프라 구축을 위한 Docker 2판
