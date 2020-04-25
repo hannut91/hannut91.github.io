@@ -194,6 +194,7 @@ featured_image: /images/social.jpg
 ## 읽은 책들
 
 * 피드포워드
+  * <https://hannut91.github.io/blogs/books/feed-forward>
 * 관계형 데이터베이스 실전 입문
   * <https://hannut91.github.io/retrospective/relational-study/week-4>
 * 어떻게 공부할 것인가
