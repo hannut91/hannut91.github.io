@@ -1,5 +1,5 @@
 ---
-title: 울트라 러닝 서평
+title: 울트라러닝 서평
 subTitle:
 category:
 tags:
