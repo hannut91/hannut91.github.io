@@ -193,6 +193,8 @@ featured_image: /images/social.jpg
 
 ## 읽은 책들
 
+* 울트라러닝
+  * <https://hannut91.github.io/blogs/books/ultra-learning>
 * 피드포워드
   * <https://hannut91.github.io/blogs/books/feed-forward>
 * 관계형 데이터베이스 실전 입문
@@ -201,7 +203,6 @@ featured_image: /images/social.jpg
   * <https://hannut91.github.io/blogs/books/make-stick-it>
 * 쉽게 배우는 하스켈
   * <https://hannut91.github.io/blogs/recursion>
-* 웹을 지탱하는 기술
 * 소프트웨어 장인
   * <https://hannut91.github.io/blogs/books/craftsman>
 * 그림으로 배우는 HTTP & Network Basic
@@ -226,6 +227,7 @@ featured_image: /images/social.jpg
   * <https://hannut91.github.io/blogs/books/clean-coder>
 * 이 책도 읽지 마세요
   * <https://hannut91.github.io/blogs/books/do-not-read-this-book>
+* 웹을 지탱하는 기술
 * 클린 아키텍처
 * 프로그래머의 길 멘토에게 묻다
 * 읽기 좋은 코드가 좋은 코드다
