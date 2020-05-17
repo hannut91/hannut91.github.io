@@ -61,8 +61,11 @@ updatedat: 2020-05-17 12:02:00
 개념에 대해 어떻게 공부할지는 알겠다. 근데 배워서 내가 무엇을 할 수 있게 되었는가? 개념에 대해 잘 안다고 해서 그것을 잘 한다는 것은 아니다.
 
 ![69f505b8dee0f4e8d1741867d6931489](https://user-images.githubusercontent.com/14071105/82134994-deb1b480-9838-11ea-995b-e2cab10d5b27.jpg)
+
 ![efea573460d97c435bda41477c271a0f](https://user-images.githubusercontent.com/14071105/82134995-dfe2e180-9838-11ea-9b97-ef2d84499218.jpg)
+
 ![bf4669bfb43b10eb33b7a130b9f1344c](https://user-images.githubusercontent.com/14071105/82134996-e1aca500-9838-11ea-9122-05b5db7d6fe8.jpg)
+
 ![1efb2b2ba0f1b331638b6dea1129c88a](https://user-images.githubusercontent.com/14071105/82134998-e3766880-9838-11ea-96b4-cb7f2afb5232.jpg)
 
 그래서 내가 만든 문제집으로 셀프 시험을 볼 수 있는 웹앱을 만들기 시작했다.
