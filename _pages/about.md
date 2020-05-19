@@ -9,6 +9,7 @@ featured_image: /images/social.jpg
 
 * 2020.05.16 GDG Korea WebTech Online Lightning Talk 발표
   * <https://hannut91.github.io/blogs/self-exam>
+  * <https://festa.io/events/995>
 * 2020.04.22 관계형 데이터베이스 실전 입문 스터디 4주차
   * <https://hannut91.github.io/retrospective/relational-study/week-4>
 * 2020.02.17 개발자 한 달에 책 한 권 읽기: 도메인 주도 설계 구현 9장 까지
