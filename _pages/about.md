@@ -7,6 +7,10 @@ featured_image: /images/social.jpg
 
 ## 역사
 
+* 2020.07.13 ~ 19 엔젤핵 해커톤 참여
+  * <https://hannut91.github.io/blogs/angel-hack>
+  * <https://github.com/poongdeong/poongdeong>
+  * <https://www.youtube.com/watch?v=C82uXRYDR8E&feature=youtu.be>
 * 2020.05.16 GDG Korea WebTech Online Lightning Talk 발표
   * <https://hannut91.github.io/blogs/self-exam>
   * <https://festa.io/events/995>golang goimport
