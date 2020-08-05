@@ -200,6 +200,8 @@ featured_image: /images/social.jpg
 
 ## 읽은 책들
 
+* 훔쳐라 아티스트처럼
+  * <https://hannut91.github.io/blogs/books/steal-like-artist>
 * 코어 자바스크립트
   * <https://hannut91.github.io/blogs/books/core-javascript>
 * 울트라러닝
