@@ -134,6 +134,71 @@ checking for the location of zlib... configure: error: zip support requires ZLIB
 phpbrew install 7.3 +default +bz2=/usr/local/Cellar/bzip2/1.0.6_1/ +zlib=/usr/local/Cellar/zlib/1.2.11/
 ```
 
+```bash
+Error: Configure failed:
+The last 5 lines in the log file:
+and XSL_LIBS to avoid the need to call pkg-config.
+
+See the pkg-config man page for more details.
+
+
+
+To get pkg-config, see <http://pkg-config.freedesktop.org/>.
+
+See `config.log' for more details
+```
+
+* 만약 설치 중 위와 같은 에러가 발생한다면 `libxsl2`를 설치한 후에 실행할 때 환경변수를 잡아주면 됩니다.
+
+```bash
+brew install libxsl2
+
+XSL_CFLAGS=-I/usr/local/opt/libxslt/include XSL_LIBS=-L/usr/local/opt/libxslt/lib phpbrew install 7.4.8 
+```
+
+```bash
+Error: Configure failed:
+The last 5 lines in the log file:
+and OPENSSL_LIBS to avoid the need to call pkg-config.
+
+See the pkg-config man page for more details.
+
+
+
+To get pkg-config, see <http://pkg-config.freedesktop.org/>.
+
+See `config.log' for more details
+```
+
+* 만약 설치 중 위와 같은 에러가 발생한다면 `openssl`을 설치한 후에 실행할 때 환경변수를 잡아주면 됩니다.
+
+```bash
+OPENSSL_CFLAGS=-I/usr/local/opt/openssl@1.1/include OPENSSL_LIBS=-L/usr/local/opt/openssl@1.1/lib phpbrew install 7.4.8 
+```
+
+```bash
+Error: Configure failed:
+The last 5 lines in the log file:
+and LIBXML_LIBS to avoid the need to call pkg-config.
+
+See the pkg-config man page for more details.
+
+
+
+To get pkg-config, see <http://pkg-config.freedesktop.org/>.
+
+See `config.log' for more details
+```
+
+* 만약 설치 중 위와 같은 에러가 발생한다면 `libxml`을 설치한 후에 실행할 때 환경변수를 잡아주면 됩니다.
+
+
+```bash
+LIBXML_CFLAGS=-I/usr/local/opt/libxml2/include LIBXML_LIBS=-L/usr/local/opt/libxml2/lib phpbrew install 7.4.8
+```
+
+
+
 ## Sources
 
 * https://github.com/phpbrew/phpbrew/wiki/Quick-Start
