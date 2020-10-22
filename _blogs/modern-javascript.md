@@ -42,3 +42,4 @@ updatedat: 2020-10-22 01:14:00
 
 * 모던 자바스크립트 튜토리얼 질문 모음집 - GitHub - <https://github.com/CodeSoom/modern-javascript-exam>
 * 코드숨 - <https://www.codesoom.com>
+* 김난님의 회고 - <https://github.com/naraekn/TIL/blob/master/20.10/201021.md>
