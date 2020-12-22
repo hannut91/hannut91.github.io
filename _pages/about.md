@@ -7,6 +7,13 @@ featured_image: /images/social.jpg
 
 ## 역사
 
+* 2020.11.25 ~ 2020.12.16 코드숨 함수형 자바스크립트 스터디 참여
+  * <https://hannut91.github.io/retrospective/codesoom/functional-javascript>
+* 2020.10.28 ~ 2020.11.18 코드숨 리액트 스터디
+  * <https://hannut91.github.io/retrospective/react-study>
+* 2020.09.30 ~ 2020.10.4 코드숨 자바스크립트 코딩의 기술 스터디
+* 2020.08.12 ~ 2020.10.21 코드숨 모던 자바스크립트 스터디
+  * <https://hannut91.github.io/blogs/modern-javascript>
 * 2020.07.13 ~ 19 엔젤핵 해커톤 참여
   * <https://hannut91.github.io/blogs/angel-hack>
   * <https://github.com/poongdeong/poongdeong>
@@ -200,6 +207,9 @@ featured_image: /images/social.jpg
 
 ## 읽은 책들
 
+* 함수형 자바스크립트
+  * <https://hannut91.github.io/retrospective/codesoom/functional-javascript>
+* 자바스크립트 코딩의 기술
 * 훔쳐라 아티스트처럼
   * <https://hannut91.github.io/blogs/books/steal-like-artist>
 * 코어 자바스크립트
