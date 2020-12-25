@@ -1,5 +1,5 @@
 ---
-title: The Nature Of Software Development 서평
+title: The Nature of Software Development 서평
 subTitle:
 category:
 tags:
@@ -93,3 +93,4 @@ updatedat: 2020-12-24 23:55:00
 
 * The Nature of Software Development - 교보문고 - <http://www.kyobobook.co.kr/product/detailViewKor.laf?barcode=9788968484650>
 * 코드숨 GitHub - <https://github.com/CodeSoom/The-Nature-of-Software-Development>
+* 코드숨 스터디 회고 - <https://hannut91.github.io/retrospective/codesoom/the-nature-of-software-development>
