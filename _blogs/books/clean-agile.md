@@ -87,4 +87,5 @@ updatedat: 2020-12-31 00:35:00
 
 ## Sources
 
+* 코드숨 클린 애자일 스터디 회고 - <https://hannut91.github.io/retrospective/codesoom/clean-agile>
 * 클린 애자일 - 교보문고 - <http://www.kyobobook.co.kr/product/detailViewKor.laf?barcode=9788966262861>

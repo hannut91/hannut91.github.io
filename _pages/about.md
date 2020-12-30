@@ -7,6 +7,10 @@ featured_image: /images/social.jpg
 
 ## 역사
 
+* 2020.12.30 코드숨 클린 애자일 스터디 참여
+  * <https://hannut91.github.io/retrospective/codesoom/clean-agile>
+* 2020.12.23 코드숨 The Nature of Software Development 스터디 참여
+  * <https://hannut91.github.io/retrospective/codesoom/the-nature-of-software-development>
 * 2020.11.25 ~ 2020.12.16 코드숨 함수형 자바스크립트 스터디 참여
   * <https://hannut91.github.io/retrospective/codesoom/functional-javascript>
 * 2020.10.28 ~ 2020.11.18 코드숨 리액트 스터디
@@ -207,6 +211,12 @@ featured_image: /images/social.jpg
 
 ## 읽은 책들
 
+* 클린 애자일
+  * 서평 - <https://hannut91.github.io/blogs/books/clean-agile>
+  * 스터디 회고 - <https://hannut91.github.io/retrospective/codesoom/clean-agile>
+* The Nature of Software Development
+  * 서평 - <https://hannut91.github.io/blogs/books/the-nature-of-software-development>
+  * 스터디 회고 - <https://hannut91.github.io/retrospective/codesoom/the-nature-of-software-development>
 * 함수형 자바스크립트
   * <https://hannut91.github.io/retrospective/codesoom/functional-javascript>
 * 자바스크립트 코딩의 기술
@@ -356,6 +366,8 @@ featured_image: /images/social.jpg
 
 ## 읽을 책들
 
+* 인스파이어드
+* 클린 애자일
 * 소프트웨어 장인
 * 도메인 주도 설계 구현
 * GoF의 디자인 패턴
