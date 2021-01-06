@@ -7,16 +7,18 @@ featured_image: /images/social.jpg
 
 ## 역사
 
-* 2020.12.30 코드숨 클린 애자일 스터디 참여
+* 2020.01.06 코드숨 Commits are snapshots, not diffs 스터디 진행
+  * <https://hannut91.github.io/retrospective/codesoom/commits-are-snapshots-not-diffs>
+* 2020.12.30 코드숨 클린 애자일 스터디 진행
   * <https://hannut91.github.io/retrospective/codesoom/clean-agile>
-* 2020.12.23 코드숨 The Nature of Software Development 스터디 참여
+* 2020.12.23 코드숨 The Nature of Software Development 스터디 진행
   * <https://hannut91.github.io/retrospective/codesoom/the-nature-of-software-development>
-* 2020.11.25 ~ 2020.12.16 코드숨 함수형 자바스크립트 스터디 참여
+* 2020.11.25 ~ 2020.12.16 코드숨 함수형 자바스크립트 스터디 진행
   * <https://hannut91.github.io/retrospective/codesoom/functional-javascript>
-* 2020.10.28 ~ 2020.11.18 코드숨 리액트 스터디
+* 2020.10.28 ~ 2020.11.18 코드숨 리액트 스터디 스터디 진행
   * <https://hannut91.github.io/retrospective/react-study>
-* 2020.09.30 ~ 2020.10.4 코드숨 자바스크립트 코딩의 기술 스터디
-* 2020.08.12 ~ 2020.10.21 코드숨 모던 자바스크립트 스터디
+* 2020.09.30 ~ 2020.10.4 코드숨 자바스크립트 코딩의 기술 스터디 진행
+* 2020.08.12 ~ 2020.10.21 코드숨 모던 자바스크립트 스터디 진행
   * <https://hannut91.github.io/blogs/modern-javascript>
 * 2020.07.13 ~ 19 엔젤핵 해커톤 참여
   * <https://hannut91.github.io/blogs/angel-hack>
