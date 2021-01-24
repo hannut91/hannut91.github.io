@@ -7,7 +7,9 @@ featured_image: /images/social.jpg
 
 ## 역사
 
-* 2020.01.06 코드숨 Commits are snapshots, not diffs 스터디 진행
+* 2021.01.13 ~ 2021.20 코드숨 객체지향의 사실과 오해 스터디 진행
+  * <https://hannut91.github.io/retrospective/codesoom/the-essence-of-object-orientation>
+* 2021.01.06 코드숨 Commits are snapshots, not diffs 스터디 진행
   * <https://hannut91.github.io/retrospective/codesoom/commits-are-snapshots-not-diffs>
 * 2020.12.30 코드숨 클린 애자일 스터디 진행
   * <https://hannut91.github.io/retrospective/codesoom/clean-agile>
@@ -213,6 +215,9 @@ featured_image: /images/social.jpg
 
 ## 읽은 책들
 
+* 객체지향의 사실과 오해
+  * 서평 - <https://hannut91.github.io/blogs/books/the-essence-of-object-orientation>
+  * 스터디 회고 - <https://hannut91.github.io/retrospective/codesoom/the-essence-of-object-orientation>
 * 클린 애자일
   * 서평 - <https://hannut91.github.io/blogs/books/clean-agile>
   * 스터디 회고 - <https://hannut91.github.io/retrospective/codesoom/clean-agile>
