@@ -3,8 +3,8 @@ title: 루비로 배우는 객체지향 디자인 서평
 subTitle:
 category: 
 tags: 
-createdat: 2020-02-04 02:01:00
-updatedat: 2020-02-04 02:01:00
+createdat: 2021-02-04 02:01:00
+updatedat: 2021-02-04 02:01:00
 ---
 
 ## 객체지향 디자인이란 무엇일까?

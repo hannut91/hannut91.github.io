@@ -3,8 +3,8 @@ title: 코드숨 루비로 배우는 객체지향 디자인 스터디 회고
 subTitle:
 category: 
 tags: 
-createdat: 2020-02-04 02:06:00
-updatedat: 2020-02-04 02:06:00
+createdat: 2021-02-04 02:06:00
+updatedat: 2021-02-04 02:06:00
 ---
 
 ## 무엇? 왜? 어떻게?
