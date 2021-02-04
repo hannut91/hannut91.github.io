@@ -34,6 +34,6 @@ updatedat: 2021-02-04 02:01:00
 
 ## Sources
 
-* 코드숨 루비로 배우는 객체지향 디자인 스터디 회고 - <https://hannut91.github.io/retrospective/codesoompractical-object-oriented-design-in-ruby>
+* 코드숨 루비로 배우는 객체지향 디자인 스터디 회고 - <https://hannut91.github.io/retrospective/codesoom/practical-object-oriented-design-in-ruby>
 * 스터디 정리 - GitHub - <https://github.com/CodeSoom/Practical-Object-Oriented-Design-in-Ruby>
 * 루비로 배우는 객체지향 디자인 - 교보문고 - <http://www.kyobobook.co.kr/product/detailViewKor.laf?barcode=9788966261239>
