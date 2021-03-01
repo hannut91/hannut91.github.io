@@ -7,6 +7,10 @@ featured_image: /images/social.jpg
 
 ## 역사
 
+* 2021.02.17 ~ 2021.02.24 코드숨 엘레강트 오브젝트 스터디 진행
+  * <https://hannut91.github.io/retrospective/codesoom/elegant-objects>
+* 2021.01.27 ~ 2021.02.03 코드숨 루비로 배우는 객체지향 디자인 스터디 진행
+  * <https://hannut91.github.io/retrospective/codesoom/practical-object-oriented-design-in-ruby>
 * 2021.01.27 ~ 2021.02.03 코드숨 루비로 배우는 객체지향 디자인 스터디 진행
   * <https://hannut91.github.io/retrospective/codesoom/practical-object-oriented-design-in-ruby>
 * 2021.01.13 ~ 2021.01.20 코드숨 객체지향의 사실과 오해 스터디 진행
@@ -217,6 +221,9 @@ featured_image: /images/social.jpg
 
 ## 읽은 책들
 
+* 엘레강트 오브젝트
+  * 서평 - <https://hannut91.github.io/blogs/books/elegant-objects>
+  * 스터디 회고 - <https://hannut91.github.io/retrospective/codesoom/elegant-objects>
 * 루비로 배우는 객체지향 디자인
   * 서평 - <https://hannut91.github.io/blogs/books/practical-object-oriented-design-in-ruby>
   * 스터디 회고 - <https://hannut91.github.io/retrospective/codesoom/practical-object-oriented-design-in-ruby>
