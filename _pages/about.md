@@ -221,6 +221,8 @@ featured_image: /images/social.jpg
 
 ## 읽은 책들
 
+* 사용자 스토리
+  * 서평 - <https://hannut91.github.io/blogs/books/user-story>
 * 엘레강트 오브젝트
   * 서평 - <https://hannut91.github.io/blogs/books/elegant-objects>
   * 스터디 회고 - <https://hannut91.github.io/retrospective/codesoom/elegant-objects>
@@ -394,7 +396,6 @@ featured_image: /images/social.jpg
 * 알고리즘 도감
 * 테스트 주도 개발로 배우는 객체 지향 설계와 실천
 * HTTP 완벽 가이드
-* 사용자 스토리
 * 마이크로서비스 인 액션
 * 쿠버네티스 인 액션
 * 애자일 프랙티스
