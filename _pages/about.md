@@ -7,6 +7,8 @@ featured_image: /images/social.jpg
 
 ## 역사
 
+* 2021.03.03 ~ 2021.04.07 코드숨 오브젝트 스터디 진행
+  * <https://hannut91.github.io/retrospective/codesoom/elegant-objects>
 * 2021.02.17 ~ 2021.02.24 코드숨 엘레강트 오브젝트 스터디 진행
   * <https://hannut91.github.io/retrospective/codesoom/elegant-objects>
 * 2021.01.27 ~ 2021.02.03 코드숨 루비로 배우는 객체지향 디자인 스터디 진행
@@ -221,6 +223,9 @@ featured_image: /images/social.jpg
 
 ## 읽은 책들
 
+* 오브젝트
+  * 서평 - <https://hannut91.github.io/blogs/books/object>
+  * 스터디 회고 - <https://hannut91.github.io/retrospective/codesoom/object>
 * 사용자 스토리
   * 서평 - <https://hannut91.github.io/blogs/books/user-story>
 * 엘레강트 오브젝트
@@ -285,7 +290,6 @@ featured_image: /images/social.jpg
 * 읽기 좋은 코드가 좋은 코드다
 * 원씽
 * 탤런트 코드
-* 오브젝트
 * 자바스크립트 자료 구조와 알고리즘
 * 데브옵스 핸드북
 * 그들은 알고리즘을 알았을까?
