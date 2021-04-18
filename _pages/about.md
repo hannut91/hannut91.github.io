@@ -8,7 +8,7 @@ featured_image: /images/social.jpg
 ## 역사
 
 * 2021.03.03 ~ 2021.04.07 코드숨 오브젝트 스터디 진행
-  * <https://hannut91.github.io/retrospective/codesoom/elegant-objects>
+  * <https://hannut91.github.io/retrospective/codesoom/object>
 * 2021.02.17 ~ 2021.02.24 코드숨 엘레강트 오브젝트 스터디 진행
   * <https://hannut91.github.io/retrospective/codesoom/elegant-objects>
 * 2021.01.27 ~ 2021.02.03 코드숨 루비로 배우는 객체지향 디자인 스터디 진행
