@@ -141,6 +141,9 @@ VS Code에서 한글 맞춤법을 검사할 수 있는 확장 프로그램
 * 편집기 내에서 간단하게 맞춤법을 검사할 수 있고 바로 교정도 할 수 있는 기능을 제공.
 * <https://marketplace.visualstudio.com/items?itemName=Yunseok.korean-spell-checker-vs-code>
 
+컬리몰 프로젝트
+* 칸반 보드 도입이나, 번다운차트, 인수테스트 작성
+
 ### SKILLS
 ---
 
