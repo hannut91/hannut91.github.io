@@ -1,5 +1,5 @@
 ---
-title: 테스트 주도 개발로 배우는 객체 지향 설계와 실천
+title: 테스트 주도 개발로 배우는 객체 지향 설계와 실천 서평
 subTitle:
 category:
 tags:
