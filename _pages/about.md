@@ -7,12 +7,14 @@ featured_image: /images/social.jpg
 
 ## 역사
 
+* 2021.05.19 ~ 2021.05.26 린 UX 스터디 진행
+  * <https://hannut91.github.io/retrospective/codesoom/lean-ux>
+* 2021.04.21 ~ 2021.05.12 테스트 주도 개발로 배우는 객체 지향 설계와 실천
+  * <https://hannut91.github.io/retrospective/codesoom/GOOSGBT>
 * 2021.03.03 ~ 2021.04.07 코드숨 오브젝트 스터디 진행
   * <https://hannut91.github.io/retrospective/codesoom/object>
 * 2021.02.17 ~ 2021.02.24 코드숨 엘레강트 오브젝트 스터디 진행
   * <https://hannut91.github.io/retrospective/codesoom/elegant-objects>
-* 2021.01.27 ~ 2021.02.03 코드숨 루비로 배우는 객체지향 디자인 스터디 진행
-  * <https://hannut91.github.io/retrospective/codesoom/practical-object-oriented-design-in-ruby>
 * 2021.01.27 ~ 2021.02.03 코드숨 루비로 배우는 객체지향 디자인 스터디 진행
   * <https://hannut91.github.io/retrospective/codesoom/practical-object-oriented-design-in-ruby>
 * 2021.01.13 ~ 2021.01.20 코드숨 객체지향의 사실과 오해 스터디 진행
@@ -223,6 +225,9 @@ featured_image: /images/social.jpg
 
 ## 읽은 책들
 
+* 타이스크립트 프로그래밍
+* 테스트 주도 개발로 배우는 객체 지향 설계와 실천
+  * <https://hannut91.github.io/blogs/books/GOOSGBT>
 * 오브젝트
   * 서평 - <https://hannut91.github.io/blogs/books/object>
   * 스터디 회고 - <https://hannut91.github.io/retrospective/codesoom/object>
@@ -388,22 +393,3 @@ featured_image: /images/social.jpg
 * 우유의 역습
 * 내 몸 사용설명서
 * 밤의 피크닉 - 온다 리쿠
-
-## 읽을 책들
-
-* 인스파이어드
-* 클린 애자일
-* 소프트웨어 장인
-* 도메인 주도 설계 구현
-* GoF의 디자인 패턴
-* 엔터프라이즈 애플리케이션 아키텍처 패턴
-* 알고리즘 도감
-* 테스트 주도 개발로 배우는 객체 지향 설계와 실천
-* HTTP 완벽 가이드
-* 마이크로서비스 인 액션
-* 쿠버네티스 인 액션
-* 애자일 프랙티스
-* 엘라스틱서치 인 액션
-* Kakao AI Report
-* 쿠버네티스 쿡북
-* 뷰티풀 자바스크립트
