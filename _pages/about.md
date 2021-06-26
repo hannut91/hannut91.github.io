@@ -7,6 +7,8 @@ featured_image: /images/social.jpg
 
 ## 역사
 
+* 2021.06.02 ~ 2021.06.23 코드숨 리얼월드 HTTP 스터디 진행
+  * <https://hannut91.github.io/retrospective/codesoom/real-wrold-http>
 * 2021.05.19 ~ 2021.05.26 린 UX 스터디 진행
   * <https://hannut91.github.io/retrospective/codesoom/lean-ux>
 * 2021.04.21 ~ 2021.05.12 테스트 주도 개발로 배우는 객체 지향 설계와 실천
@@ -225,32 +227,26 @@ featured_image: /images/social.jpg
 
 ## 읽은 책들
 
-* 타이스크립트 프로그래밍
+* 리얼월드 HTTP
+  * <https://hannut91.github.io/blogs/books/real-world-http>
 * 테스트 주도 개발로 배우는 객체 지향 설계와 실천
   * <https://hannut91.github.io/blogs/books/GOOSGBT>
 * 오브젝트
-  * 서평 - <https://hannut91.github.io/blogs/books/object>
-  * 스터디 회고 - <https://hannut91.github.io/retrospective/codesoom/object>
+  * <https://hannut91.github.io/blogs/books/object>
 * 사용자 스토리
-  * 서평 - <https://hannut91.github.io/blogs/books/user-story>
+  * <https://hannut91.github.io/blogs/books/user-story>
 * 엘레강트 오브젝트
-  * 서평 - <https://hannut91.github.io/blogs/books/elegant-objects>
-  * 스터디 회고 - <https://hannut91.github.io/retrospective/codesoom/elegant-objects>
+  * <https://hannut91.github.io/blogs/books/elegant-objects>
 * 루비로 배우는 객체지향 디자인
-  * 서평 - <https://hannut91.github.io/blogs/books/practical-object-oriented-design-in-ruby>
-  * 스터디 회고 - <https://hannut91.github.io/retrospective/codesoom/practical-object-oriented-design-in-ruby>
+  * <https://hannut91.github.io/blogs/books/practical-object-oriented-design-in-ruby>
 * 객체지향의 사실과 오해
-  * 서평 - <https://hannut91.github.io/blogs/books/the-essence-of-object-orientation>
-  * 스터디 회고 - <https://hannut91.github.io/retrospective/codesoom/the-essence-of-object-orientation>
+  * <https://hannut91.github.io/blogs/books/the-essence-of-object-orientation>
 * 클린 애자일
-  * 서평 - <https://hannut91.github.io/blogs/books/clean-agile>
-  * 스터디 회고 - <https://hannut91.github.io/retrospective/codesoom/clean-agile>
+  * <https://hannut91.github.io/blogs/books/clean-agile>
 * The Nature of Software Development
-  * 서평 - <https://hannut91.github.io/blogs/books/the-nature-of-software-development>
-  * 스터디 회고 - <https://hannut91.github.io/retrospective/codesoom/the-nature-of-software-development>
+  * <https://hannut91.github.io/blogs/books/the-nature-of-software-development>
 * 함수형 자바스크립트
   * <https://hannut91.github.io/retrospective/codesoom/functional-javascript>
-* 자바스크립트 코딩의 기술
 * 훔쳐라 아티스트처럼
   * <https://hannut91.github.io/blogs/books/steal-like-artist>
 * 코어 자바스크립트
@@ -289,6 +285,8 @@ featured_image: /images/social.jpg
   * <https://hannut91.github.io/blogs/books/clean-coder>
 * 이 책도 읽지 마세요
   * <https://hannut91.github.io/blogs/books/do-not-read-this-book>
+* 자바스크립트 코딩의 기술
+* 타이스크립트 프로그래밍
 * 웹을 지탱하는 기술
 * 클린 아키텍처
 * 프로그래머의 길 멘토에게 묻다
