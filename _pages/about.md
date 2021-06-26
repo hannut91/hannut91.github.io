@@ -11,7 +11,7 @@ featured_image: /images/social.jpg
   * <https://hannut91.github.io/retrospective/codesoom/real-wrold-http>
 * 2021.05.19 ~ 2021.05.26 린 UX 스터디 진행
   * <https://hannut91.github.io/retrospective/codesoom/lean-ux>
-* 2021.04.21 ~ 2021.05.12 테스트 주도 개발로 배우는 객체 지향 설계와 실천
+* 2021.04.21 ~ 2021.05.12 테스트 주도 개발로 배우는 객체 지향 설계와 실천 스터디 진행
   * <https://hannut91.github.io/retrospective/codesoom/GOOSGBT>
 * 2021.03.03 ~ 2021.04.07 코드숨 오브젝트 스터디 진행
   * <https://hannut91.github.io/retrospective/codesoom/object>
@@ -29,7 +29,7 @@ featured_image: /images/social.jpg
   * <https://hannut91.github.io/retrospective/codesoom/the-nature-of-software-development>
 * 2020.11.25 ~ 2020.12.16 코드숨 함수형 자바스크립트 스터디 진행
   * <https://hannut91.github.io/retrospective/codesoom/functional-javascript>
-* 2020.10.28 ~ 2020.11.18 코드숨 리액트 스터디 스터디 진행
+* 2020.10.28 ~ 2020.11.18 코드숨 리액트 스터디 진행
   * <https://hannut91.github.io/retrospective/react-study>
 * 2020.09.30 ~ 2020.10.4 코드숨 자바스크립트 코딩의 기술 스터디 진행
 * 2020.08.12 ~ 2020.10.21 코드숨 모던 자바스크립트 스터디 진행
