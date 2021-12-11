@@ -7,7 +7,7 @@ featured_image: /images/social.jpg
 
 <section class="listing single">
   <div class="wrap">
-    {% assign documents = site.blogs | sort: 'createdat' | reverse %} {% for
+    {% assign documents = site.blogs | sort: 'updatedat' | reverse %} {% for
         post in documents %}
     <article class="listing-post">
       <div class="listing-post__header">
@@ -18,7 +18,7 @@ featured_image: /images/social.jpg
         </h2>
 
         <p class="listing-post__subtitle">
-          {{ post.createdat | date_to_long_string }}
+          {{ post.updatedat | date_to_long_string }}
         </p>
       </div>
 
