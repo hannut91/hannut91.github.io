@@ -6,7 +6,13 @@ featured_image: /images/social.jpg
 ---
 
 ## 역사
-
+* 2021.11.10 ~ 2022.01.12 코드숨 코드 컴플리트 2 스터디 진행
+  * <https://hannut91.github.io/retrospective/codesoom/code-complete>
+* 2021.08.11 ~ 2021.11.03 코드숨 도메인 주도 설계 스터디 진행
+  * <https://hannut91.github.io/retrospective/codesoom/domain-driven-design>
+* 2021.07.28 ~ 2021.08.04 코드숨 IT에 몸담은 이들을 위한 지적 생산 기술 스터디 진행
+* 2021.06.30 ~ 2021.07.21 코드숨 리팩터링 스터디 진행
+  * <https://hannut91.github.io/retrospective/codesoom/refactoring>
 * 2021.06.02 ~ 2021.06.23 코드숨 리얼월드 HTTP 스터디 진행
   * <https://hannut91.github.io/retrospective/codesoom/real-wrold-http>
 * 2021.05.19 ~ 2021.05.26 린 UX 스터디 진행
@@ -227,6 +233,17 @@ featured_image: /images/social.jpg
 
 ## 읽은 책들
 
+* 킵고잉
+  * <https://hannut91.github.io/blogs/books/keep-going>
+* 인간실격
+* 코드 컴플리트 2
+  * <https://hannut91.github.io/blogs/books/code-complete>
+* 규제의 역설
+* 도메인 주도 설계
+  * <https://hannut91.github.io/blogs/books/domain-driven-design>
+* IT에 몸담은 이들을 위한 지적 생산 기술
+* 리팩터링 2판
+  * <https://hannut91.github.io/blogs/books/refactoring>
 * 리얼월드 HTTP
   * <https://hannut91.github.io/blogs/books/real-world-http>
 * 테스트 주도 개발로 배우는 객체 지향 설계와 실천
