@@ -67,4 +67,5 @@ updatedat: 2022-02-23 21:58:00
 
 ## Sources
 
+* [코드숨 인스파이어드 스터디 회고](https://hannut91.github.io/retrospective/codesoom/inspired)
 * 인스파이어드 - 교보문고 - <http://www.kyobobook.co.kr/product/detailViewKor.laf?barcode=9791188621484>

@@ -6,6 +6,8 @@ featured_image: /images/social.jpg
 ---
 
 ## 역사
+* 2022.02.02 ~ 2022.02.23 코드숨 인스파이어드 스터디 진행
+  * <https://hannut91.github.io/retrospective/codesoom/inspired>
 * 2021.11.10 ~ 2022.01.12 코드숨 코드 컴플리트 2 스터디 진행
   * <https://hannut91.github.io/retrospective/codesoom/code-complete>
 * 2021.08.11 ~ 2021.11.03 코드숨 도메인 주도 설계 스터디 진행
@@ -233,6 +235,8 @@ featured_image: /images/social.jpg
 
 ## 읽은 책들
 
+* 인스파이어드
+  * <https://hannut91.github.io/blogs/books/inspired>
 * 킵고잉
   * <https://hannut91.github.io/blogs/books/keep-going>
 * 인간실격
