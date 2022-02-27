@@ -235,6 +235,8 @@ featured_image: /images/social.jpg
 
 ## 읽은 책들
 
+* 마케터의 일
+  * <https://hannut91.github.io/blogs/books/marketers-job>
 * 인스파이어드
   * <https://hannut91.github.io/blogs/books/inspired>
 * 킵고잉
