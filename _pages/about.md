@@ -235,6 +235,8 @@ featured_image: /images/social.jpg
 
 ## 읽은 책들
 
+* 프로그래머의 뇌
+  * <https://hannut91.github.io/blogs/books/programmers-brain>
 * 마케터의 일
   * <https://hannut91.github.io/blogs/books/marketers-job>
 * 인스파이어드
