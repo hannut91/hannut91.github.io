@@ -3,8 +3,8 @@ title: 프로그래머의 뇌 서평
 subTitle:
 category:
 tags:
-createdat: 2022-02-23 21:58:00
-updatedat: 2022-02-23 21:58:00
+createdat: 2022-04-04 20:14:00
+updatedat: 2022-04-04 20:14:00
 ---
 
 코드를 읽는 것은 힘들다. 왜냐하면 단기 기억 공간과 장기 기억 공간 그리고 작업
@@ -67,5 +67,6 @@ updatedat: 2022-02-23 21:58:00
 
 ## Sources
 
+* [코드숨 프로그래머의 뇌 스터디 회고](https://hannut91.github.io/retrospective/codesoom/programmers-brain)
 * [프로그래머의 뇌 -
   교보문고](http://www.kyobobook.co.kr/product/detailViewKor.laf?barcode=9791191600650)
