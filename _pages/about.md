@@ -6,6 +6,8 @@ featured_image: /images/social.jpg
 ---
 
 ## 역사
+* 2022.05.02 쁘띠따쁘띠 워크샵 참여
+  * <https://hannut91.github.io/retrospective/petit-a-petit>
 * 2022.03.09 ~ 2022.03.30 코드숨 프로그래머의 뇌 스터디 진행
   * <https://hannut91.github.io/retrospective/codesoom/programmers-brain>
 * 2022.02.02 ~ 2022.02.23 코드숨 인스파이어드 스터디 진행
