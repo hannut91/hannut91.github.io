@@ -6,6 +6,8 @@ featured_image: /images/social.jpg
 ---
 
 ## 역사
+* 2022.04.06 ~ 2022.05.11 코드숨 실용주의 프로그래머(20주년 기념판) 스터디 진행
+  * <https://hannut91.github.io/retrospective/codesoom/programtic-programmer>
 * 2022.05.02 쁘띠따쁘띠 워크샵 참여
   * <https://hannut91.github.io/retrospective/petit-a-petit>
 * 2022.03.09 ~ 2022.03.30 코드숨 프로그래머의 뇌 스터디 진행
@@ -239,6 +241,8 @@ featured_image: /images/social.jpg
 
 ## 읽은 책들
 
+* 실용주의 프로그래머(20주년 기념판)
+  * <https://hannut91.github.io/blogs/books/programtic-programmer>
 * 프로그래머의 뇌
   * <https://hannut91.github.io/blogs/books/programmers-brain>
 * 마케터의 일
