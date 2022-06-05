@@ -22,7 +22,7 @@ featured_image: /images/social.jpg
 * 2021.06.30 ~ 2021.07.21 코드숨 리팩터링 스터디 진행
   * <https://hannut91.github.io/retrospective/codesoom/refactoring>
 * 2021.06.02 ~ 2021.06.23 코드숨 리얼월드 HTTP 스터디 진행
-  * <https://hannut91.github.io/retrospective/codesoom/real-wrold-http>
+  * <https://hannut91.github.io/retrospective/codesoom/real-world-http>
 * 2021.05.19 ~ 2021.05.26 린 UX 스터디 진행
   * <https://hannut91.github.io/retrospective/codesoom/lean-ux>
 * 2021.04.21 ~ 2021.05.12 테스트 주도 개발로 배우는 객체 지향 설계와 실천 스터디 진행
