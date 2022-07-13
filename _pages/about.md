@@ -6,6 +6,8 @@ featured_image: /images/social.jpg
 ---
 
 ## 역사
+* 2022.05.30 ~ 2022.07.04 대화 다이어트 워크샵 참여
+  * <https://hannut91.github.io/retrospective/conversation-diet>
 * 2022.04.06 ~ 2022.05.11 코드숨 실용주의 프로그래머(20주년 기념판) 스터디 진행
   * <https://hannut91.github.io/retrospective/codesoom/programtic-programmer>
 * 2022.05.02 쁘띠따쁘띠 워크샵 참여
