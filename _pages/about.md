@@ -6,6 +6,8 @@ featured_image: /images/social.jpg
 ---
 
 ## 역사
+* 2022.05.18 ~ 2022.07.20 코드숨 데이터 중심 애플리케이션 설계 스터디 진행
+  * <https://hannut91.github.io/retrospective/codesoom/ddia>
 * 2022.05.30 ~ 2022.07.04 대화 다이어트 워크샵 참여
   * <https://hannut91.github.io/retrospective/conversation-diet>
 * 2022.04.06 ~ 2022.05.11 코드숨 실용주의 프로그래머(20주년 기념판) 스터디 진행
@@ -243,6 +245,12 @@ featured_image: /images/social.jpg
 
 ## 읽은 책들
 
+* 리틀 벳
+* 자기관리론
+* 표현적 글쓰기
+* 함께 자라기
+* 데이터 중심 애플리케이션 설계
+  * <https://hannut91.github.io/blogs/books/ddia>
 * 실용주의 프로그래머(20주년 기념판)
   * <https://hannut91.github.io/blogs/books/programtic-programmer>
 * 프로그래머의 뇌
@@ -356,7 +364,6 @@ featured_image: /images/social.jpg
 * UML 실전에서는 이것만 쓴다
 * 테스트 주도 개발
 * 피플웨어
-* 함께 자라기
 * 리팩토링
 * 생각하는 프로그래밍
 * 헤드퍼스트 디자인 패턴
@@ -403,7 +410,6 @@ featured_image: /images/social.jpg
 * 시크릿
 * 시크릿 파워
 * 이상한 나라의 앨리스
-* 자기관리론
 * 하버드의 생각수업
 * 이방인
 * 동물농장
