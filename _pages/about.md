@@ -246,8 +246,10 @@ featured_image: /images/social.jpg
 ## 읽은 책들
 
 * 리틀 벳
-* 자기관리론
 * 표현적 글쓰기
+* 통찰, 평범에서 비범으로
+  * <https://hannut91.github.io/blogs/books/seeing>
+* 자기관리론
 * 함께 자라기
 * 데이터 중심 애플리케이션 설계
   * <https://hannut91.github.io/blogs/books/ddia>
