@@ -35,5 +35,5 @@ updatedat: 2022-08-16 11:12:00
 
 ## Sources
 
-* [통찰, 평범에서 비범으로 | 게리 클라인 지음 | 김창준 옮김 | 알키 | 2015년 01월 15일 출간](http://www.kyobobook.co.kr/product/detailViewKor.laf?barcode=9791158390983)
-* [프로그래머의 뇌 | 펠리너 헤르만스 지음 | 차건회 옮김 | 제이펍 | 2022년 01월 12일 출간](http://www.kyobobook.co.kr/product/detailViewKor.laf?ejkGb=KOR&mallGb=KOR&barcode=9791191600650&orderClick=LAG&Kc=)
+* [통찰, 평범에서 비범으로 \| 게리 클라인 지음 \| 김창준 옮김 \| 알키 \| 2015년 01월 15일 출간](http://www.kyobobook.co.kr/product/detailViewKor.laf?ejkGb=KOR&mallGb=KOR&barcode=9788952772442&orderClick=LAG&Kc=)
+* [프로그래머의 뇌 \| 펠리너 헤르만스 지음 \| 차건회 옮김 \| 제이펍 \| 2022년 01월 12일 출간](http://www.kyobobook.co.kr/product/detailViewKor.laf?ejkGb=KOR&mallGb=KOR&barcode=9791191600650&orderClick=LAG&Kc=)
