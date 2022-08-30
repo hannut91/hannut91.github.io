@@ -6,6 +6,8 @@ featured_image: /images/social.jpg
 ---
 
 ## 역사
+* 2022.08.29 개발자 한 달에 책 한 권 읽기: 도메인 주도 설계 첫걸음
+  * <https://hannut91.github.io/retrospective/reading-books/learning-domain-driven-design>
 * 2022.05.18 ~ 2022.07.20 코드숨 데이터 중심 애플리케이션 설계 스터디 진행
   * <https://hannut91.github.io/retrospective/codesoom/ddia>
 * 2022.05.30 ~ 2022.07.04 대화 다이어트 워크샵 참여
@@ -245,6 +247,8 @@ featured_image: /images/social.jpg
 
 ## 읽은 책들
 
+* 도메인 주도 설계 첫걸음
+  * <https://hannut91.github.io/blogs/books/learning-domain-driven-design>
 * 리틀 벳
 * 표현적 글쓰기
 * 통찰, 평범에서 비범으로
