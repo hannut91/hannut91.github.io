@@ -250,6 +250,7 @@ featured_image: /images/social.jpg
 * 도메인 주도 설계 첫걸음
   * <https://hannut91.github.io/blogs/books/learning-domain-driven-design>
 * 리틀 벳
+  * <https://hannut91.github.io/blogs/books/little-bets>
 * 표현적 글쓰기
 * 통찰, 평범에서 비범으로
   * <https://hannut91.github.io/blogs/books/seeing>
