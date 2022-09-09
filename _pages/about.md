@@ -247,6 +247,8 @@ featured_image: /images/social.jpg
 
 ## 읽은 책들
 
+* 대체 뭐가 문제야
+  * <https://hannut91.github.io/blogs/books/are-you-lights-on>
 * 도메인 주도 설계 첫걸음
   * <https://hannut91.github.io/blogs/books/learning-domain-driven-design>
 * 리틀 벳
