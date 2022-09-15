@@ -256,6 +256,7 @@ featured_image: /images/social.jpg
 * 리틀 벳
   * <https://hannut91.github.io/blogs/books/little-bets>
 * 표현적 글쓰기
+  * <https://hannut91.github.io/blogs/books/expressive-writing>
 * 통찰, 평범에서 비범으로
   * <https://hannut91.github.io/blogs/books/seeing>
 * 자기관리론
