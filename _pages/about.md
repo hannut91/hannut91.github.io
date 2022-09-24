@@ -6,6 +6,10 @@ featured_image: /images/social.jpg
 ---
 
 ## 역사
+* 2022.07.14 ~ 2022.09.22 코드숨 표현적 글쓰기 스터디 진행
+  * <https://hannut91.github.io/retrospective/codesoom/expressive-writing>
+* 2022.07.27 ~ 2022.09.14 코드숨 쏙쏙 들어오는 함수형 코딩 스터디 진행
+  * <https://hannut91.github.io/retrospective/codesoom/functional-coding>
 * 2022.08.29 개발자 한 달에 책 한 권 읽기: 도메인 주도 설계 첫걸음
   * <https://hannut91.github.io/retrospective/reading-books/learning-domain-driven-design>
 * 2022.05.18 ~ 2022.07.20 코드숨 데이터 중심 애플리케이션 설계 스터디 진행

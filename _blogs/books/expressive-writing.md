@@ -57,4 +57,5 @@ updatedat: 2022-09-15 23:44:00
 
 ## Sources
 
+* [코드숨 표현적 글쓰기 스터디 회고](https://hannut91.github.io/retrospective/codesoom/expressive-writing)
 * [표현적 글쓰기 \| 제임스 W. 페니베이커 , 존 F. 에반스 지음 \| 이봉희 옮김 \| 엑스북스(xbooks) \| 2017년 09월 25일 출간](http://www.kyobobook.co.kr/product/detailViewKor.laf?ejkGb=KOR&mallGb=KOR&barcode=9791186846216&orderClick=LAG&Kc=)

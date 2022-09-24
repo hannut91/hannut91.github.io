@@ -48,4 +48,5 @@ updatedat: 2022-09-14 22:08:00
 
 ## Sources
 
+* [코드숨 쏙쏙 들어오는 함수형 코딩 스터디 회고](https://hannut91.github.io/retrospective/codesoom/functional-coding)
 * [쏙쏙 들어오는 함수형 코딩 \| 에릭 노먼드 지음 \| 김은민 옮김 \| 제이펍 \| 2022년 04월 22일 출간](http://www.kyobobook.co.kr/product/detailViewKor.laf?ejkGb=KOR&mallGb=KOR&barcode=9791191600759&orderClick=LAG&Kc=)
