@@ -6,6 +6,9 @@ featured_image: /images/social.jpg
 ---
 
 ## 역사
+
+* 2022.08.29 개발자 한 달에 책 한 권 읽기: 멀티스레드 기반 자바스크립트
+  * <https://hannut91.github.io/retrospective/reading-books/multithreaded-javascript>
 * 2022.07.14 ~ 2022.09.22 코드숨 표현적 글쓰기 스터디 진행
   * <https://hannut91.github.io/retrospective/codesoom/expressive-writing>
 * 2022.07.27 ~ 2022.09.14 코드숨 쏙쏙 들어오는 함수형 코딩 스터디 진행
@@ -251,6 +254,8 @@ featured_image: /images/social.jpg
 
 ## 읽은 책들
 
+* 멀티스레드 기반 자바스크립트
+  * <https://hannut91.github.io/blogs/books/multithreaded-javascript>
 * 쏙쏙 들어오는 함수형 코딩
   * <https://hannut91.github.io/blogs/books/functional-coding>
 * 대체 뭐가 문제야
