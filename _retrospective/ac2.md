@@ -3,8 +3,8 @@ title: AC2 43기 회고
 subTitle:
 category:
 tags:
-createdat: 2022-10:23 22:02:00
-updatedat: 2022-10:23 22:02:00
+createdat: 2022-10-23 22:02:00
+updatedat: 2022-10-23 22:02:00
 ---
 
 코드숨을 만든 이유는 사람들이 더 나은 코드를 작성하고 싶은 마음이 생기도록 하는
