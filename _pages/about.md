@@ -5,11 +5,35 @@ subtitle:
 featured_image: /images/social.jpg
 ---
 
+<!-- * Vim Enter 참여
+* 직장인을 위한 동기면담 참여
+* 대화숲 참여
+* AC2 Patch NOO 참여
+* AC2 Patch RET 참여
+* AC2 Patch EOA 참여
+* 코드스피츠 90회 - 코틀린 언어편 참여
+* 코드스피츠 88회 - async await 참여
+* 코드스피츠 코틀린 완벽 가이드 스터디 참여
+* 코드스피츠 웹 어셈블리 스터디 참여
+* 코드스피츠 iPhone/Android 애플리케이션개발자를 위한 머신러닝, 딥러닝 실전입문 스터디 참여
+* 코드스피츠 관계형 데이터베이스 실전 스터디 참여 -->
+
 ## 역사
 
+* 2022.12.27 ~ 진행중 코드스피츠 웹 개발자를 위한 자바스크립트의 모든 것 스터디 참여
+* 2022.12.01 ~ 진행중 코드숨 구글 엔지니어는 이렇게 일한다 스터디 진행
+* 2022.11.30 ~ 진행중 코드스피츠 자바에서 코틀린으로 스터디 참여
+* 2022.09.13 ~ 2022.12.06 코드스피츠 프로페셔널 제품 책임자 스터디 참여
+  * <https://hannut91.github.io/retrospective/professinal-product-owner>
+* 2022.11.28 개발자 한 달에 책 한 권 읽기: 구글 엔지니어는 이렇게 일한다
+  * <https://hannut91.github.io/retrospective/reading-books/software-engineering-at-google>
+* 2022.09.21 ~ 2022.11.23 코드숨 코딩 인터뷰 완전 분석 스터디 진행
+  * <https://hannut91.github.io/retrospective/codesoom/cracking-the-coding-interview>
+* 2022.10.31 개발자 한 달에 책 한 권 읽기: 적정 소프트웨어 아키텍처
+  * <https://hannut91.github.io/retrospective/reading-books/just-enough-software-architecture>
 * 2022.06.29 ~ 2022.09.29 AC2 43기 참여
   * <https://hannut91.github.io/retrospective/ac2>
-* 2022.08.29 개발자 한 달에 책 한 권 읽기: 멀티스레드 기반 자바스크립트
+* 2022.09.26 개발자 한 달에 책 한 권 읽기: 멀티스레드 기반 자바스크립트
   * <https://hannut91.github.io/retrospective/reading-books/multithreaded-javascript>
 * 2022.07.14 ~ 2022.09.22 코드숨 표현적 글쓰기 스터디 진행
   * <https://hannut91.github.io/retrospective/codesoom/expressive-writing>
@@ -256,6 +280,20 @@ featured_image: /images/social.jpg
 
 ## 읽은 책들
 
+* (읽는중) 유혹하는 글쓰기
+* (읽는중) 웹 개발자를 위한 자바스크립트의 모든 것
+* (읽는중) 자바에서 코틀린으로
+* 구글 엔지니어는 이렇게 일한다
+* 애자일 개발이 처음인 내가 출근했더니 스크럼 마스터가 된 건에 관하여
+  * <https://codesoom.github.io/wiki/scrum/>
+* 프로페셔널 제품 책임자
+  * <https://hannut91.github.io/blogs/books/professional-product-owner>
+* 인튜이션
+* 웹 API 디자인
+  * <https://codesoom.github.io/wiki/api-design/>
+* 적정 소프트웨어 아키텍처
+* 코딩 인터뷰 완벽 가이드
+  * <https://hannut91.github.io/blogs/books/cracking-the-coding-interview>
 * 멀티스레드 기반 자바스크립트
   * <https://hannut91.github.io/blogs/books/multithreaded-javascript>
 * 쏙쏙 들어오는 함수형 코딩
