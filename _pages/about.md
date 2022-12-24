@@ -24,7 +24,7 @@ featured_image: /images/social.jpg
 * 2022.12.01 ~ 진행중 코드숨 구글 엔지니어는 이렇게 일한다 스터디 진행
 * 2022.11.30 ~ 진행중 코드스피츠 자바에서 코틀린으로 스터디 참여
 * 2022.09.13 ~ 2022.12.06 코드스피츠 프로페셔널 제품 책임자 스터디 참여
-  * <https://hannut91.github.io/retrospective/professinal-product-owner>
+  * <https://hannut91.github.io/retrospective/professional-product-owner>
 * 2022.11.28 개발자 한 달에 책 한 권 읽기: 구글 엔지니어는 이렇게 일한다
   * <https://hannut91.github.io/retrospective/reading-books/software-engineering-at-google>
 * 2022.09.21 ~ 2022.11.23 코드숨 코딩 인터뷰 완전 분석 스터디 진행
