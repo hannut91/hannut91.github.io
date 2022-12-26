@@ -23,6 +23,8 @@ featured_image: /images/social.jpg
 * 2022.12.27 ~ 진행중 코드스피츠 웹 개발자를 위한 자바스크립트의 모든 것 스터디 참여
 * 2022.12.01 ~ 진행중 코드숨 구글 엔지니어는 이렇게 일한다 스터디 진행
 * 2022.11.30 ~ 진행중 코드스피츠 자바에서 코틀린으로 스터디 참여
+* 2022.12.27 개발자 한 달에 책 한 권 읽기: 애자일 개발이 처음인 내가 출근했더니 스크럼 마스터가 된 건에 관하여
+  * <https://hannut91.github.io/retrospective/reading-books/scrum-bootcamp-the-book>
 * 2022.09.13 ~ 2022.12.06 코드스피츠 프로페셔널 제품 책임자 스터디 참여
   * <https://hannut91.github.io/retrospective/professional-product-owner>
 * 2022.11.28 개발자 한 달에 책 한 권 읽기: 구글 엔지니어는 이렇게 일한다
