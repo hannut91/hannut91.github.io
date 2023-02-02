@@ -286,6 +286,7 @@ featured_image: /images/social.jpg
 * (읽는중) 웹 개발자를 위한 자바스크립트의 모든 것
 * (읽는중) 자바에서 코틀린으로
 * 구글 엔지니어는 이렇게 일한다
+  * <https://hannut91.github.io/blogs/books/software-engineering-at-google>
 * 애자일 개발이 처음인 내가 출근했더니 스크럼 마스터가 된 건에 관하여
   * <https://codesoom.github.io/wiki/scrum/>
 * 프로페셔널 제품 책임자
