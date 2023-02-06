@@ -21,8 +21,11 @@ featured_image: /images/social.jpg
 ## 역사
 
 * 2022.12.27 ~ 진행중 코드스피츠 웹 개발자를 위한 자바스크립트의 모든 것 스터디 참여
-* 2022.12.01 ~ 진행중 코드숨 구글 엔지니어는 이렇게 일한다 스터디 진행
 * 2022.11.30 ~ 진행중 코드스피츠 자바에서 코틀린으로 스터디 참여
+* 2022.12.01 ~ 2023.02.02 진행중 코드숨 구글 엔지니어는 이렇게 일한다 스터디 진행
+  * <https://hannut91.github.io/retrospective/codesoom/software-engineering-at-google>
+* 2023.01.30 개발자 한 달에 책 한 권 읽기: 만들면서 배우는 클릭 아키텍처
+  * 작성중...
 * 2022.12.27 개발자 한 달에 책 한 권 읽기: 애자일 개발이 처음인 내가 출근했더니 스크럼 마스터가 된 건에 관하여
   * <https://hannut91.github.io/retrospective/reading-books/scrum-bootcamp-the-book>
 * 2022.09.13 ~ 2022.12.06 코드스피츠 프로페셔널 제품 책임자 스터디 참여
@@ -285,6 +288,8 @@ featured_image: /images/social.jpg
 * (읽는중) 유혹하는 글쓰기
 * (읽는중) 웹 개발자를 위한 자바스크립트의 모든 것
 * (읽는중) 자바에서 코틀린으로
+* 만들면서 배우는 클린 아키텍처
+  * <https://codesoom.github.io/wiki/get-your-hands-dirty-on-clean-architecture/>
 * 구글 엔지니어는 이렇게 일한다
   * <https://hannut91.github.io/blogs/books/software-engineering-at-google>
 * 애자일 개발이 처음인 내가 출근했더니 스크럼 마스터가 된 건에 관하여

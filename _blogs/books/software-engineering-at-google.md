@@ -27,5 +27,6 @@ updatedat: 2023-02-02 21:52:00
 
 ## 참고
 
+* [코드숨 구글 엔지니어는 이렇게 일한다 스터디 진행 회고](https://hannut91.github.io/retrospective/codesoom/software-engineering-at-google)
 * [구글 엔지니어는 이렇게 일한다 \| 타이터스 윈터스 , 톰 맨쉬렉 , 하이럼 라이트 저자(글) · 개앞맵시 번역 한빛미디어 · 2022년 05월 10일](https://product.kyobobook.co.kr/detail/S000061352347)
 * [개발자 한 달에 책 한 권 읽기: 구글 엔지니어는 이렇게 일한다](https://hannut91.github.io/retrospective/reading-books/software-engineering-at-google)
