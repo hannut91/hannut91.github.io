@@ -14,14 +14,14 @@ menu_settings:
       url: "/"
     - title: "Retrospective"
       url: "/retrospective"
-    - title: "Daily Journal"
-      url: "/daily"
+    # - title: "Daily Journal"
+    #   url: "/daily"
     - title: "About"
       url: "/about"
     - title: "Resume"
       url: "/resume"
-    - title: "Wiki"
-      url: "/wiki"
+    # - title: "Wiki"
+    #   url: "/wiki"
 
 grid_settings:
   grid_spacing: 10
