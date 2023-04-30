@@ -21,12 +21,14 @@ featured_image: /images/social.jpg
 
 ## 역사
 
-* [2023.02.14 ~ 2023.04.06 진행중 코드숨 파이브 라인스 오브 코드 스터디 진행](https://hannut91.github.io/retrospective/codesoom/five-lines)
+* 2023.04.13 ~ 코드숨 한 권으로 읽는 컴퓨터 구조와 프로그래밍 스터디 진행
+* 2023.02.08 ~ 2023.04.26 변신철님의 Motivational Interviewing in Coaching 워크샵 참여
+* [2023.02.14 ~ 2023.04.06 코드숨 파이브 라인스 오브 코드 스터디 진행](https://hannut91.github.io/retrospective/codesoom/five-lines)
 * 2022.12.27 ~ 2023.03.28 코드스피츠 웹 개발자를 위한 자바스크립트의 모든 것 스터디 참여
 * [2023.03.27 개발자 한 달에 책 한 권 읽기: 쏙쏙 들어오는 함수형 코딩](https://hannut91.github.io/retrospective/reading-books/functional-coding)
 * 2023.02.27 개발자 한 달에 책 한 권 읽기: 가상 면접 사례로 배우는 대규모 시스템 설계 기초
 * 2022.11.30 ~ 2023.02.22 코드스피츠 자바에서 코틀린으로 스터디 참여
-* [2022.12.01 ~ 2023.02.02 진행중 코드숨 구글 엔지니어는 이렇게 일한다 스터디 진행](https://hannut91.github.io/retrospective/codesoom/software-engineering-at-google)
+* [2022.12.01 ~ 2023.02.02 코드숨 구글 엔지니어는 이렇게 일한다 스터디 진행](https://hannut91.github.io/retrospective/codesoom/software-engineering-at-google)
 * 2023.01.30 개발자 한 달에 책 한 권 읽기: 만들면서 배우는 클린 아키텍처
 * [2022.12.27 개발자 한 달에 책 한 권 읽기: 애자일 개발이 처음인 내가 출근했더니 스크럼 마스터가 된 건에 관하여](httpssthe-book)
 * [2022.09.13 ~ 2022.12.06 코드스피츠 프로페셔널 제품 책임자 스터디 참여](https://hannut91.github.io/retrospective/professional-product-owner)
@@ -199,6 +201,10 @@ featured_image: /images/social.jpg
 
 ## 읽은 책들
 
+* 그로스 해킹
+* [이기는 결정의 제1원칙](https://hannut91.github.io/blogs/books/streetlights-and-shadows)
+* 영원의 건축
+* 퓰리처 글쓰기 수업
 * [파이브 라인스](https://hannut91.github.io/blogs/books/five-lines)
 * 달러구트 꿈 백화점 1권
 * 웹 개발자를 위한 자바스크립트의 모든 것
