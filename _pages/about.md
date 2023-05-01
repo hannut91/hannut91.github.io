@@ -5,8 +5,23 @@ subtitle:
 featured_image: /images/social.jpg
 ---
 
+안녕하세요. 제 이름은 한윤석입니다.
+
+개발자로 일하다가 현재는 [코드숨](https://www.codesoom.com/)을 운영하며 개발자를
+가르치는 일을 하고 있습니다. 코드숨은 인출 위주의 학습법을 적용한 프로그래밍
+교육 플랫폼입니다. 더 나아가
+어떻게 하면 개발자들이 스스로 더 안전하고 행복하게 성장할 수 있을지 고민하고 있습니다.  
+
+지금은 하나의 실험으로 수강생들이 스스로 학습하는 방법에 더 집중하는 [학습 중심의 부트캠프](https://smartstore.naver.com/codesoom/products/8430841013?nt_source=yunseok_dev_blog&nt_medium=blog&nt_detail=about)를
+만들고 있습니다. 이 부트캠프에서는 전통적인 강의 방식이 아닌 수강생들이 학습하는
+방법을 배우고 훈련하는 것에 집중되어 있습니다. 강의가 주어지고 결과에 대해서만
+피드백을 하는 것이 아니라 학습 과정 자체에 피드백을 위주로 진행합니다.  
+
+저는 성공과 실패에 너무 집중하기보다는 그 과정에서 얻는 경험과 배움에 가치를 두고자 합니다.
+제 생각이 틀렸든 맞았든 그 과정에서 무언가를 배우고 새롭게 실험하고 나아가려고 합니다.
+
+## 역사
 <!-- * Vim Enter 참여
-* MIC 워크샵 참여
 * 직장인을 위한 동기면담 참여
 * 대화숲 참여
 * AC2 Patch NOO 참여
@@ -19,8 +34,6 @@ featured_image: /images/social.jpg
 * 코드스피츠 iPhone/Android 애플리케이션개발자를 위한 머신러닝, 딥러닝 실전입문 스터디 참여
 * 코드스피츠 관계형 데이터베이스 실전 스터디 참여 -->
 
-## 역사
-
 * 2023.04.13 ~ 코드숨 한 권으로 읽는 컴퓨터 구조와 프로그래밍 스터디 진행
 * 2023.02.08 ~ 2023.04.26 변신철님의 Motivational Interviewing in Coaching 워크샵 참여
 * [2023.02.14 ~ 2023.04.06 코드숨 파이브 라인스 오브 코드 스터디 진행](https://hannut91.github.io/retrospective/codesoom/five-lines)
@@ -30,7 +43,7 @@ featured_image: /images/social.jpg
 * 2022.11.30 ~ 2023.02.22 코드스피츠 자바에서 코틀린으로 스터디 참여
 * [2022.12.01 ~ 2023.02.02 코드숨 구글 엔지니어는 이렇게 일한다 스터디 진행](https://hannut91.github.io/retrospective/codesoom/software-engineering-at-google)
 * 2023.01.30 개발자 한 달에 책 한 권 읽기: 만들면서 배우는 클린 아키텍처
-* [2022.12.27 개발자 한 달에 책 한 권 읽기: 애자일 개발이 처음인 내가 출근했더니 스크럼 마스터가 된 건에 관하여](httpssthe-book)
+* [2022.12.27 개발자 한 달에 책 한 권 읽기: 애자일 개발이 처음인 내가 출근했더니 스크럼 마스터가 된 건에 관하여](https://hannut91.github.io/retrospective/reading-books/scrum-bootcamp-the-book)
 * [2022.09.13 ~ 2022.12.06 코드스피츠 프로페셔널 제품 책임자 스터디 참여](https://hannut91.github.io/retrospective/professional-product-owner)
 * [2022.11.28 개발자 한 달에 책 한 권 읽기: 구글 엔지니어는 이렇게 일한다](https://hannut91.github.io/retrospective/reading-books/software-engineering-at-google)
 * [2022.09.21 ~ 2022.11.23 코드숨 코딩 인터뷰 완전 분석 스터디 진행](https://hannut91.github.io/retrospective/codesoom/cracking-the-coding-interview)
