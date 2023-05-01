@@ -35,6 +35,7 @@ featured_image: /images/social.jpg
 * 코드스피츠 관계형 데이터베이스 실전 스터디 참여 -->
 
 * 2023.04.13 ~ 코드숨 한 권으로 읽는 컴퓨터 구조와 프로그래밍 스터디 진행
+* [2023.03.13 ~ 2023.05.01 코드숨 면접을 위한 CS 전공지식 노트 스터디 참여](https://hannut91.github.io/retrospective/codesoom/cs-major-knowledge-notes)
 * 2023.02.08 ~ 2023.04.26 변신철님의 Motivational Interviewing in Coaching 워크샵 참여
 * [2023.02.14 ~ 2023.04.06 코드숨 파이브 라인스 오브 코드 스터디 진행](https://hannut91.github.io/retrospective/codesoom/five-lines)
 * 2022.12.27 ~ 2023.03.28 코드스피츠 웹 개발자를 위한 자바스크립트의 모든 것 스터디 참여
@@ -215,6 +216,7 @@ featured_image: /images/social.jpg
 ## 읽은 책들
 
 * 그로스 해킹
+* [면접을 위한 CS 전공지식 노트](https://hannut91.github.io/blogs/books/cs-major-knowledge-notes)
 * [이기는 결정의 제1원칙](https://hannut91.github.io/blogs/books/streetlights-and-shadows)
 * 영원의 건축
 * 퓰리처 글쓰기 수업
