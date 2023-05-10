@@ -18,7 +18,17 @@ featured_image: /images/social.jpg
 피드백을 하는 것이 아니라 학습 과정 자체에 피드백을 위주로 진행합니다.  
 
 저는 성공과 실패에 너무 집중하기보다는 그 과정에서 얻는 경험과 배움에 가치를 두고자 합니다.
-제 생각이 틀렸든 맞았든 그 과정에서 무언가를 배우고 새롭게 실험하고 나아가려고 합니다.
+제 생각이 틀렸든 맞았든 그 과정에서 무언가를 배우고 새롭게 실험하고 나아가려고
+합니다.
+
+## 스터디 모집
+
+메일을 등록하시면 새로운 스터디가 시작될 때 알려드릴게요!
+
+<div class="newsletter">
+  <script async data-uid="ede0bdb087" src="https://yunseok-han.ck.page/ede0bdb087/index.js"></script>
+</div>
+
 
 ## 역사
 <!-- * Vim Enter 참여
