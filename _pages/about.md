@@ -225,6 +225,7 @@ featured_image: /images/social.jpg
 
 ## 읽은 책들
 
+* 인스타 브레인
 * 그로스 해킹
 * [면접을 위한 CS 전공지식 노트](https://hannut91.github.io/blogs/books/cs-major-knowledge-notes)
 * [이기는 결정의 제1원칙](https://hannut91.github.io/blogs/books/streetlights-and-shadows)
