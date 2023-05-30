@@ -12,7 +12,7 @@ featured_image: /images/social.jpg
 교육 플랫폼입니다. 더 나아가
 어떻게 하면 개발자들이 스스로 더 안전하고 행복하게 성장할 수 있을지 고민하고 있습니다.  
 
-지금은 하나의 실험으로 수강생들이 스스로 학습하는 방법에 더 집중하는 [학습 중심의 부트캠프](https://smartstore.naver.com/codesoom/products/8430841013?nt_source=yunseok_dev_blog&nt_medium=blog&nt_detail=about)를
+지금은 하나의 실험으로 수강생들이 스스로 학습하는 방법에 더 집중하는 [학습 중심의 부트캠프](https://www.codesoom.com/courses/soomtcamp?from=yunseok_dev_blog&detail=about)를
 만들고 있습니다. 이 부트캠프에서는 전통적인 강의 방식이 아닌 수강생들이 학습하는
 방법을 배우고 훈련하는 것에 집중되어 있습니다. 강의가 주어지고 결과에 대해서만
 피드백을 하는 것이 아니라 학습 과정 자체에 피드백을 위주로 진행합니다.  
@@ -225,6 +225,8 @@ featured_image: /images/social.jpg
 
 ## 읽은 책들
 
+* 하루에 한 걸음씩 행복해지기(스트레스 이너 게임)
+* 테니스 이너 게임
 * 인스타 브레인
 * 그로스 해킹
 * [면접을 위한 CS 전공지식 노트](https://hannut91.github.io/blogs/books/cs-major-knowledge-notes)
