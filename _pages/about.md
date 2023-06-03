@@ -44,7 +44,8 @@ featured_image: /images/social.jpg
 * 코드스피츠 iPhone/Android 애플리케이션개발자를 위한 머신러닝, 딥러닝 실전입문 스터디 참여
 * 코드스피츠 관계형 데이터베이스 실전 스터디 참여 -->
 
-* 2023.04.13 ~ 코드숨 한 권으로 읽는 컴퓨터 구조와 프로그래밍 스터디 진행
+* 2023.05.10 ~ 코드스피츠 핵심 코틀린 프로그래밍 스터디 참여
+* [2023.04.13 ~ 2023.06.01 코드숨 한 권으로 읽는 컴퓨터 구조와 프로그래밍 스터디 진행](https://hannut91.github.io/retrospective/codesoom/the-secret-life-of-programs)
 * [2023.03.13 ~ 2023.05.01 코드숨 면접을 위한 CS 전공지식 노트 스터디 참여](https://hannut91.github.io/retrospective/codesoom/cs-major-knowledge-notes)
 * 2023.02.08 ~ 2023.04.26 변신철님의 Motivational Interviewing in Coaching 워크샵 참여
 * [2023.02.14 ~ 2023.04.06 코드숨 파이브 라인스 오브 코드 스터디 진행](https://hannut91.github.io/retrospective/codesoom/five-lines)
@@ -225,6 +226,8 @@ featured_image: /images/social.jpg
 
 ## 읽은 책들
 
+* [한 권으로 읽는 컴퓨터 구조와 프로그래밍](https://hannut91.github.io/blogs/books/the-secret-life-of-programs)
+* 인정받고 싶어서 오늘도 애쓰고 말았다
 * 하루에 한 걸음씩 행복해지기(스트레스 이너 게임)
 * 테니스 이너 게임
 * 인스타 브레인
