@@ -6,12 +6,34 @@ layout: default
   <div class="wrap">
     <h1>{{ page.title }}</h1>
 
-    
+
 
     <p class="subtitle">{{ page.createdAt | date_to_long_string }}</p>
 
     {{ page.content }}
+
+    <div>
+      <hr>
+      <p>
+        진짜 실력 있는 개발자가 되기 위한 공부를 시작하세요 - <a href="https://www.codesoom.com/courses/soomtcamp?utm_source=yunseok_dev_blog&utm_medium=blog&utm_campaign=post&utm_content={{page.id}}"
+          target="_blank">숨트캠프 바로 가기</a>
+        <br>
+        기계인간 이종립, 소프트웨어 개발의 지혜 - <a
+        href="https://www.codesoom.com/courses/git?utm_source=yunseok_dev_blog&utm_medium=blog&utm_campaign=post&utm_content={{page.id}}"
+        target="_blank">Git 강의 바로 가기</a>
+      </p>
+
+      <p>
+        코드숨에서 매주 스터디를 진행하고 있습니다. 메일을 등록하시면 새로운 스터디가 시작될 때 알려드릴게요!
+      </p>
+
+      <div class="newsletter">
+        <script async data-uid="ede0bdb087" src="https://yunseok-han.ck.page/ede0bdb087/index.js"></script>
+      </div>
+    </div>
   </div>
+
+
 
   {% include comment.html %}
 </section>

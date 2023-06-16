@@ -27,5 +27,7 @@ updatedat: 2023-06-03 15:07:00
 다른 것을 공부할 때 도움이 된다는 것을 배웠다. 앞으로도 기초를 더 튼튼히
 해야겠다
 
+## 참고
+
 - [코드숨 한 권으로 읽는 컴퓨터 구조와 프로그래밍 스터디 회고](https://hannut91.github.io/retrospective/codesoom/the-secret-life-of-programs)
 - [한 권으로 읽는 컴퓨터 구조와 프로그래밍 \| 조너선 스타인하트 저자(글) · 오현석 번역 \| 책만](https://product.kyobobook.co.kr/detail/S000001932753)

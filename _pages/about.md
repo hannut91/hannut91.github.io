@@ -7,12 +7,12 @@ featured_image: /images/social.jpg
 
 안녕하세요. 제 이름은 한윤석입니다.
 
-개발자로 일하다가 현재는 [코드숨](https://www.codesoom.com/)을 운영하며 개발자를
+개발자로 일하다가 현재는 [코드숨](https://www.codesoom.com?utm_source=yunseok_dev_blog&utm_medium=blog&utm_campaign=post&utm_content=about)을 운영하며 개발자를
 가르치는 일을 하고 있습니다. 코드숨은 인출 위주의 학습법을 적용한 프로그래밍
 교육 플랫폼입니다. 더 나아가
 어떻게 하면 개발자들이 스스로 더 안전하고 행복하게 성장할 수 있을지 고민하고 있습니다.  
 
-지금은 하나의 실험으로 수강생들이 스스로 학습하는 방법에 더 집중하는 [학습 중심의 부트캠프](https://www.codesoom.com/courses/soomtcamp?from=yunseok_dev_blog&detail=about)를
+지금은 하나의 실험으로 수강생들이 스스로 학습하는 방법에 더 집중하는 [학습 중심의 부트캠프](https://www.codesoom.com/courses/soomtcamp?utm_source=yunseok_dev_blog&utm_medium=blog&utm_campaign=post&utm_content=about)를
 만들고 있습니다. 이 부트캠프에서는 전통적인 강의 방식이 아닌 수강생들이 학습하는
 방법을 배우고 훈련하는 것에 집중되어 있습니다. 강의가 주어지고 결과에 대해서만
 피드백을 하는 것이 아니라 학습 과정 자체에 피드백을 위주로 진행합니다.  
@@ -44,6 +44,7 @@ featured_image: /images/social.jpg
 * 코드스피츠 iPhone/Android 애플리케이션개발자를 위한 머신러닝, 딥러닝 실전입문 스터디 참여
 * 코드스피츠 관계형 데이터베이스 실전 스터디 참여 -->
 
+* 2023.06.08 ~ 코드숨 알고리즘 스터디 진행
 * 2023.05.10 ~ 코드스피츠 핵심 코틀린 프로그래밍 스터디 참여
 * [2023.04.13 ~ 2023.06.01 코드숨 한 권으로 읽는 컴퓨터 구조와 프로그래밍 스터디 진행](https://hannut91.github.io/retrospective/codesoom/the-secret-life-of-programs)
 * [2023.03.13 ~ 2023.05.01 코드숨 면접을 위한 CS 전공지식 노트 스터디 참여](https://hannut91.github.io/retrospective/codesoom/cs-major-knowledge-notes)
@@ -226,6 +227,8 @@ featured_image: /images/social.jpg
 
 ## 읽은 책들
 
+* 소마 - 채사장
+* 이너 게임(이너 게임 오브 워크) - 티모시 갤웨이
 * [한 권으로 읽는 컴퓨터 구조와 프로그래밍](https://hannut91.github.io/blogs/books/the-secret-life-of-programs)
 * 인정받고 싶어서 오늘도 애쓰고 말았다
 * 하루에 한 걸음씩 행복해지기(스트레스 이너 게임)
