@@ -1,5 +1,5 @@
 ---
-title: 웹 개발자를 대규모 서비스를 지탱하는 기술 서평
+title: 웹 개발자를 위한 대규모 서비스를 지탱하는 기술 서평
 subTitle:
 category:
 tags:

@@ -46,7 +46,7 @@ featured_image: /images/social.jpg
 
 * 2023.06.08 ~ 코드숨 알고리즘 스터디 진행
 * 2023.05.10 ~ 코드스피츠 핵심 코틀린 프로그래밍 스터디 참여
-* [2023.05.08 ~ 2023.06.19 코드숨 웹 개발자를 대규모 서비스를 지탱하는 기술 스터디 참여](https://hannut91.github.io/blogs/books/large-scale)
+* [2023.05.08 ~ 2023.06.19 코드숨 웹 개발자를 위한 대규모 서비스를 지탱하는 기술 스터디 참여](https://hannut91.github.io/blogs/books/large-scale)
 * [2023.04.13 ~ 2023.06.01 코드숨 한 권으로 읽는 컴퓨터 구조와 프로그래밍 스터디 진행](https://hannut91.github.io/retrospective/codesoom/the-secret-life-of-programs)
 * [2023.03.13 ~ 2023.05.01 코드숨 면접을 위한 CS 전공지식 노트 스터디 참여](https://hannut91.github.io/retrospective/codesoom/cs-major-knowledge-notes)
 * 2023.02.08 ~ 2023.04.26 변신철님의 Motivational Interviewing in Coaching 워크샵 참여
