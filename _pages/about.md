@@ -228,6 +228,7 @@ featured_image: /images/social.jpg
 
 ## 읽은 책들
 
+* 린 스타트업
 * [웹 개발자를 위한 대규모 서비스를 지탱하는 기술](https://hannut91.github.io/blogs/books/large-scale)
 * 소마 - 채사장
 * 이너 게임(이너 게임 오브 워크) - 티모시 갤웨이

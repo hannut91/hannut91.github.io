@@ -44,5 +44,5 @@ updatedat: 2022-12-24 12:02:00
 
 ## 참고
 
-* [코드스피츠 프로페셔널 제품 책임자 책 스터디 참여 회고](https://hannut91.github.io/retrospective/professinal-product-owner)
+* [코드스피츠 프로페셔널 제품 책임자 책 스터디 참여 회고](https://hannut91.github.io/retrospective/professional-product-owner)
 * [프로페셔널 제품 책임자 \| 돈 맥그리얼 , 랄프 조참 저자(글) · 박현철 , 김낙일 , 류미경 번역](https://product.kyobobook.co.kr/detail/S000001805065)
