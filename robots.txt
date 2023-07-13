@@ -1,0 +1,4 @@
+Sitemap: https://hannut91.github.io/sitemap.xml
+
+User-agent: *
+Disallow: /daily/

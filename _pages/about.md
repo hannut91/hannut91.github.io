@@ -44,8 +44,9 @@ featured_image: /images/social.jpg
 * 코드스피츠 iPhone/Android 애플리케이션개발자를 위한 머신러닝, 딥러닝 실전입문 스터디 참여
 * 코드스피츠 관계형 데이터베이스 실전 스터디 참여 -->
 
+* 2023.07.03 ~ 코드숨 관계형 데이터베이스 실전 입문 스터디 참여
 * 2023.06.08 ~ 코드숨 알고리즘 스터디 진행
-* 2023.05.10 ~ 코드스피츠 핵심 코틀린 프로그래밍 스터디 참여
+* 2023.05.10 ~ 2023.06.14 코드스피츠 핵심 코틀린 프로그래밍 스터디 참여
 * [2023.05.08 ~ 2023.06.19 코드숨 웹 개발자를 위한 대규모 서비스를 지탱하는 기술 스터디 참여](https://hannut91.github.io/blogs/books/large-scale)
 * [2023.04.13 ~ 2023.06.01 코드숨 한 권으로 읽는 컴퓨터 구조와 프로그래밍 스터디 진행](https://hannut91.github.io/retrospective/codesoom/the-secret-life-of-programs)
 * [2023.03.13 ~ 2023.05.01 코드숨 면접을 위한 CS 전공지식 노트 스터디 참여](https://hannut91.github.io/retrospective/codesoom/cs-major-knowledge-notes)
@@ -141,7 +142,7 @@ featured_image: /images/social.jpg
 * [2019.09.04 달랩 책 읽고 실천하기 모임 1번째](https://hannut91.github.io/retrospective/dallab/read-and-practice)
 * [2019.09.03 JSConf](https://hannut91.github.io/blogs/conference/2019-09-03/jsconf)
 * [2019.09.03 달랩 짝 프로그래밍 실습 5번째](https://hannut91.github.io/retrospective/dallab/pair-programming5)
-* [2019.08.28 달랩 GOOSGT 스터디 5번째](https://hannut91.github.io/retrospective/dallab/GOOGST_05)
+* [2019.08.28 달랩 GOOSGT 스터디 5번째](https://hannut91.github.io/blogs/dallab/GOOGST_05)
 * [2019.08.28 D-LAB 영지식 증명을 활용한 탈중앙화된 신원증명](https://hannut91.github.io/blogs/conference/2019-08-28/session01)
 * [2019.08.27 달랩 짝 프로그래밍 실습 4번쨰](https://hannut91.github.io/retrospective/dallab/pair-programming4)
 * [2019.08.24 달랩 Front-end TDD 세미나](https://hannut91.github.io/retrospective/dallab/front-end-tdd)
@@ -228,6 +229,8 @@ featured_image: /images/social.jpg
 
 ## 읽은 책들
 
+* 침묵으로 가르치기
+* 카피책
 * 린 스타트업
 * [웹 개발자를 위한 대규모 서비스를 지탱하는 기술](https://hannut91.github.io/blogs/books/large-scale)
 * 소마 - 채사장

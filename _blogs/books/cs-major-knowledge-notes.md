@@ -20,5 +20,5 @@ updatedat: 2023-05-01 21:33:00
 
 ## 참고
 
-[코드숨 면접을 위한 CS 전공지식 노트 스터디 참여 회고](https://hannut91.github.io/retrospective/codesoom/cs-major-knowledge-notes)
+- [코드숨 면접을 위한 CS 전공지식 노트 스터디 참여 회고](https://hannut91.github.io/retrospective/codesoom/cs-major-knowledge-notes)
 - [면접을 위한 CS 전공지식 노트 \| 주홍철 저자(글) \| 길벗](https://product.kyobobook.co.kr/detail/S000001834833)
