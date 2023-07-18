@@ -229,6 +229,7 @@ featured_image: /images/social.jpg
 
 ## 읽은 책들
 
+* 템플 그랜딘의 비주얼 씽킹
 * 침묵으로 가르치기
 * 카피책
 * 린 스타트업
