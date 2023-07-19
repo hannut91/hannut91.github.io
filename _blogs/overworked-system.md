@@ -3,7 +3,7 @@ title: 과로죽음
 subTitle:
 category:
 tags:
-createdat: 2023-07-20 12:37:00
+createdat: 2023-07-20 00:37:00
 updatedat: 2023-07-19 10:51:00
 ---
 
