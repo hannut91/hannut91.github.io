@@ -3,8 +3,8 @@ title: 과로죽음
 subTitle:
 category:
 tags:
-createdat: 2023-07-20 00:37:00
-updatedat: 2023-07-19 10:51:00
+createdat: 2023-07-19 10:51:00
+updatedat: 2023-07-20 00:37:00
 ---
 
 과로죽음은 과로로 인한 죽음 또는 과로와 관련된 죽음, 뇌심혈관계질환으로 인한
