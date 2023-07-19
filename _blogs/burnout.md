@@ -1,5 +1,5 @@
 ---
-title: 번아웃 증후군이 과로로 인한 스트레스라는 증거
+title: 번아웃 증후군이 과로로 인해 발생하다는 증거
 subTitle:
 category:
 tags:
