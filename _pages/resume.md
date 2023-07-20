@@ -14,6 +14,81 @@ Github: <https://github.com/hannut91>
 ---
 
 <div class="title-with-date">
+  <h4><strong>마켓컬리</strong></h4><h4>2020.07 ~ 2022.03</h4>
+</div>
+
+<div class="title-with-date">
+  <h5>- <strong>상품개편</strong></h5><h5>2021.11 ~ 2022.03</h5>
+</div>
+
+* 잘한점
+  * 기존 프로젝트에 영향 받을 수 있는 목록을 작성하고 공유
+* 못한점
+  * 일정 산정을 할 때 지속적으로 했어야 했는데 처음에 불확실할 때 한 번 하고 말았음.
+
+<div class="title-with-date">
+  <h5>- <strong>아이디 / 비밀번호 찾기</strong></h5><h5>2021.09 ~ 2021.11</h5>
+</div>
+
+휴대폰 번호로 아이디와 비밀번호를 찾을 수 있는 기능
+
+* 잘한점
+  * 백엔드 개발자 기획자와 같이 기획 리뷰에서 사용자 스토리를 작성하고 그
+    자리에서 사용자 테스트까지 작성함. 그래서 기능상으로 모호한것을 많이
+    제거해서 프로젝트가 큰 장애물 없이 서비스 될 수 있었음.
+  * VOC 95%정도 줄일정도로 큰 성과를 냄
+* 못한점
+  * 다른 프로젝트를 병행하느라 나 때문에 일정을 여러번 미룸. 미안한 마음에
+    하루만 더, 이틀만 더 애매하게 얘기하는 바람에 다른 사람들이 피해를 봄.
+
+<div class="title-with-date">
+  <h5>- <strong>카카오 로그인</strong></h5><h5>2021.09 ~ 2021.11</h5>
+</div>
+
+카카오 로그인 기능 구현
+* 잘한점
+  * 백엔드와 긴밀하게 협업하여 요구사항을 빠르게 정리함
+  * 이 프로젝트를 해서 어떤 성과를 내야 하는지 확인함
+
+<div class="title-with-date">
+  <h5>- <strong>선물하기</strong></h5><h5>2021.05 ~ 2021.09</h5>
+</div>
+
+마켓컬리 상품을 다른 사람에게 문자 혹은 카카오톡으로 선물을 보낼 수 있는 서비스
+* 잘한점
+  * 프로젝트가 진행되고 있지 않을 때 기획자에게 먼저 다가가서 같이 사용자
+    스토리를 작성하자고 제안함.
+  * 기존 PHP기반 웹 기반에서 Next.js로 세션 문제 없이 성공적으로 옮김.
+* 못한점
+  * 결제 페이지가 웹뷰로 되어 있어 앱 개발자와 긴밀하게 협업했어야 했는데 그러지
+    못함.
+
+<div class="title-with-date">
+  <h5>- <strong>재사용 포장재</strong></h5><h5>2021.03 ~ 2021.05</h5>
+</div>
+
+종이박스 대신 재사용 포장재로 배송받을 수 있는 서비스
+* 잘한점
+  * 디자이너와 협업하여 자주 사용되는 팝업 디자인을 통일시킴.
+  * 정보가 부족해서 오래걸리는 일을 해결하기 위해 팀내 FAQ문서를 만듬.
+* 못한점
+  * 택배기사님들에게 영향을 줄 수 있는 사이드 이펙트에 대해서 고려하지 못했음.
+    재사용 포장재 도입으로 인해 기사님들이 힘들어질 수 있는 부분들에 대해서
+    적극적으로 의견을 제시하지 못함.
+
+<div class="title-with-date">
+  <h5>- <strong>La-CMS 할인, 스티커 관리</strong></h5><h5>2020.07 ~ 2021.02</h5>
+</div>
+
+할인과 스티커를 등록하고 관리할 수 있는 CMS 기능 개발
+* 잘한점
+  * 테스트가 하나도 없는 프로젝트에서 500개가 넘는 테스트 suite를 작성. 스티커 관리 관련 코드들은 테스트 커버리지 100%를 달성함. 
+  * 프로젝트 시연 회의에서 개발자를 부르지 않아서 항의함. 이후에는 내가 만든
+    제품을 시연하는 자리에 참여하고 실제 사용자의 피드백을 얻을 수 있었음.
+* 못한점
+  * 기능이 변경되었을 때 파급 효과를 간과해서 일정이 많이 길어졌음.
+
+<div class="title-with-date">
   <h4><strong>아티프렌즈</strong></h4><h4>2018.03 ~ 2019.06</h4>
 </div>
 
@@ -67,13 +142,6 @@ Github: <https://github.com/hannut91>
 * Seed Day 웹 개발, 웹앱 개발
   * 사용자가 목표를 설정하고 목표를 3일 연속으로 수행했을 시 입력한 주소로 허브 키우기 Kit를 보내주는 서비스. 
   * 사용자가 배송받을 주소를 입력할 수 있는 간단한 웹 사이트 개발과 Cordova를 이용해서 iOS 웹앱을 개발
-
-### EDUCATION
----
-
-<div class="title-with-date">
-  <h4>광운대학교 전자통신공학과 졸업</h4><h4>2010.03 ~ 2016.02</h4>
-</div>
 
 ### AWARDS
 ---
@@ -141,13 +209,9 @@ VS Code에서 한글 맞춤법을 검사할 수 있는 확장 프로그램
 * 편집기 내에서 간단하게 맞춤법을 검사할 수 있고 바로 교정도 할 수 있는 기능을 제공.
 * <https://marketplace.visualstudio.com/items?itemName=Yunseok.korean-spell-checker-vs-code>
 
-### SKILLS
+### EDUCATION
 ---
 
-* Front framework: Angular, Ionic
-* Banckend framework: Express, MarbleJS, Spring boot
-* Language: JavaScript, TypeScript, Golang, Kotlin, Haskell
-* Cloud: AWS, AWS Lambda(Serverless framework)
-* Build: CircleCI, TravisCI
-* Database: MongoDB, MySQL, DynamoDB
-* Infra: Terraform, Docker
+<div class="title-with-date">
+  <h4>광운대학교 전자통신공학과 졸업</h4><h4>2010.03 ~ 2016.02</h4>
+</div>
