@@ -233,11 +233,14 @@ featured_image: /images/social.jpg
 * 창조적 시선 - 김정운
 * 일의 언어 - 클레이튼 크리스텐슨, 캐런 딜론 
 * 스위치
+  * [변화를 만드는 방법](https://hannut91.github.io/blogs/switch)
 * 귀찮지만 매일 씁니다 - 귀찮
+* 성격의 탄생 - 대니얼 네틀
 
 ## 읽은 책들
 
 * 존버 씨의 죽음 - 김영선
+  * [과로죽음](https://hannut91.github.io/blogs/overworked-system)
 * 템플 그랜딘의 비주얼 씽킹 - 템플 그랜딘
 * 침묵으로 가르치기
 * 카피책
