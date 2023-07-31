@@ -233,10 +233,10 @@ featured_image: /images/social.jpg
 * 이펙티브 소프트웨어 테스팅 - 마우리시오 아니시
 * 스위치
   * [변화를 만드는 방법](https://hannut91.github.io/blogs/switch)
-* 디자인 패턴의 아름다움 - 왕정
+* [디자인 패턴의 아름다움 - 왕정](https://hannut91.github.io/blogs/books/the-beauty-of-design-patterns)
 * 창조적 시선 - 김정운
 * 초전 설득 - 로버트 치알디니
-* 일의 언어 - 클레이튼 크리스텐슨, 캐런 딜론 
+* 일의 언어 - 클레이튼 크리스텐슨, 캐런 딜론
 * 귀찮지만 매일 씁니다 - 귀찮
 * 성격의 탄생 - 대니얼 네틀
 * 내가 된다는 것 - 아닐 세스
