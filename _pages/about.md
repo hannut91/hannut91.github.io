@@ -44,6 +44,7 @@ featured_image: /images/social.jpg
 * 코드스피츠 iPhone/Android 애플리케이션개발자를 위한 머신러닝, 딥러닝 실전입문 스터디 참여
 * 코드스피츠 관계형 데이터베이스 실전 스터디 참여 -->
 
+* 2023.08.15 인프콘 2023 - 안타깝게도 오늘의 TDD는 실패한 것 같군요. 내일은 가능할지도...? 발표
 * 2023.06.08 ~ 코드숨 알고리즘 스터디 진행
 * 2023.07.03 ~ 2023.08.14 코드숨 관계형 데이터베이스 실전 입문 스터디 참여
 * 2023.05.10 ~ 2023.06.14 코드스피츠 핵심 코틀린 프로그래밍 스터디 참여
@@ -229,6 +230,8 @@ featured_image: /images/social.jpg
 
 ## 읽을 책들
 
+* 이펙추에이션 - 사라스 사라스비티
+  * [이펙추에이션](https://hannut91.github.io/blogs/effectuation)
 * 알고리즘 - 로버트 세지윅, 케빈 웨인
 * 이펙티브 소프트웨어 테스팅 - 마우리시오 아니시
 * 러브드 - 마르티나 라우쳉코
@@ -251,11 +254,11 @@ featured_image: /images/social.jpg
 * 처음 배우는 그래픽 레코딩
 * 생각의 탄생
 * 세컨드 브레인 - 티아고 포르테
-* The PARA Method: Simplify, Organize, and Master Your Digital Life - 티아고
-  포르테
+* The PARA Method: Simplify, Organize, and Master Your Digital Life - 티아고 포르테
 * 패턴을 활용한 리팩터링 - 조슈아 케리에브스키
 * 엔터프라이즈 애플리케이션 아키텍처 패턴 - 마틴 파울러
 * 알고리즘 산책 - 알렉산더 A. 스테파노프
+* 1만 시간의 재발견 - 안데르스 에릭슨, 로버트 풀
 
 ## 읽은 책들
 
