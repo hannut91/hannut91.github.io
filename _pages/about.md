@@ -44,6 +44,7 @@ featured_image: /images/social.jpg
 * 코드스피츠 iPhone/Android 애플리케이션개발자를 위한 머신러닝, 딥러닝 실전입문 스터디 참여
 * 코드스피츠 관계형 데이터베이스 실전 스터디 참여 -->
 
+* 2023.08.23 ~ 2023.09.01 AC2 Patch 스마트비즈 워크샵 참여
 * 2023.08.15 인프콘 2023 - 안타깝게도 오늘의 TDD는 실패한 것 같군요. 내일은 가능할지도...? 발표
 * 2023.06.08 ~ 코드숨 알고리즘 스터디 진행
 * 2023.07.03 ~ 2023.08.14 코드숨 관계형 데이터베이스 실전 입문 스터디 참여
@@ -240,6 +241,7 @@ featured_image: /images/social.jpg
   * [변화를 만드는 방법](https://hannut91.github.io/blogs/switch)
 * [디자인 패턴의 아름다움 - 왕정](https://hannut91.github.io/blogs/books/the-beauty-of-design-patterns)
 * 내가 된다는 것 - 아닐 세스
+* 업무 시각화 - 도미니카 드그란디스
 * 창조적 시선 - 김정운
 * 초전 설득 - 로버트 치알디니
 * 일의 언어 - 클레이튼 크리스텐슨, 캐런 딜론
@@ -247,11 +249,9 @@ featured_image: /images/social.jpg
 * 성격의 탄생 - 대니얼 네틀
 * 이너골프로 10타 줄이기(이너 골프) - 티모시 갤웨이
 * 스키 이너게임 - 티모시 갤웨이
-* 업무 시각화 - 도미니카 드그란디스
 * 개발지옥 - 조지 V. 네빌-닐
 * 테크니컬 리더 - 제럴드 와인버그
 * 결핍의 경제학 - 센딜 멀레이너선 , 엘다 샤퍼
-* 처음 배우는 그래픽 레코딩
 * 생각의 탄생
 * 세컨드 브레인 - 티아고 포르테
 * The PARA Method: Simplify, Organize, and Master Your Digital Life - 티아고 포르테
@@ -262,6 +262,7 @@ featured_image: /images/social.jpg
 
 ## 읽은 책들
 
+* 처음 배우는 그래픽 레코딩
 * 존버 씨의 죽음 - 김영선
   * [과로죽음](https://hannut91.github.io/blogs/overworked-system)
 * 템플 그랜딘의 비주얼 씽킹 - 템플 그랜딘
