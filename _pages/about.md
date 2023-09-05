@@ -44,7 +44,7 @@ featured_image: /images/social.jpg
 * 코드스피츠 iPhone/Android 애플리케이션개발자를 위한 머신러닝, 딥러닝 실전입문 스터디 참여
 * 코드스피츠 관계형 데이터베이스 실전 스터디 참여 -->
 
-* 2023.08.23 ~ 2023.09.01 AC2 Patch 스마트비즈 워크샵 참여
+* [2023.08.23 ~ 2023.09.01 AC2 Patch 스마트비즈 워크샵 참여](https://hannut91.github.io/retrospective/smartviz)
 * 2023.08.15 인프콘 2023 - 안타깝게도 오늘의 TDD는 실패한 것 같군요. 내일은 가능할지도...? 발표
 * 2023.06.08 ~ 코드숨 알고리즘 스터디 진행
 * 2023.07.03 ~ 2023.08.14 코드숨 관계형 데이터베이스 실전 입문 스터디 참여
@@ -262,6 +262,7 @@ featured_image: /images/social.jpg
 
 ## 읽은 책들
 
+* [프로그래밍 심리학](https://hannut91.github.io/blogs/the-psychology-of-computer-programming)
 * 처음 배우는 그래픽 레코딩
 * 존버 씨의 죽음 - 김영선
   * [과로죽음](https://hannut91.github.io/blogs/overworked-system)
