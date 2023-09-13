@@ -234,9 +234,11 @@ featured_image: /images/social.jpg
 * 이펙추에이션 - 사라스 사라스비티
   * [이펙추에이션](https://hannut91.github.io/blogs/effectuation)
 * 알고리즘 - 로버트 세지윅, 케빈 웨인
-* 이펙티브 소프트웨어 테스팅 - 마우리시오 아니시
+* The PARA Method: Simplify, Organize, and Master Your Digital Life - 티아고 포르테
+  * [PARA Method란 무엇인가](https://hannut91.github.io/blogs/books/para-method)
 * 러브드 - 마르티나 라우쳉코
   * [사랑받는 제품을 만드는 방법](https://hannut91.github.io/blogs/how-to-make-loved-product)
+* 이펙티브 소프트웨어 테스팅 - 마우리시오 아니시
 * 스위치
   * [변화를 만드는 방법](https://hannut91.github.io/blogs/switch)
 * [디자인 패턴의 아름다움 - 왕정](https://hannut91.github.io/blogs/books/the-beauty-of-design-patterns)
@@ -254,11 +256,12 @@ featured_image: /images/social.jpg
 * 결핍의 경제학 - 센딜 멀레이너선 , 엘다 샤퍼
 * 생각의 탄생
 * 세컨드 브레인 - 티아고 포르테
-* The PARA Method: Simplify, Organize, and Master Your Digital Life - 티아고 포르테
 * 패턴을 활용한 리팩터링 - 조슈아 케리에브스키
 * 엔터프라이즈 애플리케이션 아키텍처 패턴 - 마틴 파울러
 * 알고리즘 산책 - 알렉산더 A. 스테파노프
 * 1만 시간의 재발견 - 안데르스 에릭슨, 로버트 풀
+* 쏟아지는 일 완벼하게 해내는 법 - 데이비드 앨런
+* 퓰리처상 문장 수업 - 잭 하트
 
 ## 읽은 책들
 
