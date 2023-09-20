@@ -37,4 +37,5 @@ updatedat: 2023-09-14 21:42:00
 
 ## 참고
 
+* [코드숨 알고리즘(로버트 세지윅, 케빈 웨인) 스터디 회고](https://hannut91.github.io/retrospective/codesoom/algorithms)
 - [알고리즘 \| 세지윅 , 케빈 웨인 저자(글) · 권오인 번역 \| 길벗](https://product.kyobobook.co.kr/detail/S000001792777)로버트 

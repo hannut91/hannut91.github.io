@@ -12,11 +12,6 @@ featured_image: /images/social.jpg
 교육 플랫폼입니다. 더 나아가
 어떻게 하면 개발자들이 스스로 더 안전하고 행복하게 성장할 수 있을지 고민하고 있습니다.  
 
-지금은 하나의 실험으로 수강생들이 스스로 학습하는 방법에 더 집중하는 [학습 중심의 부트캠프](https://www.codesoom.com/courses/soomtcamp?utm_source=yunseok_dev_blog&utm_medium=blog&utm_campaign=post&utm_content=about)를
-만들고 있습니다. 이 부트캠프에서는 전통적인 강의 방식이 아닌 수강생들이 학습하는
-방법을 배우고 훈련하는 것에 집중되어 있습니다. 강의가 주어지고 결과에 대해서만
-피드백을 하는 것이 아니라 학습 과정 자체에 피드백을 위주로 진행합니다.  
-
 저는 성공과 실패에 너무 집중하기보다는 그 과정에서 얻는 경험과 배움에 가치를 두고자 합니다.
 제 생각이 틀렸든 맞았든 그 과정에서 무언가를 배우고 새롭게 실험하고 나아가려고
 합니다.
@@ -28,7 +23,6 @@ featured_image: /images/social.jpg
 <div class="newsletter">
   <script async data-uid="ede0bdb087" src="https://yunseok-han.ck.page/ede0bdb087/index.js"></script>
 </div>
-
 
 ## 역사
 <!-- * Vim Enter 참여
@@ -44,9 +38,11 @@ featured_image: /images/social.jpg
 * 코드스피츠 iPhone/Android 애플리케이션개발자를 위한 머신러닝, 딥러닝 실전입문 스터디 참여
 * 코드스피츠 관계형 데이터베이스 실전 스터디 참여 -->
 
+* 2023.09.11 ~ 2023.09.17 AC2 Patch RFUS 워크샵 참여
+* [2023.06.08 ~ 2023.09.14 코드숨 알고리즘 스터디 진행](https://hannut91.github.io/retrospective/codesoom/algorithms)
+* 2023.08.02 ~ 2023.09.13 코드스피츠 디자인 패턴의 아름다움 스터디 참여
 * [2023.08.23 ~ 2023.09.01 AC2 Patch 스마트비즈 워크샵 참여](https://hannut91.github.io/retrospective/smartviz)
 * 2023.08.15 인프콘 2023 - 안타깝게도 오늘의 TDD는 실패한 것 같군요. 내일은 가능할지도...? 발표
-* 2023.06.08 ~ 코드숨 알고리즘 스터디 진행
 * 2023.07.03 ~ 2023.08.14 코드숨 관계형 데이터베이스 실전 입문 스터디 참여
 * 2023.05.10 ~ 2023.06.14 코드스피츠 핵심 코틀린 프로그래밍 스터디 참여
 * [2023.05.08 ~ 2023.06.19 코드숨 웹 개발자를 위한 대규모 서비스를 지탱하는 기술 스터디 참여](https://hannut91.github.io/blogs/books/large-scale)
@@ -229,42 +225,14 @@ featured_image: /images/social.jpg
 * 2017.02.20 개발자 한 달에 책 한 권 읽기: 리팩토링
 * 2017.01.23 개발자 한 달에 책 한 권 읽기: 생각하는 프로그래밍
 
-## 읽을 책들
-
-* 이펙추에이션 - 사라스 사라스비티
-  * [이펙추에이션](https://hannut91.github.io/blogs/effectuation)
-* 알고리즘 - 로버트 세지윅, 케빈 웨인
-* The PARA Method: Simplify, Organize, and Master Your Digital Life - 티아고 포르테
-  * [PARA Method란 무엇인가](https://hannut91.github.io/blogs/books/para-method)
-* 러브드 - 마르티나 라우쳉코
-  * [사랑받는 제품을 만드는 방법](https://hannut91.github.io/blogs/how-to-make-loved-product)
-* 이펙티브 소프트웨어 테스팅 - 마우리시오 아니시
-* 스위치
-  * [변화를 만드는 방법](https://hannut91.github.io/blogs/switch)
-* [디자인 패턴의 아름다움 - 왕정](https://hannut91.github.io/blogs/books/the-beauty-of-design-patterns)
-* 내가 된다는 것 - 아닐 세스
-* 업무 시각화 - 도미니카 드그란디스
-* 창조적 시선 - 김정운
-* 초전 설득 - 로버트 치알디니
-* 일의 언어 - 클레이튼 크리스텐슨, 캐런 딜론
-* 귀찮지만 매일 씁니다 - 귀찮
-* 성격의 탄생 - 대니얼 네틀
-* 이너골프로 10타 줄이기(이너 골프) - 티모시 갤웨이
-* 스키 이너게임 - 티모시 갤웨이
-* 개발지옥 - 조지 V. 네빌-닐
-* 테크니컬 리더 - 제럴드 와인버그
-* 결핍의 경제학 - 센딜 멀레이너선 , 엘다 샤퍼
-* 생각의 탄생
-* 세컨드 브레인 - 티아고 포르테
-* 패턴을 활용한 리팩터링 - 조슈아 케리에브스키
-* 엔터프라이즈 애플리케이션 아키텍처 패턴 - 마틴 파울러
-* 알고리즘 산책 - 알렉산더 A. 스테파노프
-* 1만 시간의 재발견 - 안데르스 에릭슨, 로버트 풀
-* 쏟아지는 일 완벼하게 해내는 법 - 데이비드 앨런
-* 퓰리처상 문장 수업 - 잭 하트
-
 ## 읽은 책들
 
+* 스위치
+  * [변화를 만드는 방법](https://hannut91.github.io/blogs/switch)
+* [알고리즘 - 로버트 세지윅, 케빈 웨인](https://hannut91.github.io/blogs/algorithms)
+* The PARA Method: Simplify, Organize, and Master Your Digital Life - 티아고 포르테
+  * [PARA Method란 무엇인가](https://hannut91.github.io/blogs/books/para-method)
+* [디자인 패턴의 아름다움 - 왕정](https://hannut91.github.io/blogs/books/the-beauty-of-design-patterns)
 * [프로그래밍 심리학](https://hannut91.github.io/blogs/the-psychology-of-computer-programming)
 * 처음 배우는 그래픽 레코딩
 * 존버 씨의 죽음 - 김영선
@@ -457,3 +425,37 @@ featured_image: /images/social.jpg
 * 우유의 역습
 * 내 몸 사용설명서
 * 밤의 피크닉 - 온다 리쿠
+
+## 읽을 책들
+
+* 러닝 리액트 - 알렉스 뱅크스
+* 업무 시각화 - 도미니카 드그란디스
+* 이펙추에이션 - 사라스 사라스비티
+  * [이펙추에이션](https://hannut91.github.io/blogs/effectuation)
+* 러브드 - 마르티나 라우쳉코
+  * [사랑받는 제품을 만드는 방법](https://hannut91.github.io/blogs/how-to-make-loved-product)
+* 이펙티브 소프트웨어 테스팅 - 마우리시오 아니시
+* 내가 된다는 것 - 아닐 세스
+* 창조적 시선 - 김정운
+* 초전 설득 - 로버트 치알디니
+* 일의 언어 - 클레이튼 크리스텐슨, 캐런 딜론
+* 귀찮지만 매일 씁니다 - 귀찮
+* 성격의 탄생 - 대니얼 네틀
+* 이너골프로 10타 줄이기(이너 골프) - 티모시 갤웨이
+* 스키 이너게임 - 티모시 갤웨이
+* 개발지옥 - 조지 V. 네빌-닐
+* 테크니컬 리더 - 제럴드 와인버그
+* 결핍의 경제학 - 센딜 멀레이너선 , 엘다 샤퍼
+* 생각의 탄생
+* 세컨드 브레인 - 티아고 포르테
+* 패턴을 활용한 리팩터링 - 조슈아 케리에브스키
+* 엔터프라이즈 애플리케이션 아키텍처 패턴 - 마틴 파울러
+* 알고리즘 산책 - 알렉산더 A. 스테파노프
+* 1만 시간의 재발견 - 안데르스 에릭슨, 로버트 풀
+* 쏟아지는 일 완벼하게 해내는 법 - 데이비드 앨런
+* 퓰리처상 문장 수업 - 잭 하트
+* 스토리 - 티모시 월슨
+* 스마트 브레비티 - 짐 밴더하이
+* 바바라 민토, 논리의 기술 - 바바라 민토
+* 필립 코틀러 마케팅의 미래 - 필립 코틀러 , 허마원 카타자야 , 후이 덴 후안 , 제키 머스리
+* 보랏빛 소가 온다 - 세스 고딘
