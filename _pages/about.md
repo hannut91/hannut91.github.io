@@ -229,7 +229,7 @@ featured_image: /images/social.jpg
 
 * 스위치
   * [변화를 만드는 방법](https://hannut91.github.io/blogs/switch)
-* [알고리즘 - 로버트 세지윅, 케빈 웨인](https://hannut91.github.io/blogs/algorithms)
+* [알고리즘 - 로버트 세지윅, 케빈 웨인](https://hannut91.github.io/blogs/books/algorithms)
 * The PARA Method: Simplify, Organize, and Master Your Digital Life - 티아고 포르테
   * [PARA Method란 무엇인가](https://hannut91.github.io/blogs/books/para-method)
 * [디자인 패턴의 아름다움 - 왕정](https://hannut91.github.io/blogs/books/the-beauty-of-design-patterns)
