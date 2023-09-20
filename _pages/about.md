@@ -40,7 +40,7 @@ featured_image: /images/social.jpg
 
 * 2023.09.11 ~ 2023.09.17 AC2 Patch RFUS 워크샵 참여
 * [2023.06.08 ~ 2023.09.14 코드숨 알고리즘 스터디 진행](https://hannut91.github.io/retrospective/codesoom/algorithms)
-* 2023.08.02 ~ 2023.09.13 코드스피츠 디자인 패턴의 아름다움 스터디 참여
+* [2023.08.02 ~ 2023.09.13 코드스피츠 디자인 패턴의 아름다움 스터디 참여](https://hannut91.github.io/retrospective/the-beauty-of-design-patterns)
 * [2023.08.23 ~ 2023.09.01 AC2 Patch 스마트비즈 워크샵 참여](https://hannut91.github.io/retrospective/smartviz)
 * 2023.08.15 인프콘 2023 - 안타깝게도 오늘의 TDD는 실패한 것 같군요. 내일은 가능할지도...? 발표
 * 2023.07.03 ~ 2023.08.14 코드숨 관계형 데이터베이스 실전 입문 스터디 참여
