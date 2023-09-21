@@ -234,7 +234,7 @@ featured_image: /images/social.jpg
 * The PARA Method: Simplify, Organize, and Master Your Digital Life - 티아고 포르테
   * [PARA Method란 무엇인가](https://hannut91.github.io/blogs/books/para-method)
 * [디자인 패턴의 아름다움 - 왕정](https://hannut91.github.io/blogs/books/the-beauty-of-design-patterns)
-* [프로그래밍 심리학](https://hannut91.github.io/blogs/the-psychology-of-computer-programming)
+* [프로그래밍 심리학](https://hannut91.github.io/blogs/books/the-psychology-of-computer-programming)
 * 처음 배우는 그래픽 레코딩
 * 존버 씨의 죽음 - 김영선
   * [과로죽음](https://hannut91.github.io/blogs/overworked-system)
@@ -303,12 +303,12 @@ featured_image: /images/social.jpg
 * [클린 애자일](https://hannut91.github.io/blogs/books/clean-agile)
 * [The Nature of Software Development](https://hannut91.github.io/blogs/books/the-nature-of-software-development)
 * [함수형 자바스크립트](https://hannut91.github.io/retrospective/codesoom/functional-javascript)
-* [훔쳐라 아티스트처럼](https://hannut91.github.io/blogs/books/steal-like-artist)
+* [훔쳐라 아티스트처럼](https://hannut91.github.io/blogs/books/steal-like-an-artist)
 * [코어 자바스크립트](https://hannut91.github.io/blogs/books/core-javascript)
 * [울트라러닝](https://hannut91.github.io/blogs/books/ultra-learning)
 * [피드포워드](https://hannut91.github.io/blogs/books/feed-forward)
 * [관계형 데이터베이스 실전 입문](https://hannut91.github.io/retrospective/relational-study/week-4)
-* [어떻게 공부할 것인가](https://hannut91.github.io/blogs/books/make-stick-it)
+* [어떻게 공부할 것인가](https://hannut91.github.io/blogs/books/make-it-stick)
 * [쉽게 배우는 하스켈](https://hannut91.github.io/blogs/recursion)
 * [소프트웨어 장인](https://hannut91.github.io/blogs/books/craftsman)
 * [그림으로 배우는 HTTP & Network Basic](https://hannut91.github.io/blogs/network/http)
