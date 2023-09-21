@@ -1,0 +1,15 @@
+.date-wrap {
+  text-align: right;
+  padding: 16px 0;
+
+  .meta {
+    margin: auto;
+    @include mq(tabletl) {
+      max-width: 75%;
+    }
+  }
+  
+  .meta:not(:first-of-type) {
+    margin-top: 8px;
+  }
+}

@@ -8,13 +8,17 @@ featured_image: /images/social.jpg
 <section class="listing single">
   <div class="wrap">
     {% assign retrospectives = site.retrospective | sort: 'createdat' | reverse %} {% for
-        retrosepctive in retrospectives %}
+    retrosepctive in retrospectives %}
 
     <article class="listing-post">
       <div class="listing-post__header">
         <h2 class="listing-post__title">
           <a href="{{ retrosepctive.url }}">{{ retrosepctive.title }}</a>
         </h2>
+
+        <p class="listing-post__subtitle">
+          {{ retrosepctive.updatedat | date: "%Y-%m-%d" }}
+        </p>
       </div>
     </article>
 

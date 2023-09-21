@@ -6,9 +6,10 @@ layout: default
   <div class="wrap">
     <h1>{{ page.title }}</h1>
 
-
-
-    <p class="subtitle">{{ page.createdAt | date_to_long_string }}</p>
+    <div class="date-wrap">
+      <div class="meta">등록일: {{ page.updatedat | date: "%Y-%m-%d" }}</div>
+      <div class="meta">수정일: {{ page.updatedat | date: "%Y-%m-%d" }}</div>
+    </div>
 
     {{ page.content }}
 

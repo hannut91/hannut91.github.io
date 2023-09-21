@@ -18,7 +18,7 @@ featured_image: /images/social.jpg
         </h2>
 
         <p class="listing-post__subtitle">
-          {{ post.updatedat | date_to_long_string }}
+          {{ post.updatedat | date: "%Y-%m-%d" }}
         </p>
       </div>
 
