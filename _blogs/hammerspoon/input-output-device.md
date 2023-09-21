@@ -4,7 +4,7 @@ subTitle:
 category:
 tags:
 createdat: 2023-09-21 14:05:00
-updatedat: 2023-09-21 14:05:00
+updatedat: 2023-09-21 23:36:59
 ---
 
 ![](/images/hammerspoon/input-output.gif)
@@ -38,9 +38,9 @@ function change_output_device()
   local index = hs.fnutils.indexOf(devices, currentOutputDevice)
 
   local device
-
+  
   while true do
-    device = devices[(index + 1) % #devices]
+    device = devices[(index % #devices) + 1]
     if device == nil then
       index = index + 1
     else
@@ -61,7 +61,7 @@ function change_input_device()
   local device
 
   while true do
-    device = devices[(index + 1) % #devices]
+    device = devices[(index % #devices) + 1]
     if device == nil then
       index = index + 1
     else
