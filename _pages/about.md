@@ -38,6 +38,7 @@ featured_image: /images/social.jpg
 * 코드스피츠 iPhone/Android 애플리케이션개발자를 위한 머신러닝, 딥러닝 실전입문 스터디 참여
 * 코드스피츠 관계형 데이터베이스 실전 스터디 참여 -->
 
+* 2023.09.20 ~ 2023.10.04 코드숨 업무 시각화 스터디 진행
 * 2023.09.11 ~ 2023.09.17 AC2 Patch RFUS 워크샵 참여
 * [2023.06.08 ~ 2023.09.14 코드숨 알고리즘 스터디 진행](https://hannut91.github.io/retrospective/codesoom/algorithms)
 * [2023.08.02 ~ 2023.09.13 코드스피츠 디자인 패턴의 아름다움 스터디 참여](https://hannut91.github.io/retrospective/the-beauty-of-design-patterns)
@@ -428,6 +429,7 @@ featured_image: /images/social.jpg
 
 ## 읽을 책들
 
+* [쏟아지는 일 완벽하게 해내는 법 - 데이비드 앨런](https://hannut91.github.io/blogs/gtd)
 * 러닝 리액트 - 알렉스 뱅크스
 * 업무 시각화 - 도미니카 드그란디스
 * 이펙추에이션 - 사라스 사라스비티
@@ -452,7 +454,6 @@ featured_image: /images/social.jpg
 * 엔터프라이즈 애플리케이션 아키텍처 패턴 - 마틴 파울러
 * 알고리즘 산책 - 알렉산더 A. 스테파노프
 * 1만 시간의 재발견 - 안데르스 에릭슨, 로버트 풀
-* 쏟아지는 일 완벼하게 해내는 법 - 데이비드 앨런
 * 퓰리처상 문장 수업 - 잭 하트
 * 스토리 - 티모시 월슨
 * 스마트 브레비티 - 짐 밴더하이
