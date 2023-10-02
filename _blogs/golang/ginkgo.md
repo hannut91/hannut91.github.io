@@ -1,35 +1,40 @@
 ---
-title: Ginkgo
-subTitle: BDD-style Go testing framework
+title: Ginkgo로 Golang에서 BDD스타일로 테스트 작성하기
+subTitle:
 category: 
 tags: 
 createdat: 2019-02-05 23:20:14
-updatedat: 2019-02-05 23:20:14
+updatedat: 2023-10-02 15:43:21
 ---
 
-## Getting started
+## 설치
 
-### Install
 ```
-$ go get github.com/onsi/ginkgo/ginkgo
+$ go install github.com/onsi/ginkgo/v2/ginkgo
 $ go get github.com/onsi/gomega/...
 ```
 
-### Bootstrapping a Suite
-Ginkgo테스트를 실행하기 위해서는 test suit파일을 만들어야 합니다.
+## 시작하기
+
+### test suite파일 만들기
+
+Ginkgo테스트를 실행하기 위해서는 test suite파일을 만들어야 합니다.
+
 ```
 $ cd path/to/books
 $ ginkgo bootstrap
 ```
 
-bootstrap을 실행하면 books_stuite_test.go파일이 다음과같이 생성된다.
+`bootstrap`을 명령어를 실행하면 books_stuite_test.go파일이 다음과같이 생성됩니다.
+
 ```
 package books_test
 
 import (
-    . "github.com/onsi/ginkgo"
-    . "github.com/onsi/gomega"
     "testing"
+
+    . "github.com/onsi/ginkgo/v2"
+    . "github.com/onsi/gomega"
 )
 
 func TestBooks(t *testing.T) {
@@ -38,22 +43,36 @@ func TestBooks(t *testing.T) {
 }
 ```
 
-package 이름이 books가 아니라 books_test인것을 볼 수 있는데 books패키지의 캡슐화를 할 수 있다.
-이는 필수가 아닌 옵션으로 필요가 없다면 books로 패키지이름을 변경하면 된다.
-`TestBooks`가 go lang에서 `testing` tset인데 Go의 테스트 러너가 이 함수를 실행한다.
+package 이름이 books가 아니라 `books_test`인것을 볼 수 있는데 books패키지의 캡슐화를 할 수 있다.
+이는 필수가 아닌 옵션으로 필요가 없다면 `books`로 패키지이름을 변경하면 된다.
+`TestBooks`가 go lang에서 `testing` test인데 Go의 테스트 러너가 이 함수를 실행한다.
 `RegisterFailHandler(Fail)`은 함수를 Gomega로 보낼 때 사용하는 함수이다.
 `RunSpecs`는 Ginkko가 test suite를 실행하도록 명령내리는 것입니다. 
 
-`go test` 혹은 `ginkgo`를 실행하여 테스트를 실행할 수 있습니다.
+```
+$ go test
+```
 
-### Adding Specs to a Suite
-ginkgo generate를 이용하여 테스트를 작성할 수 있습니다. 
+혹은
+
+```
+$ ginkgo
+```
+
+명령어로 테스트를 실행할 수 있다.
+
+### 테스트 작성하기
+
+다음 명령어를 사용해서 테스트 파일을 생성할 수 있습니다.
 
 ```
 $ ginkgo generate book
 ```
 
+이러면 `book_test.go`파일이 생성됩니다.
+
 ### Marking specs as failed
+
 테스트가 실패하는 경우 다음과 같이 작성하여 테스트를 실패시킬 수 있다.
 ```
 Fail("Failure reason")
@@ -92,12 +111,6 @@ $ go test -ginko.v
 
 만약 테스트가 실행중에 강제로 테스트가 종료된다면 지금까지 가지고 있는 데이터들을 출력해준다.
 
-### IDE Support
-`ginkgo watch`는 파일이 변경될 때마다 테스트를 실행할 수 있도록 기능을 제공합니다.
+## 참고
 
-## Structuring Your Specs
-### Individual specs: `It`
-`It`는 하나의 스펙을 작성할 떄 사용된다. 이는 Describe나 Context아래에서 작성됩니다.
-
-### The `Specify` Alias
- 
+- [Ginkgo](https://onsi.github.io/ginkgo)
