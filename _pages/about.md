@@ -228,6 +228,7 @@ featured_image: /images/social.jpg
 
 ## 읽은 책들
 
+* [업무 시각화 - 도미니카 드그란디스](https://hannut91.github.io/blogs/making-work-visible)
 * [쏟아지는 일 완벽하게 해내는 법 - 데이비드 앨런](https://hannut91.github.io/blogs/gtd)
 * 스위치
   * [변화를 만드는 방법](https://hannut91.github.io/blogs/switch)
@@ -433,7 +434,6 @@ featured_image: /images/social.jpg
 * 보랏빛 소가 온다 - 세스 고딘
 * 코틀린 함수형 프로그래밍 - 마르코 버뮬런s, 루나르 비아르드나손s, 폴 치우사노 저자(글)
 * 러닝 리액트 - 알렉스 뱅크스
-* 업무 시각화 - 도미니카 드그란디스
 * 스토리 - 티모시 월슨
 * 필립 코틀러 마케팅의 미래 - 필립 코틀러s, 허마원 카타자야s, 후이 덴 후안s, 제키 머스리
 * 퓨처 셀프 - 벤저민 하디
