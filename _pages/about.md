@@ -38,7 +38,9 @@ featured_image: /images/social.jpg
 * 코드스피츠 iPhone/Android 애플리케이션개발자를 위한 머신러닝, 딥러닝 실전입문 스터디 참여
 * 코드스피츠 관계형 데이터베이스 실전 스터디 참여 -->
 
-* 2023.09.20 ~ 2023.10.04 코드숨 업무 시각화 스터디 진행
+* 2023.10.19 ~ 코드숨 엔터프라이즈 애플리케이션 아키텍처 패턴 스터디 진행
+* 2023.10.04 ~ 코드스피츠 코틀린 함수형 프로그래밍 스터디 참여
+* [2023.09.20 ~ 2023.10.04 코드숨 업무 시각화 스터디 진행](https://hannut91.github.io/retrospective/codesoom/making-work-visible)
 * 2023.09.11 ~ 2023.09.17 AC2 Patch RFUS 워크샵 참여
 * [2023.06.08 ~ 2023.09.14 코드숨 알고리즘 스터디 진행](https://hannut91.github.io/retrospective/codesoom/algorithms)
 * [2023.08.02 ~ 2023.09.13 코드스피츠 디자인 패턴의 아름다움 스터디 참여](https://hannut91.github.io/retrospective/the-beauty-of-design-patterns)
@@ -228,6 +230,9 @@ featured_image: /images/social.jpg
 
 ## 읽은 책들
 
+* 물고기는 존재하지 않는다 - 룰루 밀러
+* 보랏빛 소가 온다 - 세스 고딘
+* 도파민네이션 - 애나 렘키
 * [업무 시각화 - 도미니카 드그란디스](https://hannut91.github.io/blogs/making-work-visible)
 * [쏟아지는 일 완벽하게 해내는 법 - 데이비드 앨런](https://hannut91.github.io/blogs/gtd)
 * 스위치
@@ -431,14 +436,13 @@ featured_image: /images/social.jpg
 
 ## 읽을 책들
 
-* 보랏빛 소가 온다 - 세스 고딘
 * 코틀린 함수형 프로그래밍 - 마르코 버뮬런s, 루나르 비아르드나손s, 폴 치우사노 저자(글)
+* 이펙추에이션 - 사라스 사라스비티
+  * [이펙추에이션](https://hannut91.github.io/blogs/effectuation)
 * 러닝 리액트 - 알렉스 뱅크스
 * 스토리 - 티모시 월슨
 * 필립 코틀러 마케팅의 미래 - 필립 코틀러s, 허마원 카타자야s, 후이 덴 후안s, 제키 머스리
 * 퓨처 셀프 - 벤저민 하디
-* 이펙추에이션 - 사라스 사라스비티
-  * [이펙추에이션](https://hannut91.github.io/blogs/effectuation)
 * 엔터프라이즈 애플리케이션 아키텍처 패턴 - 마틴 파울러
 * 이펙티브 소프트웨어 테스팅 - 마우리시오 아니시
 * 내가 된다는 것 - 아닐 세스
@@ -462,3 +466,9 @@ featured_image: /images/social.jpg
 * 러브드 - 마르티나 라우쳉코
   * [사랑받는 제품을 만드는 방법](https://hannut91.github.io/blogs/how-to-make-loved-product)
 * 퓰리처상 문장 수업 - 잭 하트
+* 존 듀이의 경험과 교육 - 존 듀이
+* 흥미와 노력 그 교육적 의의 - 존 듀이
+* 사용자의 숨겨진 마음을 읽는 리서치 기술 - 오쿠이즈미 나오코
+* 유저 인터뷰 교과서 - 오쿠이즈미 나오코
+* 유저 인터뷰 - 스티브 포티걸
+* 스틱 - 칩 히스
