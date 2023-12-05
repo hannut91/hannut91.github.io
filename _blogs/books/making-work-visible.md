@@ -4,7 +4,7 @@ subTitle:
 category:
 tags:
 createdat: 2023-10-04 20:58:00
-updatedat: 2023-10-04 21:09:51
+updatedat: 2023-12-05 14:39:24
 ---
 
 시간이 부족한 게 아니라 도둑이 많은 것이다. 해야 하는 것은 정해져 있는데, 계획하지 않은 업무, 너무 많은 업무로
@@ -34,4 +34,5 @@ updatedat: 2023-10-04 21:09:51
 
 ## 참고
 
+- [코드숨 업무 시각화 스터디 회고](https://hannut91.github.io/retrospective/codesoom/making-work-visible)
 - [업무 시각화 \| 도미니카 드그란디스 저자(글) · 유지은 , 김혜주 번역 · 조승빈 감수 \| 에이콘출판](https://product.kyobobook.co.kr/detail/S000001804854)
