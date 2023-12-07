@@ -231,7 +231,7 @@ featured_image: /images/social.jpg
 
 ## 읽은 책들
 
-* 엔터프라이즈 애플리케이션 아키텍처 패턴 - 마틴 파울러
+* [엔터프라이즈 애플리케이션 아키텍처 패턴 - 마틴 파울러](https://hannut91.github.io/blogs/peaa)
 * 스틱 - 칩 히스
 * 이펙추에이션 - 사라스 사라스비티
   * [이펙추에이션](https://hannut91.github.io/blogs/effectuation)
@@ -443,6 +443,7 @@ featured_image: /images/social.jpg
 
 ## 구매한 책들
 
+* HTTP/2 in Action - 배리 폴라드
 * 이펙티브 소프트웨어 테스팅 - 마우리시오 아니시
 * 알고리즘 산책 - 알렉산더 A. 스테파노프
 * 러닝 리액트 - 알렉스 뱅크스
@@ -455,6 +456,8 @@ featured_image: /images/social.jpg
 * 러브드 - 마르티나 라우쳉코
   * [사랑받는 제품을 만드는 방법](https://hannut91.github.io/blogs/how-to-make-loved-product)
 * 흥미와 노력 그 교육적 의의 - 존 듀이
+* 인간 조직 권력 그리고 어느 SW 엔지니어의 변 - 이종국
+* 아웃퍼포머 - 모튼 한센
 
 ## 읽을 책들
 
