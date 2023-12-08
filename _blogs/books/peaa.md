@@ -4,7 +4,7 @@ subTitle:
 category:
 tags:
 createdat: 2023-12-07 21:18:00
-updatedat: 2023-12-07 21:36:01
+updatedat: 2023-12-08 16:11:02
 ---
 
 이 책은 저자가 엔터프라이즈 애플리케이션을 만들면서 문제를 만나고 해결한 경험을
@@ -30,4 +30,5 @@ updatedat: 2023-12-07 21:36:01
 
 ## 참고
 
+- [코드숨 엔터프라이즈 애플리케이션 아키텍처 패턴 스터디 회고](https://hannut91.github.io/retrospective/codesoom/peaa)
 - [엔터프라이즈 애플리케이션 아키텍처 패턴 \| 이대엽 엮음 · 최민석 번역 · 마틴 파울러 저자(글) \| 위키북스](https://product.kyobobook.co.kr/detail/S000001766248)

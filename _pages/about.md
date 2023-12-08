@@ -39,7 +39,7 @@ featured_image: /images/social.jpg
 * 코드스피츠 관계형 데이터베이스 실전 스터디 참여 -->
 
 * 2023.11.23 ~ 코드스피츠 코틀린 코루틴 스터디 참여
-* 2023.10.19 ~ 2023.12.07 코드숨 엔터프라이즈 애플리케이션 아키텍처 패턴 스터디 진행
+* [2023.10.19 ~ 2023.12.07 코드숨 엔터프라이즈 애플리케이션 아키텍처 패턴 스터디 진행](https://hannut91.github.io/retrospective/codesoom/peaa)
 * 2023.10.04 ~ 2023.11.18 코드스피츠 코틀린 함수형 프로그래밍 스터디 참여
 * [2023.09.20 ~ 2023.10.04 코드숨 업무 시각화 스터디 진행](https://hannut91.github.io/retrospective/codesoom/making-work-visible)
 * 2023.09.11 ~ 2023.09.17 AC2 Patch RFUS 워크샵 참여
