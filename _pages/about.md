@@ -5,16 +5,19 @@ subtitle:
 featured_image: /images/social.jpg
 ---
 
-안녕하세요. 제 이름은 한윤석입니다.
+안녕하세요 한윤석입니다.  
+저는 배운 것을 다른 사람과 나누는 것을 좋아합니다. 내가 배운 좋은 지식을 다른
+사람도 같이 배웠으면 좋겠다는 마음에 강의를 만들다가
+[코드숨](https://www.codesoom.com?utm_source=yunseok_dev_blog&utm_medium=blog&utm_campaign=post&utm_content=about)을
+시작하게 될 정도였으니까요.
 
-개발자로 일하다가 현재는 [코드숨](https://www.codesoom.com?utm_source=yunseok_dev_blog&utm_medium=blog&utm_campaign=post&utm_content=about)을 운영하며 개발자를
-가르치는 일을 하고 있습니다. 코드숨은 인출 위주의 학습법을 적용한 프로그래밍
-교육 플랫폼입니다. 더 나아가
-어떻게 하면 개발자들이 스스로 더 안전하고 행복하게 성장할 수 있을지 고민하고 있습니다.  
+그리고 같이 배우는 것도 좋아합니다. 서로 물어보고 알려주고 하면서 배우는게 더
+재밌는 것 같고, 계속 성장할 수 밖에 없는 상황에 저를 밀어 넣는 것 같아서요. 그래서
+[스터디](https://www.codesoom.com/courses/soomtudy?utm_source=yunseok_dev_blog&utm_medium=blog&utm_campaign=post&utm_content=about)를
+꾸준하게 운영하고 있습니다. 더 나아가 어떻게하면 더 좋은 시너지를 만들어낼 수
+있을까 고민하고 있습니다.
 
-저는 성공과 실패에 너무 집중하기보다는 그 과정에서 얻는 경험과 배움에 가치를 두고자 합니다.
-제 생각이 틀렸든 맞았든 그 과정에서 무언가를 배우고 새롭게 실험하고 나아가려고
-합니다.
+열심히 배워서 다 퍼주기 위해 오늘도 열심히 노력하고 있습니다. 언젠가 개발자들이 더 이상 불안에 떨지 않으며 행복하게 개발할 수 있는 세상이 왔으면 좋겠습니다.
 
 ## 스터디 모집
 
@@ -39,14 +42,21 @@ featured_image: /images/social.jpg
 * 코드스피츠 관계형 데이터베이스 실전 스터디 참여 -->
 
 * 2023.11.23 ~ 코드스피츠 코틀린 코루틴 스터디 참여
+* 2023.10.04 ~ 코드스피츠 코틀린 함수형 프로그래밍 스터디 참여
+* 2024.01.25 ~ 2024.02.15 AC2 Patch Cognitive GPTs 교육 참가
+* 2023.12.13 ~ 2024.01.24 코드숨 HTTP/2 in Action 스터디 진행
+* 2023.12.23 VimEnter 2023 모임 발표 - Vim 힘들고 빠르게 배우는 방법
+  * [au VimEnter * call Bye2023()](https://au-vimenter.github.io/post/2023-12-23-au-vimenter/)
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/Zy5vBLDAGVA?si=QPGm0R8uiXz9Ri5l" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 * [2023.10.19 ~ 2023.12.07 코드숨 엔터프라이즈 애플리케이션 아키텍처 패턴 스터디 진행](https://hannut91.github.io/retrospective/codesoom/peaa)
-* 2023.10.04 ~ 2023.11.18 코드스피츠 코틀린 함수형 프로그래밍 스터디 참여
 * [2023.09.20 ~ 2023.10.04 코드숨 업무 시각화 스터디 진행](https://hannut91.github.io/retrospective/codesoom/making-work-visible)
 * 2023.09.11 ~ 2023.09.17 AC2 Patch RFUS 워크샵 참여
 * [2023.06.08 ~ 2023.09.14 코드숨 알고리즘 스터디 진행](https://hannut91.github.io/retrospective/codesoom/algorithms)
 * [2023.08.02 ~ 2023.09.13 코드스피츠 디자인 패턴의 아름다움 스터디 참여](https://hannut91.github.io/retrospective/the-beauty-of-design-patterns)
 * [2023.08.23 ~ 2023.09.01 AC2 Patch 스마트비즈 워크샵 참여](https://hannut91.github.io/retrospective/smartviz)
-* [2023.08.15 인프콘 2023 - 안타깝게도 오늘의 TDD는 실패한 것 같군요. 내일은 가능할지도...? 발표](https://www.youtube.com/watch?v=uiBNyIMhqrw)
+* 2023.08.15 인프콘 2023 - 안타깝게도 오늘의 TDD는 실패한 것 같군요. 내일은 가능할지도...? 발표
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/uiBNyIMhqrw?si=pOjHfmfOUkzHFEFf" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
 * 2023.07.03 ~ 2023.08.14 코드숨 관계형 데이터베이스 실전 입문 스터디 참여
 * 2023.05.10 ~ 2023.06.14 코드스피츠 핵심 코틀린 프로그래밍 스터디 참여
 * [2023.05.08 ~ 2023.06.19 코드숨 웹 개발자를 위한 대규모 서비스를 지탱하는 기술 스터디 참여](https://hannut91.github.io/blogs/books/large-scale)
@@ -70,6 +80,8 @@ featured_image: /images/social.jpg
 * [2022.07.14 ~ 2022.09.22 코드숨 표현적 글쓰기 스터디 진행](https://hannut91.github.io/retrospective/codesoom/expressive-writing)
 * [2022.07.27 ~ 2022.09.14 코드숨 쏙쏙 들어오는 함수형 코딩 스터디 진행](https://hannut91.github.io/retrospective/codesoom/functional-coding)
 * [2022.08.29 개발자 한 달에 책 한 권 읽기: 도메인 주도 설계 첫걸음](https://hannut91.github.io/retrospective/reading-books/learning-domain-driven-design)
+* 2022.08.26 인프콘 2022 - 성공하는 스터디를 만드는 10가지 방법 - 인출 위주의 스터디 여정기 발표
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/N-aZME9Vwlw?si=sJ4V_l-idbh6lhuV" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 * [2022.05.18 ~ 2022.07.20 코드숨 데이터 중심 애플리케이션 설계 스터디 진행](https://hannut91.github.io/retrospective/codesoom/ddia)
 * [2022.05.30 ~ 2022.07.04 대화 다이어트 워크샵 참여](https://hannut91.github.io/retrospective/conversation-diet)
 * [2022.04.06 ~ 2022.05.11 코드숨 실용주의 프로그래머(20주년 기념판) 스터디 진행](https://hannut91.github.io/retrospective/codesoom/programtic-programmer)
@@ -231,6 +243,9 @@ featured_image: /images/social.jpg
 
 ## 읽은 책들
 
+* 프레임워크 없는 프론트엔드 개발 - 프란세스코 스트라츨로
+* 대답만 했을 뿐인데 회사가 살아났습니다 - 마커스 셰리든
+* 이메일 쫌 아는 마케터 - 이하석
 * [엔터프라이즈 애플리케이션 아키텍처 패턴 - 마틴 파울러](https://hannut91.github.io/blogs/peaa)
 * 스틱 - 칩 히스
 * 이펙추에이션 - 사라스 사라스비티
@@ -441,13 +456,18 @@ featured_image: /images/social.jpg
 * 내 몸 사용설명서
 * 밤의 피크닉 - 온다 리쿠
 
-## 구매한 책들
+## 읽을 책들
 
 * HTTP/2 in Action - 배리 폴라드
+* 코틀린 코루틴 - 마르친 모스카와 
+* 코틀린 함수형 프로그래밍 - 마르코 버뮬런s, 루나르 비아르드나손s, 폴 치우사노 저자(글)
+* 인간 조직 권력 그리고 어느 SW 엔지니어의 변 - 이종국
+* OAuth 2 in Action - 저스틴 리처, 안토니오 산소
+* 와이어샤크를 활용한 실전 패킷 분석 3/e - 크리스 샌더스 
 * 이펙티브 소프트웨어 테스팅 - 마우리시오 아니시
 * 알고리즘 산책 - 알렉산더 A. 스테파노프
+* 패턴을 활용한 리팩터링 - 조슈아 케리에브스키
 * 러닝 리액트 - 알렉스 뱅크스
-* 코틀린 함수형 프로그래밍 - 마르코 버뮬런s, 루나르 비아르드나손s, 폴 치우사노 저자(글)
 * 개발지옥 - 조지 V. 네빌-닐
 * 테크니컬 리더 - 제럴드 와인버그
 * [존 듀이의 경험과 교육 - 존 듀이](https://hannut91.github.io/blogs/experience-and-education)
@@ -456,11 +476,7 @@ featured_image: /images/social.jpg
 * 러브드 - 마르티나 라우쳉코
   * [사랑받는 제품을 만드는 방법](https://hannut91.github.io/blogs/how-to-make-loved-product)
 * 흥미와 노력 그 교육적 의의 - 존 듀이
-* 인간 조직 권력 그리고 어느 SW 엔지니어의 변 - 이종국
 * 아웃퍼포머 - 모튼 한센
-
-## 읽을 책들
-
 * 필립 코틀러 마케팅의 미래 - 필립 코틀러s, 허마원 카타자야s, 후이 덴 후안s, 제키 머스리
 * 퓨처 셀프 - 벤저민 하디
 * 일의 언어 - 클레이튼 크리스텐슨, 캐런 딜론
@@ -472,7 +488,6 @@ featured_image: /images/social.jpg
 * 생각의 탄생
 * 세컨드 브레인 - 티아고 포르테
 * 1만 시간의 재발견 - 안데르스 에릭슨, 로버트 풀
-* 패턴을 활용한 리팩터링 - 조슈아 케리에브스키
 * 스마트 브레비티 - 짐 밴더하이
 * 바바라 민토, 논리의 기술 - 바바라 민토
 * 퓰리처상 문장 수업 - 잭 하트
