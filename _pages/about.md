@@ -243,6 +243,7 @@ featured_image: /images/social.jpg
 
 ## 읽은 책들
 
+* [HTTP/2 in Action - 배리 폴라드](https://hannut91.github.io/blogs/http2-in-action)
 * 프레임워크 없는 프론트엔드 개발 - 프란세스코 스트라츨로
 * 대답만 했을 뿐인데 회사가 살아났습니다 - 마커스 셰리든
 * 이메일 쫌 아는 마케터 - 이하석
@@ -458,7 +459,6 @@ featured_image: /images/social.jpg
 
 ## 읽을 책들
 
-* HTTP/2 in Action - 배리 폴라드
 * 코틀린 코루틴 - 마르친 모스카와 
 * 코틀린 함수형 프로그래밍 - 마르코 버뮬런s, 루나르 비아르드나손s, 폴 치우사노 저자(글)
 * 인간 조직 권력 그리고 어느 SW 엔지니어의 변 - 이종국
