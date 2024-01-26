@@ -44,7 +44,7 @@ featured_image: /images/social.jpg
 * 2023.11.23 ~ 코드스피츠 코틀린 코루틴 스터디 참여
 * 2023.10.04 ~ 코드스피츠 코틀린 함수형 프로그래밍 스터디 참여
 * 2024.01.25 ~ 2024.02.15 AC2 Patch Cognitive GPTs 교육 참가
-* 2023.12.13 ~ 2024.01.24 코드숨 HTTP/2 in Action 스터디 진행
+* [2023.12.13 ~ 2024.01.24 코드숨 HTTP/2 in Action 스터디 진행](https://hannut91.github.io/retrospective/codesoom/http2-in-action)
 * 2023.12.23 VimEnter 2023 모임 발표 - Vim 힘들고 빠르게 배우는 방법
   * [au VimEnter * call Bye2023()](https://au-vimenter.github.io/post/2023-12-23-au-vimenter/)
   <iframe width="560" height="315" src="https://www.youtube.com/embed/Zy5vBLDAGVA?si=QPGm0R8uiXz9Ri5l" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
@@ -243,21 +243,21 @@ featured_image: /images/social.jpg
 
 ## 읽은 책들
 
-* [HTTP/2 in Action - 배리 폴라드](https://hannut91.github.io/blogs/http2-in-action)
+* [HTTP/2 in Action - 배리 폴라드](https://hannut91.github.io/blogs/books/http2-in-action)
 * 프레임워크 없는 프론트엔드 개발 - 프란세스코 스트라츨로
 * 대답만 했을 뿐인데 회사가 살아났습니다 - 마커스 셰리든
 * 이메일 쫌 아는 마케터 - 이하석
-* [엔터프라이즈 애플리케이션 아키텍처 패턴 - 마틴 파울러](https://hannut91.github.io/blogs/peaa)
+* [엔터프라이즈 애플리케이션 아키텍처 패턴 - 마틴 파울러](https://hannut91.github.io/blogs/books/peaa)
 * 스틱 - 칩 히스
 * 이펙추에이션 - 사라스 사라스비티
-  * [이펙추에이션](https://hannut91.github.io/blogs/effectuation)
+  * [이펙추에이션](https://hannut91.github.io/blogs/books/effectuation)
 * 귀찮지만 매일 씁니다 - 귀찮
 * 내가 된다는 것 - 아닐 세스
 * 물고기는 존재하지 않는다 - 룰루 밀러
 * 보랏빛 소가 온다 - 세스 고딘
 * 도파민네이션 - 애나 렘키
-* [업무 시각화 - 도미니카 드그란디스](https://hannut91.github.io/blogs/making-work-visible)
-* [쏟아지는 일 완벽하게 해내는 법 - 데이비드 앨런](https://hannut91.github.io/blogs/gtd)
+* [업무 시각화 - 도미니카 드그란디스](https://hannut91.github.io/blogs/books/making-work-visible)
+* [쏟아지는 일 완벽하게 해내는 법 - 데이비드 앨런](https://hannut91.github.io/blogs/books/gtd)
 * 스위치
   * [변화를 만드는 방법](https://hannut91.github.io/blogs/switch)
 * [알고리즘 - 로버트 세지윅, 케빈 웨인](https://hannut91.github.io/blogs/books/algorithms)

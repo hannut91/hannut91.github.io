@@ -4,7 +4,7 @@ subTitle:
 category:
 tags:
 createdat: 2024-01-24 21:33:00
-updatedat: 2024-01-24 21:46:46
+updatedat: 2024-01-26 16:26:31
 ---
 
 HTTP/1.1은 진짜 오래 살아남았다. HTTP/1.1이 오래 살아남을 수 있었던 이유는
@@ -33,3 +33,8 @@ HTTP/1.1은 진짜 오래 살아남았다. HTTP/1.1이 오래 살아남을 수 �
 
 HTTP가 발전해 오고 있는 현재 상황과 현재의 문제점들에 대해서 알게 됐고 앞으로
 어떻게 발전할지 그림을 그릴 수 있었다. 이제 새로운 HTTP가 두렵지 않을 것이다.
+
+## 참고
+
+* [코드숨 HTTP/2 in Action 스터디 회고](https://hannut91.github.io/retrospective/codesoom/http2-in-action)
+* [HTTP/2 in Action \| 배리 폴라드 저자(글) · 임혜연 번역 \| 에이콘출판](https://product.kyobobook.co.kr/detail/S000001804952)
