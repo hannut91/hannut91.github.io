@@ -4,7 +4,7 @@ subTitle:
 category:
 tags:
 createdat: 2023-12-05 14:18:00
-updatedat: 2023-12-05 14:39:24
+updatedat: 2024-02-05 10:56:40
 ---
 
 코드숨에서 업무 시각화 책을 가지고 3주 동안 스터디를 진행했다. 이번에는 스터디를
@@ -22,5 +22,5 @@ updatedat: 2023-12-05 14:39:24
 
 ## 참고
 
-- [업무 시각화 서평](https://hannut91.github.io/blogs/making-work-visible)
+- [업무 시각화 서평](https://hannut91.github.io/blogs/books/making-work-visible)
 - [업무 시각화 \| 도미니카 드그란디스 저자(글) · 유지은 , 김혜주 번역 · 조승빈 감수 \| 에이콘출판](https://product.kyobobook.co.kr/detail/S000001804854)
