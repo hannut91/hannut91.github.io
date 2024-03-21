@@ -41,7 +41,7 @@ featured_image: /images/social.jpg
 * 코드스피츠 iPhone/Android 애플리케이션개발자를 위한 머신러닝, 딥러닝 실전입문 스터디 참여
 * 코드스피츠 관계형 데이터베이스 실전 스터디 참여 -->
 
-* 2024.02.07 ~ 2024.03.20 코드숨 OAuth 2 in Action 스터디 진행
+* [2024.02.07 ~ 2024.03.20 코드숨 OAuth 2 in Action 스터디 진행](https://hannut91.github.io/retrospective/codesoom/oauth2-in-action)
 * 2023.11.23 ~ 2024.03.14 코드스피츠 코틀린 코루틴 스터디 참여
 * 2023.10.04 ~ 2024.02.14 코드스피츠 코틀린 함수형 프로그래밍 스터디 참여
 * 2024.01.25 ~ 2024.02.15 AC2 Patch Cognitive GPTs 교육 참가
@@ -244,6 +244,8 @@ featured_image: /images/social.jpg
 
 ## 읽은 책들
 
+* [멘탈을 회복하는 연습 - 데이먼 자하리아데스]()
+* Out of the Tar Pit - Ben Moseley, Peter Marks
 * 코틀린 코루틴 - 마르친 모스카와
 * 인간 조직 권력 그리고 어느 SW 엔지니어의 변 - 이종국
 * [OAuth 2 in Action - 저스틴 리처, 안토니오 산소](https://hannut91.github.io/blogs/books/oauth2-in-action)
