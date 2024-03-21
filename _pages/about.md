@@ -244,7 +244,7 @@ featured_image: /images/social.jpg
 
 ## 읽은 책들
 
-* [멘탈을 회복하는 연습 - 데이먼 자하리아데스]()
+* [멘탈을 회복하는 연습 - 데이먼 자하리아데스](https://hannut91.github.io/blogs/books/the-art-of-letting-go)
 * Out of the Tar Pit - Ben Moseley, Peter Marks
 * 코틀린 코루틴 - 마르친 모스카와
 * 인간 조직 권력 그리고 어느 SW 엔지니어의 변 - 이종국
