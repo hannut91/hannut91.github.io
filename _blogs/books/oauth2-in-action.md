@@ -4,7 +4,7 @@ subTitle:
 category:
 tags:
 createdat: 2024-03-20 20:56:00
-updatedat: 2024-03-20 21:10:26
+updatedat: 2024-03-21 15:13:23
 ---
 
 OAuth 2.0을 소셜 로그인같이 간편 로그인을 위해서 제 3자가 대신 인증해 주는
@@ -29,4 +29,5 @@ OAuth 2.0을 소셜 로그인같이 간편 로그인을 위해서 제 3자가 �
 
 ## 참고
 
+- [코드숨 OAuth 2 in Action 스터디 회고](https://hannut91.github.io/retrospective/codesoom/oauth2-in-action)
 - [OAuth 2 in Action \| 저스틴 리처 , 안토니오 산소 저자(글) · 윤우빈 번역 \| 에이콘출판](https://product.kyobobook.co.kr/detail/S000001804662)
