@@ -244,6 +244,8 @@ featured_image: /images/social.jpg
 
 ## 읽은 책들
 
+* [아웃퍼포머 - 모튼 한센](https://hannut91.github.io/blogs/books/great-at-work)
+* 저글러, 땜장이, 놀이꾼, 디지털 세상을 설계하다 - 지미 소니, 로브 굿맨
 * [멘탈을 회복하는 연습 - 데이먼 자하리아데스](https://hannut91.github.io/blogs/books/the-art-of-letting-go)
 * Out of the Tar Pit - Ben Moseley, Peter Marks
 * 코틀린 코루틴 - 마르친 모스카와
@@ -467,6 +469,7 @@ featured_image: /images/social.jpg
 
 ## 읽을 책들
 
+* [웹 API 설계 원칙 - 제임스 히긴보텀](https://hannut91.github.io/blogs/books/principles-of-web-api-design)
 * 코틀린 함수형 프로그래밍 - 마르코 버뮬런s, 루나르 비아르드나손s, 폴 치우사노 저자(글)
 * 와이어샤크를 활용한 실전 패킷 분석 3/e - 크리스 샌더스
 * 이펙티브 소프트웨어 테스팅 - 마우리시오 아니시
