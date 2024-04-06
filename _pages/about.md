@@ -244,8 +244,8 @@ featured_image: /images/social.jpg
 
 ## 읽은 책들
 
+* [저글러, 땜장이, 놀이꾼, 디지털 세상을 설계하다 - 지미 소니, 로브 굿맨](https://hannut91.github.io/blogs/books/a-mind-at-play)
 * [아웃퍼포머 - 모튼 한센](https://hannut91.github.io/blogs/books/great-at-work)
-* 저글러, 땜장이, 놀이꾼, 디지털 세상을 설계하다 - 지미 소니, 로브 굿맨
 * [멘탈을 회복하는 연습 - 데이먼 자하리아데스](https://hannut91.github.io/blogs/books/the-art-of-letting-go)
 * Out of the Tar Pit - Ben Moseley, Peter Marks
 * 코틀린 코루틴 - 마르친 모스카와
@@ -467,6 +467,7 @@ featured_image: /images/social.jpg
 * 내 몸 사용설명서
 * 밤의 피크닉 - 온다 리쿠
 
+<!--
 ## 읽을 책들
 
 * [웹 API 설계 원칙 - 제임스 히긴보텀](https://hannut91.github.io/blogs/books/principles-of-web-api-design)
@@ -503,3 +504,5 @@ featured_image: /images/social.jpg
 * 유저 인터뷰 - 스티브 포티걸
 * 사용자의 숨겨진 마음을 읽는 리서치 기술 - 오쿠이즈미 나오코
 * 일하는 시간을 줄여드립니다 - 크리스 베일리
+
+ -->
