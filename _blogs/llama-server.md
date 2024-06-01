@@ -4,7 +4,7 @@ subTitle:
 category:
 tags:
 createdat: 2024-06-01 20:24:00
-updatedat: 2024-06-01 20:29:36
+updatedat: 2024-06-01 20:49:02
 ---
 
 ## 서버 설치 && 서버 실행
@@ -53,47 +53,8 @@ huggingface-cli download microsoft/Phi-3-mini-4k-instruct-gguf --local-dir phi3
 llama-server --model ./phi3/Phi-3-mini-4k-instruct-q4.gguf
 ```
 
-## 지원 모델들
-
-LLaMA
-LLaMA 2
-LLaMA 3
-Mistral 7B
-Mixtral MoE
-DBRX
-Falcon
-Chinese LLaMA / Alpaca and Chinese LLaMA-2 / Alpaca-2
-Vigogne (French)
-Koala
-Baichuan 1 & 2 + derivations
-Aquila 1 & 2
-Starcoder models
-Refact
-MPT
-Bloom
-Yi models
-StableLM models
-Deepseek models
-Qwen models
-PLaMo-13B
-Phi models
-GPT-2
-Orion 14B
-InternLM2
-CodeShell
-Gemma
-Mamba
-Grok-1
-Xverse
-Command-R models
-SEA-LION
-GritLM-7B + GritLM-8x7B
-OLMo
-GPT-NeoX + Pythia
-
 ## 참고
 
-사용가능한 API 스펙 (OpenAPI 스펙) 문서: <https://github.com/openai/openai-openapi/blob/master/openapi.yaml>
-모델 목록: <https://huggingface.co/models>
-llama.cpp README: <https://github.com/ggerganov/llama.cpp>
-llama-server README: <https://github.com/ggerganov/llama.cpp/blob/master/examples/server/README.md>
+- [사용가능한 API 스펙 (OpenAPI 스펙) 문서](https://github.com/openai/openai-openapi/blob/master/openapi.yaml)
+- <https://github.com/ggerganov/llama.cpp>
+- [llama-server README](https://github.com/ggerganov/llama.cpp/blob/master/examples/server/README.md)
