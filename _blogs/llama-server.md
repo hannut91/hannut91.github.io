@@ -4,7 +4,7 @@ subTitle:
 category:
 tags:
 createdat: 2024-06-01 20:24:00
-updatedat: 2024-06-02 19:41:05
+updatedat: 2024-06-03 14:26:57
 ---
 
 ## 서버 설치 && 서버 실행
@@ -14,7 +14,20 @@ brew install llama.cpp # llama.cpp 설치
 llama-server --hf-repo microsoft/Phi-3-mini-4k-instruct-gguf --hf-file Phi-3-mini-4k-instruct-q4.gguf
 ```
 
-## 명령 실행
+서버를 설치하고 실행한 다음에 브라우저에서 `localhost:8080`으로 접속하면 다음과
+같은 화면이 나옵니다.
+
+![main page](/images/blogs/llama-server/page.png)
+
+맨 아래에 프롬프트를 입력하고 엔터 혹은 `send`버튼을 클릭합니다.
+
+![chat](/images/blogs/llama-server/chat.png)
+
+그러면 응답이 오는 것을 확인할 수 있습니다. 채팅창에 입력을 하여 계속 사용할 수 있습니다.
+
+### HTTP로 프롬프트 요청하기
+
+HTTP 요청으로도 프롬프트를 입력할 수 있습니다.
 
 ```bash
 $ curl -X POST http://localhost:8080/v1/chat/completions \
