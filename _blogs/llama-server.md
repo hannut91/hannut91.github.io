@@ -1,10 +1,10 @@
 ---
-title: 로컬에서 llama.cpp로 LLM 실행하기
+title: 로컬에서 GPT 실행하기 (llama.cpp)
 subTitle:
 category:
 tags:
 createdat: 2024-06-01 20:24:00
-updatedat: 2024-06-03 14:26:57
+updatedat: 2024-06-03 14:31:53
 ---
 
 ## 서버 설치 && 서버 실행
