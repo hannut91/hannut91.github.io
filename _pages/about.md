@@ -41,6 +41,8 @@ featured_image: /images/social.jpg
 * 코드스피츠 iPhone/Android 애플리케이션개발자를 위한 머신러닝, 딥러닝 실전입문 스터디 참여
 * 코드스피츠 관계형 데이터베이스 실전 스터디 참여 -->
 
+* 2024.05.16 ~ 2024.05.17 AWS Summit Seoul 2024 참석
+* 2024.04.02 ~ 2024.04.30 코드스피츠 웹 API 설계 원칙 스터디 참여
 * [2024.02.07 ~ 2024.03.20 코드숨 OAuth 2 in Action 스터디 진행](https://hannut91.github.io/retrospective/codesoom/oauth2-in-action)
 * 2023.11.23 ~ 2024.03.14 코드스피츠 코틀린 코루틴 스터디 참여
 * 2023.10.04 ~ 2024.02.14 코드스피츠 코틀린 함수형 프로그래밍 스터디 참여
@@ -244,6 +246,12 @@ featured_image: /images/social.jpg
 
 ## 읽은 책들
 
+* 팀장의 탄생 - 줄리 주오
+* 이너골프로 10타 줄이기 - 티모시 갤웨이
+* 웹 API 설계 원칙 - 제임스 히긴보텀
+* PROFESSIONAL 소프트웨어 개발 - 스티브 맥코넬
+* Story - 티모시 윌슨
+* 마음을 돌보는 뇌과학 - 안데르스 한센
 * [저글러, 땜장이, 놀이꾼, 디지털 세상을 설계하다 - 지미 소니, 로브 굿맨](https://hannut91.github.io/blogs/books/a-mind-at-play)
 * [아웃퍼포머 - 모튼 한센](https://hannut91.github.io/blogs/books/great-at-work)
 * [멘탈을 회복하는 연습 - 데이먼 자하리아데스](https://hannut91.github.io/blogs/books/the-art-of-letting-go)
@@ -480,18 +488,16 @@ featured_image: /images/social.jpg
 * 개발지옥 - 조지 V. 네빌-닐
 * 테크니컬 리더 - 제럴드 와인버그
 * [존 듀이의 경험과 교육 - 존 듀이](https://hannut91.github.io/blogs/experience-and-education)
-* 스토리 - 티모시 월슨
 * 초전 설득 - 로버트 치알디니
 * 러브드 - 마르티나 라우쳉코
   * [사랑받는 제품을 만드는 방법](https://hannut91.github.io/blogs/how-to-make-loved-product)
 * 흥미와 노력 그 교육적 의의 - 존 듀이
-* 아웃퍼포머 - 모튼 한센
+* 아웃퍼포머 - 모튼 한센 
 * 필립 코틀러 마케팅의 미래 - 필립 코틀러s, 허마원 카타자야s, 후이 덴 후안s, 제키 머스리
 * 퓨처 셀프 - 벤저민 하디
 * 일의 언어 - 클레이튼 크리스텐슨, 캐런 딜론
 * 창조적 시선 - 김정운
 * 성격의 탄생 - 대니얼 네틀
-* 이너골프로 10타 줄이기(이너 골프) - 티모시 갤웨이
 * 스키 이너게임 - 티모시 갤웨이
 * 결핍의 경제학 - 센딜 멀레이너선s, 엘다 샤퍼
 * 생각의 탄생

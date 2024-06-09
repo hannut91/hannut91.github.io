@@ -4,7 +4,7 @@ subTitle:
 category:
 tags:
 createdat: 2024-06-01 20:24:00
-updatedat: 2024-06-03 14:31:53
+updatedat: 2024-06-09 14:06:37
 ---
 
 ## 서버 설치 && 서버 실행
@@ -93,4 +93,4 @@ make -C llm/llama.cpp quantize
 - [사용가능한 API 스펙 (OpenAPI 스펙) 문서](https://github.com/openai/openai-openapi/blob/master/openapi.yaml)
 - <https://github.com/ggerganov/llama.cpp>
 - [llama-server README](https://github.com/ggerganov/llama.cpp/blob/master/examples/server/README.md)
-- [](https://hub.docker.com/r/ollama/quantize)
+- <https://hub.docker.com/r/ollama/quantize>
