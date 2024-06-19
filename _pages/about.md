@@ -42,6 +42,7 @@ featured_image: /images/social.jpg
 * 코드스피츠 iPhone/Android 애플리케이션개발자를 위한 머신러닝, 딥러닝 실전입문 스터디 참여
 * 코드스피츠 관계형 데이터베이스 실전 스터디 참여 -->
 
+* 2024.05.21 ~ 2024.06.11 코드스피츠 실전 웹 API 설계 스터디 참여
 * 2024.05.16 ~ 2024.05.17 AWS Summit Seoul 2024 참석
 * 2024.04.02 ~ 2024.04.30 코드스피츠 웹 API 설계 원칙 스터디 참여
 * [2024.02.07 ~ 2024.03.20 코드숨 OAuth 2 in Action 스터디 진행](https://hannut91.github.io/retrospective/codesoom/oauth2-in-action)
@@ -281,6 +282,8 @@ featured_image: /images/social.jpg
 * 사용자의 숨겨진 마음을 읽는 리서치 기술 - 오쿠이즈미 나오코
 * 일하는 시간을 줄여드립니다 - 크리스 베일리
  -->
+
+* 설득의 심리학 1(20주년 기념 개정증보판) - 로버트 치알디니
 * 모던 리액트 Deep Dive - [서평](https://hannut91.github.io/blogs/books/modern-react-deep-dive)
 * 팀장의 탄생 - 줄리 주오
 * OpenAPI와 스웨거를 활용한 실전 API 설계 - 조시 포널랫, 루카스 로젠스톡
