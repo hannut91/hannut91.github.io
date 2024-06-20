@@ -4,13 +4,13 @@ subTitle:
 category: 
 tags: 
 createdat: 2024-06-19 14:28:00
-updatedat: 2024-06-19 14:35:50
+updatedat: 2024-06-20 16:26:11
 ---
 
 ```bash
-$curl -fsSL https://get.docker.com -o get-docker.sh
-$ sudo sh get-docker.sh
-$ sudo usermod -aG docker $USER
+curl -fsSL https://get.docker.com -o get-docker.sh
+sudo sh get-docker.sh
+sudo usermod -aG docker $USER
 ```
 
 ## 문제 해결
