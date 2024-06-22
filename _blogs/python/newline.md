@@ -4,10 +4,12 @@ subTitle:
 category:
 tags:
 createdat: 2024-06-22 16:03:00
-updatedat: 2024-06-22 16:05:55
+updatedat: 2024-06-22 16:07:18
 ---
 
 ## 문제
+
+![스크린샷](/images/blogs/python/newline/screenshot.png)
 
 코드를 작성하다 보면 위와 같이 코드에 물결 표시가 나오는 것을 볼 수 있습니다.
 마우스를 가져다 대면 파일 끝에 빈 줄이 없다는 에러가 표시되고 있습니다.
