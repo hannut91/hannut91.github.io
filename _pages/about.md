@@ -42,6 +42,7 @@ featured_image: /images/social.jpg
 * 코드스피츠 iPhone/Android 애플리케이션개발자를 위한 머신러닝, 딥러닝 실전입문 스터디 참여
 * 코드스피츠 관계형 데이터베이스 실전 스터디 참여 -->
 
+* [2024.04.01 ~ 2024.06.17 코드숨 모던 리액트 Deep Dive 스터디 진행](https://hannut91.github.io/retrospective/codesoom/modern-react-deep-dive)
 * 2024.05.21 ~ 2024.06.11 코드스피츠 실전 웹 API 설계 스터디 참여
 * 2024.05.16 ~ 2024.05.17 AWS Summit Seoul 2024 참석
 * 2024.04.02 ~ 2024.04.30 코드스피츠 웹 API 설계 원칙 스터디 참여
@@ -283,6 +284,7 @@ featured_image: /images/social.jpg
 * 일하는 시간을 줄여드립니다 - 크리스 베일리
  -->
 
+* GPT-4를 활용한 인공지능 앱 개발 - 올리비에 케일린, 마리-알리스 블레트
 * 설득의 심리학 1(20주년 기념 개정증보판) - 로버트 치알디니
 * 모던 리액트 Deep Dive - [서평](https://hannut91.github.io/blogs/books/modern-react-deep-dive)
 * 팀장의 탄생 - 줄리 주오

@@ -4,7 +4,7 @@ subTitle:
 category:
 tags:
 createdat: 2024-06-17 20:59:00
-updatedat: 2024-06-17 21:13:38
+updatedat: 2024-06-24 19:07:05
 ---
 
 리액트에 사용된 기술들을 자세하게 배울 수 있었습니다. JSX의 자세한 스펙이나
@@ -37,4 +37,5 @@ useEffect의 비동기 관련한 이슈도 알게 되었습니다. 자바스크�
 
 ## 참고
 
+- [코드숨 모던 리액트 Deep Dive 스터디 회고](https://hannut91.github.io/retrospective/codesoom/modern-react-deep-dive)
 - [모던 리액트 Deep Dive \| 김용찬 저자(글) \| 위키북스](https://product.kyobobook.co.kr/detail/S000210725203)
