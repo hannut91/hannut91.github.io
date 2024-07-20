@@ -42,6 +42,7 @@ featured_image: /images/social.jpg
 * 코드스피츠 iPhone/Android 애플리케이션개발자를 위한 머신러닝, 딥러닝 실전입문 스터디 참여
 * 코드스피츠 관계형 데이터베이스 실전 스터디 참여 -->
 
+* 2024.06.25 ~ 2024.07.16 코드스피츠 코딩 테스트로 시작하는 파이썬 프로그래밍 1부 스터디 참여
 * 2024.05.30 ~ 2024.06.27 코드스피츠 도메인 주도 설계 첫걸음 스터디 참여
 * [2024.04.01 ~ 2024.06.17 코드숨 모던 리액트 Deep Dive 스터디 진행](https://hannut91.github.io/retrospective/codesoom/modern-react-deep-dive)
 * 2024.05.21 ~ 2024.06.11 코드스피츠 실전 웹 API 설계 스터디 참여
@@ -285,6 +286,7 @@ featured_image: /images/social.jpg
 * 일하는 시간을 줄여드립니다 - 크리스 베일리
  -->
 
+* 포르노, 그리고 당신의 뇌 - 게리 윌슨
 * GPT-4를 활용한 인공지능 앱 개발 - 올리비에 케일린, 마리-알리스 블레트
 * 설득의 심리학 1(20주년 기념 개정증보판) - 로버트 치알디니
 * 모던 리액트 Deep Dive - [서평](https://hannut91.github.io/blogs/books/modern-react-deep-dive)
