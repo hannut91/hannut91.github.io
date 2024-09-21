@@ -1,7 +1,7 @@
 ---
 title: OuputStream을 S3에 업로드하려면 어떻게 해야 하나요?
 createdat: 2024-09-18 01:57:00
-updatedat: 2024-09-18 13:19:36
+updatedat: 2024-09-21 18:02:07
 ---
 
 ## 문제
@@ -25,6 +25,7 @@ fun main() {
     val outputStream = ByteArrayOutputStream()
     outputStream.write("Hello, World!".toByteArray())
 
+    // OutputStream을 InputStream으로 변환
     val inputStream = ByteArrayInputStream(outputStream.toByteArray())
     outputStream.close()
 
@@ -36,9 +37,6 @@ fun main() {
         )
         .region(Region.AP_NORTHEAST_2)
         .build()
-
-    // OutputStream을 InputStream으로 변환
-
 
     val body = RequestBody.fromInputStream(
       inputStream,
