@@ -3,7 +3,12 @@ title: git bisect로 문제가 생긴 커밋 찾기
 category:
 tags:
 createdat: 2024-09-25 21:05:00
-updatedat: 2024-09-25 21:26:40
+updatedat: 2024-10-06 17:12:36
+---
+
+아래 내용은 [예제 레포지토리](https://github.com/CodeSoom/bisect-example)에서
+직접 실행해 볼 수 있습니다.
+
 ---
 
 `bisect`명령어는 이진탐색으로 문제가 처음 생긴 커밋이 어딘지 찾는 명령어입니다.
@@ -114,7 +119,23 @@ Previous HEAD position was d5dd426 나이가 30살 이상인 사람만 불러와
 Switched to branch 'main'
 ```
 
+## 자동화하기
+
+위의 과정에서 오류가 없는지 명령어를 실행해서 확인하고 있습니다. 제가 작성한
+예제는 Node.js로 작성한 간단한 코드라서 `node app.js`로 실행해서 에러가 있으면
+bad, 없으면 good으로 표기해서 에러를 찾고 있습니다. `git bisect` 명령어에는 이
+과정을 스크립트로 자동화할 수 있습니다.
+
+```bash
+git bisect start # bisect 시작
+git bisect bad # 현재 커밋을 에러나는 커밋으로 지정
+git bisect good bf5a3c6 # bf5a3c6 에러안나는 커밋으로 지정
+git bisect run node app.js # 각 커밋에서 해당 스크립트를 실행해 에러가 나면 bad, 안나면 good으로 자동 실행
+git bisect reset # 초기화
+```
+
 ## 참고
 
+- [예제 레포지토리](https://github.com/CodeSoom/bisect-example)
 - <https://git-scm.com/docs/git-bisect>
 - <https://git-scm.com/docs/git-bisect-lk2009>
