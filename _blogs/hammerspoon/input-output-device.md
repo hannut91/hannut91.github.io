@@ -4,23 +4,23 @@ subTitle:
 category:
 tags:
 createdat: 2023-09-21 14:05:00
-updatedat: 2023-09-21 23:36:59
+updatedat: 2024-10-16 00:14:53
 ---
 
 ![](/images/hammerspoon/input-output.gif)
 
 맥에 다른 스피커나 헤드폰이 연결되어 있는 경우처럼 여러개의 입출력 장치가 있는
 경우, 상황에따라 변경하려면 시스템 설정 -> 사운드로 가서 변경해야 합니다. 매우 귀찮은 일을
-단축키 한 번으로 변경할 수 있도록 해보겠습니다.  
+단축키 한 번으로 변경할 수 있도록 해보겠습니다.
 
-필요한 것은 해머스푼이 필요한데요. 해머스푼은 맥에서 여러가지 자동화를 할 수 있는 도구입니다. 스크립트를 작성해서 내가 원하는 기능을 하도록 만들 수 있는 도구입니다. 
+필요한 것은 해머스푼이 필요한데요. 해머스푼은 맥에서 여러가지 자동화를 할 수 있는 도구입니다. 스크립트를 작성해서 내가 원하는 기능을 하도록 만들 수 있는 도구입니다.
 
 ## 해머스푼 설치
 
 homebrew로 설치합니다.
 
 ```bash
-$ brew install --cask hammerspoon
+brew install --cask hammerspoon
 ```
 
 ## 설정 파일 추가하기
@@ -31,46 +31,42 @@ $ brew install --cask hammerspoon
 클릭합니다. 그러면 편집기로 `init.lua`파일이 열리는데 여기에 다음 스크립트를 추가합니다.
 
 ```lua
-function change_output_device() 
-  local currentOutputDevice = hs.audiodevice.defaultOutputDevice()
+function change_output_device()
   local devices = hs.audiodevice.allOutputDevices()
+  local currentDevice = hs.audiodevice.defaultOutputDevice()
+  local currentIndex = 1
 
-  local index = hs.fnutils.indexOf(devices, currentOutputDevice)
-
-  local device
-  
-  while true do
-    device = devices[(index % #devices) + 1]
-    if device == nil then
-      index = index + 1
-    else
+  for i, device in ipairs(devices) do
+    if device:uid() == currentDevice:uid() then
+      currentIndex = i
       break
     end
   end
 
-  device:setDefaultOutputDevice()
-  hs.alert(device:name())
+  local nextIndex = (currentIndex % #devices) + 1
+  local nextDevice = devices[nextIndex]
+
+  nextDevice:setDefaultOutputDevice()
+  hs.alert.show(nextDevice:name())
 end
 
-function change_input_device() 
-  local currentInputDevice = hs.audiodevice.defaultInputDevice()
+function change_input_device()
   local devices = hs.audiodevice.allInputDevices()
+  local currentDevice = hs.audiodevice.defaultInputDevice()
+  local currentIndex = 1
 
-  local index = hs.fnutils.indexOf(devices, currentInputDevice)
-
-  local device
-
-  while true do
-    device = devices[(index % #devices) + 1]
-    if device == nil then
-      index = index + 1
-    else
+  for i, device in ipairs(devices) do
+    if device:uid() == currentDevice:uid() then
+      currentIndex = i
       break
     end
   end
 
-  device:setDefaultInputDevice()
-  hs.alert(device:name())
+  local nextIndex = (currentIndex % #devices) + 1
+  local nextDevice = devices[nextIndex]
+
+  nextDevice:setDefaultInputDevice()
+  hs.alert.show(nextDevice:name())
 end
 
 -- 다음 키를 눌렀을 때 위의 함수를 실행
