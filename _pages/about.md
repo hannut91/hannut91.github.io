@@ -42,7 +42,7 @@ featured_image: /images/social.jpg
 * 코드스피츠 iPhone/Android 애플리케이션개발자를 위한 머신러닝, 딥러닝 실전입문 스터디 참여
 * 코드스피츠 관계형 데이터베이스 실전 스터디 참여 -->
 
-- 2024.10.14 ~ 2024.11.04 코드숨 가상 면접 사레로 배우는 대규모 시스템 설계 기초 1편 스터디 진행
+- [2024.10.14 ~ 2024.11.04 코드숨 가상 면접 사레로 배우는 대규모 시스템 설계 기초 1편 스터디 진행](https://hannut91.github.io/retrospective/codesoom/system-design-interview)
 - 2024.08.22 ~ 2024.09.26 코드스피츠 이벤트 소싱과 마이크로 서비스 아키텍처 스터디 참여
 - 2024.08.06 ~ 2024.08.27 코드스피츠 코딩 테스트로 시작하는 파이썬 프로그래밍 2부 스터디 참여
 - [2024.07.07 ~ 2024.08.18 코드숨 프레임워크 없는 프론트엔드 개발 스터디 진행](https://hannut91.github.io/retrospective/codesoom/frameworkless)
@@ -290,12 +290,17 @@ featured_image: /images/social.jpg
 * 일하는 시간을 줄여드립니다 - 크리스 베일리
  -->
 
+- 도파민 디톡스 - 애나 렘키
+- 목표를 이뤄내는 기술, TO DO LIST - 데이먼자하리어즈
+- EBS 다큐프라임 자본주의
+- 작별하지 않는다 - 한강
+- [희랍어 시간 - 한강](https://hannut91.github.io/blogs/books/greek-lessons)
 - 대화의 힘 - 찰수 두히그
 - 행복한 프로그래밍 - 임백준
-- 서랍에 저녁을 넣어 두었다 - 한강
-- 가상 면접 사례로 배우는 대규모 시스템 설계 기초 - 알렉스 쉬
-- 채식주의자 - 한강
-- 소년이 온다 - 한강
+- [서랍에 저녁을 넣어 두었다 - 한강](https://hannut91.github.io/blogs/books/dinner-in-drawer)
+- [가상 면접 사례로 배우는 대규모 시스템 설계 기초 1편 - 알렉스 쉬](https://hannut91.github.io/blogs/books/system-design-interview)
+- [채식주의자 - 한강](https://hannut91.github.io/blogs/books/the-vegetarian)
+- [소년이 온다 - 한강](https://hannut91.github.io/blogs/books/human-acts)
 - 개발자 원칙
 - 흥미와 노력 그 교육적 의의 - 존 듀이
 - 나를 소모하지 않는 현명한 태도에 관하여 - 마티아스 뉠케
