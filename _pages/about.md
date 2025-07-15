@@ -295,6 +295,7 @@ featured_image: /images/social.jpg
 * 일하는 시간을 줄여드립니다 - 크리스 베일리
  -->
 
+- [농담과 그림자 - 김민영](https://hannut91.github.io/blogs/books/jokes-and-shadows)
 - [맨투맨 - 최재영](https://hannut91.github.io/blogs/books/man-to-man)
 - 인생 녹음 중
 - 어떤 동사의 멸종 - 한승태
