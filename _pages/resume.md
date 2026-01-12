@@ -15,6 +15,10 @@ Github: <https://github.com/hannut91>
 ---
 
 <div class="title-with-date">
+  <h4><strong>주말토리</strong></h4><h4>2025.04.07 ~ </h4>
+</div>
+
+<div class="title-with-date">
   <h4><strong>코드숨</strong></h4><h4>2020.06 ~ </h4>
 </div>
 
@@ -23,6 +27,10 @@ Github: <https://github.com/hannut91>
 - 소프트웨어 개발의 지혜 Git 강의 제작
 - 소프트웨어 개발의 지혜 자바 스프링 편 강의 제작
 - 소프트웨어 개발의 지혜 리액트 편 강의 제작
+
+<div class="title-with-date">
+  <h4><strong>모빌리티42</strong></h4><h4>2024.07 ~ 2025.01</h4>
+</div>
 
 <div class="title-with-date">
   <h4><strong>마켓컬리</strong></h4><h4>2020.07 ~ 2022.03</h4>
