@@ -303,6 +303,7 @@ featured_image: /images/social.jpg
 * 일하는 시간을 줄여드립니다 - 크리스 베일리
  -->
 
+- [퓨처 셀프 - 벤저민 하디](https://hannut91.github.io/blogs/books/future-self)
 - [가난한 아이들은 어떻게 어른이 되는가?](https://hannut91.github.io/blogs/books/children)
 - [더블 클릭 - 알간지](https://hannut91.github.io/blogs/books/double-click)
 - 벡터 데이터베이스 설계와 구축 - 송한림
