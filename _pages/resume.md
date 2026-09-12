@@ -19,6 +19,9 @@ Github: <https://github.com/hannut91>
 </div>
 
 - 1인 개발자로 근무하며, 서비스의 기획 단계부터 풀스택 개발, 인프라 구축, 출시 후 사용자 데이터 추적까지 제품 개발의 모든 과정에 참여
+- 서비스 개발에 집중할 수 있도록 AWS Managed Service와 Vercel Serverless를 적극
+  활용해 운영 부담을 최소화
+- 모호한 요구사항과 잦은 범위 변경 문제를 해결하기 위해 기능정의서와 명확한 출시 조건을 도입
 
 <div class="title-with-date">
   <h4><strong>코드숨</strong></h4><h4>2020.06 ~ </h4>
@@ -33,6 +36,9 @@ Github: <https://github.com/hannut91>
 <div class="title-with-date">
   <h4><strong>모빌리티42</strong></h4><h4>2024.07 ~ 2025.01</h4>
 </div>
+
+- 의약품 배송을 위한 배차 관리 시스템 개발
+- 기획 버전을 고정하고 최소한의 제품을 먼저 완성해 이해관계자에게 실제 동작하는 결과물을 전달하는 방식으로 개발 프로세스를 전환
 
 <div class="title-with-date">
   <h4><strong>마켓컬리</strong></h4><h4>2020.07 ~ 2022.03</h4>
