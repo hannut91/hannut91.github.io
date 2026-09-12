@@ -15,8 +15,10 @@ Github: <https://github.com/hannut91>
 ---
 
 <div class="title-with-date">
-  <h4><strong>주말토리</strong></h4><h4>2025.04.07 ~ </h4>
+  <h4><strong>주말토리</strong></h4><h4>2025.04.07 ~ 2026.7.31</h4>
 </div>
+
+- 1인 개발자로 근무하며, 서비스의 기획 단계부터 풀스택 개발, 인프라 구축, 출시 후 사용자 데이터 추적까지 제품 개발의 모든 과정에 참여
 
 <div class="title-with-date">
   <h4><strong>코드숨</strong></h4><h4>2020.06 ~ </h4>
